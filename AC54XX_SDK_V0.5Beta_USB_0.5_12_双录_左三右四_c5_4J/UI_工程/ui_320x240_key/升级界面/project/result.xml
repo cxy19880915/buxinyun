@@ -1,0 +1,118 @@
+﻿<?xml version="2.0" encoding="UTF-8"?>
+<Resbuilder>
+    <PageList>
+        <Page id="0">
+            <ColorList>
+                <Color id="0">55AAA5</Color>
+                <Color id="1">55AAFF</Color>
+                <Color id="2">282828</Color>
+                <Color id="3">000000</Color>
+                <Color id="4">FFFFFF</Color>
+                <Color id="5">1F231C</Color>
+                <Color id="6">22261F</Color>
+                <Color id="7">202818</Color>
+                <Color id="8">212818</Color>
+                <Color id="9">252C1D</Color>
+                <Color id="10">282F1F</Color>
+                <Color id="11">202020</Color>
+                <Color id="12">212121</Color>
+                <Color id="13">232323</Color>
+                <Color id="14">262626</Color>
+                <Color id="15">242028</Color>
+                <Color id="16">26232A</Color>
+                <Color id="17">2C2C2C</Color>
+                <Color id="18">2F2F2F</Color>
+                <Color id="19">363636</Color>
+                <Color id="20">314B17</Color>
+                <Color id="21">454545</Color>
+                <Color id="22">4B4B4B</Color>
+                <Color id="23">535353</Color>
+                <Color id="24">616161</Color>
+                <Color id="25">707070</Color>
+                <Color id="26">7E7E7E</Color>
+                <Color id="27">509807</Color>
+                <Color id="28">5DB602</Color>
+                <Color id="29">61BE05</Color>
+                <Color id="30">60C000</Color>
+                <Color id="31">61C100</Color>
+                <Color id="32">6AD000</Color>
+                <Color id="33">6BD101</Color>
+                <Color id="34">6BD500</Color>
+                <Color id="35">6CD600</Color>
+                <Color id="36">77EE00</Color>
+                <Color id="37">78EF00</Color>
+                <Color id="38">79EE00</Color>
+                <Color id="39">7BEF00</Color>
+                <Color id="40">7CEF00</Color>
+                <Color id="41">80FF00</Color>
+                <Color id="42">82FF00</Color>
+                <Color id="43">83FF00</Color>
+                <Color id="44">85FF00</Color>
+                <Color id="45">88FF00</Color>
+                <Color id="46">8BFF00</Color>
+                <Color id="47">8C8C8C</Color>
+                <Color id="48">989898</Color>
+                <Color id="49">9B9B9B</Color>
+                <Color id="50">A9A9A9</Color>
+                <Color id="51">B6B6B6</Color>
+                <Color id="52">B7B7B7</Color>
+                <Color id="53">BEBEBE</Color>
+                <Color id="54">C0C0C0</Color>
+                <Color id="55">C1C1C1</Color>
+                <Color id="56">C6C6C6</Color>
+                <Color id="57">D0D0D0</Color>
+                <Color id="58">D1D1D1</Color>
+                <Color id="59">D4D4D4</Color>
+                <Color id="60">D5D5D5</Color>
+                <Color id="61">D6D6D6</Color>
+                <Color id="62">E2E2E2</Color>
+                <Color id="63">EEEEEE</Color>
+                <Color id="64">EFEFEF</Color>
+                <Color id="65">F1F1F1</Color>
+            </ColorList>
+            <PictureList>
+                <Picture id="1">E:\SDK\5401\12\AC54XX_SDK_V0.5Beta_USB_0.5_12_双录_左三右四_c5_4J\UI_工程\ui_320x240_key\升级界面\project\config\upgrade\message_0.png</Picture>
+                <Picture id="2">E:\SDK\5401\12\AC54XX_SDK_V0.5Beta_USB_0.5_12_双录_左三右四_c5_4J\UI_工程\ui_320x240_key\升级界面\project\config\upgrade\message_1.PNG</Picture>
+                <Picture id="3">E:\SDK\5401\12\AC54XX_SDK_V0.5Beta_USB_0.5_12_双录_左三右四_c5_4J\UI_工程\ui_320x240_key\升级界面\project\config\upgrade\message_2.PNG</Picture>
+                <Picture id="4">E:\SDK\5401\12\AC54XX_SDK_V0.5Beta_USB_0.5_12_双录_左三右四_c5_4J\UI_工程\ui_320x240_key\升级界面\project\config\upgrade\message_3.PNG</Picture>
+                <Picture id="5">E:\SDK\5401\12\AC54XX_SDK_V0.5Beta_USB_0.5_12_双录_左三右四_c5_4J\UI_工程\ui_320x240_key\升级界面\project\config\upgrade\message_4.PNG</Picture>
+                <Picture id="6">E:\SDK\5401\12\AC54XX_SDK_V0.5Beta_USB_0.5_12_双录_左三右四_c5_4J\UI_工程\ui_320x240_key\升级界面\project\config\upgrade\message_5.PNG</Picture>
+                <Picture id="7">E:\SDK\5401\12\AC54XX_SDK_V0.5Beta_USB_0.5_12_双录_左三右四_c5_4J\UI_工程\ui_320x240_key\升级界面\project\config\upgrade\message_6.PNG</Picture>
+                <Picture id="8">E:\SDK\5401\12\AC54XX_SDK_V0.5Beta_USB_0.5_12_双录_左三右四_c5_4J\UI_工程\ui_320x240_key\升级界面\project\config\upgrade\progress.png</Picture>
+                <Picture id="9">E:\SDK\5401\12\AC54XX_SDK_V0.5Beta_USB_0.5_12_双录_左三右四_c5_4J\UI_工程\ui_320x240_key\升级界面\project\config\upgrade\progress_1.PNG</Picture>
+            </PictureList>
+            <CellList/>
+        </Page>
+        <Page id="1">
+            <ColorList>
+                <Color id="0">55AAA5</Color>
+                <Color id="1">D9EE94</Color>
+                <Color id="2">0055FF</Color>
+                <Color id="3">282828</Color>
+                <Color id="4">000000</Color>
+                <Color id="5">FFFFFF</Color>
+                <Color id="6">363636</Color>
+                <Color id="7">454545</Color>
+                <Color id="8">535353</Color>
+                <Color id="9">616161</Color>
+                <Color id="10">707070</Color>
+                <Color id="11">7E7E7E</Color>
+                <Color id="12">8C8C8C</Color>
+                <Color id="13">9B9B9B</Color>
+                <Color id="14">A9A9A9</Color>
+                <Color id="15">B7B7B7</Color>
+                <Color id="16">C6C6C6</Color>
+                <Color id="17">D4D4D4</Color>
+                <Color id="18">E2E2E2</Color>
+                <Color id="19">F1F1F1</Color>
+            </ColorList>
+            <PictureList>
+                <Picture id="1">E:\SDK\5401\12\AC54XX_SDK_V0.5Beta_USB_0.5_12_双录_左三右四_c5_4J\UI_工程\ui_320x240_key\升级界面\project\config\upgrade\confirm.PNG</Picture>
+            </PictureList>
+            <CellList>
+                <Cell id="1">m160</Cell>
+                <Cell id="2">m161</Cell>
+            </CellList>
+        </Page>
+    </PageList>
+</Resbuilder>

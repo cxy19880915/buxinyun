@@ -1,0 +1,7 @@
+---- LCD_ILI8961C Matches (3 in 3 files) ----
+App_config.h (app\car_camera\include):46
+#define LCD_ILI8961C       /* LCDÑ¡Ôñ */
+Lcd_config.h (include_lib\...\asm):48
+#if (defined LCD_ILI8961C)
+lcd_ILI8961c.c (cpu\...\dvp_lcd_driver):8
+#ifdef LCD_ILI8961C

@@ -1,0 +1,5239 @@
+# depslib dependency file v1.0
+1538128069 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\app_database.c
+	"system/includes.h"
+	"res.h"
+	"app_database.h"
+	"app_config.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\includes.h
+	"init.h"
+	"event.h"
+	"malloc.h"
+	"spinlock.h"
+	"task.h"
+	"timer.h"
+	"wait.h"
+	"app_core.h"
+	"database.h"
+	"fs/fs.h"
+	"generic/includes.h"
+	"device/includes.h"
+	"asm/includes.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\init.h
+
+1538119287 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\event.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/rect.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\typedef.h
+	"asm/cpu.h"
+	"errno-base.h"
+	"string.h"
+	"system/malloc.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\cpu.h
+	"AC54xx.h"
+	"asm/irq.h"
+	"printf.h"
+	"system/generic/log.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\ac54xx.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\irq.h
+	"asm/hwi.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\hwi.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\printf.h
+	<stdarg.h>
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\log.h
+	"system/generic/printf.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\errno-base.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\malloc.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\list.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\rect.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\spinlock.h
+	"typedef.h"
+	"cpu.h"
+	"irq.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\cpu.h
+	<asm/cpu.h>
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\irq.h
+	"asm/irq.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\task.h
+	"os/os_api.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\os\os_api.h
+	"typedef.h"
+	"os/os_cfg.h"
+	"os/msg_pool.h"
+	"os/os_cpu.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\os\os_cfg.h
+	"os/os_cpu.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\os\os_cpu.h
+	"asm/cpu.h"
+	"jiffies.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\jiffies.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\os\msg_pool.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\timer.h
+	"typedef.h"
+	"list.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\wait.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\app_core.h
+	"typedef.h"
+	"list.h"
+	"system/event.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\database.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\fs\fs.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"generic/atomic.h"
+	"system/task.h"
+	"system/malloc.h"
+	"system/time.h"
+	"stdarg.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\ioctl.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\atomic.h
+	"cpu.h"
+	"irq.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\time.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\includes.h
+	"errno-base.h"
+	"typedef.h"
+	"ascii.h"
+	"atomic.h"
+	"ioctl.h"
+	"cpu.h"
+	"gpio.h"
+	"irq.h"
+	"jiffies.h"
+	"list.h"
+	"printf.h"
+	"rect.h"
+	"version.h"
+	"lbuf.h"
+	"circular_buf.h"
+	"index.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\ascii.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\gpio.h
+	"asm/gpio.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\gpio.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\version.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\lbuf.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\circular_buf.h
+	"typedef.h"
+	"system/spinlock.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\index.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\includes.h
+	"device.h"
+	"ioctl_cmds.h"
+	"key_driver.h"
+	"iokey.h"
+	"camera.h"
+	"iic.h"
+	"vm.h"
+	"asm/pap.h"
+	"video.h"
+	"videobuf.h"
+	"video/fb.h"
+	"video/video_ioctl.h"
+	"isp.h"
+	"device/video_engine.h"
+	"audio_dev.h"
+	"usb.h"
+	"spiflash.h"
+	"lcd_driver.h"
+	"usb_cam_dev.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\device.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/atomic.h"
+	"device/ioctl_cmds.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\ioctl_cmds.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\key_driver.h
+	"typedef.h"
+	"device/device.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\iokey.h
+	"typedef.h"
+	"device/device.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\camera.h
+	"device/device.h"
+	"asm/isp_dev.h"
+	"device/video.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\isp_dev.h
+	"cpu.h"
+	"ioctl.h"
+	"typedef.h"
+	"device_drive.h"
+	"errno-base.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\device_drive.h
+	"typedef.h"
+	"errno-base.h"
+	"ioctl.h"
+	"os/os_api.h"
+	<pthread.h>
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\video.h
+	"video/video_ioctl.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\video\video_ioctl.h
+	"typedef.h"
+	"list.h"
+	"ioctl.h"
+	"lbuf.h"
+	"system/task.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\iic.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/task.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\vm.h
+	"ioctl.h"
+	"device/device.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\pap.h
+	"typedef.h"
+	"asm/cpu.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\videobuf.h
+	"device/video.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\video\fb.h
+	"typedef.h"
+	"ioctl.h"
+	"device/device.h"
+	"system/spinlock.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\isp.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\video_engine.h
+	"typedef.h"
+	"device/device.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\audio_dev.h
+	"list.h"
+	"typedef.h"
+	"device/device.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\usb.h
+	"typedef.h"
+	"ioctl.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\spiflash.h
+	"typedef.h"
+	"list.h"
+	"ioctl.h"
+	"device/device.h"
+	"system/task.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\lcd_driver.h
+	"generic/typedef.h"
+	"device/device.h"
+	"asm/cpu.h"
+	"asm/imd.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\imd.h
+	"typedef.h"
+	"asm/cpu.h"
+	"generic/ioctl.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\usb_cam_dev.h
+	"typedef.h"
+	"ioctl.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\includes.h
+	"adc.h"
+	"dac.h"
+	"ladc.h"
+	"audio.h"
+	"adkey.h"
+	"powerdet.h"
+	"cache.h"
+	"cpu.h"
+	"dma.h"
+	"debug.h"
+	"gpio.h"
+	"hwi.h"
+	"iic.h"
+	"irq.h"
+	"lock.h"
+	"sdmmc.h"
+	"spiflash.h"
+	"startup.h"
+	"uart.h"
+	"timer.h"
+	"imc.h"
+	"avc_enc.h"
+	"rtc.h"
+	"clock.h"
+	"crc16.h"
+	"spi.h"
+	"imd.h"
+	"h264_en.h"
+	"jpeg_iocmds.h"
+	"jpeg_codec.h"
+	"imb_driver.h"
+	"uvc_iocmds.h"
+	"bus_device.h"
+	"lcd_config.h"
+	"screen_tool.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\adc.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\dac.h
+	"generic/typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\ladc.h
+	"generic/typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\audio.h
+	"typedef.h"
+	"asm/ladc.h"
+	"asm/dac.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\adkey.h
+	"asm/cpu.h"
+	"asm/adc.h"
+	"device/key_driver.h"
+	"device/device.h"
+	"device/adkey.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\adkey.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\powerdet.h
+	"asm/cpu.h"
+	"asm/adc.h"
+	"device/key_driver.h"
+	"device/device.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\cache.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\dma.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\debug.h
+	"generic/typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\iic.h
+	"typedef.h"
+	"asm/cpu.h"
+	"device/iic.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\lock.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\sdmmc.h
+	"device/sdmmc.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\sdmmc.h
+	"generic/typedef.h"
+	"generic/ioctl.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\spiflash.h
+	"device/device.h"
+	"device/spiflash.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\startup.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\uart.h
+	"device/uart.h"
+	"device/device.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\uart.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\timer.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\imc.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\avc_enc.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\rtc.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/time.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\clock.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\crc16.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\spi.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\h264_en.h
+	"asm/cpu.h"
+	"typedef.h"
+	"os/os_api.h"
+	"system/includes.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\jpeg_iocmds.h
+
+1520389026 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\jpeg_codec.h
+	"typedef.h"
+	"jpeg_iocmds.h"
+	"jpeg_encoder.h"
+	"jpeg_decoder.h"
+	"device/video.h"
+
+1520389026 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\jpeg_encoder.h
+	"typedef.h"
+	"asm/jpeg_abr.h"
+	"device/video.h"
+	"jpeg_iocmds.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\jpeg_abr.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\jpeg_decoder.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\imb_driver.h
+	"video/fb.h"
+	"typedef.h"
+	"asm/imd.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\uvc_iocmds.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\bus_device.h
+	"typedef.h"
+
+1531879053 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\lcd_config.h
+	"app_config.h"
+
+1539598294 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\app_config.h
+	"board.h"
+
+1536632073 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\board.h
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\screen_tool.h
+	"system/includes.h"
+	"server/server_core.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\server_core.h
+	"generic/typedef.h"
+	"system/task.h"
+	"spinlock.h"
+	"list.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\res.h
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\app_database.h
+
+1537870502 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\app_main.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"action.h"
+	"ani_style.h"
+	"style.h"
+	"res_ver.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"video_rec.h"
+	"asm/rtc.h"
+	"power_ctrl.h"
+	"storage_device.h"
+	"generic/log.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\ui_server.h
+	"server/server_core.h"
+	"ui/includes.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\includes.h
+	"ui/ui.h"
+	"res/resfile.h"
+	"res/font_ascii.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui.h
+	"window.h"
+	"ui_button.h"
+	"ui_grid.h"
+	"ui_time.h"
+	"ui_camera.h"
+	"ui_pic.h"
+	"ui_text.h"
+	"ui_battery.h"
+	"ui_browser.h"
+	<stdarg.h>
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\window.h
+	"ui/layer.h"
+	"ui/ui_core.h"
+	"ui/control.h"
+	"list.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\layer.h
+	"ui/layout.h"
+	"ui/control.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\layout.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_core.h
+	"typedef.h"
+	"rect.h"
+	"system/event.h"
+	"fs/fs.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\control.h
+	"ui/ui_core.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_button.h
+	"ui/control.h"
+	"ui/ui_core.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_grid.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_time.h
+	"ui/control.h"
+	"ui/ui_core.h"
+	"ui/p.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\p.h
+	"ui/ui_core.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_camera.h
+	"ui/control.h"
+	"ui/ui_core.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_pic.h
+	"ui/ui_core.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_text.h
+	"ui/ui_core.h"
+	"ui/control.h"
+	"font/font_all.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\font\font_all.h
+	"generic/typedef.h"
+	"font/font_sdfs.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\font\font_sdfs.h
+	"generic/typedef.h"
+	"fs/fs.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_battery.h
+	"ui/control.h"
+	"list.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_browser.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\res\resfile.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\res\font_ascii.h
+	"typedef.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\action.h
+	"app_config.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\ani_style.h
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\style.h
+	"app_config.h"
+	"style_jl02.h"
+	"style_ly.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\style_jl02.h
+
+1538123400 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\style_ly.h
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\res_ver.h
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\gsensor_manage.h
+	"printf.h"
+	"cpu.h"
+	"iic.h"
+	"timer.h"
+	"app_config.h"
+	"event.h"
+	"system/includes.h"
+
+1532507123 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\video_rec.h
+	"system/includes.h"
+	"server/video_server.h"
+	"app_config.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\video_server.h
+	"server/server_core.h"
+	"server/vpkg_server.h"
+	"system/includes.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\vpkg_server.h
+	"typedef.h"
+	"list.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\power_ctrl.h
+	"asm/rtc.h"
+	"system/includes.h"
+	"app_config.h"
+
+1517474617 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\storage_device.h
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\auto_test.c
+	"system/includes.h"
+	"app_config.h"
+	"list.h"
+	"storage_device.h"
+
+1529219087 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\backlight.c
+	"device/lcd_driver.h"
+	"system/includes.h"
+	"power_ctrl.h"
+	"ui/includes.h"
+	"server/ui_server.h"
+	"video_rec.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\device_mount.c
+	"system/includes.h"
+	"server/audio_server.h"
+	"server/server_core.h"
+	"app_config.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\audio_server.h
+	"fs/fs.h"
+
+1535537990 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\gsensor\da380.c
+	"gSensor_manage.h"
+	"da380.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\da380.h
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\gsensor\gma301.c
+	"gSensor_manage.h"
+	"gma301.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\gma301.h
+	"gSensor_manage.h"
+
+1535538130 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\gsensor\gsensor_manage.c
+	"gSensor_manage.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\gsensor\msa300.c
+	"gSensor_manage.h"
+	"msa300.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\msa300.h
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\gsensor\stk8312.c
+	"gSensor_manage.h"
+	"stk8312.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\stk8312.h
+
+1525864648 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\key_voice.c
+	"system/includes.h"
+	"server/audio_server.h"
+	"server/video_dec_server.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\video_dec_server.h
+	"server/server_core.h"
+	"fs/fs.h"
+
+1528963074 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\parking_detect.c
+	"system/includes.h"
+	"device/device.h"
+	"app_config.h"
+
+1527763374 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\power_check_ontime.c
+	"asm/adc.h"
+	"asm/rtc.h"
+	"generic/gpio.h"
+	"device/device.h"
+	"device/key_driver.h"
+	"timer.h"
+	"app_config.h"
+	"power_check_onetime.h"
+	"power_ctrl.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\power_check_onetime.h
+
+1538121268 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\power_ctrl.c
+	"power_ctrl.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"video_rec.h"
+	"gSensor_manage.h"
+	"server/video_server.h"
+	"server/video_dec_server.h"
+	"video_dec.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\video_dec.h
+	"system/includes.h"
+	"server/video_server.h"
+	"app_config.h"
+	"storage_device.h"
+
+1525860972 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\touch_panel\gt911.c
+	"GT911.h"
+	"touch_panel_manager.h"
+	"event.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\gt911.h
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\touch_panel_manager.h
+	"printf.h"
+	"cpu.h"
+	"iic.h"
+	"timer.h"
+	"app_config.h"
+	"event.h"
+	"system/includes.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\touch_panel\touch_panel_manager.c
+	"touch_panel_manager.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_dec.c
+	"ui/includes.h"
+	"ui/ui_battery.h"
+	"ui/ui_slider.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"menu_parm_api.h"
+	"action.h"
+	"app_config.h"
+	"stdlib.h"
+	"video_rec.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_slider.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\menu_parm_api.h
+	"system/includes.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_main.c
+	"ui/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"system/includes.h"
+	"menu_parm_api.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_photo.c
+	"ui/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"system/includes.h"
+	"menu_parm_api.h"
+	"app_database.h"
+
+1526722399 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_rec.c
+	"ui/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"system/includes.h"
+	"menu_parm_api.h"
+	"app_database.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_sys.c
+	"ui/includes.h"
+	"system/includes.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"menu_parm_api.h"
+	"video_system.h"
+	"storage_device.h"
+	"app_database.h"
+	"res.h"
+	"asm/lcd_config.h"
+	"video_rec.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\video_system.h
+	"system/includes.h"
+	"server/video_server.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_usb.c
+	"ui/includes.h"
+	"ui/ui_battery.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"menu_parm_api.h"
+	"app_config.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_ly\ui_action_dec.c
+	"ui/includes.h"
+	"ui/ui_battery.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"video_system.h"
+
+1536630989 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_ly\ui_action_photo.c
+	"ui/includes.h"
+	"ui/ui_battery.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"app_database.h"
+	"server/audio_server.h"
+	"server/video_dec_server.h"
+
+1538119332 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_ly\ui_action_rec.c
+	"ui/includes.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"app_database.h"
+	"server/audio_server.h"
+	"server/video_dec_server.h"
+	"asm/lcd_config.h"
+	"res.h"
+
+1538128080 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_ly\ui_action_sys.c
+	"ui/includes.h"
+	"system/includes.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"storage_device.h"
+	"res.h"
+	"app_database.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_ly\ui_action_usb.c
+	"ui/includes.h"
+	"ui/ui_battery.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\ui_action_animation.c
+	"ui/includes.h"
+	"server/ui_server.h"
+	"fs.h"
+	"server/audio_server.h"
+	"server/video_dec_server.h"
+	"ani_style.h"
+	"app_config.h"
+
+1532053084 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\upgrade.c
+	"system/includes.h"
+	"app_config.h"
+	"server/ui_server.h"
+	"storage_device.h"
+	"upgrade/upgrade_detect.h"
+	"upgrade_style.h"
+	"action.h"
+	"ui/ui_slider.h"
+	"gSensor_manage.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\upgrade\upgrade_detect.h
+	"fs/fs.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\upgrade_style.h
+
+1517474627 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\usb_app.c
+	"system/includes.h"
+	"server/usb_server.h"
+	"app_config.h"
+	"action.h"
+	"server/ui_server.h"
+	"ui_ctr_def.h"
+	"style.h"
+	"storage_device.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\usb_server.h
+	"server/server_core.h"
+	"system/includes.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\ui_ctr_def.h
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\usb_app_cfg.c
+	"system/includes.h"
+	"server/usb_server.h"
+	"app_config.h"
+	"action.h"
+
+1527766021 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\user_isp_cfg.c
+	"server/video_server.h"
+	"user_isp_cfg.h"
+	"video_rec.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\user_isp_cfg.h
+	"server/server_core.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\user_scr_cfg.c
+	"device/device.h"
+	"asm/imd.h"
+	"user_isp_cfg.h"
+	"app_config.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\user_scr_tool.c
+	"system/includes.h"
+	"server/video_server.h"
+	"user_isp_cfg.h"
+	"user_scr_tool.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\user_scr_tool.h
+	"system/includes.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\version.c
+	"system/includes.h"
+	"generic/log.h"
+
+1536560352 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_dec.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"server/video_server.h"
+	"server/video_dec_server.h"
+	"video_dec.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+
+1525864821 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_dec_cfg.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"server/video_server.h"
+	"server/video_dec_server.h"
+	"video_dec.h"
+	"action.h"
+	"style.h"
+	"ui_ctr_def.h"
+	"app_config.h"
+	"storage_device.h"
+
+1532507738 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_photo.c
+	"system/includes.h"
+	"server/video_server.h"
+	"server/video_dec_server.h"
+	"server/ui_server.h"
+	"ui_ctr_def.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+	"storage_device.h"
+	"video_photo.h"
+	"video_system.h"
+	"vrec_osd.h"
+	"user_isp_cfg.h"
+	"key_voice.h"
+	"app_database.h"
+	"asm/lcd_config.h"
+	"video_rec.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\video_photo.h
+	"system/includes.h"
+	"server/video_server.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\vrec_osd.h
+	"system/includes.h"
+
+1517278211 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\key_voice.h
+
+1527308278 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_photo_cfg.c
+	"system/includes.h"
+	"server/video_server.h"
+	"server/ui_server.h"
+	"ui_ctr_def.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+	"video_photo.h"
+	"video_system.h"
+	"user_isp_cfg.h"
+	"app_database.h"
+
+1538119461 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_rec.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"server/video_server.h"
+	"server/video_engine_server.h"
+	"ui_ctr_def.h"
+	"video_rec.h"
+	"video_system.h"
+	"gSensor_manage.h"
+	"user_isp_cfg.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+	"asm/debug.h"
+	"vrec_osd.h"
+	"power_ctrl.h"
+	"app_database.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\video_engine_server.h
+	"typedef.h"
+	"list.h"
+
+1532507082 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_rec_cfg.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"server/video_server.h"
+	"server/video_engine_server.h"
+	"ui_ctr_def.h"
+	"video_rec.h"
+	"video_system.h"
+	"gSensor_manage.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+	"asm/debug.h"
+	"vrec_osd.h"
+	"app_database.h"
+	"res.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_system.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"video_system.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+
+1525864910 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_system_cfg.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"video_system.h"
+	"ui/res/resfile.h"
+	"res.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+	"storage_device.h"
+	"power_ctrl.h"
+	"key_voice.h"
+	"app_database.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\debug.c
+	"app_config.h"
+	"typedef.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\flash_write_protect.c
+	"system/includes.h"
+	"generic/log.h"
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\fontinit.c
+	"font/font_all.h"
+	"font/language_list.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\font\language_list.h
+
+1517278211 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\sd_speed_test.c
+	"system/includes.h"
+	"app_config.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"asm/isp_alg.h"
+	"ar0330_mipi.h"
+
+1522807240 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\isp_alg.h
+	"typedef.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi.h
+	"typedef.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_ae.c
+	"ar0330_mipi_ae.h"
+	"ar0330_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_awb.c
+	"asm/isp_alg.h"
+	"ar0330_mipi_awb.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_iq.c
+	"asm/isp_alg.h"
+	"ar0330_mipi_iq.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_iq.h
+
+1530074313 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\av10\av10.c
+	"av10.h"
+	"device/av10_spi.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\av10\av10.h
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"generic/jiffies.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\av10_spi.h
+	"asm/isp_dev.h"
+	"gpio.h"
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/task.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\av10\av10_spi.c
+	"device/av10_spi.h"
+
+1529566110 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"bg0806_mipi.h"
+	"asm/isp_alg.h"
+
+1532946941 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi.h
+	"typedef.h"
+	"asm/isp_dev.h"
+
+1527732270 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_ae.c
+	"bg0806_mipi_ae.h"
+	"bg0806_mipi.h"
+	"asm/isp_alg.h"
+
+1500461831 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_ae.h
+	"typedef.h"
+
+1507946394 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_awb.c
+	"asm/isp_alg.h"
+	"bg0806_mipi_awb.h"
+
+1496661787 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_awb.h
+	"asm/isp_alg.h"
+
+1496799172 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_iq.c
+	"asm/isp_alg.h"
+	"bg0806_mipi_iq.h"
+
+1494814755 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_iq.h
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"c2392_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi.h
+	"typedef.h"
+	"asm/isp_dev.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_ae.c
+	"c2392_mipi_ae.h"
+	"c2392_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_awb.c
+	"asm/isp_alg.h"
+	"c2392_mipi_awb.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_iq.c
+	"asm/isp_alg.h"
+	"c2392_mipi_iq.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_iq.h
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"gc1004.h"
+	"asm/isp_alg.h"
+
+1517278212 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004.h
+	"typedef.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_ae.c
+	"gc1004_ae.h"
+	"gc1004.h"
+	"asm/isp_alg.h"
+
+1517278212 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_ae.h
+	"typedef.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_awb.c
+	"asm/isp_alg.h"
+	"gc1004_awb.h"
+
+1517278212 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_awb.h
+	"asm/isp_alg.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_iq.c
+	"asm/isp_alg.h"
+	"gc1004_iq.h"
+
+1517278212 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_iq.h
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"gc2023_mipi.h"
+	"asm/isp_alg.h"
+
+1517278212 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi.h
+	"typedef.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_ae.c
+	"gc2023_mipi_ae.h"
+	"gc2023_mipi.h"
+	"asm/isp_alg.h"
+
+1517278212 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_ae.h
+	"typedef.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_awb.c
+	"asm/isp_alg.h"
+	"gc2023_mipi_awb.h"
+
+1517278212 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_iq.c
+	"asm/isp_alg.h"
+	"gc2023_mipi_iq.h"
+
+1517278212 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_iq.h
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gm7150\gm7150.c
+	"gm7150.h"
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"generic/jiffies.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gm7150\gm7150.h
+	"cpu.h"
+	"typedef.h"
+	"asm/isp_dev.h"
+	"asm/iic.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"h42.h"
+	"asm/isp_alg.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42.h
+	"typedef.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_ae.c
+	"h42_ae.h"
+	"h42.h"
+	"asm/isp_alg.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_ae.h
+	"typedef.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_awb.c
+	"h42_awb.h"
+	"asm/isp_alg.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_iq.c
+	"h42_iq.h"
+	"asm/isp_alg.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_iq.h
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"hm2131_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi.h
+	"typedef.h"
+	"asm/isp_dev.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_ae.c
+	"hm2131_mipi_ae.h"
+	"hm2131_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_awb.c
+	"asm/isp_alg.h"
+	"hm2131_mipi_awb.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_iq.c
+	"asm/isp_alg.h"
+	"hm2131_mipi_iq.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_iq.h
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"imx179_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi.h
+	"typedef.h"
+	"asm/isp_dev.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_ae.c
+	"imx179_mipi_ae.h"
+	"imx179_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_awb.c
+	"asm/isp_alg.h"
+	"imx179_mipi_awb.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_iq.c
+	"asm/isp_alg.h"
+	"imx179_mipi_iq.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_iq.h
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\nvp6112\nvp6112.c
+	"nvp6112.h"
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"timer.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\nvp6112\nvp6112.h
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"sc2143_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi.h
+	"typedef.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_ae.c
+	"sc2143_mipi_ae.h"
+	"sc2143_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_awb.c
+	"asm/isp_alg.h"
+	"sc2143_mipi_awb.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_iq.c
+	"asm/isp_alg.h"
+	"sc2143_mipi_iq.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_iq.h
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"sc3033_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi.h
+	"typedef.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_ae.c
+	"sc3033_mipi_ae.h"
+	"sc3033_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_awb.c
+	"asm/isp_alg.h"
+	"sc3033_mipi_awb.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_iq.c
+	"asm/isp_alg.h"
+	"sc3033_mipi_iq.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_iq.h
+
+1517278213 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\xc7011_dvp\xc7011.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"xc7011.h"
+
+1517278213 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\xc7011_dvp\xc7011.h
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\adc.c
+	"asm/cpu.h"
+	"asm/adc.h"
+	"system/init.h"
+	"system/timer.h"
+
+1525865498 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\adkey.c
+	"asm/adkey.h"
+	"asm/adc.h"
+	"generic/gpio.h"
+	"device/key_driver.h"
+	"device/device.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\board\board_mipi_20170330.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"device/av10_spi.h"
+	"power_ctrl.h"
+	"touch_panel_manager.h"
+
+1517476137 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\board\board_mipi_develop_board.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"device/av10_spi.h"
+	"power_ctrl.h"
+	"vm_api.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\vm_api.h
+	"vm.h"
+	"device/device.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\board\board_mipi_touch_20170419.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"device/av10_spi.h"
+	"power_ctrl.h"
+	"touch_panel_manager.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\board\board_mipi_touch_v1.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"device/av10_spi.h"
+	"power_ctrl.h"
+	"touch_panel_manager.h"
+	"vm_api.h"
+
+1539672840 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\board\board_mipi_v3.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"device/av10_spi.h"
+	"power_ctrl.h"
+	"vm_api.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\debug.c
+	"asm/cpu.h"
+	"asm/debug.h"
+	"os/os_cpu.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_480x272.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_480x272_8bits.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_avout.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"asm/avo_cfg.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\avo_cfg.h
+	"generic/typedef.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_hx8369a_mcu.c
+	"generic/typedef.h"
+	"asm/imb_driver.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"os/os_api.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_hx8369a_spi_rgb.c
+	"generic/typedef.h"
+	"asm/imb_driver.h"
+	"asm/imd.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1527574704 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_ili8960.c
+	"asm/cpu.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_ili9806.c
+	"asm/cpu.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_lq026b3ux01.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_lx50fwb4001_v2.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_lyws030gq.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_st7789s.c
+	"generic/typedef.h"
+	"asm/imb_driver.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"os/os_api.h"
+	"gpio.h"
+
+1527085214 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_st9341.c
+	"asm/cpu.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_t15p00.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\iokey.c
+	"key_driver.h"
+	"iokey.h"
+	"gpio.h"
+	"system/event.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\ldo.c
+	"asm/includes.h"
+	"asm/sysinfo.h"
+	"asm/ldo.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\sysinfo.h
+	"typedef.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\ldo.h
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_dcs_1lane_16bit.c
+	"generic/typedef.h"
+	"asm/cpu.h"
+	"asm/dsi.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278214 e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\dsi.h
+	"generic/typedef.h"
+	"asm/imd.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_dcs_1lane_24bit.c
+	"generic/typedef.h"
+	"asm/cpu.h"
+	"asm/dsi.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_vdo_2lane_24bit.c
+	"generic/typedef.h"
+	"asm/cpu.h"
+	"asm/dsi.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_vdo_4lane_1080p.c
+	"generic/typedef.h"
+	"asm/cpu.h"
+	"asm/dsi.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_vdo_4lane_720p.c
+	"generic/typedef.h"
+	"asm/cpu.h"
+	"asm/dsi.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_vdo_4lane_720p_rm68200ga1.c
+	"generic/typedef.h"
+	"asm/dsi.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\mipi_lcd_1280x480.c
+	"generic/typedef.h"
+	"asm/dsi.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\powerdet.c
+	"system/includes.h"
+	"asm/adc.h"
+	"asm/rtc.h"
+	"asm/powerdet.h"
+	"generic/gpio.h"
+	"device/device.h"
+	"device/key_driver.h"
+	"timer.h"
+	"app_config.h"
+
+1517278400 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\setup.c
+	"asm/includes.h"
+	"asm/sysinfo.h"
+	"asm/ldo.h"
+	"system/task.h"
+	"app_config.h"
+	"power_check_onetime.h"
+
+1517278212 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\static_memory_alloc.c
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+
+1539679221 source:e:\sdk\5401\12\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_ili8961c.c
+	"asm/cpu.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1538128069 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\app_database.c
+	"system/includes.h"
+	"res.h"
+	"app_database.h"
+	"app_config.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\includes.h
+	"init.h"
+	"event.h"
+	"malloc.h"
+	"spinlock.h"
+	"task.h"
+	"timer.h"
+	"wait.h"
+	"app_core.h"
+	"database.h"
+	"fs/fs.h"
+	"generic/includes.h"
+	"device/includes.h"
+	"asm/includes.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\init.h
+
+1538119287 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\event.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/rect.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\typedef.h
+	"asm/cpu.h"
+	"errno-base.h"
+	"string.h"
+	"system/malloc.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\cpu.h
+	"AC54xx.h"
+	"asm/irq.h"
+	"printf.h"
+	"system/generic/log.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\ac54xx.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\irq.h
+	"asm/hwi.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\hwi.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\printf.h
+	<stdarg.h>
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\log.h
+	"system/generic/printf.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\errno-base.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\malloc.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\list.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\rect.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\spinlock.h
+	"typedef.h"
+	"cpu.h"
+	"irq.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\cpu.h
+	<asm/cpu.h>
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\irq.h
+	"asm/irq.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\task.h
+	"os/os_api.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\os\os_api.h
+	"typedef.h"
+	"os/os_cfg.h"
+	"os/msg_pool.h"
+	"os/os_cpu.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\os\os_cfg.h
+	"os/os_cpu.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\os\os_cpu.h
+	"asm/cpu.h"
+	"jiffies.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\jiffies.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\os\msg_pool.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\timer.h
+	"typedef.h"
+	"list.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\wait.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\app_core.h
+	"typedef.h"
+	"list.h"
+	"system/event.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\database.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\fs\fs.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"generic/atomic.h"
+	"system/task.h"
+	"system/malloc.h"
+	"system/time.h"
+	"stdarg.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\ioctl.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\atomic.h
+	"cpu.h"
+	"irq.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\time.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\includes.h
+	"errno-base.h"
+	"typedef.h"
+	"ascii.h"
+	"atomic.h"
+	"ioctl.h"
+	"cpu.h"
+	"gpio.h"
+	"irq.h"
+	"jiffies.h"
+	"list.h"
+	"printf.h"
+	"rect.h"
+	"version.h"
+	"lbuf.h"
+	"circular_buf.h"
+	"index.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\ascii.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\gpio.h
+	"asm/gpio.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\gpio.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\version.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\lbuf.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\circular_buf.h
+	"typedef.h"
+	"system/spinlock.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\index.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\includes.h
+	"device.h"
+	"ioctl_cmds.h"
+	"key_driver.h"
+	"iokey.h"
+	"camera.h"
+	"iic.h"
+	"vm.h"
+	"asm/pap.h"
+	"video.h"
+	"videobuf.h"
+	"video/fb.h"
+	"video/video_ioctl.h"
+	"isp.h"
+	"device/video_engine.h"
+	"audio_dev.h"
+	"usb.h"
+	"spiflash.h"
+	"lcd_driver.h"
+	"usb_cam_dev.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\device.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/atomic.h"
+	"device/ioctl_cmds.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\ioctl_cmds.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\key_driver.h
+	"typedef.h"
+	"device/device.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\iokey.h
+	"typedef.h"
+	"device/device.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\camera.h
+	"device/device.h"
+	"asm/isp_dev.h"
+	"device/video.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\isp_dev.h
+	"cpu.h"
+	"ioctl.h"
+	"typedef.h"
+	"device_drive.h"
+	"errno-base.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\device_drive.h
+	"typedef.h"
+	"errno-base.h"
+	"ioctl.h"
+	"os/os_api.h"
+	<pthread.h>
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\video.h
+	"video/video_ioctl.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\video\video_ioctl.h
+	"typedef.h"
+	"list.h"
+	"ioctl.h"
+	"lbuf.h"
+	"system/task.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\iic.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/task.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\vm.h
+	"ioctl.h"
+	"device/device.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\pap.h
+	"typedef.h"
+	"asm/cpu.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\videobuf.h
+	"device/video.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\video\fb.h
+	"typedef.h"
+	"ioctl.h"
+	"device/device.h"
+	"system/spinlock.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\isp.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\video_engine.h
+	"typedef.h"
+	"device/device.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\audio_dev.h
+	"list.h"
+	"typedef.h"
+	"device/device.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\usb.h
+	"typedef.h"
+	"ioctl.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\spiflash.h
+	"typedef.h"
+	"list.h"
+	"ioctl.h"
+	"device/device.h"
+	"system/task.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\lcd_driver.h
+	"generic/typedef.h"
+	"device/device.h"
+	"asm/cpu.h"
+	"asm/imd.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\imd.h
+	"typedef.h"
+	"asm/cpu.h"
+	"generic/ioctl.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\usb_cam_dev.h
+	"typedef.h"
+	"ioctl.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\includes.h
+	"adc.h"
+	"dac.h"
+	"ladc.h"
+	"audio.h"
+	"adkey.h"
+	"powerdet.h"
+	"cache.h"
+	"cpu.h"
+	"dma.h"
+	"debug.h"
+	"gpio.h"
+	"hwi.h"
+	"iic.h"
+	"irq.h"
+	"lock.h"
+	"sdmmc.h"
+	"spiflash.h"
+	"startup.h"
+	"uart.h"
+	"timer.h"
+	"imc.h"
+	"avc_enc.h"
+	"rtc.h"
+	"clock.h"
+	"crc16.h"
+	"spi.h"
+	"imd.h"
+	"h264_en.h"
+	"jpeg_iocmds.h"
+	"jpeg_codec.h"
+	"imb_driver.h"
+	"uvc_iocmds.h"
+	"bus_device.h"
+	"lcd_config.h"
+	"screen_tool.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\adc.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\dac.h
+	"generic/typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\ladc.h
+	"generic/typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\audio.h
+	"typedef.h"
+	"asm/ladc.h"
+	"asm/dac.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\adkey.h
+	"asm/cpu.h"
+	"asm/adc.h"
+	"device/key_driver.h"
+	"device/device.h"
+	"device/adkey.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\adkey.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\powerdet.h
+	"asm/cpu.h"
+	"asm/adc.h"
+	"device/key_driver.h"
+	"device/device.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\cache.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\dma.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\debug.h
+	"generic/typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\iic.h
+	"typedef.h"
+	"asm/cpu.h"
+	"device/iic.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\lock.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\sdmmc.h
+	"device/sdmmc.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\sdmmc.h
+	"generic/typedef.h"
+	"generic/ioctl.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\spiflash.h
+	"device/device.h"
+	"device/spiflash.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\startup.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\uart.h
+	"device/uart.h"
+	"device/device.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\uart.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\timer.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\imc.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\avc_enc.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\rtc.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/time.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\clock.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\crc16.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\spi.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\h264_en.h
+	"asm/cpu.h"
+	"typedef.h"
+	"os/os_api.h"
+	"system/includes.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\jpeg_iocmds.h
+
+1520389026 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\jpeg_codec.h
+	"typedef.h"
+	"jpeg_iocmds.h"
+	"jpeg_encoder.h"
+	"jpeg_decoder.h"
+	"device/video.h"
+
+1520389026 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\jpeg_encoder.h
+	"typedef.h"
+	"asm/jpeg_abr.h"
+	"device/video.h"
+	"jpeg_iocmds.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\jpeg_abr.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\jpeg_decoder.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\imb_driver.h
+	"video/fb.h"
+	"typedef.h"
+	"asm/imd.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\uvc_iocmds.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\bus_device.h
+	"typedef.h"
+
+1543978616 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\lcd_config.h
+	"app_config.h"
+
+1543978068 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\app_config.h
+	"board.h"
+
+1536632073 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\board.h
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\screen_tool.h
+	"system/includes.h"
+	"server/server_core.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\server_core.h
+	"generic/typedef.h"
+	"system/task.h"
+	"spinlock.h"
+	"list.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\res.h
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\app_database.h
+
+1537870502 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\app_main.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"action.h"
+	"ani_style.h"
+	"style.h"
+	"res_ver.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"video_rec.h"
+	"asm/rtc.h"
+	"power_ctrl.h"
+	"storage_device.h"
+	"generic/log.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\ui_server.h
+	"server/server_core.h"
+	"ui/includes.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\includes.h
+	"ui/ui.h"
+	"res/resfile.h"
+	"res/font_ascii.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui.h
+	"window.h"
+	"ui_button.h"
+	"ui_grid.h"
+	"ui_time.h"
+	"ui_camera.h"
+	"ui_pic.h"
+	"ui_text.h"
+	"ui_battery.h"
+	"ui_browser.h"
+	<stdarg.h>
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\window.h
+	"ui/layer.h"
+	"ui/ui_core.h"
+	"ui/control.h"
+	"list.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\layer.h
+	"ui/layout.h"
+	"ui/control.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\layout.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_core.h
+	"typedef.h"
+	"rect.h"
+	"system/event.h"
+	"fs/fs.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\control.h
+	"ui/ui_core.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_button.h
+	"ui/control.h"
+	"ui/ui_core.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_grid.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_time.h
+	"ui/control.h"
+	"ui/ui_core.h"
+	"ui/p.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\p.h
+	"ui/ui_core.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_camera.h
+	"ui/control.h"
+	"ui/ui_core.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_pic.h
+	"ui/ui_core.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_text.h
+	"ui/ui_core.h"
+	"ui/control.h"
+	"font/font_all.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\font\font_all.h
+	"generic/typedef.h"
+	"font/font_sdfs.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\font\font_sdfs.h
+	"generic/typedef.h"
+	"fs/fs.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_battery.h
+	"ui/control.h"
+	"list.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_browser.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\res\resfile.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\res\font_ascii.h
+	"typedef.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\action.h
+	"app_config.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\ani_style.h
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\style.h
+	"app_config.h"
+	"style_jl02.h"
+	"style_ly.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\style_jl02.h
+
+1538123400 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\style_ly.h
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\res_ver.h
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\gsensor_manage.h
+	"printf.h"
+	"cpu.h"
+	"iic.h"
+	"timer.h"
+	"app_config.h"
+	"event.h"
+	"system/includes.h"
+
+1532507123 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\video_rec.h
+	"system/includes.h"
+	"server/video_server.h"
+	"app_config.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\video_server.h
+	"server/server_core.h"
+	"server/vpkg_server.h"
+	"system/includes.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\vpkg_server.h
+	"typedef.h"
+	"list.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\power_ctrl.h
+	"asm/rtc.h"
+	"system/includes.h"
+	"app_config.h"
+
+1517474617 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\storage_device.h
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\auto_test.c
+	"system/includes.h"
+	"app_config.h"
+	"list.h"
+	"storage_device.h"
+
+1529219087 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\backlight.c
+	"device/lcd_driver.h"
+	"system/includes.h"
+	"power_ctrl.h"
+	"ui/includes.h"
+	"server/ui_server.h"
+	"video_rec.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\device_mount.c
+	"system/includes.h"
+	"server/audio_server.h"
+	"server/server_core.h"
+	"app_config.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\audio_server.h
+	"fs/fs.h"
+
+1535537990 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\gsensor\da380.c
+	"gSensor_manage.h"
+	"da380.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\da380.h
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\gsensor\gma301.c
+	"gSensor_manage.h"
+	"gma301.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\gma301.h
+	"gSensor_manage.h"
+
+1535538130 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\gsensor\gsensor_manage.c
+	"gSensor_manage.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\gsensor\msa300.c
+	"gSensor_manage.h"
+	"msa300.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\msa300.h
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\gsensor\stk8312.c
+	"gSensor_manage.h"
+	"stk8312.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\stk8312.h
+
+1525864648 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\key_voice.c
+	"system/includes.h"
+	"server/audio_server.h"
+	"server/video_dec_server.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\video_dec_server.h
+	"server/server_core.h"
+	"fs/fs.h"
+
+1528963074 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\parking_detect.c
+	"system/includes.h"
+	"device/device.h"
+	"app_config.h"
+
+1527763374 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\power_check_ontime.c
+	"asm/adc.h"
+	"asm/rtc.h"
+	"generic/gpio.h"
+	"device/device.h"
+	"device/key_driver.h"
+	"timer.h"
+	"app_config.h"
+	"power_check_onetime.h"
+	"power_ctrl.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\power_check_onetime.h
+
+1538121268 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\power_ctrl.c
+	"power_ctrl.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"video_rec.h"
+	"gSensor_manage.h"
+	"server/video_server.h"
+	"server/video_dec_server.h"
+	"video_dec.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\video_dec.h
+	"system/includes.h"
+	"server/video_server.h"
+	"app_config.h"
+	"storage_device.h"
+
+1525860972 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\touch_panel\gt911.c
+	"GT911.h"
+	"touch_panel_manager.h"
+	"event.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\gt911.h
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\touch_panel_manager.h
+	"printf.h"
+	"cpu.h"
+	"iic.h"
+	"timer.h"
+	"app_config.h"
+	"event.h"
+	"system/includes.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\touch_panel\touch_panel_manager.c
+	"touch_panel_manager.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_dec.c
+	"ui/includes.h"
+	"ui/ui_battery.h"
+	"ui/ui_slider.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"menu_parm_api.h"
+	"action.h"
+	"app_config.h"
+	"stdlib.h"
+	"video_rec.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_slider.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\menu_parm_api.h
+	"system/includes.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_main.c
+	"ui/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"system/includes.h"
+	"menu_parm_api.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_photo.c
+	"ui/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"system/includes.h"
+	"menu_parm_api.h"
+	"app_database.h"
+
+1526722399 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_rec.c
+	"ui/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"system/includes.h"
+	"menu_parm_api.h"
+	"app_database.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_sys.c
+	"ui/includes.h"
+	"system/includes.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"menu_parm_api.h"
+	"video_system.h"
+	"storage_device.h"
+	"app_database.h"
+	"res.h"
+	"asm/lcd_config.h"
+	"video_rec.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\video_system.h
+	"system/includes.h"
+	"server/video_server.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_usb.c
+	"ui/includes.h"
+	"ui/ui_battery.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"menu_parm_api.h"
+	"app_config.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_ly\ui_action_dec.c
+	"ui/includes.h"
+	"ui/ui_battery.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"video_system.h"
+
+1536630989 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_ly\ui_action_photo.c
+	"ui/includes.h"
+	"ui/ui_battery.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"app_database.h"
+	"server/audio_server.h"
+	"server/video_dec_server.h"
+
+1538119332 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_ly\ui_action_rec.c
+	"ui/includes.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"app_database.h"
+	"server/audio_server.h"
+	"server/video_dec_server.h"
+	"asm/lcd_config.h"
+	"res.h"
+
+1538128080 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_ly\ui_action_sys.c
+	"ui/includes.h"
+	"system/includes.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"storage_device.h"
+	"res.h"
+	"app_database.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_ly\ui_action_usb.c
+	"ui/includes.h"
+	"ui/ui_battery.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\ui_action_animation.c
+	"ui/includes.h"
+	"server/ui_server.h"
+	"fs.h"
+	"server/audio_server.h"
+	"server/video_dec_server.h"
+	"ani_style.h"
+	"app_config.h"
+
+1532053084 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\upgrade.c
+	"system/includes.h"
+	"app_config.h"
+	"server/ui_server.h"
+	"storage_device.h"
+	"upgrade/upgrade_detect.h"
+	"upgrade_style.h"
+	"action.h"
+	"ui/ui_slider.h"
+	"gSensor_manage.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\upgrade\upgrade_detect.h
+	"fs/fs.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\upgrade_style.h
+
+1517474627 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\usb_app.c
+	"system/includes.h"
+	"server/usb_server.h"
+	"app_config.h"
+	"action.h"
+	"server/ui_server.h"
+	"ui_ctr_def.h"
+	"style.h"
+	"storage_device.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\usb_server.h
+	"server/server_core.h"
+	"system/includes.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\ui_ctr_def.h
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\usb_app_cfg.c
+	"system/includes.h"
+	"server/usb_server.h"
+	"app_config.h"
+	"action.h"
+
+1527766021 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\user_isp_cfg.c
+	"server/video_server.h"
+	"user_isp_cfg.h"
+	"video_rec.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\user_isp_cfg.h
+	"server/server_core.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\user_scr_cfg.c
+	"device/device.h"
+	"asm/imd.h"
+	"user_isp_cfg.h"
+	"app_config.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\user_scr_tool.c
+	"system/includes.h"
+	"server/video_server.h"
+	"user_isp_cfg.h"
+	"user_scr_tool.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\user_scr_tool.h
+	"system/includes.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\version.c
+	"system/includes.h"
+	"generic/log.h"
+
+1536560352 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_dec.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"server/video_server.h"
+	"server/video_dec_server.h"
+	"video_dec.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+
+1525864821 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_dec_cfg.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"server/video_server.h"
+	"server/video_dec_server.h"
+	"video_dec.h"
+	"action.h"
+	"style.h"
+	"ui_ctr_def.h"
+	"app_config.h"
+	"storage_device.h"
+
+1532507738 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_photo.c
+	"system/includes.h"
+	"server/video_server.h"
+	"server/video_dec_server.h"
+	"server/ui_server.h"
+	"ui_ctr_def.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+	"storage_device.h"
+	"video_photo.h"
+	"video_system.h"
+	"vrec_osd.h"
+	"user_isp_cfg.h"
+	"key_voice.h"
+	"app_database.h"
+	"asm/lcd_config.h"
+	"video_rec.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\video_photo.h
+	"system/includes.h"
+	"server/video_server.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\vrec_osd.h
+	"system/includes.h"
+
+1517278211 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\key_voice.h
+
+1527308278 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_photo_cfg.c
+	"system/includes.h"
+	"server/video_server.h"
+	"server/ui_server.h"
+	"ui_ctr_def.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+	"video_photo.h"
+	"video_system.h"
+	"user_isp_cfg.h"
+	"app_database.h"
+
+1538119461 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_rec.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"server/video_server.h"
+	"server/video_engine_server.h"
+	"ui_ctr_def.h"
+	"video_rec.h"
+	"video_system.h"
+	"gSensor_manage.h"
+	"user_isp_cfg.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+	"asm/debug.h"
+	"vrec_osd.h"
+	"power_ctrl.h"
+	"app_database.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\video_engine_server.h
+	"typedef.h"
+	"list.h"
+
+1532507082 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_rec_cfg.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"server/video_server.h"
+	"server/video_engine_server.h"
+	"ui_ctr_def.h"
+	"video_rec.h"
+	"video_system.h"
+	"gSensor_manage.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+	"asm/debug.h"
+	"vrec_osd.h"
+	"app_database.h"
+	"res.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_system.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"video_system.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+
+1525864910 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_system_cfg.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"video_system.h"
+	"ui/res/resfile.h"
+	"res.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+	"storage_device.h"
+	"power_ctrl.h"
+	"key_voice.h"
+	"app_database.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\debug.c
+	"app_config.h"
+	"typedef.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\flash_write_protect.c
+	"system/includes.h"
+	"generic/log.h"
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\fontinit.c
+	"font/font_all.h"
+	"font/language_list.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\font\language_list.h
+
+1517278211 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\sd_speed_test.c
+	"system/includes.h"
+	"app_config.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"asm/isp_alg.h"
+	"ar0330_mipi.h"
+
+1522807240 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\isp_alg.h
+	"typedef.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi.h
+	"typedef.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_ae.c
+	"ar0330_mipi_ae.h"
+	"ar0330_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_awb.c
+	"asm/isp_alg.h"
+	"ar0330_mipi_awb.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_iq.c
+	"asm/isp_alg.h"
+	"ar0330_mipi_iq.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_iq.h
+
+1530074313 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\av10\av10.c
+	"av10.h"
+	"device/av10_spi.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\av10\av10.h
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"generic/jiffies.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\av10_spi.h
+	"asm/isp_dev.h"
+	"gpio.h"
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/task.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\av10\av10_spi.c
+	"device/av10_spi.h"
+
+1529566110 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"bg0806_mipi.h"
+	"asm/isp_alg.h"
+
+1532946941 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi.h
+	"typedef.h"
+	"asm/isp_dev.h"
+
+1527732270 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_ae.c
+	"bg0806_mipi_ae.h"
+	"bg0806_mipi.h"
+	"asm/isp_alg.h"
+
+1500461831 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_ae.h
+	"typedef.h"
+
+1507946394 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_awb.c
+	"asm/isp_alg.h"
+	"bg0806_mipi_awb.h"
+
+1496661787 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_awb.h
+	"asm/isp_alg.h"
+
+1496799172 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_iq.c
+	"asm/isp_alg.h"
+	"bg0806_mipi_iq.h"
+
+1494814755 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_iq.h
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"c2392_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi.h
+	"typedef.h"
+	"asm/isp_dev.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_ae.c
+	"c2392_mipi_ae.h"
+	"c2392_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_awb.c
+	"asm/isp_alg.h"
+	"c2392_mipi_awb.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_iq.c
+	"asm/isp_alg.h"
+	"c2392_mipi_iq.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_iq.h
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"gc1004.h"
+	"asm/isp_alg.h"
+
+1517278212 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004.h
+	"typedef.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_ae.c
+	"gc1004_ae.h"
+	"gc1004.h"
+	"asm/isp_alg.h"
+
+1517278212 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_ae.h
+	"typedef.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_awb.c
+	"asm/isp_alg.h"
+	"gc1004_awb.h"
+
+1517278212 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_awb.h
+	"asm/isp_alg.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_iq.c
+	"asm/isp_alg.h"
+	"gc1004_iq.h"
+
+1517278212 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_iq.h
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"gc2023_mipi.h"
+	"asm/isp_alg.h"
+
+1517278212 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi.h
+	"typedef.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_ae.c
+	"gc2023_mipi_ae.h"
+	"gc2023_mipi.h"
+	"asm/isp_alg.h"
+
+1517278212 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_ae.h
+	"typedef.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_awb.c
+	"asm/isp_alg.h"
+	"gc2023_mipi_awb.h"
+
+1517278212 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_iq.c
+	"asm/isp_alg.h"
+	"gc2023_mipi_iq.h"
+
+1517278212 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_iq.h
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gm7150\gm7150.c
+	"gm7150.h"
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"generic/jiffies.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gm7150\gm7150.h
+	"cpu.h"
+	"typedef.h"
+	"asm/isp_dev.h"
+	"asm/iic.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"h42.h"
+	"asm/isp_alg.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42.h
+	"typedef.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_ae.c
+	"h42_ae.h"
+	"h42.h"
+	"asm/isp_alg.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_ae.h
+	"typedef.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_awb.c
+	"h42_awb.h"
+	"asm/isp_alg.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_iq.c
+	"h42_iq.h"
+	"asm/isp_alg.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_iq.h
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"hm2131_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi.h
+	"typedef.h"
+	"asm/isp_dev.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_ae.c
+	"hm2131_mipi_ae.h"
+	"hm2131_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_awb.c
+	"asm/isp_alg.h"
+	"hm2131_mipi_awb.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_iq.c
+	"asm/isp_alg.h"
+	"hm2131_mipi_iq.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_iq.h
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"imx179_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi.h
+	"typedef.h"
+	"asm/isp_dev.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_ae.c
+	"imx179_mipi_ae.h"
+	"imx179_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_awb.c
+	"asm/isp_alg.h"
+	"imx179_mipi_awb.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_iq.c
+	"asm/isp_alg.h"
+	"imx179_mipi_iq.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_iq.h
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\nvp6112\nvp6112.c
+	"nvp6112.h"
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"timer.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\nvp6112\nvp6112.h
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"sc2143_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi.h
+	"typedef.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_ae.c
+	"sc2143_mipi_ae.h"
+	"sc2143_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_awb.c
+	"asm/isp_alg.h"
+	"sc2143_mipi_awb.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_iq.c
+	"asm/isp_alg.h"
+	"sc2143_mipi_iq.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_iq.h
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"sc3033_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi.h
+	"typedef.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_ae.c
+	"sc3033_mipi_ae.h"
+	"sc3033_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_awb.c
+	"asm/isp_alg.h"
+	"sc3033_mipi_awb.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_iq.c
+	"asm/isp_alg.h"
+	"sc3033_mipi_iq.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_iq.h
+
+1517278213 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\xc7011_dvp\xc7011.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"xc7011.h"
+
+1517278213 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\xc7011_dvp\xc7011.h
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\adc.c
+	"asm/cpu.h"
+	"asm/adc.h"
+	"system/init.h"
+	"system/timer.h"
+
+1525865498 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\adkey.c
+	"asm/adkey.h"
+	"asm/adc.h"
+	"generic/gpio.h"
+	"device/key_driver.h"
+	"device/device.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\board\board_mipi_20170330.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"device/av10_spi.h"
+	"power_ctrl.h"
+	"touch_panel_manager.h"
+
+1517476137 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\board\board_mipi_develop_board.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"device/av10_spi.h"
+	"power_ctrl.h"
+	"vm_api.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\vm_api.h
+	"vm.h"
+	"device/device.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\board\board_mipi_touch_20170419.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"device/av10_spi.h"
+	"power_ctrl.h"
+	"touch_panel_manager.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\board\board_mipi_touch_v1.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"device/av10_spi.h"
+	"power_ctrl.h"
+	"touch_panel_manager.h"
+	"vm_api.h"
+
+1543978572 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\board\board_mipi_v3.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"device/av10_spi.h"
+	"power_ctrl.h"
+	"vm_api.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\debug.c
+	"asm/cpu.h"
+	"asm/debug.h"
+	"os/os_cpu.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_480x272.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_480x272_8bits.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_avout.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"asm/avo_cfg.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\avo_cfg.h
+	"generic/typedef.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_hx8369a_mcu.c
+	"generic/typedef.h"
+	"asm/imb_driver.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"os/os_api.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_hx8369a_spi_rgb.c
+	"generic/typedef.h"
+	"asm/imb_driver.h"
+	"asm/imd.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1527574704 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_ili8960.c
+	"asm/cpu.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1539737765 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_ili8961c.c
+	"asm/cpu.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_ili9806.c
+	"asm/cpu.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_lq026b3ux01.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_lx50fwb4001_v2.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_lyws030gq.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1527085214 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_st9341.c
+	"asm/cpu.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_t15p00.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\iokey.c
+	"key_driver.h"
+	"iokey.h"
+	"gpio.h"
+	"system/event.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\ldo.c
+	"asm/includes.h"
+	"asm/sysinfo.h"
+	"asm/ldo.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\sysinfo.h
+	"typedef.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\ldo.h
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_dcs_1lane_16bit.c
+	"generic/typedef.h"
+	"asm/cpu.h"
+	"asm/dsi.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278214 f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\dsi.h
+	"generic/typedef.h"
+	"asm/imd.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_dcs_1lane_24bit.c
+	"generic/typedef.h"
+	"asm/cpu.h"
+	"asm/dsi.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_vdo_2lane_24bit.c
+	"generic/typedef.h"
+	"asm/cpu.h"
+	"asm/dsi.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_vdo_4lane_1080p.c
+	"generic/typedef.h"
+	"asm/cpu.h"
+	"asm/dsi.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_vdo_4lane_720p.c
+	"generic/typedef.h"
+	"asm/cpu.h"
+	"asm/dsi.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_vdo_4lane_720p_rm68200ga1.c
+	"generic/typedef.h"
+	"asm/dsi.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\mipi_lcd_1280x480.c
+	"generic/typedef.h"
+	"asm/dsi.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\powerdet.c
+	"system/includes.h"
+	"asm/adc.h"
+	"asm/rtc.h"
+	"asm/powerdet.h"
+	"generic/gpio.h"
+	"device/device.h"
+	"device/key_driver.h"
+	"timer.h"
+	"app_config.h"
+
+1517278400 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\setup.c
+	"asm/includes.h"
+	"asm/sysinfo.h"
+	"asm/ldo.h"
+	"system/task.h"
+	"app_config.h"
+	"power_check_onetime.h"
+
+1517278212 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\static_memory_alloc.c
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+
+1543979003 source:f:\ac54_56\三寸版（左三右四）\80后\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_st7789s.c
+	"asm/cpu.h"
+	"asm/imd.h"
+	"asm/dsi.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1538128069 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\app_database.c
+	"system/includes.h"
+	"res.h"
+	"app_database.h"
+	"app_config.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\includes.h
+	"init.h"
+	"event.h"
+	"malloc.h"
+	"spinlock.h"
+	"task.h"
+	"timer.h"
+	"wait.h"
+	"app_core.h"
+	"database.h"
+	"fs/fs.h"
+	"generic/includes.h"
+	"device/includes.h"
+	"asm/includes.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\init.h
+
+1538119287 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\event.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/rect.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\typedef.h
+	"asm/cpu.h"
+	"errno-base.h"
+	"string.h"
+	"system/malloc.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\cpu.h
+	"AC54xx.h"
+	"asm/irq.h"
+	"printf.h"
+	"system/generic/log.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\ac54xx.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\irq.h
+	"asm/hwi.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\hwi.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\printf.h
+	<stdarg.h>
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\log.h
+	"system/generic/printf.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\errno-base.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\malloc.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\list.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\rect.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\spinlock.h
+	"typedef.h"
+	"cpu.h"
+	"irq.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\cpu.h
+	<asm/cpu.h>
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\irq.h
+	"asm/irq.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\task.h
+	"os/os_api.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\os\os_api.h
+	"typedef.h"
+	"os/os_cfg.h"
+	"os/msg_pool.h"
+	"os/os_cpu.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\os\os_cfg.h
+	"os/os_cpu.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\os\os_cpu.h
+	"asm/cpu.h"
+	"jiffies.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\jiffies.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\os\msg_pool.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\timer.h
+	"typedef.h"
+	"list.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\wait.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\app_core.h
+	"typedef.h"
+	"list.h"
+	"system/event.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\database.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\fs\fs.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/ioctl.h"
+	"generic/atomic.h"
+	"system/task.h"
+	"system/malloc.h"
+	"system/time.h"
+	"stdarg.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\ioctl.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\atomic.h
+	"cpu.h"
+	"irq.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\time.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\includes.h
+	"errno-base.h"
+	"typedef.h"
+	"ascii.h"
+	"atomic.h"
+	"ioctl.h"
+	"cpu.h"
+	"gpio.h"
+	"irq.h"
+	"jiffies.h"
+	"list.h"
+	"printf.h"
+	"rect.h"
+	"version.h"
+	"lbuf.h"
+	"circular_buf.h"
+	"index.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\ascii.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\gpio.h
+	"asm/gpio.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\gpio.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\version.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\lbuf.h
+	"typedef.h"
+	"list.h"
+	"system/spinlock.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\circular_buf.h
+	"typedef.h"
+	"system/spinlock.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\generic\index.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\includes.h
+	"device.h"
+	"ioctl_cmds.h"
+	"key_driver.h"
+	"iokey.h"
+	"camera.h"
+	"iic.h"
+	"vm.h"
+	"asm/pap.h"
+	"video.h"
+	"videobuf.h"
+	"video/fb.h"
+	"video/video_ioctl.h"
+	"isp.h"
+	"device/video_engine.h"
+	"audio_dev.h"
+	"usb.h"
+	"spiflash.h"
+	"lcd_driver.h"
+	"usb_cam_dev.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\device.h
+	"generic/typedef.h"
+	"generic/list.h"
+	"generic/atomic.h"
+	"device/ioctl_cmds.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\ioctl_cmds.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\key_driver.h
+	"typedef.h"
+	"device/device.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\iokey.h
+	"typedef.h"
+	"device/device.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\camera.h
+	"device/device.h"
+	"asm/isp_dev.h"
+	"device/video.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\isp_dev.h
+	"cpu.h"
+	"ioctl.h"
+	"typedef.h"
+	"device_drive.h"
+	"errno-base.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\device_drive.h
+	"typedef.h"
+	"errno-base.h"
+	"ioctl.h"
+	"os/os_api.h"
+	<pthread.h>
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\video.h
+	"video/video_ioctl.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\video\video_ioctl.h
+	"typedef.h"
+	"list.h"
+	"ioctl.h"
+	"lbuf.h"
+	"system/task.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\iic.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/task.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\vm.h
+	"ioctl.h"
+	"device/device.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\pap.h
+	"typedef.h"
+	"asm/cpu.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\videobuf.h
+	"device/video.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\video\fb.h
+	"typedef.h"
+	"ioctl.h"
+	"device/device.h"
+	"system/spinlock.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\isp.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\video_engine.h
+	"typedef.h"
+	"device/device.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\audio_dev.h
+	"list.h"
+	"typedef.h"
+	"device/device.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\usb.h
+	"typedef.h"
+	"ioctl.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\spiflash.h
+	"typedef.h"
+	"list.h"
+	"ioctl.h"
+	"device/device.h"
+	"system/task.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\lcd_driver.h
+	"generic/typedef.h"
+	"device/device.h"
+	"asm/cpu.h"
+	"asm/imd.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\imd.h
+	"typedef.h"
+	"asm/cpu.h"
+	"generic/ioctl.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\usb_cam_dev.h
+	"typedef.h"
+	"ioctl.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\includes.h
+	"adc.h"
+	"dac.h"
+	"ladc.h"
+	"audio.h"
+	"adkey.h"
+	"powerdet.h"
+	"cache.h"
+	"cpu.h"
+	"dma.h"
+	"debug.h"
+	"gpio.h"
+	"hwi.h"
+	"iic.h"
+	"irq.h"
+	"lock.h"
+	"sdmmc.h"
+	"spiflash.h"
+	"startup.h"
+	"uart.h"
+	"timer.h"
+	"imc.h"
+	"avc_enc.h"
+	"rtc.h"
+	"clock.h"
+	"crc16.h"
+	"spi.h"
+	"imd.h"
+	"h264_en.h"
+	"jpeg_iocmds.h"
+	"jpeg_codec.h"
+	"imb_driver.h"
+	"uvc_iocmds.h"
+	"bus_device.h"
+	"lcd_config.h"
+	"screen_tool.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\adc.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\dac.h
+	"generic/typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\ladc.h
+	"generic/typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\audio.h
+	"typedef.h"
+	"asm/ladc.h"
+	"asm/dac.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\adkey.h
+	"asm/cpu.h"
+	"asm/adc.h"
+	"device/key_driver.h"
+	"device/device.h"
+	"device/adkey.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\adkey.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\powerdet.h
+	"asm/cpu.h"
+	"asm/adc.h"
+	"device/key_driver.h"
+	"device/device.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\cache.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\dma.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\debug.h
+	"generic/typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\iic.h
+	"typedef.h"
+	"asm/cpu.h"
+	"device/iic.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\lock.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\sdmmc.h
+	"device/sdmmc.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\sdmmc.h
+	"generic/typedef.h"
+	"generic/ioctl.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\spiflash.h
+	"device/device.h"
+	"device/spiflash.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\startup.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\uart.h
+	"device/uart.h"
+	"device/device.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\uart.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\timer.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\imc.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\avc_enc.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\rtc.h
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/time.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\clock.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\crc16.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\spi.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\h264_en.h
+	"asm/cpu.h"
+	"typedef.h"
+	"os/os_api.h"
+	"system/includes.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\jpeg_iocmds.h
+
+1520389026 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\jpeg_codec.h
+	"typedef.h"
+	"jpeg_iocmds.h"
+	"jpeg_encoder.h"
+	"jpeg_decoder.h"
+	"device/video.h"
+
+1520389026 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\jpeg_encoder.h
+	"typedef.h"
+	"asm/jpeg_abr.h"
+	"device/video.h"
+	"jpeg_iocmds.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\jpeg_abr.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\jpeg_decoder.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\imb_driver.h
+	"video/fb.h"
+	"typedef.h"
+	"asm/imd.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\uvc_iocmds.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\bus_device.h
+	"typedef.h"
+
+1543978616 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\lcd_config.h
+	"app_config.h"
+
+1545443818 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\app_config.h
+	"board.h"
+
+1536632073 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\board.h
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\screen_tool.h
+	"system/includes.h"
+	"server/server_core.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\server_core.h
+	"generic/typedef.h"
+	"system/task.h"
+	"spinlock.h"
+	"list.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\res.h
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\app_database.h
+
+1537870502 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\app_main.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"action.h"
+	"ani_style.h"
+	"style.h"
+	"res_ver.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"video_rec.h"
+	"asm/rtc.h"
+	"power_ctrl.h"
+	"storage_device.h"
+	"generic/log.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\ui_server.h
+	"server/server_core.h"
+	"ui/includes.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\includes.h
+	"ui/ui.h"
+	"res/resfile.h"
+	"res/font_ascii.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui.h
+	"window.h"
+	"ui_button.h"
+	"ui_grid.h"
+	"ui_time.h"
+	"ui_camera.h"
+	"ui_pic.h"
+	"ui_text.h"
+	"ui_battery.h"
+	"ui_browser.h"
+	<stdarg.h>
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\window.h
+	"ui/layer.h"
+	"ui/ui_core.h"
+	"ui/control.h"
+	"list.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\layer.h
+	"ui/layout.h"
+	"ui/control.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\layout.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_core.h
+	"typedef.h"
+	"rect.h"
+	"system/event.h"
+	"fs/fs.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\control.h
+	"ui/ui_core.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_button.h
+	"ui/control.h"
+	"ui/ui_core.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_grid.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_time.h
+	"ui/control.h"
+	"ui/ui_core.h"
+	"ui/p.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\p.h
+	"ui/ui_core.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_camera.h
+	"ui/control.h"
+	"ui/ui_core.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_pic.h
+	"ui/ui_core.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_text.h
+	"ui/ui_core.h"
+	"ui/control.h"
+	"font/font_all.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\font\font_all.h
+	"generic/typedef.h"
+	"font/font_sdfs.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\font\font_sdfs.h
+	"generic/typedef.h"
+	"fs/fs.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_battery.h
+	"ui/control.h"
+	"list.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_browser.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\res\resfile.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\res\font_ascii.h
+	"typedef.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\action.h
+	"app_config.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\ani_style.h
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\style.h
+	"app_config.h"
+	"style_jl02.h"
+	"style_ly.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\style_jl02.h
+
+1538123400 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\style_ly.h
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\res_ver.h
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\gsensor_manage.h
+	"printf.h"
+	"cpu.h"
+	"iic.h"
+	"timer.h"
+	"app_config.h"
+	"event.h"
+	"system/includes.h"
+
+1532507123 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\video_rec.h
+	"system/includes.h"
+	"server/video_server.h"
+	"app_config.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\video_server.h
+	"server/server_core.h"
+	"server/vpkg_server.h"
+	"system/includes.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\vpkg_server.h
+	"typedef.h"
+	"list.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\power_ctrl.h
+	"asm/rtc.h"
+	"system/includes.h"
+	"app_config.h"
+
+1517474617 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\storage_device.h
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\auto_test.c
+	"system/includes.h"
+	"app_config.h"
+	"list.h"
+	"storage_device.h"
+
+1529219087 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\backlight.c
+	"device/lcd_driver.h"
+	"system/includes.h"
+	"power_ctrl.h"
+	"ui/includes.h"
+	"server/ui_server.h"
+	"video_rec.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\device_mount.c
+	"system/includes.h"
+	"server/audio_server.h"
+	"server/server_core.h"
+	"app_config.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\audio_server.h
+	"fs/fs.h"
+
+1535537990 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\gsensor\da380.c
+	"gSensor_manage.h"
+	"da380.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\da380.h
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\gsensor\gma301.c
+	"gSensor_manage.h"
+	"gma301.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\gma301.h
+	"gSensor_manage.h"
+
+1535538130 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\gsensor\gsensor_manage.c
+	"gSensor_manage.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\gsensor\msa300.c
+	"gSensor_manage.h"
+	"msa300.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\msa300.h
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\gsensor\stk8312.c
+	"gSensor_manage.h"
+	"stk8312.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\stk8312.h
+
+1525864648 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\key_voice.c
+	"system/includes.h"
+	"server/audio_server.h"
+	"server/video_dec_server.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\video_dec_server.h
+	"server/server_core.h"
+	"fs/fs.h"
+
+1528963074 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\parking_detect.c
+	"system/includes.h"
+	"device/device.h"
+	"app_config.h"
+
+1527763374 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\power_check_ontime.c
+	"asm/adc.h"
+	"asm/rtc.h"
+	"generic/gpio.h"
+	"device/device.h"
+	"device/key_driver.h"
+	"timer.h"
+	"app_config.h"
+	"power_check_onetime.h"
+	"power_ctrl.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\power_check_onetime.h
+
+1538121268 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\power_ctrl.c
+	"power_ctrl.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"video_rec.h"
+	"gSensor_manage.h"
+	"server/video_server.h"
+	"server/video_dec_server.h"
+	"video_dec.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\video_dec.h
+	"system/includes.h"
+	"server/video_server.h"
+	"app_config.h"
+	"storage_device.h"
+
+1525860972 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\touch_panel\gt911.c
+	"GT911.h"
+	"touch_panel_manager.h"
+	"event.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\gt911.h
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\touch_panel_manager.h
+	"printf.h"
+	"cpu.h"
+	"iic.h"
+	"timer.h"
+	"app_config.h"
+	"event.h"
+	"system/includes.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\touch_panel\touch_panel_manager.c
+	"touch_panel_manager.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_dec.c
+	"ui/includes.h"
+	"ui/ui_battery.h"
+	"ui/ui_slider.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"menu_parm_api.h"
+	"action.h"
+	"app_config.h"
+	"stdlib.h"
+	"video_rec.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\ui\ui_slider.h
+	"ui/ui_core.h"
+	"ui/control.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\menu_parm_api.h
+	"system/includes.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_main.c
+	"ui/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"system/includes.h"
+	"menu_parm_api.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_photo.c
+	"ui/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"system/includes.h"
+	"menu_parm_api.h"
+	"app_database.h"
+
+1526722399 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_rec.c
+	"ui/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"system/includes.h"
+	"menu_parm_api.h"
+	"app_database.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_sys.c
+	"ui/includes.h"
+	"system/includes.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"menu_parm_api.h"
+	"video_system.h"
+	"storage_device.h"
+	"app_database.h"
+	"res.h"
+	"asm/lcd_config.h"
+	"video_rec.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\video_system.h
+	"system/includes.h"
+	"server/video_server.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_jl02\ui_action_usb.c
+	"ui/includes.h"
+	"ui/ui_battery.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"menu_parm_api.h"
+	"app_config.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_ly\ui_action_dec.c
+	"ui/includes.h"
+	"ui/ui_battery.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"video_system.h"
+
+1536630989 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_ly\ui_action_photo.c
+	"ui/includes.h"
+	"ui/ui_battery.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"app_database.h"
+	"server/audio_server.h"
+	"server/video_dec_server.h"
+
+1538119332 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_ly\ui_action_rec.c
+	"ui/includes.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"app_database.h"
+	"server/audio_server.h"
+	"server/video_dec_server.h"
+	"asm/lcd_config.h"
+	"res.h"
+
+1538128080 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_ly\ui_action_sys.c
+	"ui/includes.h"
+	"system/includes.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"storage_device.h"
+	"res.h"
+	"app_database.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\style_ly\ui_action_usb.c
+	"ui/includes.h"
+	"ui/ui_battery.h"
+	"system/includes.h"
+	"server/ui_server.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\ui\ui_action_animation.c
+	"ui/includes.h"
+	"server/ui_server.h"
+	"fs.h"
+	"server/audio_server.h"
+	"server/video_dec_server.h"
+	"ani_style.h"
+	"app_config.h"
+
+1532053084 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\upgrade.c
+	"system/includes.h"
+	"app_config.h"
+	"server/ui_server.h"
+	"storage_device.h"
+	"upgrade/upgrade_detect.h"
+	"upgrade_style.h"
+	"action.h"
+	"ui/ui_slider.h"
+	"gSensor_manage.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\upgrade\upgrade_detect.h
+	"fs/fs.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\upgrade_style.h
+
+1517474627 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\usb_app.c
+	"system/includes.h"
+	"server/usb_server.h"
+	"app_config.h"
+	"action.h"
+	"server/ui_server.h"
+	"ui_ctr_def.h"
+	"style.h"
+	"storage_device.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\usb_server.h
+	"server/server_core.h"
+	"system/includes.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\ui_ctr_def.h
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\usb_app_cfg.c
+	"system/includes.h"
+	"server/usb_server.h"
+	"app_config.h"
+	"action.h"
+
+1527766021 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\user_isp_cfg.c
+	"server/video_server.h"
+	"user_isp_cfg.h"
+	"video_rec.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\user_isp_cfg.h
+	"server/server_core.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\user_scr_cfg.c
+	"device/device.h"
+	"asm/imd.h"
+	"user_isp_cfg.h"
+	"app_config.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\user_scr_tool.c
+	"system/includes.h"
+	"server/video_server.h"
+	"user_isp_cfg.h"
+	"user_scr_tool.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\user_scr_tool.h
+	"system/includes.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\version.c
+	"system/includes.h"
+	"generic/log.h"
+
+1536560352 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_dec.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"server/video_server.h"
+	"server/video_dec_server.h"
+	"video_dec.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+
+1525864821 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_dec_cfg.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"server/video_server.h"
+	"server/video_dec_server.h"
+	"video_dec.h"
+	"action.h"
+	"style.h"
+	"ui_ctr_def.h"
+	"app_config.h"
+	"storage_device.h"
+
+1532507738 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_photo.c
+	"system/includes.h"
+	"server/video_server.h"
+	"server/video_dec_server.h"
+	"server/ui_server.h"
+	"ui_ctr_def.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+	"storage_device.h"
+	"video_photo.h"
+	"video_system.h"
+	"vrec_osd.h"
+	"user_isp_cfg.h"
+	"key_voice.h"
+	"app_database.h"
+	"asm/lcd_config.h"
+	"video_rec.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\video_photo.h
+	"system/includes.h"
+	"server/video_server.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\vrec_osd.h
+	"system/includes.h"
+
+1517278211 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\include\key_voice.h
+
+1527308278 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_photo_cfg.c
+	"system/includes.h"
+	"server/video_server.h"
+	"server/ui_server.h"
+	"ui_ctr_def.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+	"video_photo.h"
+	"video_system.h"
+	"user_isp_cfg.h"
+	"app_database.h"
+
+1538119461 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_rec.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"server/video_server.h"
+	"server/video_engine_server.h"
+	"ui_ctr_def.h"
+	"video_rec.h"
+	"video_system.h"
+	"gSensor_manage.h"
+	"user_isp_cfg.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+	"asm/debug.h"
+	"vrec_osd.h"
+	"power_ctrl.h"
+	"app_database.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\server\video_engine_server.h
+	"typedef.h"
+	"list.h"
+
+1532507082 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_rec_cfg.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"server/video_server.h"
+	"server/video_engine_server.h"
+	"ui_ctr_def.h"
+	"video_rec.h"
+	"video_system.h"
+	"gSensor_manage.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+	"asm/debug.h"
+	"vrec_osd.h"
+	"app_database.h"
+	"res.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_system.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"video_system.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+
+1525864910 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\car_camera\video_system_cfg.c
+	"system/includes.h"
+	"server/ui_server.h"
+	"video_system.h"
+	"ui/res/resfile.h"
+	"res.h"
+	"action.h"
+	"style.h"
+	"app_config.h"
+	"storage_device.h"
+	"power_ctrl.h"
+	"key_voice.h"
+	"app_database.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\debug.c
+	"app_config.h"
+	"typedef.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\flash_write_protect.c
+	"system/includes.h"
+	"generic/log.h"
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\fontinit.c
+	"font/font_all.h"
+	"font/language_list.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\ui\font\language_list.h
+
+1517278211 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\app\sd_speed_test.c
+	"system/includes.h"
+	"app_config.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"asm/isp_alg.h"
+	"ar0330_mipi.h"
+
+1522807240 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\isp_alg.h
+	"typedef.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi.h
+	"typedef.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_ae.c
+	"ar0330_mipi_ae.h"
+	"ar0330_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_awb.c
+	"asm/isp_alg.h"
+	"ar0330_mipi_awb.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_iq.c
+	"asm/isp_alg.h"
+	"ar0330_mipi_iq.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\ar0330_mipi\ar0330_mipi_iq.h
+
+1530074313 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\av10\av10.c
+	"av10.h"
+	"device/av10_spi.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\av10\av10.h
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"generic/jiffies.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\av10_spi.h
+	"asm/isp_dev.h"
+	"gpio.h"
+	"typedef.h"
+	"device/device.h"
+	"generic/ioctl.h"
+	"system/task.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\av10\av10_spi.c
+	"device/av10_spi.h"
+
+1529566110 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"bg0806_mipi.h"
+	"asm/isp_alg.h"
+
+1532946941 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi.h
+	"typedef.h"
+	"asm/isp_dev.h"
+
+1527732270 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_ae.c
+	"bg0806_mipi_ae.h"
+	"bg0806_mipi.h"
+	"asm/isp_alg.h"
+
+1500461831 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_ae.h
+	"typedef.h"
+
+1507946394 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_awb.c
+	"asm/isp_alg.h"
+	"bg0806_mipi_awb.h"
+
+1496661787 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_awb.h
+	"asm/isp_alg.h"
+
+1496799172 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_iq.c
+	"asm/isp_alg.h"
+	"bg0806_mipi_iq.h"
+
+1494814755 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\bg0806_mipi\bg0806_mipi_iq.h
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"c2392_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi.h
+	"typedef.h"
+	"asm/isp_dev.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_ae.c
+	"c2392_mipi_ae.h"
+	"c2392_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_awb.c
+	"asm/isp_alg.h"
+	"c2392_mipi_awb.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_iq.c
+	"asm/isp_alg.h"
+	"c2392_mipi_iq.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\c2392_mipi\c2392_mipi_iq.h
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"gc1004.h"
+	"asm/isp_alg.h"
+
+1517278212 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004.h
+	"typedef.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_ae.c
+	"gc1004_ae.h"
+	"gc1004.h"
+	"asm/isp_alg.h"
+
+1517278212 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_ae.h
+	"typedef.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_awb.c
+	"asm/isp_alg.h"
+	"gc1004_awb.h"
+
+1517278212 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_awb.h
+	"asm/isp_alg.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_iq.c
+	"asm/isp_alg.h"
+	"gc1004_iq.h"
+
+1517278212 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc1004\gc1004_iq.h
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"gc2023_mipi.h"
+	"asm/isp_alg.h"
+
+1517278212 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi.h
+	"typedef.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_ae.c
+	"gc2023_mipi_ae.h"
+	"gc2023_mipi.h"
+	"asm/isp_alg.h"
+
+1517278212 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_ae.h
+	"typedef.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_awb.c
+	"asm/isp_alg.h"
+	"gc2023_mipi_awb.h"
+
+1517278212 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_iq.c
+	"asm/isp_alg.h"
+	"gc2023_mipi_iq.h"
+
+1517278212 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gc2023_mipi\gc2023_mipi_iq.h
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gm7150\gm7150.c
+	"gm7150.h"
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"generic/jiffies.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\gm7150\gm7150.h
+	"cpu.h"
+	"typedef.h"
+	"asm/isp_dev.h"
+	"asm/iic.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"h42.h"
+	"asm/isp_alg.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42.h
+	"typedef.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_ae.c
+	"h42_ae.h"
+	"h42.h"
+	"asm/isp_alg.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_ae.h
+	"typedef.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_awb.c
+	"h42_awb.h"
+	"asm/isp_alg.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_iq.c
+	"h42_iq.h"
+	"asm/isp_alg.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\h42\h42_iq.h
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"hm2131_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi.h
+	"typedef.h"
+	"asm/isp_dev.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_ae.c
+	"hm2131_mipi_ae.h"
+	"hm2131_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_awb.c
+	"asm/isp_alg.h"
+	"hm2131_mipi_awb.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_iq.c
+	"asm/isp_alg.h"
+	"hm2131_mipi_iq.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\hm2131_mipi\hm2131_mipi_iq.h
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"imx179_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi.h
+	"typedef.h"
+	"asm/isp_dev.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_ae.c
+	"imx179_mipi_ae.h"
+	"imx179_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_awb.c
+	"asm/isp_alg.h"
+	"imx179_mipi_awb.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_iq.c
+	"asm/isp_alg.h"
+	"imx179_mipi_iq.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\imx179_mipi\imx179_mipi_iq.h
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\nvp6112\nvp6112.c
+	"nvp6112.h"
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"generic/jiffies.h"
+	"timer.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\nvp6112\nvp6112.h
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"sc2143_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi.h
+	"typedef.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_ae.c
+	"sc2143_mipi_ae.h"
+	"sc2143_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_awb.c
+	"asm/isp_alg.h"
+	"sc2143_mipi_awb.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_iq.c
+	"asm/isp_alg.h"
+	"sc2143_mipi_iq.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc2143_mipi\sc2143_mipi_iq.h
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"sc3033_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi.h
+	"typedef.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_ae.c
+	"sc3033_mipi_ae.h"
+	"sc3033_mipi.h"
+	"asm/isp_alg.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_ae.h
+	"typedef.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_awb.c
+	"asm/isp_alg.h"
+	"sc3033_mipi_awb.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_awb.h
+	"asm/isp_alg.h"
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_iq.c
+	"asm/isp_alg.h"
+	"sc3033_mipi_iq.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\sc3033_mipi\sc3033_mipi_iq.h
+
+1517278213 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\xc7011_dvp\xc7011.c
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"gpio.h"
+	"xc7011.h"
+
+1517278213 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\camera\xc7011_dvp\xc7011.h
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\adc.c
+	"asm/cpu.h"
+	"asm/adc.h"
+	"system/init.h"
+	"system/timer.h"
+
+1525865498 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\adkey.c
+	"asm/adkey.h"
+	"asm/adc.h"
+	"generic/gpio.h"
+	"device/key_driver.h"
+	"device/device.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\board\board_mipi_20170330.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"device/av10_spi.h"
+	"power_ctrl.h"
+	"touch_panel_manager.h"
+
+1517476137 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\board\board_mipi_develop_board.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"device/av10_spi.h"
+	"power_ctrl.h"
+	"vm_api.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\device\vm_api.h
+	"vm.h"
+	"device/device.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\board\board_mipi_touch_20170419.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"device/av10_spi.h"
+	"power_ctrl.h"
+	"touch_panel_manager.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\board\board_mipi_touch_v1.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"device/av10_spi.h"
+	"power_ctrl.h"
+	"touch_panel_manager.h"
+	"vm_api.h"
+
+1543978572 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\board\board_mipi_v3.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"device/av10_spi.h"
+	"power_ctrl.h"
+	"vm_api.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\debug.c
+	"asm/cpu.h"
+	"asm/debug.h"
+	"os/os_cpu.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_480x272.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_480x272_8bits.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_avout.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"asm/avo_cfg.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\avo_cfg.h
+	"generic/typedef.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_hx8369a_mcu.c
+	"generic/typedef.h"
+	"asm/imb_driver.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"os/os_api.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_hx8369a_spi_rgb.c
+	"generic/typedef.h"
+	"asm/imb_driver.h"
+	"asm/imd.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1527574704 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_ili8960.c
+	"asm/cpu.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_ili9806.c
+	"asm/cpu.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_lq026b3ux01.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_lx50fwb4001_v2.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_lyws030gq.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1527085214 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_st9341.c
+	"asm/cpu.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\dvp_lcd_driver\lcd_t15p00.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\iokey.c
+	"key_driver.h"
+	"iokey.h"
+	"gpio.h"
+	"system/event.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\ldo.c
+	"asm/includes.h"
+	"asm/sysinfo.h"
+	"asm/ldo.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\sysinfo.h
+	"typedef.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\ldo.h
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_dcs_1lane_16bit.c
+	"generic/typedef.h"
+	"asm/cpu.h"
+	"asm/dsi.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278214 c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\include_lib\system\cpu\ac54xx\asm\dsi.h
+	"generic/typedef.h"
+	"asm/imd.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_dcs_1lane_24bit.c
+	"generic/typedef.h"
+	"asm/cpu.h"
+	"asm/dsi.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_vdo_2lane_24bit.c
+	"generic/typedef.h"
+	"asm/cpu.h"
+	"asm/dsi.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_vdo_4lane_1080p.c
+	"generic/typedef.h"
+	"asm/cpu.h"
+	"asm/dsi.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_vdo_4lane_720p.c
+	"generic/typedef.h"
+	"asm/cpu.h"
+	"asm/dsi.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\dsi_vdo_4lane_720p_rm68200ga1.c
+	"generic/typedef.h"
+	"asm/dsi.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\mipi_lcd_driver\mipi_lcd_1280x480.c
+	"generic/typedef.h"
+	"asm/dsi.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\powerdet.c
+	"system/includes.h"
+	"asm/adc.h"
+	"asm/rtc.h"
+	"asm/powerdet.h"
+	"generic/gpio.h"
+	"device/device.h"
+	"device/key_driver.h"
+	"timer.h"
+	"app_config.h"
+
+1517278400 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\setup.c
+	"asm/includes.h"
+	"asm/sysinfo.h"
+	"asm/ldo.h"
+	"system/task.h"
+	"app_config.h"
+	"power_check_onetime.h"
+
+1517278212 source:c:\users\administrator\desktop\ac54xx_sdk_v0.5beta_usb_0.5_12_双录_左三右四_c5_4j\cpu\ac54xx\static_memory_alloc.c
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+

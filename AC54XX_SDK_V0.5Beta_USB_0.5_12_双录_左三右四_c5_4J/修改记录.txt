@@ -1,0 +1,85 @@
+2018.05.28
+	1.修改水印位置
+2018.06.21
+	1.增加初始化参数标志
+	2.修改循环录像关闭的情况下，30分钟一段视频，卡满就停止录像
+	3.修改录像视频为30帧	
+2018.07.18
+	1.修改屏参数为444模式，为了红色数字显示更好看一些，只支持小屏
+	2，调整所有菜单文字大小，为了显示完整性
+	3.修改拍照模式下，前照灯提示为中文，改为“滴”
+	4，修改按键声音菜单，能看到背景画面
+	5.修改图像质量菜单，能看到背景画面
+2018.07.25  v0.7
+	1.修改默认RTC时间为2018.01.01	
+		set_rtc_default_time
+	2.修改升级提示为英文
+	3.拍照增加车牌水印，需要替换cpu.a库文件	
+2018.08.06
+	1.替换增加车牌水印的CPU.A,7.25的库有问题
+	2.修改提示格式化时，录像不了问题	
+2018.08.13
+	1.V2.1.0.9-A 修改翻译
+2018.09.11
+	1.修改停车监管默认为低
+	2.修改显示系统时间由获取RTC时间，不能UI自带的计数，这个不准
+		a.ui_action_rec.c 里增加
+			static void show_sys_time(void *arg)
+			{
+				struct sys_time sys_time;
+				get_sys_time(&sys_time);
+				ui_time_update_by_id(TIMER_HOUR_REC, &sys_time);	
+			}
+		b. no_power_msg_box_timer 函数里增加
+			show_sys_time(0);
+		c.ui_action_photo.c 里增加	
+			static void photo_show_sys_time(void *arg)
+			{
+				struct sys_time sys_time;
+				get_sys_time(&sys_time);
+				ui_time_update_by_id(TIMER_HOUR_TPH, &sys_time);	
+			}
+		d.	no_power_msg_box_timer 里增加
+			photo_show_sys_time(0);
+		e. UI工具里，时分秒的自动计数改为NO
+			
+	3.修改停车监控开机后，不管是否有车充供电，录像30秒后自动关机
+		a. board 里增加 
+			unsigned char acc_is_charging()
+			{
+				static unsigned char init = 0;
+				if (!init){
+					init = 1;
+					gpio_direction_input(ACC_WKUP_IO);
+					gpio_set_pull_up(ACC_WKUP_IO, 0);
+					gpio_set_pull_down(ACC_WKUP_IO, 0);
+					gpio_set_die(ACC_WKUP_IO, 1);
+					delay(10);
+				}
+			
+				return (gpio_read(ACC_WKUP_IO));//no usb charing == false
+			}	
+		b.board.h 里增加说明
+		    extern unsigned char acc_is_charging();	
+		    
+		a. vide_rec.c里 video_rec_park_call_back 下
+			static void video_rec_park_call_back(void *priv)
+			{
+			    if (__this->state == VIDREC_STA_START) {
+			        video_rec_control(0);
+			        if (usb_is_charging() && (__this->state == VIDREC_STA_STOP)) {
+						if(acc_is_charging())   //add by peng  有acc的情况下，不关机
+						{
+							video_rec_control(0);
+						}
+						else
+						{
+							send_key_long_msg();
+						}
+			            
+			        } else {
+			            puts("\n park rec off power close\n");
+			            send_key_long_msg();
+			        }
+			    }
+			}	

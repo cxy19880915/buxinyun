@@ -1,0 +1,311 @@
+ResID;Chinese_Simple;Chinese_Traditional;Japanese;Korean;English;French;German;Italian;Dutch;Portuguese;Spanish;Swedish;Czech;Danish;Polish;Russian;Turkey;Hebrew;Thai;Hungarian;Romanian;Arabic
+m1;目录播放;目录播放;カタログ放送;목록 순환;Directory play;Table des matières sur;目录播放;目录播放;目录播放;Reprodução de diretório;目录播放;目录播放;目录播放;目录播放;目录播放;Воспроизведение из директории;目录播放;目录播放;目录播放;目录播放;目录播放;目录播放
+m2;随机播放;随机播放;ランダムに放送;무작위 로 방영;random play;Diffusées au hasard;随机播放;随机播放;随机播放;Reprodução aleatória;随机播放;随机播放;随机播放;随机播放;随机播放;Случайное воспроизведение;随机播放;随机播放;随机播放;随机播放;随机播放;随机播放
+m3;录音模式;录音模式;録音モード;녹음 모델;Audio record mode;Modèle ou en cliquant sur “ programme quotidien;录音模式;录音模式;录音模式;Modo de gravação;录音模式;录音模式;录音模式;录音模式;录音模式;Режим записи аудио ;录音模式;录音模式;录音模式;录音模式;录音模式;录音模式
+m4;分辨率;解析度;解像度;해상도;Resolution;résolution;Auflösung;Dimens.limmagine;分辨率;Resolução;Resolución;分辨率;分辨率;分辨率;分辨率;Разрешение ;分辨率;分辨率;分辨率;分辨率;分辨率;分辨率
+m5;循环录影;循環錄影;ループ録画;순환 기록;Cyclic Record;Donner le cycle;Loop-Aufnahme;Loop diregistrazione;循环录影;Ciclo de gravação;Grabación continua;循环录影;循环录影;循环录影;循环录影;Циклическая запись;循环录影;循环录影;循环录影;循环录影;循环录影;循环录影
+m6;曝光补偿;曝光;露出;노출;Exposure;Compensation pose;Belichtung;Esposizione;曝光补偿;A compensação de exposição;Exposición;曝光补偿;曝光补偿;曝光补偿;曝光补偿;Экспозиция ;曝光补偿;曝光补偿;曝光补偿;曝光补偿;曝光补偿;曝光补偿
+m7;运动检测;運動檢測;動き検出;움직임 감지;Motion Detection;Détection de mouvement;Bewegung Detect;Movement Detection;运动检测;De detecção de movimento;Detección de movimiento;运动检测;运动检测;运动检测;运动检测;Обнаружение движения;运动检测;运动检测;运动检测;运动检测;运动检测;运动检测
+m8;录影音频;錄影聲音;録画音声;오디오;Audio;Audio vidéo;Rekordaudio;Audio Record ;录影音频;A gravação de áudio;Audio de registro;录影音频;录影音频;录影音频;录影音频;Аудио;录影音频;录影音频;录影音频;录影音频;录影音频;录影音频
+m9;日期标签;日期記錄;録音の日付;날짜 표시;Date Stamp;Date d’étiquetage;Datumsanzeige;Stampa Data;日期标签;Data label;lmpresión Fecha;日期标签;日期标签;日期标签;日期标签;Отметка даты;日期标签;日期标签;日期标签;日期标签;日期标签;日期标签
+m10;视频;視頻;ビデオ;비디오;Video;vidéo;Video;Filmati;视频;Video;Video;视频;视频;视频;视频;Видео ;视频;视频;视频;视频;视频;视频
+m11;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD;1080FHD
+m12;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P
+m13;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P
+m14;WVGA 848x480;WVGA 848x481;WVGA 848x481;WVGA 848x483;WVGA 848x481;WVGA 848x481;WVGA 848x481;WVGA 848x481;WVGA 848x488;WVGA 848x489;WVGA 848x481;WVGA 848x491;WVGA 848x492;WVGA 848x493;WVGA 848x494;WVGA 848x481;WVGA 848x496;WVGA 848x497;WVGA 848x498;WVGA 848x499;WVGA 848x500;WVGA 848x501
+m15;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA
+m16;QVGA 320x240;QVGA 320x241;QVGA 320x241;QVGA 320x243;QVGA 320x241;QVGA 320x241;QVGA 320x241;QVGA 320x241;QVGA 320x248;QVGA 320x249;QVGA 320x241;QVGA 320x251;QVGA 320x252;QVGA 320x253;QVGA 320x254;QVGA 320x241;QVGA 320x256;QVGA 320x257;QVGA 320x258;QVGA 320x259;QVGA 320x260;QVGA 320x261
+m17;关;關;オフにし;오프;Off;Desactive;Aus;OFF;关;For a;Apagado;关;关;关;关;Выкл.;关;关;关;关;关;关
+m18;1分钟;1分鐘;1微小な;1 분;1 Minute;1 Mins;1 Min;1 Min;11分钟;1Min;1 Min;14分钟;15分钟;16分钟;17分钟;1 Min;19分钟;20分钟;21分钟;22分钟;23分钟;24分钟
+m19;2分钟;2分鐘;2微小な;2 분;2 Minutes;2 Mins;2 Min;2 Min;13分钟;2Min;2 Min;16分钟;17分钟;18分钟;19分钟;2 Min;21分钟;22分钟;23分钟;24分钟;25分钟;26分钟
+m20;3分钟;3分鐘;3微小な;3 분;3 Minutes;3 Mins;3 Min;3 Min;18分钟;3Min;3 Min;21分钟;22分钟;23分钟;24分钟;3 Min;26分钟;27分钟;28分钟;29分钟;30分钟;31分钟
+m21;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3
+m22;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2
+m23;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1
+m24;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+m25;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1
+m26;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2
+m27;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3
+m28;-1/3;-1/3;-1/3;-1/6;-1/3;-1/3;-1/3;-1/3;-1/11;-1/3;-1/3;-1/14;-1/15;-1/16;-1/17;-1/3;-1/19;-1/20;-1/21;-1/22;-1/23;-1/24
+m29;-2/3;-2/3;-2/3;-2/6;-2/3;-2/3;-2/3;-2/3;-2/11;-2/3;-2/3;-2/14;-2/15;-2/16;-2/17;-2/3;-2/19;-2/20;-2/21;-2/22;-2/23;-2/24
+m30;-1.0;-1.0;-1.0;-1.3;-1.0;-1.0;-1.0;-1.0;-1.8;-1.0;-1.0;-1.11;-1.12;-1.13;-1.14;-1.0;-1.16;-1.17;-1.18;-1.19;-1.20;-1.21
+m31;-4/3;-4/3;-4/3;-4/6;-4/3;-4/3;-4/3;-4/3;-4/11;-4/3;-4/3;-4/14;-4/15;-4/16;-4/17;-4/3;-4/19;-4/20;-4/21;-4/22;-4/23;-4/24
+m32;-5/3;-5/3;-5/3;-5/6;-5/3;-5/3;-5/3;-5/3;-5/11;-5/3;-5/3;-5/14;-5/15;-5/16;-5/17;-5/3;-5/19;-5/20;-5/21;-5/22;-5/23;-5/24
+m33;-2.0;-2.0;-2.0;-2.3;-2.0;-2.0;-2.0;-2.0;-2.8;-2.0;-2.0;-2.11;-2.12;-2.13;-2.14;-2.0;-2.16;-2.17;-2.18;-2.19;-2.20;-2.21
+m34;开;開;オープン;에;On;Active;Aus;On;开;Open;Encendido;开;开;开;开;Вкл.;开;开;开;开;开;开
+m35;关;關;オフにし;오프;Off;Desactive;An;OFF;关;For a;Apagado;关;关;关;关;Выкл.;关;关;关;关;关;关
+m36;拍照;拍照;静止画像;사진;Photograph;fixe;Standbild;Modalita Cattura;拍照;Fotos;inmóvil;拍照;拍照;拍照;拍照;Фото;拍照;拍照;拍照;拍照;拍照;拍照
+m37;拍摄方式;拍攝方式;撮影モード;캡처 모드;Capture Mode;CaptureMode;Aufnahme-modus;Dimens.lmmagine;拍摄方式;Modo de disparo;Modo grabación;拍摄方式;拍摄方式;拍摄方式;拍摄方式;Режим захвата ;拍摄方式;拍摄方式;拍摄方式;拍摄方式;拍摄方式;拍摄方式
+m38;分辨率;解析度;解像度;해상도;Resolution;Resolution;Auflösung;Resolution;分辨率;Resolução;Resolución;分辨率;分辨率;分辨率;分辨率;Разрешение ;分辨率;分辨率;分辨率;分辨率;分辨率;分辨率
+m39;连拍;連拍;連写;순서;Sequence;Sequence;Forsetzen;Continuate;连拍;Fotos;continuo;连拍;连拍;连拍;连拍;Последовательность ;连拍;连拍;连拍;连拍;连拍;连拍
+m40;图像质量;影響品質;画質;품질;Quality;Quality;Qualität;Qualita;图像质量;A qualidade de Imagem;Calidad;图像质量;图像质量;图像质量;图像质量;Качество ;图像质量;图像质量;图像质量;图像质量;图像质量;图像质量
+m41;锐度;銳利度;鋭さ;선명도;Sharpness;Sharpness;Schärfe;Nitidezza;锐度;A nitidez;Definición;锐度;锐度;锐度;锐度;Резкость ;锐度;锐度;锐度;锐度;锐度;锐度
+m42;白平衡;白平衡;ホワイトバランス;화이트 밸런스;White Balance;White Balance;Weissbalance;Bilanc.biance;白平衡;Balanço de Branco;Balance Blance;白平衡;白平衡;白平衡;白平衡;Баланс белого;白平衡;白平衡;白平衡;白平衡;白平衡;白平衡
+m43;色彩;色彩效果;カラー;색상;Color;Color;Farbe;Colore;色彩;A cor;Color;色彩;色彩;色彩;色彩;Цвет ;色彩;色彩;色彩;色彩;色彩;色彩
+m44;ISO;ISO;ISO;ISO;ISO;ISO;ISO;ISO;ISO;ISO;ISO;ISO;ISO;ISO;ISO;ISO;ISO;ISO;ISO;ISO;ISO;ISO
+m45;曝光补偿;曝光;露出;노출;Exposure;Exposition;Belichtung;Esposizione;曝光补偿;A compensação de exposição;Exposición;曝光补偿;曝光补偿;曝光补偿;曝光补偿;Экспозиция ;曝光补偿;曝光补偿;曝光补偿;曝光补偿;曝光补偿;曝光补偿
+m46;防手震;防手震;手ぶれ;안티 - 흔들어;Anti-shaking;Stabilisation;Stabilisierung;Stabilizzazione;防手震;Anti - shake;Estabilización;防手震;防手震;防手震;防手震;Защита от дрожания ;防手震;防手震;防手震;防手震;防手震;防手震
+m47;快速预览;快速檢視;クイックビュー;빠른 검토;Quick Review;Bilan Rapide;Schnelldurchlauf;Visualizz.Rapida;快速预览;Antevisão rápida;Revisión Rápida;快速预览;快速预览;快速预览;快速预览;Быстрый просмотр ;快速预览;快速预览;快速预览;快速预览;快速预览;快速预览
+m48;日期标签;日期記錄;日付表示;날짜 표시;Date Stamp;Marque Date;Datumsanzeige;Stampa Data;日期标签;Data label;lmpresión Fecha;日期标签;日期标签;日期标签;日期标签;Отметка даты;日期标签;日期标签;日期标签;日期标签;日期标签;日期标签
+m49;补光灯;補光燈;補助光;빛을 채우기;Fill light;补光灯;blinken;补光灯;补光灯;Lâmpada de Luz;补光灯;补光灯;补光灯;补光灯;补光灯;Заполняющий свет ;补光灯;补光灯;补光灯;补光灯;补光灯;补光灯
+m50;电视制式;電視制式;テレビ出力;TV 모드;TV Mode;TV Mode;TV-System;TV Mode;TV Mode;Sistema de TV ;TV Mode;TV Mode;TV Mode;TV Mode;TV Mode;Режим ТВ;TV Mode;TV Mode;TV Mode;TV Mode;TV Mode;TV Mode
+m51;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL
+m52;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC
+m53;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3027;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3032;12M 4032x3033;12M 4032x3024;12M 4032x3035;12M 4032x3036;12M 4032x3037;12M 4032x3038;12M 4032x3024;12M 4032x3040;12M 4032x3041;12M 4032x3042;12M 4032x3043;12M 4032x3044;12M 4032x3045
+m54;10M 3648x2738;10M 3648x2738;10M 3648x2738;10M 3648x2741;10M 3648x2738;10M 3648x2738;10M 3648x2738;10M 3648x2738;10M 3648x2746;10M 3648x2747;10M 3648x2738;10M 3648x2749;10M 3648x2750;10M 3648x2751;10M 3648x2752;10M 3648x2738;10M 3648x2754;10M 3648x2755;10M 3648x2756;10M 3648x2757;10M 3648x2758;10M 3648x2759
+m55;8M;8M;8M;8M;8M;8M;8M;8M;8M;8M;8M;8M;8M;8M;8M;8M;8M;8M;8M;8M;8M;8M
+m56;5M ;5M ;5M ;5M ;5M ;5M ;5M ;5M ;5M ;5M ;5M ;5M ;5M ;5M ;5M ;5M ;5M ;5M ;5M ;5M ;5M ;5M 
+m57;3M;3M;3M;3M;3M;3M;3M;3M;3M;3M;3M;3M;3M;3M;3M;3M;3M;3M;3M;3M;3M;3M
+m58;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M
+m59;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480
+m60;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960
+m61;优质;較佳;望ましい;파인;Fine;Forte;Fein;Forte;优质;Qualidade;Alta;优质;优质;优质;优质;Отличное качество;优质;优质;优质;优质;优质;优质
+m62;标准;一般;一般;일반;Normal;Normale;Normal;Normale;标准;Padrão;Normal;标准;标准;标准;标准;Нормальное качество ;标准;标准;标准;标准;标准;标准
+m63;经济;經濟;経済;경제;Economy;économie;Sparsam;Economia;经济;Económica;Económ;经济;经济;经济;经济;Экономия;经济;经济;经济;经济;经济;经济
+m64;强烈;強烈;ストロング;강한;Strong;Forte;Stark;forte;强烈;Forte;Alta;强烈;强烈;强烈;强烈;Мощность ;强烈;强烈;强烈;强烈;强烈;强烈
+m65;标准;一般;一般;일반;Normal;Normale;Normal;Normale;标准;Padrão;Normal;标准;标准;标准;标准;Норма ;标准;标准;标准;标准;标准;标准
+m66;柔和;柔和;ソフト;소프트;Soft;Douce;Weich;Leggera;柔和;Macio;Baja;柔和;柔和;柔和;柔和;Мягкие края ;柔和;柔和;柔和;柔和;柔和;柔和
+m67;自动;自動;自動;자동;Auto;Auto;Auto;Automatico;自动;Automático;Auto;自动;自动;自动;自动;Авто ;自动;自动;自动;自动;自动;自动
+m68;日光;日光;デイライト;일광;Daylight;Ensoleille;Sonig;Luce Diurna;日光;Dia;Sol;日光;日光;日光;日光;Дневной свет;日光;日光;日光;日光;日光;日光
+m69;阴天;陰天;曇りの日;구름;Cloudy;Nuageux;Wolkig;Nuvoloso;阴天;Nublado;Nubes;阴天;阴天;阴天;阴天;Облачно ;阴天;阴天;阴天;阴天;阴天;阴天
+m70;钨丝灯;燈泡;電球;텅스텐;Tungsten;Tungstene;Kunstlicht;Tungsteno;钨丝灯;Tungstênio;Tungsteno;钨丝灯;钨丝灯;钨丝灯;钨丝灯;Лампа накаливания ;钨丝灯;钨丝灯;钨丝灯;钨丝灯;钨丝灯;钨丝灯
+m71;荧光灯;日光燈;蛍光灯;형광;Fluorescent;Fluor;Neonlicht;Fluorescente;荧光灯;Lâmpada ;Fluoro;荧光灯;荧光灯;荧光灯;荧光灯;Лампа дневного света;荧光灯;荧光灯;荧光灯;荧光灯;荧光灯;荧光灯
+m72;无特效;無特效;は影響はありません;무 특효;Normal;Aucun effet;keine Effekte;Nessun effetto;geen effecten;Nenhuns efeitos;No hay efectos;Inga effekter;Žádné účinky;无特效;Brak efektów;Норма ;无特效;无特效;ไม่มีผลกระทบ;无特效;无特效;无特效
+m73;黑白;黑白;白黒;흑백;Black and White;noir et blanc;Schwarz und Weiß;bianco e nero;zwart en wit;preto e branco;en blanco y negro;svart och vitt;Černá a bílá;黑白;czarny i biały;Черно-белый ;黑白;黑白;สีดำและสีขาว;黑白;黑白;黑白
+m74;怀旧;懷舊;回想;노 스 탤 지어;Sepia;réminiscence;Reminiszenz;reminiscenza;herinnering;reminiscência;reminiscencia;Tankar;reminiscence;怀旧;wspomnienie;Сепия ;怀旧;怀旧;ความทรงจำ;怀旧;怀旧;怀旧
+m75;负片;負片;負;원판;Negative ;négatif;negativ;negativo;negatief;negativo;negativo;negativ;negativní;负片;negatywny;Негатив;负片;负片;เชิงลบ;负片;负片;负片
+m76;曝晒;暴晒;暴露;기온 이 올 라;Solarization;exposition;Belichtung;Solarizzazione;belichting;exposição;exposición;exponering;expozice;曝晒;ekspozycja;Соляризация;曝晒;曝晒;การเปิดเผย;曝晒;曝晒;曝晒
+m77;200;200;200;200;200;200;200;200;208;200;200;211;212;213;214;200;216;217;218;219;220;221
+m78;400;400;400;400;400;400;400;400;408;400;400;411;412;413;414;400;416;417;418;419;420;421
+m79;2秒;2秒;2秒;이초;2 seconds;2 Seconds;2 seconds;2 secondi;10秒;2s;2 S;13秒;14秒;15秒;16秒;2 S;18秒;19秒;20秒;21秒;22秒;23秒
+m80;5秒;5秒;5秒;오초;5 seconds;5 Seconds;5 seconds;5 secondi;13秒;5s;5 S;16秒;17秒;18秒;19秒;5 S;21秒;22秒;23秒;24秒;25秒;26秒
+m81;日期;日期;日付;날짜;Date;Date;Date;Date;日期;Data;Fecha;日期;日期;日期;日期;Дата;日期;日期;日期;日期;日期;日期
+m82;日期/时间;日期/時間;日付/時刻;날짜 / 시간;Date/Time;Date/Heure;Datum/Uhrzeit;Date/Ora;日期/时间;Data/hora;Fecha/Hora;日期/时间;日期/时间;日期/时间;日期/时间;Дата/Время;日期/时间;日期/时间;日期/时间;日期/时间;日期/时间;日期/时间
+m83;回放;播放;放送;방송;Broadcast;delecture;Wiedergabe;Riproduzione;回放;Reprodução;playback;回放;回放;回放;回放;Проиграть ;回放;回放;回放;回放;回放;回放
+m84;删除;删除;削去;삭제;Delete;Effacer;löschen;Elimina;删除;Excluir;Borrar;删除;删除;删除;删除;Удалить ;删除;删除;删除;删除;删除;删除
+m85;保护;保護;保護;보호;Protection;Protection;Schutz;Protezione;保护;Proteção;Proteger;保护;保护;保护;保护;Защита ;保护;保护;保护;保护;保护;保护
+m86;幻灯片播放;幻燈片;スライドショー;슬라이드 쇼;Slideshow;Diaporama;Diashow;Mostra Diapositive;幻灯片播放;Jogo de slides;Ver Diapositivas;幻灯片播放;幻灯片播放;幻灯片播放;幻灯片播放;Слайд-шоу ;幻灯片播放;幻灯片播放;幻灯片播放;幻灯片播放;幻灯片播放;幻灯片播放
+m87;删除当前;目前檔案;現在のファイル;현재 삭제 ?;Delete Current ?;Supprime ie courant;Löschungen z.Z.;Cancella la corrente;删除当前;Exclui a corrente;Suprime el actual;删除当前;删除当前;删除当前;删除当前;Удалить текущий?;删除当前;删除当前;删除当前;删除当前;删除当前;删除当前
+m88;全部删除;全部檔案;すべてのファイル;모두 삭제 ?;Delete All ?;Effacer tont;Alle löschen;Elimina tutto;全部删除;Excluir todos os;Borrar todo;全部删除;全部删除;全部删除;全部删除;Удалить все?;全部删除;全部删除;全部删除;全部删除;全部删除;全部删除
+m89;加锁当前;保護目前檔案;カレントファイルの保護;잠금 현재;Lock One;Verouillz ie courant;Eins Schutz.;Blocchi la corrente;加锁当前;Corrente do fechamento;Trabe el actual;加锁当前;加锁当前;加锁当前;加锁当前;Заблокировать один;加锁当前;加锁当前;加锁当前;加锁当前;加锁当前;加锁当前
+m90;解锁当前;解除保護目前檔案;現在のファイルの保護を解除;현재 의 잠금을 해제;Ulock One;Ouverzle courant;Eins öffnen;Sblocchi la corrente;解锁当前;Desbloquear a corrente;Abra el actual;解锁当前;解锁当前;解锁当前;解锁当前;Разблокировать один ;解锁当前;解锁当前;解锁当前;解锁当前;解锁当前;解锁当前
+m91;全部加锁;保護所有檔案;すべてのファイルを保護;모든 잠금;Lock All;Verouiller Tout;Alle Schutz.;Blocca tuto;全部加锁;Bloquear todos;Blog.Todo;全部加锁;全部加锁;全部加锁;全部加锁;Заблокировать все ;全部加锁;全部加锁;全部加锁;全部加锁;全部加锁;全部加锁
+m92;解锁全部;解除保護所有檔案;すべてのファイルの保護を解除する;모든 잠금을 해제;Ulock All;Déverrouiller Tout;Alle öffnen;Sblocca tutto;解锁全部;Desbloquear todos os;Desblog.Todo;解锁全部;解锁全部;解锁全部;解锁全部;Разблокировать все ;解锁全部;解锁全部;解锁全部;解锁全部;解锁全部;解锁全部
+m93;2秒;2秒;2S;2 초;2 Seconds;2 Seconds;2 Sek;2 secondi;10秒;2s;2 S;13秒;14秒;15秒;16秒;2 секунды ;18秒;19秒;20秒;21秒;22秒;23秒
+m94;5秒;5秒;5S;5 초;5 Seconds;5 Seconds;5 Sek;5 secondi;13秒;5s;5 S;16秒;17秒;18秒;19秒;5 секунд ;21秒;22秒;23秒;24秒;25秒;26秒
+m95;8秒;8秒;8S;8 초;8 Seconds;8 Seconds;8 Sek;8 Secondi;16秒;8s;8 S;19秒;20秒;21秒;22秒;8 секунд ;24秒;25秒;26秒;27秒;28秒;29秒
+m96;设置;设置;セット;설치;Setup;Reglages;Einstellungen;lmpostazioni;设置;Configurar;Configuración;设置;设置;设置;设置;Установка ;设置;设置;设置;设置;设置;设置
+m97;日期/时间;日期/時間;日付/時刻;날짜 / 시간;Date/Time;Date/Heure;Datum/Uhrzeit;Date/Ora;日期/时间;Data/hora;Fecha/Hora;日期/时间;日期/时间;日期/时间;日期/时间;Дата/Время ;日期/时间;日期/时间;日期/时间;日期/时间;日期/时间;日期/时间
+m98;自动关机;自動關機;自動遮断;자동 전원 차단;Auto Power Off;Arret Auto;Auto Aus;Spegnim.aut.;自动关机;Desligamento automático;Desconexión Automático;自动关机;自动关机;自动关机;自动关机;Автоматическое отключение ;自动关机;自动关机;自动关机;自动关机;自动关机;自动关机
+m99;按键声音;提示音;電子音;키 소리;Beep Sound;Bip Sonore;Akustisches Signal;Segnale acust.;按键声音;Som-chave;Sonido Bip;按键声音;按键声音;按键声音;按键声音;Звуковой сигнал;按键声音;按键声音;按键声音;按键声音;按键声音;按键声音
+m100;语言设置;語系;言語;언어;Language;langues;Sprache;lingua;语言设置;Configurações de idioma;ldioma;语言设置;语言设置;语言设置;语言设置;Язык ;语言设置;语言设置;语言设置;语言设置;语言设置;语言设置
+m101;TV模式;電視輸出;テレビ出力;TV 모드;TV Mode;Mode de TV;TV-Modus;Modo della TV;TV模式;Modo de TV;Modo de la TV;TV模式;TV模式;TV模式;TV模式;Режим ТВ;TV模式;TV模式;TV模式;TV模式;TV模式;TV模式
+m102;光源频率;頻率;周波数;주파수;Frequency;fréquence;Frequenz;Frequenza;光源频率;Freqüência;Frecuencia;光源频率;光源频率;光源频率;光源频率;Частота ;光源频率;光源频率;光源频率;光源频率;光源频率;光源频率
+m103;红外灯设定;紅外燈設定;赤外光の設定;빨간색 램프 설정;RedLamp setting;Arrangement de lampe;Het plaatsen van de lamp;Regolazione della lampada;红外灯设定;Lâmpada infravermelha;Ajuste de la lámpara;红外灯设定;红外灯设定;红外灯设定;红外灯设定;Настройка красной лампы;红外灯设定;红外灯设定;红外灯设定;红外灯设定;红外灯设定;红外灯设定
+m104;影像旋转;影像旋轉;画像回転;회전;Rotate;Rotation de l'image;Bilddrehung;Rotazione immagine;影像旋转;Rotativa;Rotación de imagen;影像旋转;影像旋转;影像旋转;影像旋转;Поворот ;影像旋转;影像旋转;影像旋转;影像旋转;影像旋转;影像旋转
+m105;屏幕保护;屏幕保護;液晶の明るさ;의 밝기;LCD Brightness;LCD Brightness;LCD Helligkeit;luminosita LCD;屏幕保护;Protetor de tela;Luminosidad LCD;屏幕保护;屏幕保护;屏幕保护;屏幕保护;Яркость LCD;屏幕保护;屏幕保护;屏幕保护;屏幕保护;屏幕保护;屏幕保护
+m106;重力感应;重力感應;重力センサ;중력 감지;Gravity sensing;sensibilité Accélérométre;Schwerkraft-Sensor;Accelerometro sensibilita;重力感应;Sensor de gravidade;Acelerómeto sensibilidad;重力感应;重力感应;重力感应;重力感应;Акселерометр;重力感应;重力感应;重力感应;重力感应;重力感应;重力感应
+m107;设置;設定;セットアップする;설정;Setting;Réglage;Blenden-Einst.;lmpostazione;设置;Configurar;Ajuste;设置;设置;设置;设置;Настройка  ;设置;设置;设置;设置;设置;设置
+m108;格式化;格式化;フォーマット;형식;Format;Format;formatieren;Formattazione;格式化;Formatação;Formato;格式化;格式化;格式化;格式化;Формат ;格式化;格式化;格式化;格式化;格式化;格式化
+m109;默认设置;預設值;デフォルト;기본 설정;Default Setting;Regl Defaut;Standard Einstell;lmpost.predef;默认设置;Configurações padrão;configuración por defecto;默认设置;默认设置;默认设置;默认设置;Настройки по умолчанию;默认设置;默认设置;默认设置;默认设置;默认设置;默认设置
+m110;版本;版本;バージョン;버전;Version;Version;Freisetzung;Versione;版本;Versão;Versión;版本;版本;版本;版本;Версия ;版本;版本;版本;版本;版本;版本
+m111;关;關;オフにし;오프;Off;Desactive;Aus;OFF;关;For a;Apagado;关;关;关;关;Выкл.;关;关;关;关;关;关
+m112;1分钟;1分钟;1分;1 분;1 Minute;1 Min;1 Min;1 Min;9分钟;1 Min;1 Min;12分钟;13分钟;14分钟;15分钟;1 Min;17分钟;18分钟;19分钟;20分钟;21分钟;22分钟
+m113;3分钟;3分钟;3分;3 분;3 Minutes;3 Mins;3 Min;3 Min;11分钟;3 Min;3 Min;14分钟;15分钟;16分钟;17分钟;3 Min;19分钟;20分钟;21分钟;22分钟;23分钟;24分钟
+m114;日本语;日本语;日本语;日本语;日本语;日本语;日本语;日本语;日本语;日本语;日本语;日本语;日本语;日本语;日本语;Японский;日本语;日本语;日本语;日本语;日本语;日本语
+m115;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;Русский;русский;русский;русский;русский;русский;русский
+m116;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文;繁体中文
+m117;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文;简体中文
+m118;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano;Italiano
+m119;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch;Deutsch
+m120;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol;Espanol
+m121;français;français;français;français;français;français;français;français;français;français;français;français;français;français;français;français;français;français;français;français;français;français
+m122;English;English;English;English;English;English;English;English;English;English;English;English;English;English;English;English;English;English;English;English;English;English
+m123;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL;PAL
+m124;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC;NTSC
+m125;50Hz;50hz;50hz;50Hz;50Hz;50hz;50hz;50hz;58hz;50hz;50hz;61hz;62hz;63hz;64hz;50 HZ;66hz;67hz;68hz;69hz;70hz;71hz
+m126;60Hz;60hz;60hz;60Hz;60Hz;60hz;60hz;60hz;68hz;60hz;60hz;71hz;72hz;73hz;74hz;60 HZ;76hz;77hz;78hz;79hz;80hz;81hz
+m127;关;關;オフにし;오프;Off;Off;Aus;OFF;关;For a;Apagado;关;关;关;关;Выкл.;关;关;关;关;关;关
+m128;自动;自動;自動;자동;Auto;Auto;Auto;Automatico;自动;Automático;Encendido;自动;自动;自动;自动;Авто;自动;自动;自动;自动;自动;自动
+m129;3分钟;3分鐘;3微小な;3 분;3 Minute;3 Mins;3 Minute;3 Min;11分钟;3 Min;3 Min;14分钟;15分钟;16分钟;17分钟;3 Min;19分钟;20分钟;21分钟;22分钟;23分钟;24分钟
+m130;5分钟;5分鐘;5微小な;5 분;5 Minutes;5 Mins;5 Minute;5 Min;13分钟;5 Min;5 Min;16分钟;17分钟;18分钟;19分钟;5 Min;21分钟;22分钟;23分钟;24分钟;25分钟;26分钟
+m131;10分钟;10分鐘;10分;10 분;10 Minutes;10 Mins;10 Min;10 Min;18分钟;10 Min;10 Min;21分钟;22分钟;23分钟;24分钟;10 Min;26分钟;27分钟;28分钟;29分钟;30分钟;31分钟
+m132;高;高;高い;고;High;Supérieur;Hoch;Alta;高;Alta;Alta;高;高;高;高;Высокое ;高;高;高;高;高;高
+m133;中;中;で;중간;Medium;Moyen;Mittel;Media;中;Em;Media;中;中;中;中;Среднее ;中;中;中;中;中;中
+m134;低;低;低い;낮은;Low;Faible;Gering;Bassa;低;Baixo;Baja;低;低;低;低;Низкое;低;低;低;低;低;低
+m135;内存;內建記憶體;内部メモリー;내 사과 메모리;lnternal Memory;Memoire lnterne;Interner Speicher;Memoria lnterna;内存;Memória;Memoria lnterna;内存;内存;内存;内存;Внутренний накопитель;内存;内存;内存;内存;内存;内存
+m136;SD卡;記憶卡;SDカード;SD 카드;SD Card;Carte SD;SD Karte;Scheda SD;SD卡;Cartão SD;Tarjeta SD;SD卡;SD卡;SD卡;SD卡;SD-карта ;SD卡;SD卡;SD卡;SD卡;SD卡;SD卡
+m137;开始录像;开始录像;からビデオ;부터 비디오;Start the video;Vidéo à;开始录像;开始录像;开始录像;开始录像;开始录像;开始录像;开始录像;开始录像;开始录像;Начать запись;开始录像;开始录像;开始录像;开始录像;开始录像;开始录像
+m138;保存录像;保存录像;保存ビデオ;보존 비디오;Save the video;Vidéo de conservation;保存录像;保存录像;保存录像;保存录像;保存录像;保存录像;保存录像;保存录像;保存录像;Сохранить запись ;保存录像;保存录像;保存录像;保存录像;保存录像;保存录像
+m139;存储器;存儲器;マスストレージ;대용량 저장 장치;Mass Storage;mémoire;Speicher;Mass Storage;Mass Storage;Mass Storage;Mass Storage;Mass Storage;Mass Storage;Mass Storage;Mass Storage;Накопитель ;Mass Storage;Mass Storage;Mass Storage;Mass Storage;Mass Storage;Mass Storage
+m140;PC摄像;PC攝像;PCカメラ;카메라;PC Camera;PC vidéo;PC Fotoapparat;PC Camera;PC Camera;PC Camera;PC Camera;PC Camera;PC Camera;PC Camera;PC Camera;Камера РС;PC Camera;PC Camera;PC Camera;PC Camera;PC Camera;PC Camera
+m141;USB;USB;USB;USB;USB;USB;USB;USB;USB;USB;USB;USB;USB;USB;USB;USB;USB;USB;USB;USB;USB;USB
+m142;取消;取消;キャンセル;취소;cancel;supprimer;Abbrechen;Annullare;取消;Cancelar;Cancelar;取消;取消;取消;取消;Отмена ;取消;取消;取消;取消;取消;取消
+m143;确认;确认;確認してください;확인;ok;reconnaît;bestätigen;Conferma;确认;Confirmar;Confirmación;确认;确认;确认;确认;Ок ;确认;确认;确认;确认;确认;确认
+m144;한글;한글;한글;한글;한글;한글;한글;한글;한글;한글;한 글;한글;한글;한글;한글;Корейский ;한글;한글;한글;한글;한글;한글;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m145;恢复默认设置 ?;恢復默認設置?;デフォルトに戻します;기본 설정을 복원 ?;Restore Default;Rétablir incorporées;Die Fabrik;Le impostazioni di fabbrica;恢复默认设置;Restaurar configurações padrão;Restaurar la configuración predeterminada;恢复默认设置;恢复默认设置;恢复默认设置;恢复默认设置;Восстановить настройки;恢复默认设置;恢复默认设置;恢复默认设置;恢复默认设置;恢复默认设置;恢复默认设置;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m146;删除所有数据 ?;刪除所有數據?;すべて削除;모든 데이터가 삭제됩니다 ?;Delete all data;Supprimer toutes les données;Alle Daten löschen;Cancellare tutti i Dati;删除所有数据;Excluir todos os dados;Eliminar todos los datos;删除所有数据;删除所有数据;删除所有数据;删除所有数据;Удалить все данные;删除所有数据;删除所有数据;删除所有数据;删除所有数据;删除所有数据;删除所有数据;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m147;删除当前文件 ?;删除当前文件?;現在ファイル削除;이 지우기 ?;Erase This ?;La suppression du présent document;Löschen sie die datei;Cancellare il File attuale;删除当前文件;Excluir arquivo atual;Borrar el archivo actual;删除当前文件;删除当前文件;删除当前文件;删除当前文件;Стереть это?;删除当前文件;删除当前文件;删除当前文件;删除当前文件;删除当前文件;删除当前文件;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m148;删除所有文件 ?;删除所有文件?;すべてのファイルを削除;모든 데이터를 삭제;Erase All images ?;Supprimer tous les documents;Löschen sie alle dateien;Cancella tutti i File;모든 이미지를 삭제 ?;Erase All images ?;Borrar todos los archivos;删除所有文件;删除所有文件;모든 이미지를 삭제 ?;Erase All images ?;Стереть все изображения? ;删除所有文件;删除所有文件;모든 이미지를 삭제 ?;Erase All images ?;모든 이미지를 삭제 ?;Erase All images ?;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m149;请稍候;请稍候;少々お待ちください;잠시 기다려주십시오;Please Wait;Demande un;Bitte warten;Per favore, Aspetta un momento.;잠시 기다려주십시오;Aguarde.;Un momento... Por favor.;请稍候;请稍候;잠시 기다려주십시오;Please Wait;Пожалуйста, подождите ;请稍候;请稍候;잠시 기다려주십시오;Please Wait;잠시 기다려주십시오;Please Wait;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m150;再见;再见;さようなら;안녕;Goodbye;Au revoir;再见;Addio.;再见;Até logo;Hasta luego.;再见;再见;再见;再见;До свиданья ;再见;再见;再见;再见;再见;再见;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m151;电量不足;电量不足;ローバッテリー;전기 의 부족;Low Battery;Manque d’électricité;niedrige Batterie;La scarsità di energia elettrica;전기 의 부족;Bateria baixa;La falta de energía eléctrica;电量不足;电量不足;전기 의 부족;Low Battery;Низкий заряд ;电量不足;电量不足;전기 의 부족;Low Battery;电量不足;电量不足;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m152;没有文件;没有文件;ファイルなし;어떤 파일이 없습니다;No File;Pas de documentation;keine Dateien;Non c'e 'Nessun File;어떤 파일이 없습니다;Sem arquivos;No hay archivos;没有文件;没有文件;어떤 파일이 없습니다;No File;Нет файлов;没有文件;没有文件;어떤 파일이 없습니다;No File;没有文件;没有文件;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m153;内存错误;内存错误;ラムの過ち;메모리 오류;Card err;Erreur du quartier général de la;Memory - Fehler;Errore di memoria;메모리 오류;Erro de memória;Error de memoria;内存错误;内存错误;메모리 오류;Card err;Ошибка карты;内存错误;内存错误;메모리 오류;Card err;内存错误;内存错误;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m154;存储器;存储器;メモリー;메모리;memory;mémoire;Speicher;La memoria;메모리;Memória;La memoria;存储器;存储器;메모리;memory;Память;存储器;存储器;메모리;memory;存储器;存储器;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m155;没有照片;没有照片;写真がない;이미지 없음;NO Image;Pas de photographie;Keine Fotos;Non c'e 'una Foto;이미지 없음;Sem fotos.;Nada de fotos;没有照片;没有照片;이미지 없음;NO Image;Нет изображений;没有照片;没有照片;이미지 없음;NO Image;没有照片;没有照片;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m156;存储器;存储器;メモリー;대용량 저장 장치;Mass Storage;mémoire;Speicher;La memoria;대용량 저장 장치;Memória;La memoria;存储器;存储器;대용량 저장 장치;Mass Storage;Накопитель ;存储器;存储器;대용량 저장 장치;Mass Storage;存储器;存储器;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m157;存储空间不足;存儲空間不足;収納スペースの不足;디스크 공간 부족;Lack of space;Le manque d'espace de stockage;Zu wenig Speicherplatz;La mancanza di spazio;Gebrek aan opslagruimte;Armazenamento insuficiente;La falta de espacio de almacenamiento;Brist på lagringsutrymme;Nedostatek úložného prostoru;Insufficient Disk Space;Brak miejsca;Нехватка места ;Insufficient Disk Space;Insufficient Disk Space;ขาดของพื้นที่จัดเก็บ;Insufficient Disk Space;Insufficient Disk Space;디스크 공간 부족;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m158;请格式化卡;請格式化卡;フォーマット;카드를 포맷하십시오;Please format the card;Please format the card;Formatieren Sie die Karte;Please format the card;Please format the card;Por favor, formatar o cartão;Please format the card;Please format the card;Please format the card;Please format the card;Please format the card;Форматирование ;Please format the card;Please format the card;Please format the card;Please format the card;Please format the card;Please format the card;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m159;请插入SD卡;请插入SD卡;sdカードを挿入してください;SD 카드를 삽입 하십시오;Insert SD Card;Insert SD Karten;Einsetzen einer SD-Karte;Per favore, di inserire la scheda di memoria;SD 카드를 삽입 하십시오;Por favor insira o cartão SD;Inserte la tarjeta SD;请插入SD卡;请插入SD卡;SD 카드를 삽입 하십시오;Please Insert SD Card; Включить  tf карты ;请插入SD卡;请插入SD卡;SD 카드를 삽입 하십시오;Please Insert SD Card;请插入SD卡;请插入SD卡;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m160;取消;取消;キャンセル;취소;Cancel;supprimer;Abgesagt;Annullare;取消;Cancelar;Cancelar;取消;取消;取消;取消;Отмена ;取消;取消;取消;取消;取消;取消
+m161;确认;確認;確認する;확인;Confirm;reconnaît;Bestätigt;Conferma;确认;Confirmar;Confirmación;确认;确认;确认;确认;Подтвердить ;确认;确认;确认;确认;确认;确认
+m162;正在删除文件...;正在删除文件...;ファイルを削除している...;삭 제하 고 있 는데 문서...;Deleting the file...;Le document était en voie d’être supprimée...;Dateien zu löschen.;Sta cancellando I File...;正在删除文件...;excluindo arquivos…;Borrar el archivo...;正在删除文件...;正在删除文件...;正在删除文件...;正在删除文件...;Удаление файла…;正在删除文件...;正在删除文件...;正在删除文件...;正在删除文件...;正在删除文件...;正在删除文件...
+m163;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P;1080P
+m164;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P;720P
+m165;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA;VGA
+m166;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2M;2М;2M;2M;2M;2M;2M;2M
+m167;恢复出厂设置成功，重启中...;恢复出厂设置成功，重启中...;設定を再開...;회복 중인 것 으로 알 려 진 공장도 에 설치 된 다;Resuming settings,resetting...;Chaque reprend son cours…;Wiederaufnahme…;Sta cercando di ripristinare Le impostazioni di fabbrica...;正在恢复出厂设置…;Configurações de restauração...;Restaurar la configuración de fábrica.;正在恢复出厂设置…;正在恢复出厂设置…;正在恢复出厂设置…;正在恢复出厂设置…;заводские настройки ;正在恢复出厂设置…;正在恢复出厂设置…;正在恢复出厂设置…;正在恢复出厂设置…;正在恢复出厂设置…;正在恢复出厂设置…
+m168;正在格式化…;正在格式化…;フォーマット…;중 범죄수사 드라마 csi…;Formatting…;Présentation en…;Formatieren…;Formattazione...;正在格式化…;Formatação...;El formateo.;正在格式化…;正在格式化…;正在格式化…;正在格式化…;Форматирование…;正在格式化…;正在格式化…;正在格式化…;正在格式化…;正在格式化…;正在格式化…
+m169;正在删除全部文件…;正在删除全部文件…;すべてのファイルを削除している…;삭 제하 고 있 는데 모두 문건 이다…;Deleting all files…;Tous les documents était en voie d’être supprimée…;Derzeit löschen sie alle dateien…;Sta per cancellare tutti i File...;正在删除全部文件…;Removendo todos os arquivos...;Borrar todos los archivos.;正在删除全部文件…;正在删除全部文件…;正在删除全部文件…;正在删除全部文件…;Удаление всех файлов…;正在删除全部文件…;正在删除全部文件…;正在删除全部文件…;正在删除全部文件…;正在删除全部文件…;正在删除全部文件…
+m170;10秒;10秒;10S;10S;10 Second;10S;10zweite;10S;10秒;10S;10 S;10秒;10秒;10秒;10秒;10 S;10秒;10秒;10秒;10秒;10秒;10秒
+m171;20秒;20秒;20S;20S;20 Second;20S;20zweite;20S;20秒;20S;20 S;20秒;20秒;20秒;20秒;20 S;20秒;20秒;20秒;20秒;20秒;20秒
+m172;30秒;30秒;30S;30S;30 Second;30S;30zweite;30S;30秒;30S;30 S;30秒;30秒;30秒;30秒;30 S;30秒;30秒;30秒;30秒;30秒;30秒
+m173;1M;1M;1M;1M;1M;1M;1M;1M;1M;1M;1M;1M;1M;1M;1M;1 М ;1M;1M;1M;1M;1M;1M
+m174;录音;錄音;記録;녹음;Recording;En cliquant sur “ programme quotidien;Aufzeichnung;La registrazione;錄音;Gravação;La grabación;錄音;錄音;錄音;錄音;Запись ;錄音;錄音;錄音;錄音;錄音;錄音
+m175;停车守卫;停車守衛;ガード付き駐車場;주차 수비;Parking Guard;parking surveillé;Parkplatz-Monitor;parcheggio custodito;bewaakt parkeren;Guarda de estacionamento;estacionamiento con vigilancia;parkering med vakt;hlídané parkoviště;停车守卫;parking strzeżony;Охрана при парковке;停车守卫;停车守卫;ที่จอดรถแบบมีคนดูแล;停车守卫;停车守卫;停车守卫
+m176;录像模式;錄像模式;記録方式;비디오 모델;REC_mode;Modèle vidéo;Kameramodus;Modello Video;录像模式;Modo de vídeo;El modo de video;录像模式;录像模式;录像模式;录像模式;Режим записи  ;录像模式;录像模式;录像模式;录像模式;录像模式;录像模式
+m177;坏损文件;壞損文件;破損ファイル;나 쁜 훼손시키다 문서; Damaged File; Damaged File;beschädigte Datei; Damaged File; Damaged File;Arquivo ruim; Damaged File; Damaged File; Damaged File; Damaged File; Damaged File;Поврежденный файл ; Damaged File; Damaged File; Damaged File; Damaged File; Damaged File; Damaged File
+m178;常用设置;常用設置;共通設定;일반 설정;Common Settings;Common Settings;Allgemeine Einstellungen;Allgemeine Einstellungen;Allgemeine Einstellungen;Configurações comuns;Allgemeine Einstellungen;Allgemeine Einstellungen;Allgemeine Einstellungen;Allgemeine Einstellungen;Allgemeine Einstellungen;Общие настройки ;Allgemeine Einstellungen;Allgemeine Einstellungen;Allgemeine Einstellungen;Allgemeine Einstellungen;Allgemeine Einstellungen;Allgemeine Einstellungen
+m179;风格偏好;風格偏好;スタイル設定;스타일 환경 설정;Style preferences;Style preferences;Stilpräferenzen;Stilpräferenzen;Stilpräferenzen;Preferência de estilo;Stilpräferenzen;Stilpräferenzen;Stilpräferenzen;Stilpräferenzen;Stilpräferenzen;Предпочитаемый стиль;Stilpräferenzen;Stilpräferenzen;Stilpräferenzen;Stilpräferenzen;Stilpräferenzen;Stilpräferenzen
+m180;安全辅助;安全輔助;安全補助;안전 보조;Safety aids;Safety aids;Sicherheitshilfsmittel;Sicherheitshilfsmittel;Sicherheitshilfsmittel;Assistência de segurança;Sicherheitshilfsmittel;Sicherheitshilfsmittel;Sicherheitshilfsmittel;Sicherheitshilfsmittel;Sicherheitshilfsmittel;Обеспечение безопасности;Sicherheitshilfsmittel;Sicherheitshilfsmittel;Sicherheitshilfsmittel;Sicherheitshilfsmittel;Sicherheitshilfsmittel;Sicherheitshilfsmittel
+m181;系统设置;系統設置;システム設定;시스템 설정;System Settings;System Settings;System Settings;System Settings;System Settings;Configuração do sistema;System Settings;System Settings;System Settings;System Settings;System Settings;Настройки системы ;System Settings;System Settings;System Settings;System Settings;System Settings;System Settings
+m182;延时摄影;延時攝影;コマ撮り写真;시간 경과 사진;Time-lapse Photography;Time-lapse Photography;Time-Lapse Fotografie;Fotografia time-lapse;延时摄影;Fotografia de lapso de tempo;El retraso de la fotografía;延时摄影;延时摄影;延时摄影;延时摄影;Покадровая съемка ;延时摄影;延时摄影;延时摄影;延时摄影;延时摄影;延时摄影
+m183;慢动作;慢動作;スローモーション;슬로우 모션;Slow motion;Slow motion;Zeitlupe;Slow motion;慢动作;Câmera lenta;En cámara lenta;慢动作;慢动作;慢动作;慢动作;Замедление ;慢动作;慢动作;慢动作;慢动作;慢动作;慢动作
+m184;自拍;自拍;セルフ タイマー;셀프 타이머;Self timer;Retardateur;Selbstauslöser;UN Tempo;自拍;Auto-;La hora;自拍;自拍;自拍;自拍;Автоспуск ;自拍;自拍;自拍;自拍;自拍;自拍
+m185;连拍;連拍;連続撮影;연속 촬영;Continuous shooting;Continu de tir;Kontinuierliche Aufnahme;Continua a sparare;连拍;Estouro;La secuencia;连拍;连拍;连拍;连拍;Непрерывная съемка ;连拍;连拍;连拍;连拍;连拍;连拍
+m186;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3
+m187;5;5;5;5;5;5;5;5;5;5;5;5;5;5;5;5;5;5;5;5;5;5
+m188;10;10;10;10;10;10;10;10;10;10;10;10;10;10;10;10;10;10;10;10;10;10
+m189;拍照设置;拍照設置;写真セット;사진 세트;Photo sets;Jeux de photo;Foto-Sätze;A sparare!;拍照设置;Configuração da foto;Las preferencias de disparo;拍照设置;拍照设置;拍照设置;拍照设置;Фотосеты;拍照设置;拍照设置;拍照设置;拍照设置;拍照设置;拍照设置
+m190;720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS);720(60FPS)
+m191;720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS);720(30FPS)
+m192;VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS);VGA(60FPS)
+m193;夜视增强;夜視增強;ナイト ビジョン強化;밤 비전 향상;Night vision enhancement;Amélioration de la vision nuit;Nacht-Vision-Verbesserung;Visione notturna;夜视增强;Melhoria da visão noturna;Visión nocturna;夜视增强;夜视增强;夜视增强;夜视增强;Улучшение ночного виденья;夜视增强;夜视增强;夜视增强;夜视增强;夜视增强;夜视增强
+m194;APP正在浏览中…;APP正在瀏覽中…;におけるAPPの閲覧…;APP 에서 찾아보기…;APP is browsing…;APP is browsing…;APP is browsing…;APP正在浏览中…;APP正在浏览中…;APP正在浏览中…;APP正在浏览中…;APP正在浏览中…;APP正在浏览中…;APP正在浏览中…;APP正在浏览中…;Приложение считывает данные..;APP正在浏览中…;APP正在浏览中…;APP正在浏览中…;APP正在浏览中…;APP正在浏览中…;APP正在浏览中…
+m195;VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS);VGA(30FPS)
+m196;固件升级中…;固件升級中…;ファームウェアのアップグレード;펌웨어 업그레이드;Firmware is upgrading…;Mise à jour firmware;Firmware-upgrade;固件升级中…;固件升级中…;固件升级中…;固件升级中…;固件升级中…;固件升级中…;固件升级中…;固件升级中…;Обновление прошивки…;固件升级中…;固件升级中…;固件升级中…;固件升级中…;固件升级中…;固件升级中…
+m197;固件升级失败…;固件升級失敗…;ファームウェアのアップグレードの失敗;펌웨어 업그레이드 실패;Firmware upgrade failed…;Mise à jour a échoué;Firmware-Aktualisierung fehlgeschlagen;固件升级失败…;固件升级失败…;固件升级失败…;固件升级失败…;固件升级失败…;固件升级失败…;固件升级失败…;固件升级失败…;Не удалось обновить прошивку…;固件升级失败…;固件升级失败…;固件升级失败…;固件升级失败…;固件升级失败…;固件升级失败…
+m198;双路录像;双路录像;ダブル路ビデオ;더블 종로 비디오;Dual Camera;Vidéo à road;Doppel - video;Doppio Video;双路录像;Vídeo de duas vias;Doble Video;双路录像;双路录像;双路录像;双路录像;Двойная камера;双路录像;双路录像;双路录像;双路录像;双路录像;双路录像
+m199;间隔录像;间隔录像;间隔ビデオ;간격 으로 비디오;Interval Record;Vidéo entre;Intervall - video;Intervallo di Video;间隔录像;Intervalo de vídeo;Intervalos de videos;间隔录像;间隔录像;间隔录像;间隔录像;Запись через интервал;间隔录像;间隔录像;间隔录像;间隔录像;间隔录像;间隔录像
+m200;高动态范围;高动态范围;高动态範囲;높 은 동태 범위;High Dynamic Range;Une gamme dynamique de;High Dynamic range;Di Alta Gamma Dinamica;高动态范围;Escala dinâmica elevada;Alto rango dinámico;高动态范围;高动态范围;高动态范围;高动态范围;Большой динамический диапазон;高动态范围;高动态范围;高动态范围;高动态范围;高动态范围;高动态范围
+m201;车牌号码;车牌号码;ナンバー;번호 를;Car Number;Plaques d’immatriculation;KFZ - kennzeichen;IL Numero di Targa;车牌号码;Matrícula;Número de matrícula;车牌号码;车牌号码;车牌号码;车牌号码;Номер машины ;车牌号码;车牌号码;车牌号码;车牌号码;车牌号码;车牌号码
+m202;+2;+2;+2;+2;+2;+2;+2;+2;+2;+2;+2;+2;+2;+2;+2;+2;+2;+2;+2;+2;+2;+2
+m203;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3;+5/3
+m204;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3;+4/3
+m205;+1;+1;+1;+1;+1;+1;+1;+1;+1;+1;+1;+1;+1;+1;+1;+1;+1;+1;+1;+1;+1;+1
+m206;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3;+2/3
+m207;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3;+1/3
+m208;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+m209;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3;-1/3
+m210;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3;-2/3
+m211;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1;-1
+m212;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3;-4/3
+m213;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3;-5/3
+m214;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2;-2
+m215;100ms;100ms;100ms;100ms;100ms;100ms;100ms;100ms;100ms;100ms;100ms;100ms;100ms;100ms;100ms;100 мс;100ms;100ms;100ms;100ms;100ms;100ms
+m216;200ms;200ms;200ms;200ms;200ms;200ms;200ms;200ms;200ms;200ms;200ms;200ms;200ms;200ms;200ms;200 мс;200ms;200ms;200ms;200ms;200ms;200ms
+m217;500ms;500ms;500ms;500ms;500ms;500ms;500ms;500ms;500ms;500ms;500ms;500ms;500ms;500ms;500ms;500 мс;500ms;500ms;500ms;500ms;500ms;500ms
+m218;单拍;单拍;単撮影;단 찍;Single shot;Taper à;Single beat;UN unico colpo;单拍;Único tiro;Un solo disparo;单拍;单拍;单拍;单拍;Один кадр;单拍;单拍;单拍;单拍;单拍;单拍
+m219;2秒定时;2秒定时;2秒時限;2 초 정시;2s Delay;2s;2S;2S;2秒定时;2S;2S;2秒定时;2秒定时;2秒定时;2秒定时;2-секундная задержка;2秒定时;2秒定时;2秒定时;2秒定时;2秒定时;2秒定时
+m220;5秒定时;5秒定时;5秒時限;5 초 정시;5s Delay;5s;5S;5S;5秒定时;5S;5S;5秒定时;5秒定时;5秒定时;5秒定时;5-секундная задержка;5秒定时;5秒定时;5秒定时;5秒定时;5秒定时;5秒定时
+m221;10秒定时;10秒定时;10秒時限;10 초 정시;10s Delay;10s;10S;10S;10秒定时;10S;10S;10秒定时;10秒定时;10秒定时;10秒定时;10-секундная задержка;10秒定时;10秒定时;10秒定时;10秒定时;10秒定时;10秒定时
+m222;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100;100
+m223;Portuguese;Portuguese;Portuguese;Portuguese;Portuguese;Portuguese;Portuguese;Portuguese;Portuguese;Portuguese;Portuguese;Portuguese;Portuguese;Portuguese;Portuguese;Португальский;Portuguese;Portuguese;Portuguese;Portuguese;Portuguese;Portuguese
+m224;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480;VGA 640x480
+m225;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960;1.3M 1280x960
+m226;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080;2M 1920x1080
+m227;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536;3M 2048x1536
+m228;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944;5M 2592x1944
+m229;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448;8M 3264x2448
+m230;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736;10M 3648x2736
+m231;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024;12M 4032x3024
+m232;京;京;京;京;京;京;京;京;京;京;京;京;京;京;京;Пекин;京;京;京;京;京;京
+m233;宁;宁;宁;宁;宁;宁;宁;宁;宁;宁;宁;宁;宁;宁;宁;Нинся;宁;宁;宁;宁;宁;宁
+m234;川;川;川;川;川;川;川;川;川;川;川;川;川;川;川;Сычуань;川;川;川;川;川;川
+m235;沪;沪;沪;沪;沪;沪;沪;沪;沪;沪;沪;沪;沪;沪;沪;Шанхай;沪;沪;沪;沪;沪;沪
+m236;津;津;津;津;津;津;津;津;津;津;津;津;津;津;津;Тяньцзинь;津;津;津;津;津;津
+m237;浙;浙;浙;浙;浙;浙;浙;浙;浙;浙;浙;浙;浙;浙;浙;Чжэцзян;浙;浙;浙;浙;浙;浙
+m238;渝;渝;渝;渝;渝;渝;渝;渝;渝;渝;渝;渝;渝;渝;渝;Чунцин;渝;渝;渝;渝;渝;渝
+m239;湘;湘;湘;湘;湘;湘;湘;湘;湘;湘;湘;湘;湘;湘;湘;Хунань;湘;湘;湘;湘;湘;湘
+m240;粤;粤;粤;粤;粤;粤;粤;粤;粤;粤;粤;粤;粤;粤;粤;Гуандун;粤;粤;粤;粤;粤;粤
+m241;豫;豫;豫;豫;豫;豫;豫;豫;豫;豫;豫;豫;豫;豫;豫;Хэнань;豫;豫;豫;豫;豫;豫
+m242;贵;贵;贵;贵;贵;贵;贵;贵;贵;贵;贵;贵;贵;贵;贵;Гуйчжоу;贵;贵;贵;贵;贵;贵
+m243;赣;赣;赣;赣;赣;赣;赣;赣;赣;赣;赣;赣;赣;赣;赣;Цзянси;赣;赣;赣;赣;赣;赣
+m244;辽;辽;辽;辽;辽;辽;辽;辽;辽;辽;辽;辽;辽;辽;辽;Ляонин;辽;辽;辽;辽;辽;辽
+m245;鲁;鲁;鲁;鲁;鲁;鲁;鲁;鲁;鲁;鲁;鲁;鲁;鲁;鲁;鲁;Шаньдун;鲁;鲁;鲁;鲁;鲁;鲁
+m246;黑;黑;黑;黑;黑;黑;黑;黑;黑;黑;黑;黑;黑;黑;黑;Хэйлунцзян;黑;黑;黑;黑;黑;黑
+m247;新;新;新;新;新;新;新;新;新;新;新;新;新;新;新;Синьцзян ;新;新;新;新;新;新
+m248;苏;苏;苏;苏;苏;苏;苏;苏;苏;苏;苏;苏;苏;苏;苏;Сучжоу;苏;苏;苏;苏;苏;苏
+m249;藏;藏;藏;藏;藏;藏;藏;藏;藏;藏;藏;藏;藏;藏;藏;Тибет;藏;藏;藏;藏;藏;藏
+m250;闽;闽;闽;闽;闽;闽;闽;闽;闽;闽;闽;闽;闽;闽;闽;Фуцзянь;闽;闽;闽;闽;闽;闽
+m251;晋;晋;晋;晋;晋;晋;晋;晋;晋;晋;晋;晋;晋;晋;晋;Шаньси;晋;晋;晋;晋;晋;晋
+m252;琼;琼;琼;琼;琼;琼;琼;琼;琼;琼;琼;琼;琼;琼;琼;Хайнань;琼;琼;琼;琼;琼;琼
+m253;冀;冀;冀;冀;冀;冀;冀;冀;冀;冀;冀;冀;冀;冀;冀;Хэбэй;冀;冀;冀;冀;冀;冀
+m254;吉;吉;吉;吉;吉;吉;吉;吉;吉;吉;吉;吉;吉;吉;吉;Цзилинь ;吉;吉;吉;吉;吉;吉
+m255;桂;桂;桂;桂;桂;桂;桂;桂;桂;桂;桂;桂;桂;桂;桂;Гуанси;桂;桂;桂;桂;桂;桂
+m256;甘;甘;甘;甘;甘;甘;甘;甘;甘;甘;甘;甘;甘;甘;甘;Ганьсу;甘;甘;甘;甘;甘;甘
+m257;皖;皖;皖;皖;皖;皖;皖;皖;皖;皖;皖;皖;皖;皖;皖;Аньхой;皖;皖;皖;皖;皖;皖
+m258;蒙;蒙;蒙;蒙;蒙;蒙;蒙;蒙;蒙;蒙;蒙;蒙;蒙;蒙;蒙;Монголия;蒙;蒙;蒙;蒙;蒙;蒙
+m259;鄂;鄂;鄂;鄂;鄂;鄂;鄂;鄂;鄂;鄂;鄂;鄂;鄂;鄂;鄂;Хубэй;鄂;鄂;鄂;鄂;鄂;鄂
+m260;陕;陕;陕;陕;陕;陕;陕;陕;陕;陕;陕;陕;陕;陕;陕;Шэньси;陕;陕;陕;陕;陕;陕
+m261;青;青;青;青;青;青;青;青;青;青;青;青;青;青;青;Цинхай;青;青;青;青;青;青
+m262;云;云;云;云;云;云;云;云;云;云;云;云;云;云;云;Юньнань;云;云;云;云;云;云
+m263;A;A;A;A;A;A;A;A;A;A;A;A;A;A;A;A;A;A;A;A;A;A
+m264;B;B;B;B;B;B;B;B;B;B;B;B;B;B;B;B;B;B;B;B;B;B
+m265;C;C;C;C;C;C;C;C;C;C;C;C;C;C;C;C;C;C;C;C;C;C
+m266;D;D;D;D;D;D;D;D;D;D;D;D;D;D;D;D;D;D;D;D;D;D
+m267;E;E;E;E;E;E;E;E;E;E;E;E;E;E;E;E;E;E;E;E;E;E
+m268;F;F;F;F;F;F;F;F;F;F;F;F;F;F;F;F;F;F;F;F;F;F
+m269;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G;G
+m270;H;H;H;H;H;H;H;H;H;H;H;H;H;H;H;H;H;H;H;H;H;H
+m271;I;I;I;I;I;I;I;I;I;I;I;I;I;I;I;I;I;I;I;I;I;I
+m272;J;J;J;J;J;J;J;J;J;J;J;J;J;J;J;J;J;J;J;J;J;J
+m273;K;K;K;K;K;K;K;K;K;K;K;K;K;K;K;K;K;K;K;K;K;K
+m274;L;L;L;L;L;L;L;L;L;L;L;L;L;L;L;L;L;L;L;L;L;L
+m275;M;M;M;M;M;M;M;M;M;M;M;M;M;M;M;M;M;M;M;M;M;M
+m276;N;N;N;N;N;N;N;N;N;N;N;N;N;N;N;N;N;N;N;N;N;N
+m277;O;O;O;O;O;O;O;O;O;O;O;O;O;O;O;O;O;O;O;O;O;O
+m278;P;P;P;P;P;P;P;P;P;P;P;P;P;P;P;P;P;P;P;P;P;P
+m279;Q;Q;Q;Q;Q;Q;Q;Q;Q;Q;Q;Q;Q;Q;Q;Q;Q;Q;Q;Q;Q;Q
+m280;R;R;R;R;R;R;R;R;R;R;R;R;R;R;R;R;R;R;R;R;R;R
+m281;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S
+m282;T;T;T;T;T;T;T;T;T;T;T;T;T;T;T;T;T;T;T;T;T;T
+m283;U;U;U;U;U;U;U;U;U;U;U;U;U;U;U;U;U;U;U;U;U;U
+m284;V;V;V;V;V;V;V;V;V;V;V;V;V;V;V;V;V;V;V;V;V;V
+m285;W;W;W;W;W;W;W;W;W;W;W;W;W;W;W;W;W;W;W;W;W;W
+m286;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X
+m287;Y;Y;Y;Y;Y;Y;Y;Y;Y;Y;Y;Y;Y;Y;Y;Y;Y;Y;Y;Y;Y;Y
+m288;Z;Z;Z;Z;Z;Z;Z;Z;Z;Z;Z;Z;Z;Z;Z;Z;Z;Z;Z;Z;Z;Z
+m289;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+m290;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1
+m291;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2
+m292;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3
+m293;4;4;4;4;4;4;4;4;4;4;4;4;4;4;4;4;4;4;4;4;4;4
+m294;5;5;5;5;5;5;5;5;5;5;5;5;5;5;5;5;5;5;5;5;5;5
+m295;6;6;6;6;6;6;6;6;6;6;6;6;6;6;6;6;6;6;6;6;6;6
+m296;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7
+m297;8;8;8;8;8;8;8;8;8;8;8;8;8;8;8;8;8;8;8;8;8;8
+m298;9;9;9;9;9;9;9;9;9;9;9;9;9;9;9;9;9;9;9;9;9;9
+m299;格式化失败！;格式化失敗！;pdf失败!;범죄수사 드라마 csi 실패!;Formatting failed!;Proposer un échec!;Proposer un échec!;Proposer un échec!;Proposer un échec!;O formato falhou!;Proposer un échec!;Proposer un échec!;Proposer un échec!;Proposer un échec!;Proposer un échec!;Форматирование не удалось!;Proposer un échec!;Proposer un échec!;Proposer un échec!;Proposer un échec!;Proposer un échec!;Proposer un échec!
+m300;文件被锁;文件被鎖;ファイルがロックされて;문서 잠 겨;The file is locked;Documents ont été enfermés;The file is locked;The file is locked;The file is locked;Arquivo bloqueado;The file is locked;The file is locked;The file is locked;The file is locked;The file is locked;Файл заблокирован;The file is locked;The file is locked;The file is locked;The file is locked;The file is locked;The file is locked
+m301;+3;+3;+3;+3;+3;+3;+3;+3;+3;+3;+3;+3;+3;+3;+3;+3;+3;+3;+3;+3;+3;+3
+m302;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3;-3
+m303;车道偏移;車道偏移;車道がずれている;차도 위치;Lane deviation;Lane deviation;Lane deviation;Deslocamento da pista;Lane deviation;Lane deviation;Lane deviation;Lane deviation;Lane deviation;Lane deviation;Lane deviation;Отклонение маршрута;Lane deviation;Lane deviation;Lane deviation;Lane deviation;Lane deviation;Lane deviation
+m304;前照灯提醒;前照燈提醒;前照燈;전조등 알림;Headlight warning;Headlight warning;Headlight warning;Lembrete da luz dianteira;Headlight warning;Headlight warning;Headlight warning;Headlight warning;Headlight warning;Headlight warning;Headlight warning;Предупреждение фарами;Headlight warning;Headlight warning;Headlight warning;Headlight warning;Headlight warning;Headlight warning;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m305;10秒后关机;10秒后關機;10秒後に電源を切る;10초 후 꺼져;Shutdown after 10 seconds;Shutdown after 10 seconds;Shutdown after 10 seconds;Desligamento em 10 segundos.;Shutdown after 10 seconds;Shutdown after 10 seconds;Shutdown after 10 seconds;Shutdown after 10 seconds;Shutdown after 10 seconds;Shutdown after 10 seconds;Shutdown after 10 seconds;Отключение через 10 секунд;Shutdown after 10 seconds;Shutdown after 10 seconds;Shutdown after 10 seconds;Shutdown after 10 seconds;Shutdown after 10 seconds;Shutdown after 10 seconds;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m306;请移动到地平线;請移動到地平線;地平線に移動する;이동 지평선;Move to the Horizon;Move to the Horizon;Move to the Horizon;Vá para o horizonte, por favor.;Move to the Horizon;Move to the Horizon;Move to the Horizon;Move to the Horizon;Move to the Horizon;Move to the Horizon;Move to the Horizon;Перемещение к горизонту;Move to the Horizon;Move to the Horizon;Move to the Horizon;Move to the Horizon;Move to the Horizon;Move to the Horizon;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m307;请移动到车头线;請移動到車頭線;ノーズ線に移動する;이동 기관차 라인;Move to the Car's Nose;Move to the Car's Nose;Move to the Car's Nose;Por favor, vá para a linha de frente;Move to the Car's Nose;Move to the Car's Nose;Move to the Car's Nose;Move to the Car's Nose;Move to the Car's Nose;Move to the Car's Nose;Move to the Car's Nose;Перемещение к капоту ;Move to the Car's Nose;Move to the Car's Nose;Move to the Car's Nose;Move to the Car's Nose;Move to the Car's Nose;Move to the Car's Nose;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m308;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;русский;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m309; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+m310;Português;Português;Português;Português;Português;Português;Português;Português;Português;Português;Português;Português;Português;Português;Português;Português;Português;Português;Português;Português;Português;Português;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

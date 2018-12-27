@@ -1,0 +1,4 @@
+maohao.png|E:/SDK/5401/12/AC54XX_SDK_V0.5Beta_USB_0.5_12_双录_左三右四_c5_4J/UI_工程/ui_320x240_key/模式界面/project/config/pic_color_LY/480P/num/maohao.pngbaskslash equal zero else
+config/pic_color_LY/480P/num/maohao.png
+maohao1.png|E:/SDK/5401/12/AC54XX_SDK_V0.5Beta_USB_0.5_12_双录_左三右四_c5_4J/UI_工程/ui_320x240_key/模式界面/project/config/pic_color_LY/480P/num/maohao1.pngbaskslash equal zero else
+config/pic_color_LY/480P/num/maohao1.png

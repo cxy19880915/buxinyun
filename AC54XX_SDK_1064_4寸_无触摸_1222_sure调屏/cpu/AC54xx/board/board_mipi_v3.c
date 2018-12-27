@@ -10,28 +10,19 @@
 #ifdef CONFIG_BOARD_MIPI_V3
 
 /* #define UART0 */
-
-#if 0
-UART0_PLATFORM_DATA_BEGIN(uart0_data)
-    .baudrate = 115200,
-    .tx_pin = IO_PORTG_14,
-    .flags = UART_DEBUG,
-UART0_PLATFORM_DATA_END();
-#endif
 UART0_PLATFORM_DATA_BEGIN(uart0_data)
     .baudrate = 115200,
     .tx_pin = IO_PORTG_14,
    // .rx_pin = IO_PORTG_01,
     .flags = UART_DEBUG,
 UART0_PLATFORM_DATA_END();
-#if 1
+
 UART2_PLATFORM_DATA_BEGIN(uart2_data)
     .baudrate = 9600,
     .rx_pin = IO_PORTG_01,
  //   .flags = UART_RX_USE_DMA,
 UART2_PLATFORM_DATA_END();
 
-#endif
 #ifdef CONFIG_SD0_ENABLE
 
 SD0_PLATFORM_DATA_BEGIN(sd0_data)
@@ -132,47 +123,6 @@ LCD_PLATFORM_DATA_BEGIN(lcd_data)
 LCD_PLATFORM_DATA_END()
 
 
-
-
-
-#if 0//def CONFIG_VIDEO0_ENABLE
-
-static const struct camera_platform_data camera0_data = {
-    	//.xclk_gpio      = IO_PORTH_13,
-	  .xclk_gpio      = IO_PORTB_11,
-	.reset_gpio     = IO_PORTB_12,
-	.pwdn_gpio      = -1,
-	.interface      = SEN_INTERFACE0,
-    .dvp = {
-        .pclk_gpio  = IO_PORTA_15,
-        .hsync_gpio = IO_PORTE_00,
-        .vsync_gpio = IO_PORTE_01,
-		.io_function_sel = DVP_SENSOR0(1),
-        .data_gpio  = {
-            IO_PORTA_05,
-            IO_PORTA_06,
-            IO_PORTA_07,
-            IO_PORTA_08,
-            IO_PORTA_09,
-            IO_PORTA_10,
-            IO_PORTA_11,
-            IO_PORTA_12,
-            IO_PORTA_13,
-            IO_PORTA_14,
-        },
-    }
-};
-
-
-static const struct video_subdevice_data video0_subdev_data[] = {
-    { VIDEO_TAG_CAMERA, (void *)&camera0_data },
-};
-static const struct video_platform_data video0_data = {
-    .data = video0_subdev_data,
-    .num = ARRAY_SIZE(video0_subdev_data),
-};
-
-#endif
 #ifdef CONFIG_VIDEO0_ENABLE
 
 static const struct camera_platform_data camera0_data = {
@@ -665,15 +615,13 @@ void debug_uart_init()
 }
 #endif
 
-
-#if 1
 extern  int muart_init(const struct uart_platform_data *data);
 void debug_uart_init1()
 {
       muart_init(&uart2_data);
     IOMC3 &= ~BIT(25);//解除串口uart3占用io PB3 and PB4,否则 g_sensor iic无法通讯
 }
-#endif
+
 void board_init()
 {
     CLK_CON0 &=  ~BIT(13);//uboot某测试时钟io pe2输出关断
