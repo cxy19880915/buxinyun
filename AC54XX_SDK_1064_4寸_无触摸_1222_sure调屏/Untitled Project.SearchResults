@@ -1,0 +1,75 @@
+---- ID_WINDOW_USB_SLAVE Matches (6 in 4 files) ----
+Style.h (app\car_camera\include):13
+#define ID_WINDOW_USB_SLAVE PAGE_4
+Style.h (app\car_camera\include):29
+#define ID_WINDOW_USB_SLAVE PAGE_3
+Ui_action_usb.c (app\...\style_jl02):54
+REGISTER_UI_EVENT_HANDLER(ID_WINDOW_USB_SLAVE)
+Ui_action_usb.c (app\...\style_ly):50
+REGISTER_UI_EVENT_HANDLER(ID_WINDOW_USB_SLAVE)
+Usb_app.c (app\car_camera):80
+    req.show.id = ID_WINDOW_USB_SLAVE;
+Usb_app.c (app\car_camera):94
+    req.hide.id = ID_WINDOW_USB_SLAVE;
+---- sd Matches (23 in 19 files) ----
+Board_mipi_20170330.c (cpu\ac54xx\board):612
+    // sd power ctrl pin
+Board_mipi_develop_board.c (cpu\...\board):636
+    // sd power ctrl pin
+Board_mipi_touch_20170419.c (cpu\...\board):638
+    // sd power ctrl pin
+Board_mipi_touch_v1.c (cpu\ac54xx\board):655
+    // sd power ctrl pin
+Board_mipi_touch_v1_dvp.c (cpu\...\board):648
+    // sd power ctrl pin
+Board_mipi_v2.c (cpu\ac54xx\board):526
+    // sd power ctrl pin
+Board_mipi_v3.c (cpu\ac54xx\board):682
+    // sd power ctrl pin
+Board_mipi_v4.c (cpu\ac54xx\board):606
+    // sd power ctrl pin
+Device_mount.c (app\car_camera):45
+        puts("sd is not class 10\n");
+Device_mount.c (app\car_camera):82
+    if (!ASCII_StrCmp(event->arg, "sd*", 4)) {
+Main.or32.resolution.txt (cpu\...\tools):4856
+include_lib/liba/cpu.a.llvm.115264.sd.c
+-r=include_lib/liba/cpu.a.llvm.115264.sd.c,sdmmc_0_port_init,pl
+-r=include_lib/liba/cpu.a.llvm.115264.sd.c,sdmmc_0_clk_detect,pl
+-r=include_lib/liba/cpu.a.llvm.115264.sd.c,sdmmc_1_port_init,pl
+-r=include_lib/liba/cpu.a.llvm.115264.sd.c,sdmmc_1_clk_detect,pl
+-r=include_lib/liba/cpu.a.llvm.115264.sd.c,sdmmc_2_port_init,pl
+-r=include_lib/liba/cpu.a.llvm.115264.sd.c,sdmmc_2_clk_detect,pl
+-r=include_lib/liba/cpu.a.llvm.115264.sd.c,printf,l
+-r=include_lib/liba/cpu.a.llvm.115264.sd.c,puts,l
+-r=include_lib/liba/cpu.a.llvm.115264.sd.c,gpio_set_pull_up,l
+-r=include_lib/liba/cpu.a.llvm.115264.sd.c,gpio_set_pull_down,l
+-r=include_lib/liba/cpu.a.llvm.115264.sd.c,gpio_direction_output,l
+-r=include_lib/liba/cpu.a.llvm.115264.sd.c,gpio_set_hd,l
+-r=include_lib/liba/cpu.a.llvm.115264.sd.c,gpio_direction_input,l
+-r=include_lib/liba/cpu.a.llvm.115264.sd.c,delay,l
+-r=include_lib/liba/cpu.a.llvm.115264.sd.c,gpio_read,l
+Map.txt:316
+include_lib/liba/cpu.a(sd.o)  (--whole-archive)
+Map.txt:1011
+ .text          0x00000000        0x0 sd.o (symbol from plugin)
+Sd.h (include_lib\system\device):2
+ *  include/linux/mmc/sd.h
+Ui_action_dec.c (app\...\style_jl02):1985
+            puts("no sd card!\n");
+Ui_action_head.c (app\...\style_a20):34
+        /*if (dir_empty("/dev/storge/sd/")){*/
+Ui_action_head.c (app\...\style_jl):32
+        /*if (dir_empty("/dev/storge/sd/")){*/
+Ui_action_main.c (app\...\style_jl02):799
+			//ui_set_call(main_show_msg,BOX_MSG_XXX);//?????sd??
+Ui_action_main.c (app\...\style_jl02):846
+			//ui_set_call(main_show_msg,BOX_MSG_XXX);//?????sd??
+Ui_action_sys.c (app\...\style_ly):428
+                printf("format sd offline !\n");
+Video_rec.c (app\car_camera):3206
+    puts("\n----rec app sd in----\n");
+Video_rec.c (app\car_camera):3998
+    if (!ASCII_StrCmp(event->arg, "sd*", 4)) {
+板子快速配置使用.c (doc\快速上手说明):558
+    // sd power ctrl pin

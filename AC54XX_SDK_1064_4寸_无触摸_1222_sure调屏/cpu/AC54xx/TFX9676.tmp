@@ -1,0 +1,650 @@
+#include "asm/clock.h"
+#include "os/os_api.h"
+#include "asm/uart.h"
+#include "generic/gpio.h"
+#include "spinlock.h"
+#include "init.h" 
+//#include"stdlib.h"
+ 
+struct uartx_debug_reg {
+    volatile u32 *ut_con;
+    volatile u8  *ut_buf;
+    volatile u32 *ut_txdma_addr;
+    volatile u32 *ut_txdma_cnt;
+};
+//double myatof(const char *str);
+const char pin_month[13]={0,31,28,31,30,31,30,31,31,30,31,30,31};  //平年
+const char run_month[13]={0,31,29,31,30,31,30,31,31,30,31,30,31};  //闰年
+static struct uartx_debug_reg debug = {NULL, NULL};
+static DEFINE_SPINLOCK(lock);
+static u8 uart_dma_buf[1024 * 2];
+static u8 tx_busy = 1;
+static u8 dma_enable = 0;
+static u16 data_len = 0;
+static u16 r_pos = 0;
+static u16 w_pos = 0;
+static u16 timer = 0;
+ u8 receive_gps_flag = 0;
+#define SOILDOG_MSG_BUF_SIZE  80
+ 
+ volatile u8 soildog_msg_buf[SOILDOG_MSG_BUF_SIZE] = {0};
+volatile u8 buf1[SOILDOG_MSG_BUF_SIZE] = {"$GPGGA"};
+  volatile u8 buf2[SOILDOG_MSG_BUF_SIZE] = {"$GPGLL"};
+volatile u8 buf3[SOILDOG_MSG_BUF_SIZE] = {"$GPRMC,"};
+volatile u8 buf4[SOILDOG_MSG_BUF_SIZE] = {0};
+volatile u8 buf5[SOILDOG_MSG_BUF_SIZE] = {0};
+volatile u8 buf6[SOILDOG_MSG_BUF_SIZE] = {0};
+
+int soildog_msg_count = 0;
+
+typedef struct{
+    int year; 
+    int month; 
+    int day;
+    int hour;
+    int minute;
+    int second;
+}DATE_TIME;
+
+typedef  struct data{
+    double  latitude; //经度
+    double  longitude; //纬度
+    int  latitude_Degree;    //度
+    int         latitude_Cent;   //分
+    int     latitude_Second; //秒
+    int  longitude_Degree;    //度
+    int        longitude_Cent;  //分
+    int     longitude_Second; //秒
+    float     speed; //速度
+    float     direction; //航向
+    float     height; //海拔高度
+    int satellite;
+   u8     NS;
+    u8     EW;
+    DATE_TIME D;
+}GPS_INFO;
+
+
+
+int GetComma(int num,char *buf4)
+{
+    int i,j=0;
+    int len=strlen(buf4);
+    for(i=0;i<len;i++)
+    {
+        if(buf4[i]==',')
+        {
+             j++;
+        }
+
+        if(j==num)
+            return i+1;
+    }
+    return 0;
+}
+int is_digit(char ch)  
+{  
+    if(ch>='0'&&ch<='9')  
+       return 1;  
+    else  
+        return 0;  
+}  
+int is_space(char ch)  
+{  
+   if(ch==' ')  
+       return 1;  
+    else  
+        return 0;  
+}  
+double atof(char *s)  
+{  
+    double power,value;  
+    int i,sign;  
+   // assert(s!=NULL);//判断字符串是否为空  
+    for(i=0;is_space(s[i]);i++);//除去字符串前的空格  
+    sign=(s[i]=='-')?-1:1;  
+    if(s[i]=='-'||s[i]=='+')//要是有符号位就前进一位  
+       i++;  
+    for(value=0.0;is_digit(s[i]);i++)//计算小数点钱的数字  
+        value=value*10.0+(s[i]-'0');  
+    if(s[i]=='.')  
+        i++;  
+    for(power=1.0;is_digit(s[i]);i++)//计算小数点后的数字  
+    {  
+       value=value*10.0+(s[i]-'0');  
+        power*=10.0;  
+    }  
+    return sign*value/power;  
+}  
+
+double Get_Double_Number(char *s)
+{
+    char buf[128];
+    int i;
+    float rev;
+    i=GetComma(1,s);
+    strncpy(buf,s,i);
+    buf[i]=0;
+    rev=atof (buf);
+
+    return rev;
+}
+static void UTC2BTC(DATE_TIME *GPS)
+{
+   //如果秒号先出,再出时间数据,则将时间数据+1秒
+   GPS->second++; //加一秒
+   if(GPS->second>59){
+      GPS->second=0;
+      GPS->minute++;
+      if(GPS->minute>59){
+        GPS->minute=0;
+        GPS->hour++;
+      }
+  } 
+  GPS->hour+=8;   //北京时间与世界时间相差8个时区，即相差8个钟
+  if(GPS->hour>23)
+  {
+     GPS->hour-=24;
+     GPS->day+=1;
+     if(GPS->month==2 || GPS->month==4 || GPS->month==6 || GPS->month==9 || GPS->month==11 ){
+        if(GPS->day>30){
+           GPS->day=1;
+           GPS->month++;
+        }
+     }
+     else{
+        if(GPS->day>31){
+           GPS->day=1;
+           GPS->month++;
+        }
+   }
+   if((GPS->year % 4 ==0) && (GPS->year % 400 == 0 || GPS->year % 100 != 0)){  //判断闰年
+       if(GPS->day > 29 && GPS->month ==2){   //闰年二月比平年二月多一天
+          GPS->day=1;
+          GPS->month++;
+       }
+   }
+   else{
+       if(GPS->day>28 &&GPS->month ==2){
+         GPS->day=1;
+         GPS->month++;
+       }
+   }
+   if(GPS->month>12){
+      GPS->month-=12;
+      GPS->year++;
+   }  
+  }
+}
+#define kk 20
+int GPS_RMC_Parse(char *line, GPS_INFO *GPS)
+{
+	u8 ch, tmp;
+	char RX_BUF1,ns,ws,t,n3,w3;
+	float lati_cent_tmp, lati_second_tmp;
+	float long_cent_tmp, long_second_tmp;
+	float speed_tmp;
+	char *buf = line;
+        int i = 0,j = 0,hh =0,mm =0,ss =0,yy =0,yy1=0,mu =0,dd =0,t1 =0,t2=0,t3=0,t4=0,t5=0,n1 =0,n2 =0,w1 =0,w2 =0;
+	u8 k, count = 0;
+	ch = buf4[5];
+	char status = 0;
+// $GPRMC,120018.000,V,0000.0000,N,00000.0000,E,000.0,000.0,280606,,,N*76
+      
+ if(ch = 'C')
+{
+
+        ns = buf4[30], ws = buf4[43];
+	 n3 = buf4[24];
+	 w3 = buf4[37];
+	 t1 = (buf4[45] -'0'),t2 = (buf4[46]-'0'),t3 = (buf4[47] -'0'),t4 = (buf4[48] ),t5 = (buf4[49] -'0');
+	 n1 = (buf4[20] - '0') * 1000 + (buf4[21] - '0') *100,(buf4[22] - '0') * 10 + (buf4[23] - '0');  
+	 n2= (buf4[25] - '0') * 1000 + (buf4[26] - '0') *100,(buf4[27] - '0') * 10 + (buf4[28] - '0');
+	 w1 = (buf4[32] - '0') * 10000 + (buf4[33] - '0') *1000,(buf4[34] - '0') * 100 + (buf4[35] - '0')*10+(buf4[36] - '0');  
+	 w2= (buf4[38] - '0') * 1000 + (buf4[39] - '0') *100,(buf4[40] - '0') * 10 + (buf4[41] - '0');
+	 hh    = (buf4[7] - '0') * 10 + (buf4[8] - '0');        //时间
+	 mm  = (buf4[9] - '0') * 10 + (buf4[10] - '0');
+	 ss    = (buf4[11] - '0') * 10 + (buf4[12] - '0');
+	 dd    = (buf4[57] - '0') * 10 + (buf4[58] - '0');        //时间
+	 mu   = (buf4[59] - '0') * 10 + (buf4[60] - '0');
+	 yy1  = (buf4[61] - '0') * 10 + (buf4[62] - '0');
+	 yy    = yy1+2000;
+
+	//  printf("%c%c\n", ns,ws);
+      //   printf("%d%d%d%c%d\n", t1,t2,t3,t4,t5);
+        //  printf("%d%c%d\n", n1,n3,n2);
+       //   printf("%d%c%d\n", w1,w3,w2);
+	//   printf("%d %d %d\n ",hh,mm,ss);
+	 //   printf("%d %d %d\n ",yy,mu,dd);
+
+ }
+#if 0
+if (ch == 'C') //如果第五个字符是C，($GPRMC)
+{
+	// printf("\n1buf4 %s\n",buf4);
+	//  printf("11kkkkkkkkkkkiiiiiiii\n");
+	// printf("====status   %c\n",status);
+	if (status == 'V') //如果数据有效，则分析
+	{
+		//   printf("\n2buf4 %s\n",buf4);
+		  //printf("22kkkkkkkkkkkiiiiiiii\n");
+		//if(RX_BUF1 == 0x0A)
+		//{
+		GPS->NS = buf4[GetComma(2, buf4)];
+		GPS->EW = buf4[GetComma(2, buf4)];
+
+		GPS->latitude = Get_Double_Number(&buf4[GetComma(3, buf4)]);
+		GPS->longitude = Get_Double_Number(&buf4[GetComma(5, buf4)]);
+
+		GPS->latitude_Degree = (int)GPS->latitude / 100; //分离纬度
+		lati_cent_tmp = (GPS->latitude - GPS->latitude_Degree * 100);
+		GPS->latitude_Cent = (int)lati_cent_tmp;
+		lati_second_tmp = (lati_cent_tmp - GPS->latitude_Cent) * 60;
+		GPS->latitude_Second = (int)lati_second_tmp;
+
+		GPS->longitude_Degree = (int)GPS->longitude / 100;    //分离经度
+		long_cent_tmp = (GPS->longitude - GPS->longitude_Degree * 100);
+		GPS->longitude_Cent = (int)long_cent_tmp; 
+		long_second_tmp = (long_cent_tmp - GPS->longitude_Cent) * 60;
+		GPS->longitude_Second = (int)long_second_tmp;
+
+		speed_tmp = Get_Double_Number(&buf4[GetComma(7, buf4)]); //速度(单位：海里/时)
+		GPS->speed = speed_tmp * 1.85; //1海里=1.85公里
+		GPS->direction = Get_Double_Number(&buf4[GetComma(8, buf4)]); //角度            
+
+		GPS->D.hour = (buf4[7] - '0') * 10 + (buf4[8] - '0');        //时间
+		GPS->D.minute = (buf4[9] - '0') * 10 + (buf4[10] - '0');
+		GPS->D.second = (buf4[11] - '0') * 10 + (buf4[12] - '0');
+		tmp = GetComma(9, buf4);
+		GPS->D.day = (buf4[tmp + 0] - '0') * 10 + (buf4[tmp + 1] - '0'); //日期
+		GPS->D.month = (buf4[tmp + 2] - '0') * 10 + (buf4[tmp + 3] - '0');
+		GPS->D.year = (buf4[tmp + 4] - '0') * 10 + (buf4[tmp + 5] - '0') + 2000;
+
+		UTC2BTC(&GPS->D);
+
+		//  printf("GPS->speed %d GPS->NS%c GPS->EW %c  GPS->D.hour%d  GPS->D.minute%d GPS->D.second%d GPS->D.year%d GPS->D.month%d GPS->D.day%d\n",GPS->speed,GPS->NS,GPS->EW,GPS->D.hour,GPS->D.minute,GPS->D.second,GPS->D.year,GPS->D.month,GPS->D.day);
+		//	}
+	return 1;
+	}        
+}
+	#endif	
+
+    return 0;
+}
+/*
+int GPS_GGA_Parse(char *line, GPS_INFO *GPS)
+{
+    U8 ch, status;
+    char *buf = line;
+    ch = buf[4];
+    status = buf[GetComma(2, buf)];
+
+    if (ch == 'G') //$GPGGA
+    {
+        if (status != ',')
+        {
+            GPS->height = Get_Float_Number(&buf[GetComma(9, buf)]);
+            GPS->satellite = Get_Int_Number(&buf[GetComma(7, buf)]);
+
+            return 1;
+        }
+    }
+
+    return 0;
+}
+*/
+___interrupt
+void uartx_irq_handler()
+{
+    irq_handler_enter(UART2_INT);
+
+    *debug.ut_con |= BIT(13);
+
+    spin_lock(&lock);
+    tx_busy = 0;
+    spin_unlock(&lock);
+  //  uart_dma_tx();
+
+    irq_handler_exit(UART2_INT);
+}
+
+int communication_putByte(char a)
+{
+    //u32 count = 5000;
+    UT2_BUF = a;
+    while((UT2_CON & BIT(15)) == 0);
+//    {
+//        count --;
+//        if(!count)
+//            break;
+//    }
+    UT2_CON |= BIT(13);
+    return a;
+}
+
+
+___interrupt
+void uarrx_irq_handler()
+{
+    //irq_handler_enter(UART0_INT);
+
+      char RX_BUF = 0;
+    u8 i=0,len1;
+     GPS_INFO *gps;
+	 
+    if(UT2_CON & BIT(15)) //tpend
+    {
+        //发送数据完成
+        UT2_CON |= BIT(13);
+    }
+    else if(UT2_CON & BIT(14)) //rpend
+    {
+        
+       RX_BUF = UT2_BUF;//get one byte
+      // printf("-%c-",RX_BUF);
+if(RX_BUF == 0x24   || soildog_msg_count >= SOILDOG_MSG_BUF_SIZE )
+{
+
+
+  soildog_msg_count = 0;
+
+
+}
+   
+        soildog_msg_buf[soildog_msg_count++] = UT2_BUF;
+                    if(soildog_msg_buf[3] == 0x52)
+                   {
+
+	                     memset(buf4, 0, soildog_msg_count + 1);
+				memcpy(buf4,soildog_msg_buf,soildog_msg_count);
+
+	                   
+	        
+
+                    	}
+                    if(soildog_msg_buf[4] == 0x4C)
+                   {
+
+	                     memset(buf5, 0, soildog_msg_count + 1);
+				memcpy(buf5,soildog_msg_buf,soildog_msg_count);
+
+	                  //   if(RX_BUF == 0x0A)
+			   //	{
+			  //		// printf("\nbuf5 %s\n",buf5);
+	                 //}
+	        
+
+                    	}
+		if(RX_BUF == 0x0A)
+		{
+
+		  GPS_RMC_Parse(buf4,&gps);
+		 soildog_msg_count = 0;
+
+		}
+
+	// 
+  
+	//        }
+        //接受数据完成
+        UT2_CON |=BIT(12) ;
+
+    }
+    else if(UT2_CON & BIT(11))  //otpend
+    {
+        //接受数据超时
+        UT2_CON |= BIT(10);
+        UT2_CON |= BIT(7) ; //清UT0_HRXCNT
+    }
+
+
+    irq_handler_exit(UART2_INT);
+}
+
+int muart_init(const struct uart_platform_data *data)
+{
+    int uart_clk = clk_get("uart");
+
+    gpio_direction_output(data->tx_pin, 0);
+
+
+    switch (data->irq) {
+    case UART0_INT:
+        IOMC3 |= BIT(3) ;//占用相应的IO
+
+        if (data->tx_pin == IO_PORTC_00) {
+            IOMC0 &= ~(BIT(6) | BIT(7));
+        } else if (data->tx_pin == IO_PORTG_06) {
+            IOMC0 &= ~BIT(7);
+            IOMC0 |= BIT(6);
+
+            gpio_direction_output(IO_PORTG_06,0);
+            gpio_direction_input(IO_PORTG_07);
+            /*PORTG_DIR &= ~BIT(6);
+              PORTG_DIR |= BIT(7);*/
+        } else if (data->tx_pin == IO_PORTH_12) {
+            IOMC0 |= BIT(7);
+            IOMC0 &= ~BIT(6);
+            /*PORTH_DIR &= ~BIT(12);
+              PORTH_DIR |= BIT(13);*/
+        } else if (data->tx_pin == IO_PORTB_14) {
+            IOMC0 |= (BIT(7) | BIT(6));
+            /*PORTB_DIR &= ~BIT(14);
+              PORTB_DIR |= BIT(15);*/
+        } else {
+            /*IOMC3 &= ~BIT(3);*/
+        }
+        UT0_BAUD = (uart_clk / data->baudrate) / 4 - 1;
+        UT0_CON =  BIT(0);
+
+        UT0_CON &= ~BIT(1);          //8 bits
+        UT0_CON &= ~BIT(6);          //普通模式，不用DMA模式
+        UT0_CON |= BIT(13)|BIT(12)|BIT(10); //清TXPND,RXPND,OTPND
+        UT0_CON |= BIT(3);//串口接收中断允许
+        UT0_CON |= BIT(0);//串口模块使能
+
+//        UT0_OTCNT = 0x10;
+//        if (data->flags & UART_DEBUG) {
+//            debug.ut_con = &UT0_CON;
+//            debug.ut_buf = &UT0_BUF;
+//            if (data->flags & UART_TX_USE_DMA) {
+//                debug.ut_txdma_addr = &UT0_TXADR;
+//                debug.ut_txdma_cnt  = &UT0_TXCNT;
+//            }
+//        }
+        break;
+    case UART1_INT:
+        IOMC3 |= BIT(7) ;//占用相应的IO
+        IOMC1 &= ~(BIT(2) | BIT(3));
+
+        if (data->tx_pin == IO_PORTC_02) {
+            /*PORTC_DIR &= ~BIT(2);
+              PORTC_DIR |= BIT(3);*/
+        } else  if (data->tx_pin == IO_PORTH_02) {
+            IOMC1 |= BIT(2);
+            /*PORTH_DIR &= ~BIT(2);
+              PORTH_DIR |= BIT(5);*/
+        } else  if (data->tx_pin == IO_PORTH_14) {
+            IOMC1 |= BIT(3);
+            /*PORTH_DIR &= ~BIT(14);
+              PORTH_DIR |= BIT(15);*/
+        } else  if (data->tx_pin == IO_PORTC_06) {
+            IOMC1 |= (BIT(2) | BIT(3));
+            /*PORTC_DIR &= ~BIT(6);
+              PORTC_DIR |= BIT(7);*/
+        }
+
+        UT1_BAUD = (uart_clk / data->baudrate) / 4 - 1;
+        UT1_CON =  BIT(0);
+        if (data->flags & UART_DEBUG) {
+            debug.ut_con = &UT1_CON;
+            debug.ut_buf = &UT1_BUF;
+            if (data->flags & UART_TX_USE_DMA) {
+                debug.ut_txdma_addr = &UT1_TXADR;
+                debug.ut_txdma_cnt  = &UT1_TXCNT;
+            }
+        }
+        break;
+    case UART2_INT:
+        IOMC3 |= BIT(11) ;//占用相应的IO
+      //  IOMC3 &= ~(BIT(12) | BIT(13)) ; //0 : PC4/PC5 1:PF0/PF3 2:PD0/PD1 3:PH0/PH1
+
+        if (data->tx_pin == IO_PORTC_04) {
+            /*PORTC_DIR &= ~BIT(4);
+              PORTC_DIR |= BIT(5);*/
+        } else if (data->tx_pin == IO_PORTH_10) {
+            IOMC3 |= BIT(12);
+	    IOMC3 &= ~(BIT(13)) ;
+            gpio_direction_output(IO_PORTH_10,0);
+            gpio_direction_input(IO_PORTH_09);
+        } else if (data->tx_pin == IO_PORTD_00) {
+            IOMC3 |= BIT(13);
+            /*PORTD_DIR &= ~BIT(0);
+              PORTD_DIR |= BIT(1);*/
+        } else if (data->tx_pin == IO_PORTH_00) {
+            IOMC3 |= (BIT(12) | BIT(13));
+            /*PORTH_DIR &= ~BIT(0);
+              PORTH_DIR |= BIT(1);*/
+        }
+       UT2_BAUD = (uart_clk / data->baudrate) / 4 - 1;
+        UT2_CON =  BIT(0);
+
+        UT2_CON &= ~BIT(1);          //8 bits
+        UT2_CON &= ~BIT(6);          //普通模式，不用DMA模式
+        UT2_CON |= BIT(13)|BIT(12)|BIT(10); //清TXPND,RXPND,OTPND
+        UT2_CON |= BIT(3);//串口接收中断允许
+        UT2_CON |= BIT(0);//串口模块使能
+        break;
+    case UART3_INT:
+        IOMC3 |= BIT(25) ;//占用相应的IO
+        IOMC3 &= ~(BIT(26) | BIT(27)) ; //0 : PE0/PE2 1:PB4/PB3 2:PD9/PD10 3:PD14/PD15
+        if (data->tx_pin == IO_PORTE_00) {
+            /*PORTE_DIR &= ~BIT(0);
+              PORTE_DIR |= BIT(1);*/
+
+        } else if (data->tx_pin == IO_PORTB_04) {
+            IOMC3 |= BIT(26) ;
+            /*PORTB_DIR &= ~BIT(4);
+              PORTB_DIR |= BIT(3);*/
+        } else if (data->tx_pin == IO_PORTD_09) {
+            IOMC3 |= BIT(27) ;
+            /*PORTD_DIR &= ~BIT(9);
+              PORTD_DIR |= BIT(10);*/
+        } else if (data->tx_pin == IO_PORTD_14) {
+            IOMC3 |= (BIT(26) | BIT(27)) ;
+            /*PORTD_DIR &= ~BIT(14);
+              PORTD_DIR |= BIT(15);*/
+        }
+
+        UT3_BAUD = (uart_clk / data->baudrate) / 4 - 1;
+        UT3_CON =  BIT(0);
+        if (data->flags & UART_DEBUG) {
+            debug.ut_con = &UT3_CON;
+            debug.ut_buf = &UT3_BUF;
+            if (data->flags & UART_TX_USE_DMA) {
+                debug.ut_txdma_addr = &UT3_TXADR;
+                debug.ut_txdma_cnt  = &UT3_TXCNT;
+            }
+        }
+        break;
+    default:
+        return -EINVAL;
+    }
+
+//    if ((data->flags & UART_DEBUG) && debug.ut_txdma_addr) {
+//        /**debug.ut_con |= BIT(13);*/
+//        request_irq(data->irq, 1, uartx_irq_handler, 0);
+//    }
+
+    request_irq(data->irq, 2, uarrx_irq_handler, 0);
+    //communication_putByte(0x33);
+    //communication_putByte(0x33);
+    //communication_putByte(0x33);
+    return 0;
+}
+
+
+
+void mputbyte(char a)
+{
+    if (debug.ut_con == NULL) {
+        return;
+    }
+
+    spin_lock(&lock);
+
+    if (dma_enable) {
+
+        if (a == '\n') {
+            uart_dma_buf[w_pos++] = '\r';
+            if (w_pos == sizeof(uart_dma_buf)) {
+                w_pos = 0;
+            }
+            data_len++;
+            /*cbuf_write(&uart_cbuf, &b, 1);*/
+        }
+        uart_dma_buf[w_pos++] = a;
+        if (w_pos == sizeof(uart_dma_buf)) {
+            w_pos = 0;
+        }
+        data_len++;
+
+        spin_unlock(&lock);
+
+      //  uart_dma_tx();
+    } else {
+        spin_unlock(&lock);
+
+        if (a == '\n') {
+            if (tx_busy) {
+                while ((*debug.ut_con & BIT(15)) == 0);
+            }
+            *debug.ut_buf = '\r';
+            __asm__ volatile("csync");
+            __asm__ volatile("csync");
+            __asm__ volatile("csync");
+            __asm__ volatile("csync");
+            __asm__ volatile("csync");
+            tx_busy = 1;
+        }
+        if (tx_busy) {
+            while ((*debug.ut_con & BIT(15)) == 0);
+        }
+        *debug.ut_buf = a;
+        __asm__ volatile("csync");
+        __asm__ volatile("csync");
+        __asm__ volatile("csync");
+        __asm__ volatile("csync");
+        __asm__ volatile("csync");
+        tx_busy = 1;
+        /*while ((*debug.ut_con & BIT(15)) == 1);*/
+    }
+}
+
+int mgetbyte(char *c)
+{
+    if (debug.ut_con == NULL) {
+        return 0;
+    }
+    if ((*debug.ut_con & BIT(14))) {
+        *c = *debug.ut_buf;
+        *debug.ut_con |= BIT(12);
+        return 1;
+    }
+
+    return 0;
+}
+
+
+
+
+static void uart_dma_mode()
+{
+    if (debug.ut_txdma_addr) {
+        dma_enable = 1;
+        tx_busy = 0;
+        *debug.ut_con |= BIT(13);
+        *debug.ut_con |= BIT(2);
+    }
+}
+late_initcall(uart_dma_mode);

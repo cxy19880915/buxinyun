@@ -1,0 +1,31 @@
+#ifndef __GPS_H__
+#define __GPS_H__
+
+#include "typedef.h"
+
+
+typedef  struct data{
+    double  latitude; //经度
+    double  longitude; //纬度
+    int  latitude_Degree;    //度
+    int         latitude_Cent;   //分
+    int     latitude_Second; //秒
+    int  longitude_Degree;    //度
+    int        longitude_Cent;  //分
+    int     longitude_Second; //秒
+    int year1; 
+    int month1; 
+    int day1;
+    int hour1;
+    int minute1;
+    int second1;
+    float     speed; //速度
+    float     direction; //航向
+    float     height; //海拔高度
+    int satellite;
+   u8     NS;
+    u8     EW;
+    //DATE_TIME D;
+}GPS_INFO;
+
+#endif
