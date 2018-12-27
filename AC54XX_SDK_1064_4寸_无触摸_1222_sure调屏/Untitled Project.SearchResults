@@ -1,75 +1,147 @@
----- ID_WINDOW_USB_SLAVE Matches (6 in 4 files) ----
-Style.h (app\car_camera\include):13
-#define ID_WINDOW_USB_SLAVE PAGE_4
-Style.h (app\car_camera\include):29
-#define ID_WINDOW_USB_SLAVE PAGE_3
-Ui_action_usb.c (app\...\style_jl02):54
-REGISTER_UI_EVENT_HANDLER(ID_WINDOW_USB_SLAVE)
-Ui_action_usb.c (app\...\style_ly):50
-REGISTER_UI_EVENT_HANDLER(ID_WINDOW_USB_SLAVE)
-Usb_app.c (app\car_camera):80
-    req.show.id = ID_WINDOW_USB_SLAVE;
-Usb_app.c (app\car_camera):94
-    req.hide.id = ID_WINDOW_USB_SLAVE;
----- sd Matches (23 in 19 files) ----
-Board_mipi_20170330.c (cpu\ac54xx\board):612
-    // sd power ctrl pin
-Board_mipi_develop_board.c (cpu\...\board):636
-    // sd power ctrl pin
-Board_mipi_touch_20170419.c (cpu\...\board):638
-    // sd power ctrl pin
-Board_mipi_touch_v1.c (cpu\ac54xx\board):655
-    // sd power ctrl pin
-Board_mipi_touch_v1_dvp.c (cpu\...\board):648
-    // sd power ctrl pin
-Board_mipi_v2.c (cpu\ac54xx\board):526
-    // sd power ctrl pin
-Board_mipi_v3.c (cpu\ac54xx\board):682
-    // sd power ctrl pin
-Board_mipi_v4.c (cpu\ac54xx\board):606
-    // sd power ctrl pin
-Device_mount.c (app\car_camera):45
-        puts("sd is not class 10\n");
-Device_mount.c (app\car_camera):82
-    if (!ASCII_StrCmp(event->arg, "sd*", 4)) {
-Main.or32.resolution.txt (cpu\...\tools):4856
-include_lib/liba/cpu.a.llvm.115264.sd.c
--r=include_lib/liba/cpu.a.llvm.115264.sd.c,sdmmc_0_port_init,pl
--r=include_lib/liba/cpu.a.llvm.115264.sd.c,sdmmc_0_clk_detect,pl
--r=include_lib/liba/cpu.a.llvm.115264.sd.c,sdmmc_1_port_init,pl
--r=include_lib/liba/cpu.a.llvm.115264.sd.c,sdmmc_1_clk_detect,pl
--r=include_lib/liba/cpu.a.llvm.115264.sd.c,sdmmc_2_port_init,pl
--r=include_lib/liba/cpu.a.llvm.115264.sd.c,sdmmc_2_clk_detect,pl
--r=include_lib/liba/cpu.a.llvm.115264.sd.c,printf,l
--r=include_lib/liba/cpu.a.llvm.115264.sd.c,puts,l
--r=include_lib/liba/cpu.a.llvm.115264.sd.c,gpio_set_pull_up,l
--r=include_lib/liba/cpu.a.llvm.115264.sd.c,gpio_set_pull_down,l
--r=include_lib/liba/cpu.a.llvm.115264.sd.c,gpio_direction_output,l
--r=include_lib/liba/cpu.a.llvm.115264.sd.c,gpio_set_hd,l
--r=include_lib/liba/cpu.a.llvm.115264.sd.c,gpio_direction_input,l
--r=include_lib/liba/cpu.a.llvm.115264.sd.c,delay,l
--r=include_lib/liba/cpu.a.llvm.115264.sd.c,gpio_read,l
-Map.txt:316
-include_lib/liba/cpu.a(sd.o)  (--whole-archive)
-Map.txt:1011
- .text          0x00000000        0x0 sd.o (symbol from plugin)
-Sd.h (include_lib\system\device):2
- *  include/linux/mmc/sd.h
-Ui_action_dec.c (app\...\style_jl02):1985
-            puts("no sd card!\n");
-Ui_action_head.c (app\...\style_a20):34
-        /*if (dir_empty("/dev/storge/sd/")){*/
-Ui_action_head.c (app\...\style_jl):32
-        /*if (dir_empty("/dev/storge/sd/")){*/
-Ui_action_main.c (app\...\style_jl02):799
-			//ui_set_call(main_show_msg,BOX_MSG_XXX);//?????sd??
-Ui_action_main.c (app\...\style_jl02):846
-			//ui_set_call(main_show_msg,BOX_MSG_XXX);//?????sd??
-Ui_action_sys.c (app\...\style_ly):428
-                printf("format sd offline !\n");
-Video_rec.c (app\car_camera):3206
-    puts("\n----rec app sd in----\n");
-Video_rec.c (app\car_camera):3998
-    if (!ASCII_StrCmp(event->arg, "sd*", 4)) {
-板子快速配置使用.c (doc\快速上手说明):558
-    // sd power ctrl pin
+---- key Matches (99 in 21 files) ----
+Adkey.c (cpu\ac54xx):static int adkey_init(struct key_driver *key, void *arg)
+Adkey.c (cpu\ac54xx):static u16 adkey_get_value(struct key_driver *key)
+App_main.c (app\car_camera):static int main_key_event_handler(struct key_event *key)
+App_main.c (app\car_camera):    switch (key->event) {
+App_main.c (app\car_camera):        switch (key->value) {
+App_main.c (app\car_camera):        if (key->value == KEY_POWER) {
+App_main.c (app\car_camera):        main_key_event_handler(&event->u.key);
+Auto_test.c (app\car_camera):    event.u.key.event = KEY_EVENT_CLICK;
+Auto_test.c (app\car_camera):    event.u.key.value = KEY_UP;
+Auto_test.c (app\car_camera):    event.u.key.event = KEY_EVENT_CLICK;
+Auto_test.c (app\car_camera):    event.u.key.value = KEY_DOWN;
+Auto_test.c (app\car_camera):    event.u.key.event = KEY_EVENT_CLICK;
+Auto_test.c (app\car_camera):    event.u.key.value = KEY_POWER;
+Auto_test.c (app\car_camera):    event.u.key.event = KEY_EVENT_CLICK;
+Auto_test.c (app\car_camera):    event.u.key.value = KEY_MENU;
+Auto_test.c (app\car_camera):    {"key up", at_func_key_up, NULL},
+Auto_test.c (app\car_camera):    {"key down", at_func_key_down, NULL},
+Auto_test.c (app\car_camera):    {"key power", at_func_key_power, NULL},
+Auto_test.c (app\car_camera):    {"key menu", at_func_key_menu, NULL},
+Backlight.c (app\car_camera):            sys_key_event_consume(&(event->u.key)); /* 背光关闭时，按键只是打开背光 */
+Backlight.c (app\car_camera):               && event->u.key.event == KEY_EVENT_CLICK
+Backlight.c (app\car_camera):               && event->u.key.value == KEY_POWER) {
+Backlight.c (app\car_camera):        sys_key_event_consume(&(event->u.key));
+Board_develop_20170411.c (cpu\ac54xx\board):    if (e->u.key.value == KEY_MODE) {
+Board_develop_20170411.c (cpu\ac54xx\board):	   	if(e->u.key.event == KEY_EVENT_HOLD) {
+Board_develop_20170411.c (cpu\ac54xx\board):   		 	if (e->u.key.event == KEY_EVENT_LONG) {
+Board_develop_20170411.c (cpu\ac54xx\board):				e->u.key.value = KEY_MENU;
+Board_develop_20170411.c (cpu\ac54xx\board):				e->u.key.event = KEY_EVENT_CLICK;
+Board_develop_20170411.c (cpu\ac54xx\board):		/* 	   e->u.key.value = KEY_MENU; */
+Board_develop_20170411.c (cpu\ac54xx\board):		/*    	   e->u.key.event = KEY_EVENT_CLICK; */
+Board_mipi_develop_board.c (cpu\ac54xx\board):	if (e->u.key.value == KEY_MODE) {
+Board_mipi_develop_board.c (cpu\ac54xx\board):		if(e->u.key.event == KEY_EVENT_HOLD) {
+Board_mipi_develop_board.c (cpu\ac54xx\board):		if (e->u.key.event == KEY_EVENT_LONG) {
+Board_mipi_develop_board.c (cpu\ac54xx\board):			e->u.key.value = KEY_MENU;
+Board_mipi_develop_board.c (cpu\ac54xx\board):			e->u.key.event = KEY_EVENT_CLICK;
+Board_mipi_touch_v1_dvp.c (cpu\ac54xx\board):  if (e->u.key.value == KEY_MODE)
+Board_mipi_touch_v1_dvp.c (cpu\ac54xx\board):	   	if(e->u.key.event == KEY_EVENT_HOLD)
+Board_mipi_touch_v1_dvp.c (cpu\ac54xx\board):		if (e->u.key.event == KEY_EVENT_CLICK)
+Board_mipi_touch_v1_dvp.c (cpu\ac54xx\board):			e->u.key.value = KEY_MENU;
+Board_mipi_touch_v1_dvp.c (cpu\ac54xx\board):			e->u.key.event = KEY_EVENT_CLICK;
+Board_mipi_v3.c (cpu\ac54xx\board):	 if (e->u.key.value == KEY_POWER)
+Board_mipi_v3.c (cpu\ac54xx\board):	   	if(e->u.key.event == KEY_EVENT_HOLD)
+Board_mipi_v3.c (cpu\ac54xx\board):		if (e->u.key.event == KEY_EVENT_CLICK)
+Board_mipi_v3.c (cpu\ac54xx\board):			e->u.key.value = KEY_OK;
+Board_mipi_v3.c (cpu\ac54xx\board):			e->u.key.event = KEY_EVENT_CLICK;
+Board_mipi_v4.c (cpu\ac54xx\board):    if (e->u.key.value == KEY_MODE) {
+Board_mipi_v4.c (cpu\ac54xx\board):	   	if(e->u.key.event == KEY_EVENT_HOLD) {
+Board_mipi_v4.c (cpu\ac54xx\board):   		 	if (e->u.key.event == KEY_EVENT_LONG) {
+Board_mipi_v4.c (cpu\ac54xx\board):				e->u.key.value = KEY_MENU;
+Board_mipi_v4.c (cpu\ac54xx\board):				e->u.key.event = KEY_EVENT_CLICK;
+Board_mipi_v4.c (cpu\ac54xx\board):		/* 	   e->u.key.value = KEY_MENU; */
+Board_mipi_v4.c (cpu\ac54xx\board):		/*    	   e->u.key.event = KEY_EVENT_CLICK; */
+Event.h (include_lib\system):        struct key_event 	key;
+Key_voice.c (app\car_camera):        if (e->u.key.value == KEY_POWER) {
+Key_voice.c (app\car_camera):            if (e->u.key.event != KEY_EVENT_CLICK) {
+Key_voice.c (app\car_camera):        if (e->u.key.value == KEY_PHOTO) {
+Powerdet.c (cpu\ac54xx):static int ldoin_init(struct key_driver *key, void *arg)
+Powerdet.c (cpu\ac54xx):static u16 ldoin_get_value(struct key_driver *key)
+Powerdet.c (cpu\ac54xx):static int ldo_vbg_init(struct key_driver *key, void *arg)
+Powerdet.c (cpu\ac54xx):static u16 ldo_vbg_get_value(struct key_driver *key)
+Power_check_ontime.c (app\car_camera):static int ldo_vbg_init(struct key_driver *key, void *arg)
+Power_check_ontime.c (app\car_camera):static int ldoin_init(struct key_driver *key, void *arg)
+Power_check_ontime.c (app\car_camera):static u16 ldo_vbg_get_value(struct key_driver *key)
+Power_check_ontime.c (app\car_camera):static u16 ldoin_get_value(struct key_driver *key)
+Power_ctrl.c (app\car_camera):        puts("\n power start key press start\n");
+Power_ctrl.c (app\car_camera):    eve.u.key.event = KEY_EVENT_LONG;
+Power_ctrl.c (app\car_camera):    eve.u.key.value = KEY_POWER;
+Sys_config.h (include_lib\system):    const char *key;
+Upgrade.c (app\car_camera):static int upgrade_key_event_handler(struct key_event *key)
+Upgrade.c (app\car_camera):    switch (key->event) {
+Upgrade.c (app\car_camera):        switch (key->value) {
+Upgrade.c (app\car_camera):        return upgrade_key_event_handler(&event->u.key);
+Usb_app.c (app\car_camera):static int usb_app_key_event_handler(struct key_event *key)
+Usb_app.c (app\car_camera):    switch (key->event) {
+Usb_app.c (app\car_camera):        switch (key->value) {
+Usb_app.c (app\car_camera):        return usb_app_key_event_handler(&event->u.key);
+Video_dec.c (app\car_camera):static int video_dec_key_event_handler(struct key_event *key)
+Video_dec.c (app\car_camera):    switch (key->event) {
+Video_dec.c (app\car_camera):        switch (key->value) {
+Video_dec.c (app\car_camera):        switch (key->value) {
+Video_dec.c (app\car_camera):        return video_dec_key_event_handler(&event->u.key);
+Video_photo.c (app\car_camera):static int video_photo_key_event_handler(struct key_event *key)
+Video_photo.c (app\car_camera):    switch (key->event) {
+Video_photo.c (app\car_camera):        switch (key->value) {
+Video_photo.c (app\car_camera):        return video_photo_key_event_handler(&event->u.key);
+Video_rec.c (app\car_camera):static int video_rec_key_event_handler(struct key_event *key)
+Video_rec.c (app\car_camera):    switch (key->event) {
+Video_rec.c (app\car_camera):        switch (key->value) {
+Video_rec.c (app\car_camera):            puts("rec key mode\n");
+Video_rec.c (app\car_camera): static int video_dzg_key_event_handler(struct key_event *key)
+Video_rec.c (app\car_camera):    switch (key->event) {
+Video_rec.c (app\car_camera):        switch (key->value) {
+Video_rec.c (app\car_camera):        return video_rec_key_event_handler(&event->u.key);
+Video_rec.c (app\car_camera):        return video_dzg_key_event_handler(&event->u.key);
+板子快速配置使用.c (doc\快速上手说明):    if (e->u.key.value == KEY_MODE) {
+板子快速配置使用.c (doc\快速上手说明):	   	if(e->u.key.event == KEY_EVENT_HOLD) {
+板子快速配置使用.c (doc\快速上手说明):   		 	if (e->u.key.event == KEY_EVENT_LONG) {
+板子快速配置使用.c (doc\快速上手说明):				e->u.key.value = KEY_MENU;
+板子快速配置使用.c (doc\快速上手说明):				e->u.key.event = KEY_EVENT_CLICK;
+---- usb_app_set_config Matches (6 in 3 files) ----
+Main.or32.resolution.txt (cpu\...\tools):758
+-r=obj\Debug\app\car_camera\usb_app.o,usb_app_set_config,l
+Main.or32.resolution.txt (cpu\...\tools):767
+-r=obj\Debug\app\car_camera\usb_app_cfg.o,usb_app_set_config,pl
+Usb_app.c (app\car_camera):43
+extern int usb_app_set_config(struct intent *it);
+Usb_app.c (app\car_camera):154
+            usb_app_set_config(it);
+Usb_app_cfg.c (app\car_camera):12
+int usb_app_set_config(struct intent *it)
+Usb_app_cfg.c (app\car_camera):14
+    puts("usb_app_set_config.\n");
+---- get_value Matches (4 in 3 files) ----
+Adkey.c (cpu\ac54xx):65
+    .get_value 	= adkey_get_value,
+Key_driver.h (include_lib\system\device):16
+    u16(*get_value)(struct key_driver *);
+Powerdet.c (cpu\ac54xx):37
+    .get_value 	= ldoin_get_value,
+Powerdet.c (cpu\ac54xx):65
+    .get_value 	= ldo_vbg_get_value,
+---- get_value Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+E:\cxy job\git_work\AC54XX_SDK_1064_4寸_无触摸_1222_sure调屏\cpu\AC54xx\iokey.c : File could not be opened.
+---- ldoin_scan Matches (2 in 1 files) ----
+Powerdet.c (cpu\ac54xx):14
+REGISTER_ADC_SCAN(ldoin_scan)
+Powerdet.c (cpu\ac54xx):32
+    return ldoin_scan.value;
+---- ldo_vbg_scan Matches (2 in 1 files) ----
+Powerdet.c (cpu\ac54xx):45
+REGISTER_ADC_SCAN(ldo_vbg_scan)
+Powerdet.c (cpu\ac54xx):60
+    return ldo_vbg_scan.value;
+---- key_power Matches (1 in 1 files) ----
+App_main.c (app\car_camera):146
+            puts("---key_power\n");
+---- power_dev_begin Matches (4 in 3 files) ----
+Main.or32.resolution.txt (cpu\...\tools):322
+-r=obj\Debug\app\car_camera\power_ctrl.o,power_dev_begin,
+Map.txt:1469
+                0x0407a5e4                PROVIDE (power_dev_begin, .)
+Power_ctrl.h (app\car_camera\include):42
+extern power_device power_dev_begin[];
+Power_ctrl.h (app\car_camera\include):51
+	for (c=power_dev_begin; c<power_dev_end; c++)
