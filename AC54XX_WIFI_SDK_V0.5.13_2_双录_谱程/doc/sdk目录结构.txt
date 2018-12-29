@@ -1,0 +1,37 @@
+
+
+app目录存放各方案的应用层程序
+    app/car_camera                      行车记录仪方案
+    app/car_camera/app_main.c           app的main函数入口文件，负责播放开关机动画,启动和切换app
+    app/car_camera/video_rec.c          录像模式app
+    app/car_camera/video_dec.c          回放模式app
+    app/car_camera/video_photo.c        拍照模式app
+    app/car_camera/usp_app.c            usb模式app
+    app/car_camera/video_system.c       系统模式app,这是一个空的app,主要是用来响应UI系统菜单配置的
+    app/car_camera/video_rec_cfg.c      录像模式处理UI菜单配置请求
+    app/car_camera/video_dec_cfg.c      回放模式处理UI菜单配置请求 
+    app/car_camera/video_photo_cfg.c    拍照模式处理UI菜单配置请求
+    app/car_camera/video_system_cfg.c   系统模式处理UI菜单配置请求
+
+    app/car_camera/gsensor      gsensor驱动目录
+    app/car_camera/include      app的头文件目录
+
+    app/car_camera/ui           存放各种风格的ui相关文件
+    app/car_camera/ui/style_LY/ui_action_animation.c  开关机动画UI控件回调函数
+    app/car_camera/ui/style_LY/ui_action_head.c       系统菜单各控件的回调函数
+    app/car_camera/ui/style_LY/ui_action_rec.c        录像模式UI界面和菜单的回调函数 
+    app/car_camera/ui/style_LY/ui_action_dec.c        回放模式UI界面和菜单的回调函数 
+    app/car_camera/ui/style_LY/ui_action_photo.c      拍照模式UI界面和菜单的回调函数 
+    app/car_camera/ui/style_LY/ui_action_usb.c        usb模式UI界面和菜单的回调函数 
+
+
+cpu目录存放芯片相关模块驱动和下载工具
+    cpu/dv16/board/     存放板子配置文件
+    cpu/dv16/tools/     下载工具目录
+
+
+camera目录存放各摄像头的驱动程序
+
+include_lib目录存放的是所有lib的头文件
+    
+

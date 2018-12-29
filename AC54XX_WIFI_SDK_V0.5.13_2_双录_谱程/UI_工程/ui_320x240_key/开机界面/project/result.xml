@@ -1,0 +1,25 @@
+﻿<?xml version="2.0" encoding="UTF-8"?>
+<Resbuilder>
+    <PageList>
+        <Page id="0">
+            <ColorList>
+                <Color id="0">55AAA5</Color>
+                <Color id="1">000000</Color>
+            </ColorList>
+            <PictureList>
+                <Picture id="1">E:\SDK\5401\dv\AC54XX_WIFI_SDK_V0.5.13_2_双录_谱程\UI_工程\ui_320x240_key\开机界面\project\config\开机图片\1280x720.jpg</Picture>
+            </PictureList>
+            <CellList/>
+        </Page>
+        <Page id="1">
+            <ColorList>
+                <Color id="0">55AAA5</Color>
+                <Color id="1">000000</Color>
+            </ColorList>
+            <PictureList>
+                <Picture id="1">E:\SDK\5401\dv\AC54XX_WIFI_SDK_V0.5.13_2_双录_谱程\UI_工程\ui_320x240_key\开机界面\project\config\开机图片\nn.jpg</Picture>
+            </PictureList>
+            <CellList/>
+        </Page>
+    </PageList>
+</Resbuilder>

@@ -1,0 +1,73 @@
+
+
+下载代码：
+	git svn clone https://192.168.8.211:9001/svn/dv16/
+
+
+创建分支：
+	git checkout -b 分支名 
+
+切换分支：
+	git checkout 分支名 
+
+
+查看当前分支：
+	git branch
+																																		
+查看所有分支：
+	git branch -a
+
+
+git状态查看：
+	git status
+
+
+添加文件到暂存区：
+	git add main.c   
+	git add -u 		  //所有修改后的文件
+
+放弃修改：
+	git checkout -- filename (回到最近一次git add，如果没有则回到最近一次git commit)
+
+放弃暂存区修改：
+	git reset HEAD filename
+							
+将修改提交到本地git库： 
+	git commit -m "添加main.c"
+										
+										
+获取svn仓库的更新：
+	git svn rebase
+													
+													
+将本地git库的修改同步到中心svn库：  
+	git svn dcommit
+
+
+git 部分提交:
+	[git svn rebase]
+	git add main.c
+	git stash -u -k
+	git commit -m ""
+	[git svn dcommit]
+	git stash pop stash@{0}
+
+git svn 部分更新:
+	git svn fetch
+	git checkout origin/master -- path/to/file
+
+
+git 修改已经提交的注释
+ 	git commit --amend -m "新的注释"
+
+git 添加漏上传的文件
+	git add
+ 	git commit --amend     //弹出一个框，直接输入:q退出
+
+
+出现error: The following untracked working tree files would be overwritten by checkout：
+$ git clean -d -fx ""    //删除本地还未添加到版本库但是服务器已经包含的文件
+
+
+
+

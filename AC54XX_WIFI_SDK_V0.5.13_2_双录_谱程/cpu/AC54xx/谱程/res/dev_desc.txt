@@ -1,0 +1,28 @@
+{
+    "app_list": {
+        "match_android_ver": [
+            "1.0",
+            "2.0"
+        ],
+        "match_ios_ver": [
+            "1.0",
+            "2.0"
+        ]
+    },
+    "behind_support": [
+        "0",
+        "1"
+    ],
+    "device_type": "1",
+    "firmware_version": "1.0.1",
+    "forward_support": [
+        "0",
+        "1",
+        "2"
+    ],
+    "match_app_type": "DVRunning 2",
+    "net_type": "1",
+    "product_type": "AC54xx_wifi_car_camera",
+    "rts_type": "1",
+    "uuid": "xxxxxx"
+}

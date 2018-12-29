@@ -1,0 +1,4 @@
+photo.png|E:/SDK/5401/dv/WIFI_SDK_V0.5.10_8_谱程/UI_工程/ui_320x240_key/模式界面/project/config/pic_color_LY/topbar/photo.pngbaskslash equal zero else
+config/pic_color_LY/topbar/photo.png
+photo_1.png|E:/SDK/5401/dv/WIFI_SDK_V0.5.10_8_谱程/UI_工程/ui_320x240_key/模式界面/project/config/pic_color_LY/topbar/photo_1.pngbaskslash equal zero else
+config/pic_color_LY/topbar/photo_1.png

@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AC54XX_WIFI" />
+		<Option pch_mode="2" />
+		<Option compiler="pi32" />
+		<Build>
+			<Target title="Debug">
+				<Option output="cpu/AC54xx/tools/main.or32" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="pi32v2_lto_compiler" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-Os" />
+					<Add option="-w" />
+					<Add option="-g" />
+					<Add option="-flto" />
+					<Add option="-mllvm -pi32v2-large-program" />
+					<Add option="-DUSE_RTOS" />
+					<Add option="-D_POSIX_SOURCE" />
+					<Add option="-DCONFIG_USE_RTOS" />
+					<Add option="-DCONFIG_CHRDEV" />
+					<Add option="-DCONFIG_DEBUG" />
+					<Add option="-DCONFIG_VFS" />
+					<Add option="-DFS_VERSION=0x020001" />
+					<Add option="-DFATFS_VERSION=0x020001" />
+					<Add option="-DSDFILE_VERSION=0x020000" />
+					<Add option="-DDEVFS_VERSION=0x020000" />
+					<Add option="-DAUDIO_SERVER_VERSION=0x020000" />
+					<Add option="-DSERVER_CORE_VERSION=0x020000" />
+					<Add option="-DUI_SERVER_VERSION=0x020001" />
+					<Add option="-DUSB_SERVER_VERSION=0x020001" />
+					<Add option="-DVIDEO_DEC_SERVER_VERSION=0x020000" />
+					<Add option="-DVIDEO_REC_SERVER_VERSION=0x020000" />
+					<Add option="-DVIDEO_UNPKG_SERVER_VERSION=0x020000" />
+					<Add option="-DVIDEO_ENGINE_SERVER_VERSION=0x020001" />
+					<Add option="-DVIDEO_PKG_SERVER_VERSION=0x020000" />
+					<Add option="-DCPU_VERSION=0x020100" />
+					<Add option="-DDEV_ISP_VERSION=0x030000" />
+					<Add option="-DDEV_AUDIO_VERSION=0x020000" />
+					<Add option="-DDEV_VIDEO_ENGINE_VERSION=0x020000" />
+					<Add option="-DDEV_SD1_VERSION=0x030000" />
+					<Add option="-DDEV_USB_VERSION=0x020100" />
+					<Add option="-DDEV_VIDEO_VERSION=0x020000" />
+					<Add option="-DMALLOC_VERSION=0x020000" />
+					<Add option="-DRTOS_VERSION=0x020000" />
+					<Add option="-DSYS_VERSION=0x020000" />
+					<Add option="-DUPGRADE_VERSION=0x020000" />
+					<Add directory="C:/JL/pi32/pi32v2-include" />
+					<Add directory="lib/include" />
+					<Add directory="include_lib" />
+					<Add directory="include_lib/ui" />
+					<Add directory="include_lib/ui/res" />
+					<Add directory="include_lib/system" />
+					<Add directory="include_lib/system/cpu/AC54xx" />
+					<Add directory="include_lib/system/generic" />
+					<Add directory="include_lib/system/device" />
+					<Add directory="include_lib/system/zbar" />
+					<Add directory="include_lib/system/fs" />
+					<Add directory="app/wifi_car_camera/include" />
+					<Add directory="app/wifi_car_camera" />
+					<Add directory="include_lib/net" />
+					<Add directory="include_lib/net/eth" />
+					<Add directory="include_lib/net/lwip/src/include" />
+					<Add directory="include_lib/net/lwip/port" />
+					<Add directory="include_lib/net/hostapdandwpa_supplicant" />
+					<Add directory="include_lib/net/wifi_module" />
+					<Add directory="include_lib/net/lwip/app/dhcp_srv" />
+					<Add directory="include_lib/net/lwip/app/ctp" />
+					<Add directory="include_lib/net/lwip/app" />
+					<Add directory="lib/server/video_engine/lane_detect" />
+					<Add directory="include_lib/net/lwip/app/cdp" />
+					<Add directory="lib/system/ZBar/include" />
+				</Compiler>
+				<Linker>
+					<Add option="--start-group" />
+					<Add option="include_lib/liba/rtos.a" />
+					<Add option="include_lib/liba/sd1.a" />
+					<Add option="include_lib/liba/ascii.a" />
+					<Add option="include_lib/liba/vm.a" />
+					<Add option="include_lib/liba/res.a" />
+					<Add option="include_lib/liba/pap.a" />
+					<Add option="include_lib/liba/usb.a" />
+					<Add option="include_lib/liba/usb-host.a" />
+					<Add option="include_lib/liba/fs.a" />
+					<Add option="include_lib/liba/video_engine.a" />
+					<Add option="include_lib/liba/rs_ecc.a" />
+					<Add option="include_lib/liba/font.a" />
+					<Add option="include_lib/liba/server.a" />
+					<Add option="include_lib/liba/ui_server.a" />
+					<Add option="include_lib/liba/usb_server.a" />
+					<Add option="include_lib/liba/video_dec_server.a" />
+					<Add option="include_lib/liba/video_rec_server.a" />
+					<Add option="include_lib/liba/upgrade.a" />
+					<Add option="--whole-archive" />
+					<Add option="include_lib/liba/video_engine_server.a" />
+					<Add option="include_lib/liba/dev.a" />
+					<Add option="include_lib/liba/ui.a" />
+					<Add option="include_lib/liba/sys.a" />
+					<Add option="include_lib/liba/audio_server.a" />
+					<Add option="include_lib/liba/cpu.a" />
+					<Add option="include_lib/liba/isp.a" />
+					<Add option="include_lib/liba/mm.a" />
+					<Add option="--no-whole-archive" />
+					<Add option="include_lib/liba/printf.a" />
+					<Add option="include_lib/liba/lbuf.a" />
+					<Add option="include_lib/liba/cbuf.a" />
+					<Add option="--end-group" />
+					<Add option="-Map=map.txt" />
+					<Add option="-T./cpu/AC54xx/ram.ld" />
+					<Add library="include_lib/liba/zbar.a" />
+					<Add library="include_lib/liba/libdmtx.a" />
+					<Add library="include_lib/liba/pixel_flow.a" />
+					<Add library="C:/JL/pi32/pi32v2-lib/libm.a" />
+					<Add library="include_lib/liba/audio.a" />
+					<Add library="include_lib/liba/ftpclient.a" />
+					<Add library="include_lib/liba/ftpserver.a" />
+					<Add library="include_lib/liba/net_server.a" />
+					<Add library="include_lib/liba/http_server.a" />
+					<Add library="include_lib/liba/json.a" />
+					<Add library="include_lib/liba/hsm.a" />
+					<Add library="include_lib/liba/iperf.a" />
+					<Add library="include_lib/liba/rtp.a" />
+					<Add library="include_lib/liba/websocket.a" />
+					<Add library="include_lib/liba/kcp.a" />
+					<Add library="include_lib/liba/stream_media_server.a" />
+					<Add library="include_lib/liba/mbedtls.a" />
+					<Add library="include_lib/liba/lwip.a" />
+					<Add library="include_lib/liba/eth.a" />
+					<Add library="include_lib/liba/rtl8189e.a" />
+					<Add library="include_lib/liba/hostapd_and_wpasupplicant.a" />
+					<Add library="include_lib/liba/sdio_card.a" />
+					<Add library="include_lib/liba/common_lib.a" />
+					<Add library="include_lib/liba/gps.a" />
+					<Add library="include_lib/liba/pwm.a" />
+					<Add library="include_lib/liba/libBtCalling.a" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="下载代码.bat" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/dv10_example" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="pi32v2_compiler" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-Os" />
+					<Add option="-g" />
+					<Add directory="code/Peripherals" />
+					<Add directory="code/start" />
+					<Add directory="code/common" />
+				</Compiler>
+				<Linker>
+					<Add option="-lc" />
+					<Add option="-lgcc" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="./" />
+		</Compiler>
+		<Unit filename="app/debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/echo_cancell.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/flash_write_protect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/app_database.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/app_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/auto_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/backlight.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/device_mount.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/get_image_data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/gsensor/da380.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/gsensor/gSensor_manage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/gsensor/gma301.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/gsensor/msa300.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/gsensor/stk8312.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/include/A7130reg.h" />
+		<Unit filename="app/wifi_car_camera/include/FCCStruct.h" />
+		<Unit filename="app/wifi_car_camera/include/GT911.h" />
+		<Unit filename="app/wifi_car_camera/include/action.h" />
+		<Unit filename="app/wifi_car_camera/include/ani_style.h" />
+		<Unit filename="app/wifi_car_camera/include/app_config.h" />
+		<Unit filename="app/wifi_car_camera/include/app_database.h" />
+		<Unit filename="app/wifi_car_camera/include/board.h" />
+		<Unit filename="app/wifi_car_camera/include/da380.h" />
+		<Unit filename="app/wifi_car_camera/include/gSensor_manage.h" />
+		<Unit filename="app/wifi_car_camera/include/get_image_data.h" />
+		<Unit filename="app/wifi_car_camera/include/get_yuv_data.h" />
+		<Unit filename="app/wifi_car_camera/include/gma301.h" />
+		<Unit filename="app/wifi_car_camera/include/key_voice.h" />
+		<Unit filename="app/wifi_car_camera/include/main.h" />
+		<Unit filename="app/wifi_car_camera/include/menu_parm_api.h" />
+		<Unit filename="app/wifi_car_camera/include/msa300.h" />
+		<Unit filename="app/wifi_car_camera/include/net_video_rec.h" />
+		<Unit filename="app/wifi_car_camera/include/pan2418.h" />
+		<Unit filename="app/wifi_car_camera/include/power_check_onetime.h" />
+		<Unit filename="app/wifi_car_camera/include/power_ctrl.h" />
+		<Unit filename="app/wifi_car_camera/include/qr_decode.h" />
+		<Unit filename="app/wifi_car_camera/include/res.h" />
+		<Unit filename="app/wifi_car_camera/include/res_ver.h" />
+		<Unit filename="app/wifi_car_camera/include/rtc6763.h" />
+		<Unit filename="app/wifi_car_camera/include/rtl_mp.h" />
+		<Unit filename="app/wifi_car_camera/include/stk8312.h" />
+		<Unit filename="app/wifi_car_camera/include/storage_device.h" />
+		<Unit filename="app/wifi_car_camera/include/style.h" />
+		<Unit filename="app/wifi_car_camera/include/style_jl02.h" />
+		<Unit filename="app/wifi_car_camera/include/style_ly.h" />
+		<Unit filename="app/wifi_car_camera/include/touch_panel_manager.h" />
+		<Unit filename="app/wifi_car_camera/include/ui_ctr_def.h" />
+		<Unit filename="app/wifi_car_camera/include/upgrade_style.h" />
+		<Unit filename="app/wifi_car_camera/include/user_isp_cfg.h" />
+		<Unit filename="app/wifi_car_camera/include/user_scr_tool.h" />
+		<Unit filename="app/wifi_car_camera/include/video_audio.h" />
+		<Unit filename="app/wifi_car_camera/include/video_bitrate_ctrl.h" />
+		<Unit filename="app/wifi_car_camera/include/video_dec.h" />
+		<Unit filename="app/wifi_car_camera/include/video_fps_ctrl.h" />
+		<Unit filename="app/wifi_car_camera/include/video_music.h" />
+		<Unit filename="app/wifi_car_camera/include/video_photo.h" />
+		<Unit filename="app/wifi_car_camera/include/video_rec.h" />
+		<Unit filename="app/wifi_car_camera/include/video_system.h" />
+		<Unit filename="app/wifi_car_camera/include/vrec_osd.h" />
+		<Unit filename="app/wifi_car_camera/include/wifi_projection.h" />
+		<Unit filename="app/wifi_car_camera/jl_flow/jl_flow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/key_voice.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/net_video_rec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/parking_detect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/power_check_ontime.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/power_ctrl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/qr_decode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/rf_mode/a7196.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/rf_mode/pan2418.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/rf_mode/rf_dev.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/rf_mode/rf_stream_pkg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/spec_uart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/sys_set.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/touch_panel/GT911.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/touch_panel/GT911_B.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/touch_panel/touch_panel_manager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/ui/style_JL02/ui_action_dec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/ui/style_JL02/ui_action_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/ui/style_JL02/ui_action_photo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/ui/style_JL02/ui_action_rec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/ui/style_JL02/ui_action_sys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/ui/style_JL02/ui_action_usb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/ui/style_LY/ui_action_dec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/ui/style_LY/ui_action_my_sys_set.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/ui/style_LY/ui_action_photo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/ui/style_LY/ui_action_rec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/ui/style_LY/ui_action_sys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/ui/style_LY/ui_action_usb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/ui/ui_action_animation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/upgrade.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/usb_app.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/usb_app_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/user_isp_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/user_scr_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/user_scr_tool.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/video_bitrate_ctrl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/video_dec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/video_dec_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/video_fps_ctrl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/video_photo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/video_photo_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/video_rec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/video_rec_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/video_system.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/video_system_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/ap_config.h" />
+		<Unit filename="app/wifi_car_camera/wifi/ctp_cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/ftpd_vfs_reg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/jpg_dec_disp.h" />
+		<Unit filename="app/wifi_car_camera/wifi/media_file_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/network_mssdp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/packet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/rt_talk_net.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/rt_talk_voice.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/simple_mov_unpkg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/stream/video_rt_rtp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/stream/video_rt_tcp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/stream/video_rt_tcp2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/stream/video_rt_udp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/top-p2p/kcp_api.h" />
+		<Unit filename="app/wifi_car_camera/wifi/top-p2p/tls_api.h" />
+		<Unit filename="app/wifi_car_camera/wifi/video_playback.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/video_preview.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/wifi-tools/RTL_PHY_REG_PG.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/wifi-tools/ap_config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/wifi-tools/ap_config.h" />
+		<Unit filename="app/wifi_car_camera/wifi/wifi-tools/iperf_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/wifi-tools/rtw_cache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/wifi-tools/uaputl_conf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/wifi_api.h" />
+		<Unit filename="app/wifi_car_camera/wifi/wifi_app_task.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_car_camera/wifi/wifi_ctrl.h" />
+		<Unit filename="app/wifi_car_camera/wifi/wifi_projection.h" />
+		<Unit filename="app/wifi_car_camera/wifi/wire_app_task.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/ar0330_mipi/ar0330_mipi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/ar0330_mipi/ar0330_mipi.h" />
+		<Unit filename="camera/ar0330_mipi/ar0330_mipi_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/ar0330_mipi/ar0330_mipi_ae.h" />
+		<Unit filename="camera/ar0330_mipi/ar0330_mipi_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/ar0330_mipi/ar0330_mipi_awb.h" />
+		<Unit filename="camera/ar0330_mipi/ar0330_mipi_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/ar0330_mipi/ar0330_mipi_iq.h" />
+		<Unit filename="camera/ark7116/ark7116.h" />
+		<Unit filename="camera/av10/av10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/av10/av10.h" />
+		<Unit filename="camera/av10/av10_spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/bg0806/bg0806.h" />
+		<Unit filename="camera/bg0806/bg0806_ae.h" />
+		<Unit filename="camera/bg0806/bg0806_awb.h" />
+		<Unit filename="camera/bg0806/bg0806_iq.h" />
+		<Unit filename="camera/bg0806_mipi/bg0806_mipi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/bg0806_mipi/bg0806_mipi.h" />
+		<Unit filename="camera/bg0806_mipi/bg0806_mipi_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/bg0806_mipi/bg0806_mipi_ae.h" />
+		<Unit filename="camera/bg0806_mipi/bg0806_mipi_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/bg0806_mipi/bg0806_mipi_awb.h" />
+		<Unit filename="camera/bg0806_mipi/bg0806_mipi_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/bg0806_mipi/bg0806_mipi_iq.h" />
+		<Unit filename="camera/c2392_mipi/c2392_mipi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/c2392_mipi/c2392_mipi.h" />
+		<Unit filename="camera/c2392_mipi/c2392_mipi_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/c2392_mipi/c2392_mipi_ae.h" />
+		<Unit filename="camera/c2392_mipi/c2392_mipi_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/c2392_mipi/c2392_mipi_awb.h" />
+		<Unit filename="camera/c2392_mipi/c2392_mipi_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/c2392_mipi/c2392_mipi_iq.h" />
+		<Unit filename="camera/f22_mipi/f22_mipi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/f22_mipi/f22_mipi.h" />
+		<Unit filename="camera/f22_mipi/f22_mipi_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/f22_mipi/f22_mipi_ae.h" />
+		<Unit filename="camera/f22_mipi/f22_mipi_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/f22_mipi/f22_mipi_awb.h" />
+		<Unit filename="camera/f22_mipi/f22_mipi_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/f22_mipi/f22_mipi_iq.h" />
+		<Unit filename="camera/f23_mipi/f23_mipi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/f23_mipi/f23_mipi.h" />
+		<Unit filename="camera/f23_mipi/f23_mipi_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/f23_mipi/f23_mipi_ae.h" />
+		<Unit filename="camera/f23_mipi/f23_mipi_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/f23_mipi/f23_mipi_awb.h" />
+		<Unit filename="camera/f23_mipi/f23_mipi_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/f23_mipi/f23_mipi_iq.h" />
+		<Unit filename="camera/gc0308_dvp/gc0308.h" />
+		<Unit filename="camera/gc1004/gc1004.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/gc1004/gc1004.h" />
+		<Unit filename="camera/gc1004/gc1004_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/gc1004/gc1004_ae.h" />
+		<Unit filename="camera/gc1004/gc1004_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/gc1004/gc1004_awb.h" />
+		<Unit filename="camera/gc1004/gc1004_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/gc1004/gc1004_iq.h" />
+		<Unit filename="camera/gc2023_mipi/gc2023_mipi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/gc2023_mipi/gc2023_mipi.h" />
+		<Unit filename="camera/gc2023_mipi/gc2023_mipi_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/gc2023_mipi/gc2023_mipi_ae.h" />
+		<Unit filename="camera/gc2023_mipi/gc2023_mipi_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/gc2023_mipi/gc2023_mipi_awb.h" />
+		<Unit filename="camera/gc2023_mipi/gc2023_mipi_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/gc2023_mipi/gc2023_mipi_iq.h" />
+		<Unit filename="camera/gm7150/gm7150.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/gm7150/gm7150.h" />
+		<Unit filename="camera/h42/h42.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/h42/h42.h" />
+		<Unit filename="camera/h42/h42_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/h42/h42_ae.h" />
+		<Unit filename="camera/h42/h42_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/h42/h42_awb.h" />
+		<Unit filename="camera/h42/h42_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/h42/h42_iq.h" />
+		<Unit filename="camera/h62_mipi/h62_mipi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/h62_mipi/h62_mipi.h" />
+		<Unit filename="camera/h62_mipi/h62_mipi_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/h62_mipi/h62_mipi_ae.h" />
+		<Unit filename="camera/h62_mipi/h62_mipi_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/h62_mipi/h62_mipi_awb.h" />
+		<Unit filename="camera/h62_mipi/h62_mipi_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/h62_mipi/h62_mipi_iq.h" />
+		<Unit filename="camera/hm2131_mipi/hm2131_mipi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/hm2131_mipi/hm2131_mipi.h" />
+		<Unit filename="camera/hm2131_mipi/hm2131_mipi_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/hm2131_mipi/hm2131_mipi_ae.h" />
+		<Unit filename="camera/hm2131_mipi/hm2131_mipi_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/hm2131_mipi/hm2131_mipi_awb.h" />
+		<Unit filename="camera/hm2131_mipi/hm2131_mipi_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/hm2131_mipi/hm2131_mipi_iq.h" />
+		<Unit filename="camera/imx179_mipi/imx179_mipi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/imx179_mipi/imx179_mipi.h" />
+		<Unit filename="camera/imx179_mipi/imx179_mipi_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/imx179_mipi/imx179_mipi_ae.h" />
+		<Unit filename="camera/imx179_mipi/imx179_mipi_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/imx179_mipi/imx179_mipi_awb.h" />
+		<Unit filename="camera/imx179_mipi/imx179_mipi_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/imx179_mipi/imx179_mipi_iq.h" />
+		<Unit filename="camera/mis2003_dvp/mis2003.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/mis2003_dvp/mis2003.h" />
+		<Unit filename="camera/mis2003_dvp/mis2003_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/mis2003_dvp/mis2003_ae.h" />
+		<Unit filename="camera/mis2003_dvp/mis2003_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/mis2003_dvp/mis2003_awb.h" />
+		<Unit filename="camera/mis2003_dvp/mis2003_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/mis2003_dvp/mis2003_iq.h" />
+		<Unit filename="camera/nvp6112/nvp6112.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/nvp6112/nvp6112.h" />
+		<Unit filename="camera/sc1243_dvp/sc1243.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc1243_dvp/sc1243.h" />
+		<Unit filename="camera/sc1243_dvp/sc1243_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc1243_dvp/sc1243_ae.h" />
+		<Unit filename="camera/sc1243_dvp/sc1243_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc1243_dvp/sc1243_awb.h" />
+		<Unit filename="camera/sc1243_dvp/sc1243_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc1243_dvp/sc1243_iq.h" />
+		<Unit filename="camera/sc2143/sc2143.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc2143/sc2143.h" />
+		<Unit filename="camera/sc2143/sc2143_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc2143/sc2143_ae.h" />
+		<Unit filename="camera/sc2143/sc2143_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc2143/sc2143_awb.h" />
+		<Unit filename="camera/sc2143/sc2143_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc2143/sc2143_iq.h" />
+		<Unit filename="camera/sc2143_mipi/sc2143_mipi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc2143_mipi/sc2143_mipi.h" />
+		<Unit filename="camera/sc2143_mipi/sc2143_mipi_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc2143_mipi/sc2143_mipi_ae.h" />
+		<Unit filename="camera/sc2143_mipi/sc2143_mipi_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc2143_mipi/sc2143_mipi_awb.h" />
+		<Unit filename="camera/sc2143_mipi/sc2143_mipi_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc2143_mipi/sc2143_mipi_iq.h" />
+		<Unit filename="camera/sc2303/sc2303_dvp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc2303/sc2303_dvp.h" />
+		<Unit filename="camera/sc2303/sc2303_dvp_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc2303/sc2303_dvp_ae.h" />
+		<Unit filename="camera/sc2303/sc2303_dvp_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc2303/sc2303_dvp_awb.h" />
+		<Unit filename="camera/sc2303/sc2303_dvp_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc2303/sc2303_dvp_iq.h" />
+		<Unit filename="camera/sc2363_mipi/sc2363_mipi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc2363_mipi/sc2363_mipi.h" />
+		<Unit filename="camera/sc2363_mipi/sc2363_mipi_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc2363_mipi/sc2363_mipi_ae.h" />
+		<Unit filename="camera/sc2363_mipi/sc2363_mipi_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc2363_mipi/sc2363_mipi_awb.h" />
+		<Unit filename="camera/sc2363_mipi/sc2363_mipi_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc2363_mipi/sc2363_mipi_iq.h" />
+		<Unit filename="camera/sc3033_mipi/sc3033_mipi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc3033_mipi/sc3033_mipi.h" />
+		<Unit filename="camera/sc3033_mipi/sc3033_mipi_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc3033_mipi/sc3033_mipi_ae.h" />
+		<Unit filename="camera/sc3033_mipi/sc3033_mipi_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc3033_mipi/sc3033_mipi_awb.h" />
+		<Unit filename="camera/sc3033_mipi/sc3033_mipi_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/sc3033_mipi/sc3033_mipi_iq.h" />
+		<Unit filename="camera/xc7011_dvp/xc7011.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/xc7011_dvp/xc7011.h" />
+		<Unit filename="cpu/AC54xx/adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/adkey.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/board/board_bbm_receiver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/board/board_bbm_sender.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/board/board_fly_board.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/board/board_hhf_hangpai.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/board/board_mipi_develop_board.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/board/board_mipi_v4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_480x272.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_480x272_8bits.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_HX8369A_MCU.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_HX8369A_SPI_RGB.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_ILI8960.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_ILI8961c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_ILI9806.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_LQ026B3UX01.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_LX50FWB4001_V2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_LYWS030GQ.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_ST7789S.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_T15P00.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_avout.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/iokey.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/ldo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_dcs_1lane_16bit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_dcs_1lane_24bit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_2lane_24bit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_4lan_1280x480_EK79030.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_4lane_1080p.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_4lane_720p.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_4lane_720p_rm68200ga1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/powerdet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/ram.ld" />
+		<Unit filename="cpu/AC54xx/setup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/static_memory_alloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/tools/isd_tools_flash-new.cfg" />
+		<Unit filename="cpu/AC54xx/uart_key.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="include_lib/common/common.h" />
+		<Unit filename="include_lib/net/HSM/hsm.h" />
+		<Unit filename="include_lib/net/eth/DP83848.h" />
+		<Unit filename="include_lib/net/eth/RTL8201.h" />
+		<Unit filename="include_lib/net/eth/eth_phy.h" />
+		<Unit filename="include_lib/net/eth/ethmac.h" />
+		<Unit filename="include_lib/net/eth/mdio_bus.h" />
+		<Unit filename="include_lib/net/ftpclient/ftpclient.h" />
+		<Unit filename="include_lib/net/ftpserver/stupid-ftpd.h" />
+		<Unit filename="include_lib/net/hostapdandwpa_supplicant/wpa_supplicant_event.h" />
+		<Unit filename="include_lib/net/http/http_cli.h" />
+		<Unit filename="include_lib/net/http/http_server.h" />
+		<Unit filename="include_lib/net/json_c/arraylist.h" />
+		<Unit filename="include_lib/net/json_c/bits.h" />
+		<Unit filename="include_lib/net/json_c/config_j.h" />
+		<Unit filename="include_lib/net/json_c/debug.h" />
+		<Unit filename="include_lib/net/json_c/json.h" />
+		<Unit filename="include_lib/net/json_c/json_c_config.h" />
+		<Unit filename="include_lib/net/json_c/json_c_version.h" />
+		<Unit filename="include_lib/net/json_c/json_config.h" />
+		<Unit filename="include_lib/net/json_c/json_debug.h" />
+		<Unit filename="include_lib/net/json_c/json_inttypes.h" />
+		<Unit filename="include_lib/net/json_c/json_object.h" />
+		<Unit filename="include_lib/net/json_c/json_object_iterator.h" />
+		<Unit filename="include_lib/net/json_c/json_object_private.h" />
+		<Unit filename="include_lib/net/json_c/json_tokener.h" />
+		<Unit filename="include_lib/net/json_c/json_util.h" />
+		<Unit filename="include_lib/net/json_c/linkhash.h" />
+		<Unit filename="include_lib/net/json_c/math_compat.h" />
+		<Unit filename="include_lib/net/json_c/printbuf.h" />
+		<Unit filename="include_lib/net/json_c/random_seed.h" />
+		<Unit filename="include_lib/net/libcoap/address.h" />
+		<Unit filename="include_lib/net/libcoap/async.h" />
+		<Unit filename="include_lib/net/libcoap/bits.h" />
+		<Unit filename="include_lib/net/libcoap/block.h" />
+		<Unit filename="include_lib/net/libcoap/coap.h" />
+		<Unit filename="include_lib/net/libcoap/coap_config.h" />
+		<Unit filename="include_lib/net/libcoap/coap_debug.h" />
+		<Unit filename="include_lib/net/libcoap/coap_list.h" />
+		<Unit filename="include_lib/net/libcoap/coap_net.h" />
+		<Unit filename="include_lib/net/libcoap/coap_time.h" />
+		<Unit filename="include_lib/net/libcoap/encode.h" />
+		<Unit filename="include_lib/net/libcoap/hashkey.h" />
+		<Unit filename="include_lib/net/libcoap/option.h" />
+		<Unit filename="include_lib/net/libcoap/pdu.h" />
+		<Unit filename="include_lib/net/libcoap/prng.h" />
+		<Unit filename="include_lib/net/libcoap/resource.h" />
+		<Unit filename="include_lib/net/libcoap/soap_mem.h" />
+		<Unit filename="include_lib/net/libcoap/str.h" />
+		<Unit filename="include_lib/net/libcoap/subscribe.h" />
+		<Unit filename="include_lib/net/libcoap/t_list.h" />
+		<Unit filename="include_lib/net/libcoap/uri.h" />
+		<Unit filename="include_lib/net/libcoap/uthash.h" />
+		<Unit filename="include_lib/net/libcoap/utlist.h" />
+		<Unit filename="include_lib/net/log/elog.h" />
+		<Unit filename="include_lib/net/log/elog_cfg.h" />
+		<Unit filename="include_lib/net/lwip/app/cdp/cdp.h" />
+		<Unit filename="include_lib/net/lwip/app/ctp/ctp.h" />
+		<Unit filename="include_lib/net/lwip/app/ddns/DDNS.h" />
+		<Unit filename="include_lib/net/lwip/app/dhcp_srv/dhcp_srv.h" />
+		<Unit filename="include_lib/net/lwip/app/dtp/dtp.h" />
+		<Unit filename="include_lib/net/lwip/app/mssdp/mssdp.h" />
+		<Unit filename="include_lib/net/lwip/app/ntp/ntp.h" />
+		<Unit filename="include_lib/net/lwip/app/sock_api/sock_api.h" />
+		<Unit filename="include_lib/net/lwip/app/udtp/udtp.h" />
+		<Unit filename="include_lib/net/lwip/port/arch/cc.h" />
+		<Unit filename="include_lib/net/lwip/port/arch/cpu.h" />
+		<Unit filename="include_lib/net/lwip/port/arch/perf.h" />
+		<Unit filename="include_lib/net/lwip/port/arch/sys_arch.h" />
+		<Unit filename="include_lib/net/lwip/port/lwip.h" />
+		<Unit filename="include_lib/net/lwip/port/lwipopts.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/_errno.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/api.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/arch.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/autoip.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/debug.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/def.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/dhcp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/dhcp6.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/dns.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/err.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/etharp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/ethip6.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/icmp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/icmp6.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/igmp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/inet.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/inet_chksum.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/init.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/ip.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/ip4.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/ip4_addr.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/ip4_frag.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/ip6.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/ip6_addr.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/ip6_frag.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/ip_addr.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/mem.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/memp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/mld6.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/nd6.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/netbuf.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/netdb.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/netif.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/netifapi.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/opt.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/pbuf.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/priv/api_msg.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/priv/memp_priv.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/priv/memp_std.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/priv/nd6_priv.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/priv/tcp_priv.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/priv/tcpip_priv.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/prot/autoip.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/prot/dhcp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/prot/dns.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/prot/etharp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/prot/ethernet.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/prot/icmp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/prot/icmp6.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/prot/igmp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/prot/ip.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/prot/ip4.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/prot/ip6.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/prot/mld6.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/prot/nd6.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/prot/tcp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/prot/udp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/raw.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/sio.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/snmp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/sockets.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/stats.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/sys.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/tcp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/tcpip.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/timeouts.h" />
+		<Unit filename="include_lib/net/lwip/src/include/lwip/udp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/etharp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ethernet.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/lowpan6.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/lowpan6_opts.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/ccp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/chap-md5.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/chap-new.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/chap_ms.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/eap.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/ecp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/eui64.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/fsm.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/ipcp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/ipv6cp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/lcp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/magic.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/mppe.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/polarssl/arc4.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/polarssl/des.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/polarssl/md4.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/polarssl/md5.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/polarssl/sha1.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/ppp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/ppp_impl.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/ppp_opts.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/pppapi.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/pppcrypt.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/pppdebug.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/pppoe.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/pppol2tp.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/pppos.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/upap.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/ppp/vj.h" />
+		<Unit filename="include_lib/net/lwip/src/include/netif/slipif.h" />
+		<Unit filename="include_lib/net/lwip/src/include/posix/errno.h" />
+		<Unit filename="include_lib/net/lwip/src/include/posix/netdb.h" />
+		<Unit filename="include_lib/net/lwip/src/include/posix/sys/socket.h" />
+		<Unit filename="include_lib/net/mbedtls/aes.h" />
+		<Unit filename="include_lib/net/mbedtls/aesni.h" />
+		<Unit filename="include_lib/net/mbedtls/arc4.h" />
+		<Unit filename="include_lib/net/mbedtls/asn1.h" />
+		<Unit filename="include_lib/net/mbedtls/asn1write.h" />
+		<Unit filename="include_lib/net/mbedtls/base64.h" />
+		<Unit filename="include_lib/net/mbedtls/bignum.h" />
+		<Unit filename="include_lib/net/mbedtls/blowfish.h" />
+		<Unit filename="include_lib/net/mbedtls/bn_mul.h" />
+		<Unit filename="include_lib/net/mbedtls/camellia.h" />
+		<Unit filename="include_lib/net/mbedtls/ccm.h" />
+		<Unit filename="include_lib/net/mbedtls/certs.h" />
+		<Unit filename="include_lib/net/mbedtls/check_config.h" />
+		<Unit filename="include_lib/net/mbedtls/cipher.h" />
+		<Unit filename="include_lib/net/mbedtls/cipher_internal.h" />
+		<Unit filename="include_lib/net/mbedtls/compat-1.3.h" />
+		<Unit filename="include_lib/net/mbedtls/configs/config-ccm-psk-tls1_2.h" />
+		<Unit filename="include_lib/net/mbedtls/configs/config-default.h" />
+		<Unit filename="include_lib/net/mbedtls/configs/config-mini-tls1_1.h" />
+		<Unit filename="include_lib/net/mbedtls/configs/config-picocoin.h" />
+		<Unit filename="include_lib/net/mbedtls/configs/config-suite-b.h" />
+		<Unit filename="include_lib/net/mbedtls/ctr_drbg.h" />
+		<Unit filename="include_lib/net/mbedtls/debug.h" />
+		<Unit filename="include_lib/net/mbedtls/des.h" />
+		<Unit filename="include_lib/net/mbedtls/dhm.h" />
+		<Unit filename="include_lib/net/mbedtls/ecdh.h" />
+		<Unit filename="include_lib/net/mbedtls/ecdsa.h" />
+		<Unit filename="include_lib/net/mbedtls/ecjpake.h" />
+		<Unit filename="include_lib/net/mbedtls/ecp.h" />
+		<Unit filename="include_lib/net/mbedtls/entropy.h" />
+		<Unit filename="include_lib/net/mbedtls/entropy_poll.h" />
+		<Unit filename="include_lib/net/mbedtls/error.h" />
+		<Unit filename="include_lib/net/mbedtls/gcm.h" />
+		<Unit filename="include_lib/net/mbedtls/havege.h" />
+		<Unit filename="include_lib/net/mbedtls/hmac_drbg.h" />
+		<Unit filename="include_lib/net/mbedtls/mbedtls_config.h" />
+		<Unit filename="include_lib/net/mbedtls/md.h" />
+		<Unit filename="include_lib/net/mbedtls/md2.h" />
+		<Unit filename="include_lib/net/mbedtls/md4.h" />
+		<Unit filename="include_lib/net/mbedtls/md5.h" />
+		<Unit filename="include_lib/net/mbedtls/md_internal.h" />
+		<Unit filename="include_lib/net/mbedtls/memory_buffer_alloc.h" />
+		<Unit filename="include_lib/net/mbedtls/net.h" />
+		<Unit filename="include_lib/net/mbedtls/oid.h" />
+		<Unit filename="include_lib/net/mbedtls/padlock.h" />
+		<Unit filename="include_lib/net/mbedtls/pem.h" />
+		<Unit filename="include_lib/net/mbedtls/pk.h" />
+		<Unit filename="include_lib/net/mbedtls/pk_internal.h" />
+		<Unit filename="include_lib/net/mbedtls/pkcs11.h" />
+		<Unit filename="include_lib/net/mbedtls/pkcs12.h" />
+		<Unit filename="include_lib/net/mbedtls/pkcs5.h" />
+		<Unit filename="include_lib/net/mbedtls/platform.h" />
+		<Unit filename="include_lib/net/mbedtls/ripemd160.h" />
+		<Unit filename="include_lib/net/mbedtls/rsa.h" />
+		<Unit filename="include_lib/net/mbedtls/sha1.h" />
+		<Unit filename="include_lib/net/mbedtls/sha256.h" />
+		<Unit filename="include_lib/net/mbedtls/sha512.h" />
+		<Unit filename="include_lib/net/mbedtls/ssl.h" />
+		<Unit filename="include_lib/net/mbedtls/ssl_cache.h" />
+		<Unit filename="include_lib/net/mbedtls/ssl_ciphersuites.h" />
+		<Unit filename="include_lib/net/mbedtls/ssl_cookie.h" />
+		<Unit filename="include_lib/net/mbedtls/ssl_internal.h" />
+		<Unit filename="include_lib/net/mbedtls/ssl_ticket.h" />
+		<Unit filename="include_lib/net/mbedtls/threading.h" />
+		<Unit filename="include_lib/net/mbedtls/timing.h" />
+		<Unit filename="include_lib/net/mbedtls/version.h" />
+		<Unit filename="include_lib/net/mbedtls/x509.h" />
+		<Unit filename="include_lib/net/mbedtls/x509_crl.h" />
+		<Unit filename="include_lib/net/mbedtls/x509_crt.h" />
+		<Unit filename="include_lib/net/mbedtls/x509_csr.h" />
+		<Unit filename="include_lib/net/mbedtls/xtea.h" />
+		<Unit filename="include_lib/net/rtp/rtcp_ctr.h" />
+		<Unit filename="include_lib/net/rtp/rtp_common_head.h" />
+		<Unit filename="include_lib/net/rtp/rtp_fs.h" />
+		<Unit filename="include_lib/net/rtp/rtp_io.h" />
+		<Unit filename="include_lib/net/server/network_mssdp.h" />
+		<Unit filename="include_lib/net/server/packet.h" />
+		<Unit filename="include_lib/net/server/rt_stream_pkg.h" />
+		<Unit filename="include_lib/net/server/simple_mov_unpkg.h" />
+		<Unit filename="include_lib/net/server/video_rt_tcp.h" />
+		<Unit filename="include_lib/net/server/video_rt_udp.h" />
+		<Unit filename="include_lib/net/server/wifi_connect.h" />
+		<Unit filename="include_lib/net/streaming_media_server/abnormal_off.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/264_stream_iface.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/JPEG_utils.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/SD_file.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/bufferpool.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/command_environment.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/debug.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/eventloop.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/fnc_log.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/fs_priv.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/gsm.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/h264.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/intnet.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/jpeg.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/md5.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/md5global.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/mediainfo.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/mp3.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/mpeg.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/mpeg4es.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/mpeg_system.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/mpeg_ts.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/multicast.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/os_priv.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/pcm.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/prefs.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/rtcp.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/rtp.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/rtp_shm.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/rtpptdefs.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/rtsp.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/schedule.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/sdp.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/socket.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/types.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/utils.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/xmllexer.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice/xmlparser.h" />
+		<Unit filename="include_lib/net/streaming_media_server/fenice_config.h" />
+		<Unit filename="include_lib/net/streaming_media_server/header.h" />
+		<Unit filename="include_lib/net/streaming_media_server/stream_pkg.h" />
+		<Unit filename="include_lib/net/tinydtls/aes/rijndael.h" />
+		<Unit filename="include_lib/net/tinydtls/alert.h" />
+		<Unit filename="include_lib/net/tinydtls/ccm.h" />
+		<Unit filename="include_lib/net/tinydtls/crypto.h" />
+		<Unit filename="include_lib/net/tinydtls/dtls.h" />
+		<Unit filename="include_lib/net/tinydtls/dtls_config.h" />
+		<Unit filename="include_lib/net/tinydtls/dtls_debug.h" />
+		<Unit filename="include_lib/net/tinydtls/dtls_time.h" />
+		<Unit filename="include_lib/net/tinydtls/ecc/ecc.h" />
+		<Unit filename="include_lib/net/tinydtls/ecc/test_helper.h" />
+		<Unit filename="include_lib/net/tinydtls/global.h" />
+		<Unit filename="include_lib/net/tinydtls/hmac.h" />
+		<Unit filename="include_lib/net/tinydtls/netq.h" />
+		<Unit filename="include_lib/net/tinydtls/numeric.h" />
+		<Unit filename="include_lib/net/tinydtls/peer.h" />
+		<Unit filename="include_lib/net/tinydtls/platform-specific/config-cc2538dk.h" />
+		<Unit filename="include_lib/net/tinydtls/platform-specific/config-econotag.h" />
+		<Unit filename="include_lib/net/tinydtls/platform-specific/config-minimal-net.h" />
+		<Unit filename="include_lib/net/tinydtls/platform-specific/config-sky.h" />
+		<Unit filename="include_lib/net/tinydtls/platform-specific/config-wismote.h" />
+		<Unit filename="include_lib/net/tinydtls/platform-specific/platform.h" />
+		<Unit filename="include_lib/net/tinydtls/prng.h" />
+		<Unit filename="include_lib/net/tinydtls/session.h" />
+		<Unit filename="include_lib/net/tinydtls/sha2/sha2.h" />
+		<Unit filename="include_lib/net/tinydtls/state.h" />
+		<Unit filename="include_lib/net/tinydtls/t_list.h" />
+		<Unit filename="include_lib/net/tinydtls/tinydtls.h" />
+		<Unit filename="include_lib/net/tinydtls/uthash.h" />
+		<Unit filename="include_lib/net/tinydtls/utlist.h" />
+		<Unit filename="include_lib/net/wifi_module/wifi_ext.h" />
+		<Unit filename="include_lib/net/wifi_module/wifi_module_event.h" />
+		<Unit filename="include_lib/server/audio_server.h" />
+		<Unit filename="include_lib/server/ctp_server.h" />
+		<Unit filename="include_lib/server/net_server.h" />
+		<Unit filename="include_lib/server/rf_stream_vpkg.h" />
+		<Unit filename="include_lib/server/server.ld" />
+		<Unit filename="include_lib/server/server_core.h" />
+		<Unit filename="include_lib/server/ui_server.h" />
+		<Unit filename="include_lib/server/usb_server.h" />
+		<Unit filename="include_lib/server/video_dec_server.h" />
+		<Unit filename="include_lib/server/video_engine_server.h" />
+		<Unit filename="include_lib/server/video_server.h" />
+		<Unit filename="include_lib/server/vpkg_server.h" />
+		<Unit filename="include_lib/server/vunpkg_server.h" />
+		<Unit filename="include_lib/system/app_core.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/AC54xx.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/adc.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/adkey.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/audio.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/avc_enc.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/avo_cfg.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/bus_device.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/cache.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/clock.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/cpu.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/cpu_api.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/crc16.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/dac.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/debug.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/device_drive.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/devices.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/dma.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/drv_manage.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/dsi.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/gpio.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/h264_dec.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/h264_en.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/hwi.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/iic.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/imb.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/imb_driver.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/imc.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/imc_driver.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/imd.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/includes.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/irq.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/isp_alg.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/isp_customize.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/isp_dev.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/jive.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/jlmd.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/jpeg_abr.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/jpeg_codec.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/jpeg_decoder.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/jpeg_encoder.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/jpeg_haffman.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/jpeg_header.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/jpeg_iocmds.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/jpeg_qt_huffman.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/ladc.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/lcd_config.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/ldo.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/lock.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/pap.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/port_waked_up.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/powerdet.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/rtc.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/screen_tool.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/sd_ddr_file.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/sdio_host_init.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/sdmmc.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/spi.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/spiflash.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/startup.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/sync_buf.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/sysinfo.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/timer.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/uart.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/usb_inc.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/asm/uvc_iocmds.h" />
+		<Unit filename="include_lib/system/cpu/AC54xx/device.ld" />
+		<Unit filename="include_lib/system/database.h" />
+		<Unit filename="include_lib/system/device/adkey.h" />
+		<Unit filename="include_lib/system/device/audio_dev.h" />
+		<Unit filename="include_lib/system/device/av10_spi.h" />
+		<Unit filename="include_lib/system/device/camera.h" />
+		<Unit filename="include_lib/system/device/card.h" />
+		<Unit filename="include_lib/system/device/device.h" />
+		<Unit filename="include_lib/system/device/device.ld" />
+		<Unit filename="include_lib/system/device/device_data.ld" />
+		<Unit filename="include_lib/system/device/gps.h" />
+		<Unit filename="include_lib/system/device/iic.h" />
+		<Unit filename="include_lib/system/device/includes.h" />
+		<Unit filename="include_lib/system/device/ioctl_cmds.h" />
+		<Unit filename="include_lib/system/device/iokey.h" />
+		<Unit filename="include_lib/system/device/isp.h" />
+		<Unit filename="include_lib/system/device/key_driver.h" />
+		<Unit filename="include_lib/system/device/lcd_driver.h" />
+		<Unit filename="include_lib/system/device/mmc.h" />
+		<Unit filename="include_lib/system/device/pwm.h" />
+		<Unit filename="include_lib/system/device/rf_dev.h" />
+		<Unit filename="include_lib/system/device/sd.h" />
+		<Unit filename="include_lib/system/device/sdmmc.h" />
+		<Unit filename="include_lib/system/device/spiflash.h" />
+		<Unit filename="include_lib/system/device/timer.h" />
+		<Unit filename="include_lib/system/device/uart.h" />
+		<Unit filename="include_lib/system/device/usb.h" />
+		<Unit filename="include_lib/system/device/usb_cam_dev.h" />
+		<Unit filename="include_lib/system/device/video.h" />
+		<Unit filename="include_lib/system/device/video/fb.h" />
+		<Unit filename="include_lib/system/device/video/video_ioctl.h" />
+		<Unit filename="include_lib/system/device/video_engine.h" />
+		<Unit filename="include_lib/system/device/videobuf.h" />
+		<Unit filename="include_lib/system/device/vm.h" />
+		<Unit filename="include_lib/system/device/vm_api.h" />
+		<Unit filename="include_lib/system/device/wifi_dev.h" />
+		<Unit filename="include_lib/system/event.h" />
+		<Unit filename="include_lib/system/fs/fs.h" />
+		<Unit filename="include_lib/system/generic/ascii.h" />
+		<Unit filename="include_lib/system/generic/atomic.h" />
+		<Unit filename="include_lib/system/generic/circular_buf.h" />
+		<Unit filename="include_lib/system/generic/cpu.h" />
+		<Unit filename="include_lib/system/generic/errno-base.h" />
+		<Unit filename="include_lib/system/generic/gpio.h" />
+		<Unit filename="include_lib/system/generic/includes.h" />
+		<Unit filename="include_lib/system/generic/index.h" />
+		<Unit filename="include_lib/system/generic/io.h" />
+		<Unit filename="include_lib/system/generic/ioctl.h" />
+		<Unit filename="include_lib/system/generic/irq.h" />
+		<Unit filename="include_lib/system/generic/jiffies.h" />
+		<Unit filename="include_lib/system/generic/lbuf.h" />
+		<Unit filename="include_lib/system/generic/list.h" />
+		<Unit filename="include_lib/system/generic/log.h" />
+		<Unit filename="include_lib/system/generic/printf.h" />
+		<Unit filename="include_lib/system/generic/rect.h" />
+		<Unit filename="include_lib/system/generic/typedef.h" />
+		<Unit filename="include_lib/system/generic/version.h" />
+		<Unit filename="include_lib/system/includes.h" />
+		<Unit filename="include_lib/system/init.h" />
+		<Unit filename="include_lib/system/malloc.h" />
+		<Unit filename="include_lib/system/mem_leak_test.h" />
+		<Unit filename="include_lib/system/optic_flow/optic_flow.h" />
+		<Unit filename="include_lib/system/os/msg_pool.h" />
+		<Unit filename="include_lib/system/os/os_api.h" />
+		<Unit filename="include_lib/system/os/os_cfg.h" />
+		<Unit filename="include_lib/system/os/os_compat.h" />
+		<Unit filename="include_lib/system/os/os_cpu.h" />
+		<Unit filename="include_lib/system/os/ucos_ii.h" />
+		<Unit filename="include_lib/system/spinlock.h" />
+		<Unit filename="include_lib/system/sys_config.h" />
+		<Unit filename="include_lib/system/syscfg.h" />
+		<Unit filename="include_lib/system/system.ld" />
+		<Unit filename="include_lib/system/system_data.ld" />
+		<Unit filename="include_lib/system/tags.h" />
+		<Unit filename="include_lib/system/task.h" />
+		<Unit filename="include_lib/system/time.h" />
+		<Unit filename="include_lib/system/timeout.h" />
+		<Unit filename="include_lib/system/timer.h" />
+		<Unit filename="include_lib/system/wait.h" />
+		<Unit filename="include_lib/system/zbar/zbar.h" />
+		<Unit filename="include_lib/ui/font/font_all.h" />
+		<Unit filename="include_lib/ui/font/font_ascii.h" />
+		<Unit filename="include_lib/ui/font/font_big5.h" />
+		<Unit filename="include_lib/ui/font/font_gbk.h" />
+		<Unit filename="include_lib/ui/font/font_ksc.h" />
+		<Unit filename="include_lib/ui/font/font_other_language.h" />
+		<Unit filename="include_lib/ui/font/font_sdfs.h" />
+		<Unit filename="include_lib/ui/font/font_sjis.h" />
+		<Unit filename="include_lib/ui/font/font_textout.h" />
+		<Unit filename="include_lib/ui/font/language_list.h" />
+		<Unit filename="include_lib/ui/includes.h" />
+		<Unit filename="include_lib/ui/res/font_ascii.h" />
+		<Unit filename="include_lib/ui/res/quicklz.h" />
+		<Unit filename="include_lib/ui/res/resfile.h" />
+		<Unit filename="include_lib/ui/ui/control.h" />
+		<Unit filename="include_lib/ui/ui/img.h" />
+		<Unit filename="include_lib/ui/ui/layer.h" />
+		<Unit filename="include_lib/ui/ui/layout.h" />
+		<Unit filename="include_lib/ui/ui/p.h" />
+		<Unit filename="include_lib/ui/ui/play_control.h" />
+		<Unit filename="include_lib/ui/ui/slider.h" />
+		<Unit filename="include_lib/ui/ui/ui.h" />
+		<Unit filename="include_lib/ui/ui/ui.ld" />
+		<Unit filename="include_lib/ui/ui/ui_animation.h" />
+		<Unit filename="include_lib/ui/ui/ui_battery.h" />
+		<Unit filename="include_lib/ui/ui/ui_browser.h" />
+		<Unit filename="include_lib/ui/ui/ui_button.h" />
+		<Unit filename="include_lib/ui/ui/ui_camera.h" />
+		<Unit filename="include_lib/ui/ui/ui_core.h" />
+		<Unit filename="include_lib/ui/ui/ui_file_attrs.h" />
+		<Unit filename="include_lib/ui/ui/ui_grid.h" />
+		<Unit filename="include_lib/ui/ui/ui_pic.h" />
+		<Unit filename="include_lib/ui/ui/ui_player.h" />
+		<Unit filename="include_lib/ui/ui/ui_slider.h" />
+		<Unit filename="include_lib/ui/ui/ui_text.h" />
+		<Unit filename="include_lib/ui/ui/ui_time.h" />
+		<Unit filename="include_lib/ui/ui/ui_watch.h" />
+		<Unit filename="include_lib/ui/ui/window.h" />
+		<Unit filename="include_lib/upgrade/ecc_rs_api.h" />
+		<Unit filename="include_lib/upgrade/upgrade_detect.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger>
+				<remote_debugging>
+					<options conn_type="0" serial_baud="115200" ip_address="127.0.0.1" ip_port="9999" />
+				</remote_debugging>
+			</debugger>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

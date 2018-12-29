@@ -1,0 +1,9 @@
+---- LAYOUT_SET_SYS_TINE Matches (4 in 2 files) ----
+Style_ly.h (app\wifi_car_camera\include):649
+#define LAYOUT_SET_SYS_TINE 0X393C243
+Ui_action_my_sys_set.c (app\...\style_ly):1849
+				ui_show(LAYOUT_SET_SYS_TINE);
+Ui_action_my_sys_set.c (app\...\style_ly):2397
+		ui_hide(LAYOUT_SET_SYS_TINE);
+Ui_action_my_sys_set.c (app\...\style_ly):2516
+REGISTER_UI_EVENT_HANDLER(LAYOUT_SET_SYS_TINE)
