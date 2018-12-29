@@ -6184,7 +6184,7 @@
 	"spinlock.h"
 	"list.h"
 
-1534495652 source:e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\app_database.c
+1546074729 source:e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\app_database.c
 	"system/includes.h"
 	"res.h"
 	"app_database.h"
@@ -6467,7 +6467,7 @@
 
 1528364984 e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\include\style_jl02.h
 
-1535017598 e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\include\style_ly.h
+1546070189 e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\include\style_ly.h
 
 1527559517 e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\include\res_ver.h
 
@@ -6916,6 +6916,17 @@
 	"action.h"
 	"app_config.h"
 	"video_system.h"
+
+1546078681 source:e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\ui\style_ly\ui_action_my_sys_set.c
+	"ui/includes.h"
+	"system/includes.h"
+	"style.h"
+	"action.h"
+	"app_config.h"
+	"storage_device.h"
+	"res.h"
+	"app_database.h"
+	"sys_set.h"
 
 1534833567 source:e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\ui\style_ly\ui_action_photo.c
 	"ui/includes.h"
@@ -8364,15 +8375,4 @@
 	"key_driver.h"
 	"system/event.h"
 	"asm/uart.h"
-
-1545999997 source:e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\ui\style_ly\ui_action_my_sys_set.c
-	"ui/includes.h"
-	"system/includes.h"
-	"style.h"
-	"action.h"
-	"app_config.h"
-	"storage_device.h"
-	"res.h"
-	"app_database.h"
-	"sys_set.h"
 

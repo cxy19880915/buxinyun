@@ -1721,63 +1721,12 @@ static int menu_set_onkey(void *_grid, struct element_key_event *e)
 		switch(sel_item)
 		{
 			case 0:
-				init_intent(&it);
-		        it.name	= "sys_set";
-		        it.action = ACTION_SYS_SET_SYS_CONFIG;
-				it.data = "pro";
-				if(db_select("pro"))
-				{
-					it.exdata = 0;
-				}
-				else
-				{
-					it.exdata = 1;	
-				}
-		        err = start_app(&it);
-		        if (err) {
-		            printf("pro onkey err! %d\n", err);
-		            break;
-		        }
 				ui_show(LAYOUT_SET_SYS_PRO);
 				break;
 			case 1:
-				init_intent(&it);
-		        it.name	= "sys_set";
-		        it.action = ACTION_SYS_SET_SYS_CONFIG;
-				it.data = "aff";
-				if(db_select("aff"))
-				{
-					it.exdata = 0;
-				}
-				else
-				{
-					it.exdata = 1;	
-				}
-		        err = start_app(&it);
-		        if (err) {
-		            printf("aff onkey err! %d\n", err);
-		            break;
-		        }
 				ui_show(LAYOUT_SET_SYS_AFF);
 				break;
 			case 2:	
-				init_intent(&it);
-		        it.name	= "sys_set";
-		        it.action = ACTION_SYS_SET_SYS_CONFIG;
-				it.data = "fre";
-				if(db_select("fre"))
-				{
-					it.exdata = 0;
-				}
-				else
-				{
-					it.exdata = 1;	
-				}
-		        err = start_app(&it);
-		        if (err) {
-		            printf("fre onkey err! %d\n", err);
-		            break;
-		        }
 				ui_show(LAYOUT_SET_SYS_FRE);
 				break;
 			
@@ -1803,26 +1752,8 @@ static int menu_set_onkey(void *_grid, struct element_key_event *e)
 				ui_pic_show_image_by_id( PIC_SYS_SET_SYS_KVO,it.exdata);
 				break;
 			case 4: //”Ô—‘…Ë÷√
-				init_intent(&it);
-		        it.name	= "sys_set";
-		        it.action = ACTION_SYS_SET_SYS_CONFIG;
-				it.data = "lag";
-				if(db_select("lag"))
-				{
-					it.exdata = 0;
-				}
-				else
-				{
-					it.exdata = 1;	
-				}
-		        err = start_app(&it);
-		        if (err) {
-		            printf("lag onkey err! %d\n", err);
-		            break;
-		        }
 				ui_show(LAYOUT_SET_SYS_LANG);
 				break;
-
 			case 5://”∞œÒ–˝◊™
 				init_intent(&it);
 		        it.name	= "sys_set";
@@ -1944,8 +1875,9 @@ static int menu_sys_set_pro_onchange(void *ctr, enum element_change_event e, voi
     switch (e) {
     case ON_CHANGE_INIT:
         ui_grid_set_item(grid, index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect)));
-        ui_show(pic_pro_id[index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect))]);
-        break;
+        //ui_show(pic_pro_id[index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect))]);
+		ui_show(PIC_SYS_PRO1);
+		break;
 	case ON_CHANGE_RELEASE:
 		break;
     default:

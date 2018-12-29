@@ -1,9 +1,331 @@
----- LAYOUT_SET_SYS_TINE Matches (4 in 2 files) ----
-Style_ly.h (app\wifi_car_camera\include):649
-#define LAYOUT_SET_SYS_TINE 0X393C243
-Ui_action_my_sys_set.c (app\...\style_ly):1849
-				ui_show(LAYOUT_SET_SYS_TINE);
-Ui_action_my_sys_set.c (app\...\style_ly):2397
-		ui_hide(LAYOUT_SET_SYS_TINE);
-Ui_action_my_sys_set.c (app\...\style_ly):2516
-REGISTER_UI_EVENT_HANDLER(LAYOUT_SET_SYS_TINE)
+---- pro Matches (40 in 5 files) ----
+App_database.c (app\wifi_car_camera):49
+    {"pro",     8,      0},                         // 屏幕保护时间, 单位秒
+Ctp_cmd.c (app\wifi_car_camera\wifi):989
+    u32 pro = db_select("pro");
+Ctp_cmd.c (app\wifi_car_camera\wifi):991
+    sprintf(buf, "pro:%d", pro);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1002
+    json_object *pro = NULL;
+Ctp_cmd.c (app\wifi_car_camera\wifi):1006
+    pro =  json_object_object_get(parm, "pro");
+Ctp_cmd.c (app\wifi_car_camera\wifi):1008
+    const char *pro_value = json_object_get_string(pro);
+    printf("ctp pro  %s \n", pro_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1011
+    db_update("pro", atoi(pro_value));
+Ctp_cmd.c (app\wifi_car_camera\wifi):1039
+    printf("ctp pro  %s \n", tvm_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1118
+    printf("ctp pro  %s \n", def_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1175
+    printf("ctp pro  %s \n", lag_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1206
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1229
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1260
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1291
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1321
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1360
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1409
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1442
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1470
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1497
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1532
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1561
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1588
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1616
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1642
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1672
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1700
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1729
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1757
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1786
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1989
+    //printf("ctp pro  %s \n", h);
+Ctp_cmd.c (app\wifi_car_camera\wifi):3380
+    {"pro", "SCREEN_PRO", cmd_get_screen_pro, cmd_put_screen_pro},
+Ui_action_my_sys_set.c (app\...\style_ly):1851
+        ui_text_set_index(text, index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect)));
+Ui_action_my_sys_set.c (app\...\style_ly):1879
+        ui_grid_set_item(grid, index_of_table8(db_select("pro"), TABLE(table_system_lcd_protect)));
+Ui_action_my_sys_set.c (app\...\style_ly):1881
+        ui_show(pic_pro_id[index_of_table8(db_select("pro"), TABLE(table_system_lcd_protect))]);
+		printf("menu_sys_set_pro_onchange======%s==",index_of_table8(db_select("pro"), TABLE(table_system_lcd_protect)));
+Ui_action_my_sys_set.c (app\...\style_ly):1905
+        it.data = "pro";
+Ui_action_sys.c (app\...\style_ly):159
+    it.data = "pro";
+Ui_action_sys.c (app\...\style_ly):499
+        item = index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect));
+Video_system_cfg.c (app\wifi_car_camera):159
+    {"pro", pro_set_function},
+Video_system_cfg.c (app\wifi_car_camera):175
+    pro_set_function(db_select("pro"));
+---- pro Matches (40 in 5 files) ----
+App_database.c (app\wifi_car_camera):49
+    {"pro",     8,      0},                         // 屏幕保护时间, 单位秒
+Ctp_cmd.c (app\wifi_car_camera\wifi):989
+    u32 pro = db_select("pro");
+Ctp_cmd.c (app\wifi_car_camera\wifi):991
+    sprintf(buf, "pro:%d", pro);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1002
+    json_object *pro = NULL;
+Ctp_cmd.c (app\wifi_car_camera\wifi):1006
+    pro =  json_object_object_get(parm, "pro");
+Ctp_cmd.c (app\wifi_car_camera\wifi):1008
+    const char *pro_value = json_object_get_string(pro);
+    printf("ctp pro  %s \n", pro_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1011
+    db_update("pro", atoi(pro_value));
+Ctp_cmd.c (app\wifi_car_camera\wifi):1039
+    printf("ctp pro  %s \n", tvm_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1118
+    printf("ctp pro  %s \n", def_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1175
+    printf("ctp pro  %s \n", lag_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1206
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1229
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1260
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1291
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1321
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1360
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1409
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1442
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1470
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1497
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1532
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1561
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1588
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1616
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1642
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1672
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1700
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1729
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1757
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1786
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1989
+    //printf("ctp pro  %s \n", h);
+Ctp_cmd.c (app\wifi_car_camera\wifi):3380
+    {"pro", "SCREEN_PRO", cmd_get_screen_pro, cmd_put_screen_pro},
+Ui_action_my_sys_set.c (app\...\style_ly):1851
+        ui_text_set_index(text, index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect)));
+Ui_action_my_sys_set.c (app\...\style_ly):1879
+        ui_grid_set_item(grid, index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect)));
+Ui_action_my_sys_set.c (app\...\style_ly):1881
+        ui_show(pic_pro_id[index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect))]);
+		printf("menu_sys_set_pro_onchange======%s==",index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect)));
+Ui_action_my_sys_set.c (app\...\style_ly):1905
+        it.data = "pro";
+Ui_action_sys.c (app\...\style_ly):159
+    it.data = "pro";
+Ui_action_sys.c (app\...\style_ly):499
+        item = index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect));
+Video_system_cfg.c (app\wifi_car_camera):159
+    {"pro", pro_set_function},
+Video_system_cfg.c (app\wifi_car_camera):175
+    pro_set_function(db_select("pro"));
+---- pro Matches (40 in 5 files) ----
+App_database.c (app\wifi_car_camera):49
+    {"pro",     8,      0},                         // 屏幕保护时间, 单位秒
+Ctp_cmd.c (app\wifi_car_camera\wifi):989
+    u32 pro = db_select("pro");
+Ctp_cmd.c (app\wifi_car_camera\wifi):991
+    sprintf(buf, "pro:%d", pro);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1002
+    json_object *pro = NULL;
+Ctp_cmd.c (app\wifi_car_camera\wifi):1006
+    pro =  json_object_object_get(parm, "pro");
+Ctp_cmd.c (app\wifi_car_camera\wifi):1008
+    const char *pro_value = json_object_get_string(pro);
+    printf("ctp pro  %s \n", pro_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1011
+    db_update("pro", atoi(pro_value));
+Ctp_cmd.c (app\wifi_car_camera\wifi):1039
+    printf("ctp pro  %s \n", tvm_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1118
+    printf("ctp pro  %s \n", def_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1175
+    printf("ctp pro  %s \n", lag_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1206
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1229
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1260
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1291
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1321
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1360
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1409
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1442
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1470
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1497
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1532
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1561
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1588
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1616
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1642
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1672
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1700
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1729
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1757
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1786
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1989
+    //printf("ctp pro  %s \n", h);
+Ctp_cmd.c (app\wifi_car_camera\wifi):3380
+    {"pro", "SCREEN_PRO", cmd_get_screen_pro, cmd_put_screen_pro},
+Ui_action_my_sys_set.c (app\...\style_ly):1851
+        ui_text_set_index(text, index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect)));
+Ui_action_my_sys_set.c (app\...\style_ly):1879
+        ui_grid_set_item(grid, index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect)));
+Ui_action_my_sys_set.c (app\...\style_ly):1881
+        ui_show(pic_pro_id[index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect))]);
+		printf("menu_sys_set_pro_onchange======%s==",index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect)));
+Ui_action_my_sys_set.c (app\...\style_ly):1905
+        it.data = "pro";
+Ui_action_sys.c (app\...\style_ly):159
+    it.data = "pro";
+Ui_action_sys.c (app\...\style_ly):499
+        item = index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect));
+Video_system_cfg.c (app\wifi_car_camera):159
+    {"pro", pro_set_function},
+Video_system_cfg.c (app\wifi_car_camera):175
+    pro_set_function(db_select("pro"));
+---- pro Matches (39 in 5 files) ----
+App_database.c (app\wifi_car_camera):49
+    {"pro",     8,      0},                         // 屏幕保护时间, 单位秒
+Ctp_cmd.c (app\wifi_car_camera\wifi):989
+    u32 pro = db_select("pro");
+Ctp_cmd.c (app\wifi_car_camera\wifi):991
+    sprintf(buf, "pro:%d", pro);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1002
+    json_object *pro = NULL;
+Ctp_cmd.c (app\wifi_car_camera\wifi):1006
+    pro =  json_object_object_get(parm, "pro");
+Ctp_cmd.c (app\wifi_car_camera\wifi):1008
+    const char *pro_value = json_object_get_string(pro);
+    printf("ctp pro  %s \n", pro_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1011
+    db_update("pro", atoi(pro_value));
+Ctp_cmd.c (app\wifi_car_camera\wifi):1039
+    printf("ctp pro  %s \n", tvm_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1118
+    printf("ctp pro  %s \n", def_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1175
+    printf("ctp pro  %s \n", lag_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1206
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1229
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1260
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1291
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1321
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1360
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1409
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1442
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1470
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1497
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1532
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1561
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1588
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1616
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1642
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1672
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1700
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1729
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1757
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1786
+    printf("ctp pro  %s \n", tmp_value);
+Ctp_cmd.c (app\wifi_car_camera\wifi):1989
+    //printf("ctp pro  %s \n", h);
+Ctp_cmd.c (app\wifi_car_camera\wifi):3380
+    {"pro", "SCREEN_PRO", cmd_get_screen_pro, cmd_put_screen_pro},
+Ui_action_my_sys_set.c (app\...\style_ly):1851
+        ui_text_set_index(text, index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect)));
+Ui_action_my_sys_set.c (app\...\style_ly):1879
+        ui_grid_set_item(grid, index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect)));
+        ui_show(pic_pro_id[index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect))]);
+		printf("menu_sys_set_pro_onchange======%s==",index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect)));
+Ui_action_my_sys_set.c (app\...\style_ly):1905
+        it.data = "pro";
+Ui_action_sys.c (app\...\style_ly):159
+    it.data = "pro";
+Ui_action_sys.c (app\...\style_ly):499
+        item = index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect));
+Video_system_cfg.c (app\wifi_car_camera):159
+    {"pro", pro_set_function},
+Video_system_cfg.c (app\wifi_car_camera):175
+    pro_set_function(db_select("pro"));
