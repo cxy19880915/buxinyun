@@ -1,0 +1,219 @@
+---- lib_version_begin Matches (4 in 3 files) ----
+Main.or32.resolution.txt (cpu\...\tools):1121
+-r=obj\Debug\app\car_camera\version.o,lib_version_begin,
+Map.txt:1586
+                0x04087ea0                PROVIDE (lib_version_begin, .)
+Version.h (include_lib\system\generic):100
+extern version_t lib_version_begin[], lib_version_end[];
+Version.h (include_lib\system\generic):106
+        for (version = lib_version_begin; version < lib_version_end; version++) { \
+---- version Matches (82 in 39 files) ----
+App_main.c (app\car_camera):247
+            style.version = ANI_UI_VERSION;
+App_main.c (app\car_camera):471
+    style.version = ANI_UI_VERSION;
+Auto_test.c (app\car_camera):696
+    if (strstr(str, "update version control disable")) {
+Auto_test.c (app\car_camera):698
+        puts("update version control disable!\n");
+Debug.txt (ui_工程\...\project):4
+|| version: 791871758
+Debug.txt (ui_工程\...\project):4
+|| version: 77033419
+Debug.txt (ui_工程\...\project):4
+|| version: 566448397
+Debug.txt (ui_工程\...\project):4
+|| version: 397587608
+Debug.txt (ui_工程\...\project):4
+|| version: 566448397
+Gm7150.c (camera\gm7150):186
+    u16 version = 0;
+Gm7150.c (camera\gm7150):203
+    rdGM7150Reg(0x82, (unsigned char *)&version);
+    version <<= 8;
+Gm7150.c (camera\gm7150):206
+    version |= version1;
+Gm7150.c (camera\gm7150):208
+    put_u16hex(version);
+GT911.c (app\car_camera\touch_panel):355
+            drv_cfg_version = cfg_info_group[0];       // backup  config version
+GT911.c (app\car_camera\touch_panel):361
+            printf("\nFailed to get ic config version!\nNo config sent!");
+ICN85XX.c (app\car_camera\touch_panel):19
+     2012,10,30, V0.1 first version
+ICN85XX.h (app\car_camera\touch_panel):19
+   2012,10,30, V0.1 first version
+Icn85xx_flash.c (app\...\touch_panel):209
+function    :   return version
+Icn85xx_flash.c (app\...\touch_panel):222
+	printf("current version: 0x%x\n", CurVersion);
+Icn85xx_flash.c (app\...\touch_panel):718
+function    :   read fw version
+Icn85xx_flash.c (app\...\touch_panel):1333
+        char version = 0;
+Icn85xx_flash.c (app\...\touch_panel):1366
+        while(version != 0x87)
+Icn85xx_flash.c (app\...\touch_panel):1375
+            ret = icn85xx_read_reg(0xa, &version);
+Icn85xx_flash.c (app\...\touch_panel):1377
+            printf("after upgrdate Value: %x\n",version);
+Includes.h (include_lib\system\generic):17
+#include "version.h"
+Isp.h (include_lib\system\device):89
+    u16     version;
+Main.or32.resolution.txt (cpu\...\tools):1109
+obj\Debug\app\car_camera\version.o
+-r=obj\Debug\app\car_camera\version.o,log_print,l
+-r=obj\Debug\app\car_camera\version.o,video_server_version,l
+-r=obj\Debug\app\car_camera\version.o,video_dec_server_version,l
+-r=obj\Debug\app\car_camera\version.o,ui_server_version,l
+-r=obj\Debug\app\car_camera\version.o,audio_server_version,l
+-r=obj\Debug\app\car_camera\version.o,video_engine_server_version,l
+-r=obj\Debug\app\car_camera\version.o,usb_server_version,l
+-r=obj\Debug\app\car_camera\version.o,isp_version,l
+-r=obj\Debug\app\car_camera\version.o,__initcall_app_version_check,pl
+-r=obj\Debug\app\car_camera\version.o,key_dev_ops,l
+-r=obj\Debug\app\car_camera\version.o,audio_dev_ops,l
+-r=obj\Debug\app\car_camera\version.o,lib_version_begin,
+-r=obj\Debug\app\car_camera\version.o,lib_version_end,
+Main.or32.resolution.txt (cpu\...\tools):4963
+include_lib/liba/dev.a.llvm.100836.version.c
+-r=include_lib/liba/dev.a.llvm.100836.version.c,video_dev_version,pl
+-r=include_lib/liba/dev.a.llvm.100836.version.c,log_print,l
+-r=include_lib/liba/dev.a.llvm.100836.version.c,__version_video_dev,pl
+Main.or32.resolution.txt (cpu\...\tools):5045
+include_lib/liba/cpu.a.llvm.9248.version.c
+-r=include_lib/liba/cpu.a.llvm.9248.version.c,cpu_version,pl
+-r=include_lib/liba/cpu.a.llvm.9248.version.c,log_print,l
+-r=include_lib/liba/cpu.a.llvm.9248.version.c,__version_cpu,pl
+Main.or32.resolution.txt (cpu\...\tools):6039
+include_lib/liba/isp.a.llvm.12044.version.c
+-r=include_lib/liba/isp.a.llvm.12044.version.c,isp_version,pl
+-r=include_lib/liba/isp.a.llvm.12044.version.c,log_print,l
+-r=include_lib/liba/isp.a.llvm.12044.version.c,__version_isp,pl
+Main.or32.resolution.txt (cpu\...\tools):7493
+include_lib/liba/sys.a.llvm.3894.version.c
+-r=include_lib/liba/sys.a.llvm.3894.version.c,sys_version,pl
+-r=include_lib/liba/sys.a.llvm.3894.version.c,log_print,l
+-r=include_lib/liba/sys.a.llvm.3894.version.c,__version_sys,pl
+Map.txt:175
+                              obj\Debug\app\car_camera\version.o (symbol from plugin) (ui_server_version)
+Map.txt:177
+                              obj\Debug\app\car_camera\version.o (symbol from plugin) (video_engine_server_version)
+Map.txt:199
+                              obj\Debug\app\car_camera\version.o (symbol from plugin) (usb_server_version)
+Map.txt:211
+                              obj\Debug\app\car_camera\version.o (symbol from plugin) (video_dec_server_version)
+Map.txt:239
+                              obj\Debug\app\car_camera\version.o (symbol from plugin) (video_server_version)
+Map.txt:280
+include_lib/liba/dev.a(version.o)
+Map.txt:286
+include_lib/liba/cpu.a(version.o)
+Map.txt:377
+include_lib/liba/isp.a(version.o)
+Map.txt:513
+include_lib/liba/sys.a(version.o)
+Map.txt:762
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\version.o (symbol from plugin)
+Map.txt:1013
+ .text          0x00000000        0x0 version.o (symbol from plugin)
+Map.txt:1016
+ .text          0x00000000        0x0 version.o (symbol from plugin)
+Map.txt:1061
+ .text          0x00000000        0x0 version.o (symbol from plugin)
+Map.txt:1130
+ .text          0x00000000        0x0 version.o (symbol from plugin)
+Map.txt:1218
+LOAD obj\Debug\app\car_camera\version.o
+Map.txt:1587
+ *(.version)
+ .version       0x04087ea0       0x48 cpu\AC54xx\tools\main.or32.o
+Resbuilder.xml (ui_工程\uitools):1
+<?xml version='2.0' encoding='UTF-8'?>
+Resbuilder.xml (ui_工程\...\project):1
+<?xml version='2.0' encoding='UTF-8'?>
+Resbuilder.xml (ui_工程\...\project):1
+<?xml version='2.0' encoding='UTF-8'?>
+Resbuilder.xml (ui_工程\...\project):686
+                                        <Picture fmt="OSD8">E:\贝思特\6.86\数字后拉\18.12.05效果\AC54XX_贝思特_出货_DVP_带GPS_有车牌_20181204\AC54XX_贝思特_出货_DVP_带GPS_有车牌_20181204\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\version.png</Picture>
+Resbuilder.xml (ui_工程\...\project):1
+<?xml version='2.0' encoding='UTF-8'?>
+Resbuilder.xml (ui_工程\...\project):1
+<?xml version='2.0' encoding='UTF-8'?>
+Resbuilder.xml (ui_工程\...\project):1
+<?xml version='2.0' encoding='UTF-8'?>
+Result.xml (ui_工程\...\project):1
+<?xml version="2.0" encoding="UTF-8"?>
+Result.xml (ui_工程\...\project):1
+<?xml version="2.0" encoding="UTF-8"?>
+Result.xml (ui_工程\...\project):1905
+                <Picture id="102">E:\贝思特\6.86\数字后拉\18.12.05效果\AC54XX_贝思特_出货_DVP_带GPS_有车牌_20181204\AC54XX_贝思特_出货_DVP_带GPS_有车牌_20181204\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\version.png</Picture>
+Result.xml (ui_工程\...\project):1
+<?xml version="2.0" encoding="UTF-8"?>
+Result.xml (ui_工程\...\project):1
+<?xml version="2.0" encoding="UTF-8"?>
+Result.xml (ui_工程\...\project):1
+<?xml version="2.0" encoding="UTF-8"?>
+Result.xml (ui_工程\...\project):1
+<?xml version="2.0" encoding="UTF-8"?>
+Sd.h (include_lib\system\device):8
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+Sdio.h (include_lib\system\device):8
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+Sdio_func.h (include_lib\system\device):8
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+Sd_ddr_file.h (include_lib\...\asm):22
+    u32 version;
+Ui.h (include_lib\ui\ui):26
+int ui_style_file_version_compare(int version);
+Ui_core.h (include_lib\ui\ui):214
+    u32 version;
+Untitled Project.bookmarks.xml (untitled project.si4project):1
+<?xml version="1.0" encoding="utf-8"?>
+Untitled Project.siproj_settings.xml (untitled project.si4project):1
+<?xml version="1.0" encoding="utf-8"?>
+Upgrade.c (app\car_camera):209
+    style.version = UPD_UI_VERSION;
+Version.h (include_lib\system\generic):27
+#define __MODULE_VERSION_EXPORT(module, version) \
+Version.h (include_lib\system\generic):31
+            log_i(#module": %d.%d.%d  build at: %s\n", (version)>>16, \
+                    ((version) >> 8) & 0xff, (version) & 0xff, __DATE__); \
+Version.h (include_lib\system\generic):34
+		return version; \
+Version.h (include_lib\system\generic):37
+        __attribute__((section(".version"),used)) = module##_version
+Version.h (include_lib\system\generic):40
+#define _MODULE_VERSION_EXPORT(module, version) \
+	__MODULE_VERSION_EXPORT(module, version)
+Version.h (include_lib\system\generic):53
+#define __VERSION_CHECK(module, version) \
+Version.h (include_lib\system\generic):57
+        if (MAJOR(version) != MAJOR(v) || MINOR(version) > MINOR(v)) { \
+            log_i("=======version not match=======\n");  \
+Version.h (include_lib\system\generic):72
+#define MODULE_VERSION_EXPORT(module, version) \
+	__MODULE_VERSION_EXPORT(module, version)
+Version.h (include_lib\system\generic):79
+#define MODULE_DEPEND(module_d, version) \
+        __VERSION_CHECK(module_d, version)
+Version.h (include_lib\system\generic):87
+#define VERSION_CHECK(module, version) \
+    __VERSION_CHECK(module, version)
+Version.h (include_lib\system\generic):104
+        version_t *version; \
+        log_i("=========version check===========\n"); \
+        for (version = lib_version_begin; version < lib_version_end; version++) { \
+            (*version)(1); \
+Video_system.h (app\car_camera\include):35
+    const char *version;
+---- version Search Errors Encountered (4) ----
+The following 4 files could not be processed:
+E:\cxy job\git_work\贝思特\AC54XX_贝思特_出货_DVP_带GPS_有车牌\AC54XX_贝思特_出货_DVP_带GPS_有车牌\camera\av10\av10.c : File could not be opened.
+E:\cxy job\git_work\贝思特\AC54XX_贝思特_出货_DVP_带GPS_有车牌\AC54XX_贝思特_出货_DVP_带GPS_有车牌\cpu\AC54xx\debug.c : File could not be opened.
+E:\cxy job\git_work\贝思特\AC54XX_贝思特_出货_DVP_带GPS_有车牌\AC54XX_贝思特_出货_DVP_带GPS_有车牌\camera\gc1004\gc1004.c : File could not be opened.
+E:\cxy job\git_work\贝思特\AC54XX_贝思特_出货_DVP_带GPS_有车牌\AC54XX_贝思特_出货_DVP_带GPS_有车牌\include_lib\system\cpu\AC54xx\asm\hwi.h : File could not be opened.

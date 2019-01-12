@@ -1,0 +1,18 @@
+2018.09.22: 改背光调亮   56DVP_0806_WT686_USB_GPS_车牌中文_20180922
+2018.10.12： 
+①video_rec.c 里  video_rec_state_machine 里 
+case APP_STA_PAUSE:
+        puts("--------app_rec: APP_STA_PAUSE\n");
+		for(i = 0; i < 3; i++)   //增加
+		{
+			if(__this->fscan[i])
+			{
+				fscan_release(__this->fscan[i]);
+				__this->fscan[i] = NULL;
+			}
+		}
+        break;
+②发现并修正进入设置界面车道偏移ASDS后进录像卡死问题
+
+2018.12.13:
+检查更新软件，重新出了：5601_WTTN6.86_正/反_数字后拉_20181212、5601_LX6.86_正/反_数字后拉_20181212和5601_WT6.86IPS_正/反_数字后拉_20181212这三版软件给贝思特

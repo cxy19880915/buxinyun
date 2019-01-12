@@ -6184,7 +6184,7 @@
 	"spinlock.h"
 	"list.h"
 
-1546074729 source:e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\app_database.c
+1534495652 source:e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\app_database.c
 	"system/includes.h"
 	"res.h"
 	"app_database.h"
@@ -6467,7 +6467,7 @@
 
 1528364984 e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\include\style_jl02.h
 
-1546070189 e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\include\style_ly.h
+1535017598 e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\include\style_ly.h
 
 1527559517 e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\include\res_ver.h
 
@@ -6917,7 +6917,7 @@
 	"app_config.h"
 	"video_system.h"
 
-1546078681 source:e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\ui\style_ly\ui_action_my_sys_set.c
+1535013260 source:e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\ui\style_ly\ui_action_my_sys_set.c
 	"ui/includes.h"
 	"system/includes.h"
 	"style.h"
@@ -6940,7 +6940,7 @@
 	"server/audio_server.h"
 	"server/video_dec_server.h"
 
-1535015881 source:e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\ui\style_ly\ui_action_rec.c
+1546406086 source:e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\ui\style_ly\ui_action_rec.c
 	"ui/includes.h"
 	"system/includes.h"
 	"server/ui_server.h"
@@ -7040,7 +7040,7 @@
 1527559518 source:e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\video_bitrate_ctrl.c
 	"video_bitrate_ctrl.h"
 
-1534833619 source:e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\video_dec.c
+1546415989 source:e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\video_dec.c
 	"system/includes.h"
 	"server/ui_server.h"
 	"server/video_server.h"
@@ -7109,7 +7109,7 @@
 	"user_isp_cfg.h"
 	"app_database.h"
 
-1535016028 source:e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\video_rec.c
+1546399650 source:e:\cxy job\git_work\ac54xx_wifi_sdk_v0.5.13_2_Ë«Â¼_Æ×³Ì\app\wifi_car_camera\video_rec.c
 	"system/includes.h"
 	"server/ui_server.h"
 	"server/video_server.h"

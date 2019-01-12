@@ -121,7 +121,17 @@ int video_dec_file(int mode)
     /*
      * 选择并打开一个文件, 如果fselect返回成功，则此文件不用时需要调用fclose关闭
      */
-    __this->req.dec.file = fselect(fs, mode, 0);
+    #if 1  //**cxy** 修改内容:文件播放完成后显示当前文件
+    if(mode == FSEL_CURR_FILE){
+    	__this->req.dec.file = fselect(fs, mode-1, 0);
+		__this->req.dec.file = fselect(fs, mode-2, 0);
+    }else{
+    	__this->req.dec.file = fselect(fs, mode, 0);
+    }
+	#endif
+	#if 0 //**cxy** 改动前: 文件播放完成后显示下一个或者上一个文件 
+	__this->req.dec.file = fselect(fs, mode, 0);
+	#endif
     if (!__this->req.dec.file) {
         /*
          *目录内循环播放
@@ -246,7 +256,12 @@ static void dec_server_event_handler(void *priv, int argc, int *argv)
         /*
          *解码结束，播放前一个文件
          */
-        video_dec_file(FSEL_PREV_FILE);
+        /**
+         **cxy** 改动前:文件播放完成后显示下一个文件
+         video_dec_file(FSEL_NEXT_FILE);
+         **/
+        //**cxy** 修改内容:文件播放完成后显示当前文件
+		video_dec_file(FSEL_CURR_FILE);
 #endif
         break;
     case VIDEO_DEC_EVENT_ERR:

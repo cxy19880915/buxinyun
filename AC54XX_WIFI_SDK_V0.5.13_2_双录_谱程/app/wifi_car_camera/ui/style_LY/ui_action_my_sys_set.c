@@ -1875,9 +1875,8 @@ static int menu_sys_set_pro_onchange(void *ctr, enum element_change_event e, voi
     switch (e) {
     case ON_CHANGE_INIT:
         ui_grid_set_item(grid, index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect)));
-        //ui_show(pic_pro_id[index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect))]);
-		ui_show(PIC_SYS_PRO1);
-		break;
+        ui_show(pic_pro_id[index_of_table16(db_select("pro"), TABLE(table_system_lcd_protect))]);
+        break;
 	case ON_CHANGE_RELEASE:
 		break;
     default:

@@ -2834,6 +2834,7 @@ static int menu_lane_set_onkey(void *ctr, struct element_key_event *e)
         }
         break;
     case KEY_UP:
+		#if 1
         if (!(lane_set_flag & 0x02)) {
             lane_set_flag |= 0x02;
             send_lane_det_setting_msg("lane_set_close", 0);
@@ -2857,6 +2858,7 @@ static int menu_lane_set_onkey(void *ctr, struct element_key_event *e)
             ui_hide(TEXT_LANE_BOTTOM);
             ui_show(TEXT_LANE_BOTTOM);
         }
+		#endif
         break;
     case KEY_OK:
         if (lane_set_flag & 0x02) {

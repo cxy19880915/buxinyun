@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="app\car_camera\video_system_cfg.c" open="1" top="0" tabpos="28" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="442" topLine="126" />
+		</Cursor>
+	</File>
+	<File name="app\flash_write_protect.c" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="999" topLine="22" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\power_check_ontime.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4030" topLine="57" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\user_isp_cfg.c" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\parking_detect.c" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3885" topLine="138" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\app_main.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="8" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="camera\bg0806_mipi\bg0806_mipi.c" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19462" topLine="769" />
+		</Cursor>
+	</File>
+	<File name="camera\bg0806_mipi\bg0806_mipi_ae.c" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="80" topLine="178" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\auto_test.c" open="1" top="0" tabpos="24" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="273" topLine="81" />
+		</Cursor>
+	</File>
+	<File name="camera\bg0806_mipi\bg0806_mipi_awb.c" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="596" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="cpu\AC54xx\mipi_lcd_driver\mipi_lcd_1280x480.c" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1216" topLine="29" />
+		</Cursor>
+	</File>
+	<File name="camera\bg0806_mipi\bg0806_mipi_iq.c" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2152" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="cpu\AC54xx\ram.ld" open="1" top="0" tabpos="22" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2807" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\video_dec.c" open="1" top="0" tabpos="31" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\video_photo.c" open="1" top="0" tabpos="30" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5193" topLine="171" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\touch_panel\GT911.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="17328" topLine="713" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\video_rec.c" open="1" top="0" tabpos="29" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5514" topLine="195" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\ui\style_JL02\ui_action_rec.c" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="25994" topLine="781" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\video_system.c" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1498" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="app\debug.c" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="143" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="app\sd_speed_test.c" open="1" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="200" topLine="84" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\app_database.c" open="1" top="0" tabpos="27" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="833" topLine="69" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\power_ctrl.c" open="1" top="0" tabpos="26" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\key_voice.c" open="1" top="0" tabpos="25" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="788" topLine="628" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\usb_app.c" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="377" topLine="207" />
+		</Cursor>
+	</File>
+	<File name="cpu\AC54xx\board\board_mipi_20170330.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4197" topLine="150" />
+		</Cursor>
+		<Folding>
+			<Collapse line="36" />
+		</Folding>
+	</File>
+	<File name="app\car_camera\touch_panel\touch_panel_manager.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8897" topLine="349" />
+		</Cursor>
+	</File>
+	<File name="cpu\AC54xx\board\board_mipi_touch_v1.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="384" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\backlight.c" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="858" topLine="17" />
+		</Cursor>
+	</File>
+	<File name="cpu\AC54xx\board\board_mipi_v3.c" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12917" topLine="579" />
+		</Cursor>
+	</File>
+	<File name="camera\bg0806_mipi\bg0806_mipi.h" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="143" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\device_mount.c" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="256" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_720p_rm68200ga1.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="167" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="camera\bg0806_mipi\bg0806_mipi_ae.h" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="83" topLine="13" />
+		</Cursor>
+	</File>
+	<File name="camera\bg0806_mipi\bg0806_mipi_awb.h" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="223" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="cpu\AC54xx\powerdet.c" open="1" top="0" tabpos="21" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="532" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="camera\bg0806_mipi\bg0806_mipi_iq.h" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="93" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="cpu\AC54xx\setup.c" open="1" top="0" tabpos="23" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5365" topLine="255" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\version.c" open="1" top="0" tabpos="32" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="184" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\gsensor\gSensor_manage.c" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5736" topLine="243" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\video_rec_cfg.c" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1637" topLine="84" />
+		</Cursor>
+	</File>
+	<File name="app\car_camera\upgrade.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="7" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5872" topLine="268" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

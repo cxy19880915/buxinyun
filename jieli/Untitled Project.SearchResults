@@ -1,0 +1,39 @@
+---- CONFIG_UI_STYLE_JL02_ENABLE Matches (10 in 8 files) ----
+App_config.h (app\car_camera\include):131
+#define CONFIG_UI_STYLE_JL02_ENABLE
+App_config.h (app\car_camera\include):139
+#define CONFIG_UI_STYLE_JL02_ENABLE
+App_config.h (app\car_camera\include):148
+#define CONFIG_UI_STYLE_JL02_ENABLE
+Style.h (app\car_camera\include):6
+#ifdef CONFIG_UI_STYLE_JL02_ENABLE
+Ui_action_dec.c (app\...\style_jl02):13
+#ifdef CONFIG_UI_STYLE_JL02_ENABLE
+Ui_action_main.c (app\...\style_jl02):13
+#ifdef CONFIG_UI_STYLE_JL02_ENABLE
+Ui_action_photo.c (app\...\style_jl02):10
+#ifdef CONFIG_UI_STYLE_JL02_ENABLE
+Ui_action_rec.c (app\...\style_jl02):10
+#ifdef CONFIG_UI_STYLE_JL02_ENABLE
+Ui_action_sys.c (app\...\style_jl02):15
+#ifdef CONFIG_UI_STYLE_JL02_ENABLE
+Ui_action_usb.c (app\...\style_jl02):10
+#ifdef CONFIG_UI_STYLE_JL02_ENABLE
+---- CONFIG_BOARD_MIPI_V3 Matches (3 in 3 files) ----
+App_config.h (app\car_camera\include):114
+#ifdef CONFIG_BOARD_MIPI_V3
+板子快速配置使用.c (doc\快速上手说明):12
+#ifdef CONFIG_BOARD_MIPI_V3
+板子快速配置使用.h (doc\快速上手说明):13
+#define CONFIG_BOARD_MIPI_V3
+---- uart0_data Matches (4 in 2 files) ----
+Board_mipi_touch_v1_r317.c (cpu\...\board):16
+UART0_PLATFORM_DATA_BEGIN(uart0_data)
+Board_mipi_touch_v1_r317.c (cpu\...\board):716
+    uart_init(&uart0_data);
+    if (uart0_data.tx_pin == IO_PORTG_14) {
+板子快速配置使用.c (doc\快速上手说明):16
+UART0_PLATFORM_DATA_BEGIN(uart0_data)               //使用串口URATx x: 0 1 2 3,请看uart.h头文件 
+板子快速配置使用.c (doc\快速上手说明):540
+    uart_init(&uart0_data);
+    if (uart0_data.tx_pin == IO_PORTG_14) {

@@ -1,0 +1,840 @@
+<?xml version='2.0' encoding='UTF-8'?>
+<Resbuilder>
+        <Items>
+                <LanguageList>
+                        <language_name LANG="Chinese_Simplified">简体中文</language_name>
+                        <language_name LANG="Chinese_Traditional">繁体中文</language_name>
+                        <language_name LANG="Japanese">日语</language_name>
+                        <language_name LANG="Korean">韩语</language_name>
+                        <language_name LANG="English">英语</language_name>
+                        <language_name LANG="French">法语</language_name>
+                        <language_name LANG="German">德语</language_name>
+                        <language_name LANG="Italian">意大利语</language_name>
+                        <language_name LANG="Dutch">荷兰语</language_name>
+                        <language_name LANG="Portuguese">葡萄牙语</language_name>
+                        <language_name LANG="Spanish">西班牙语</language_name>
+                        <language_name LANG="Swedish">瑞典语</language_name>
+                        <language_name LANG="Czech">捷克语</language_name>
+                        <language_name LANG="Danish">丹麦语</language_name>
+                        <language_name LANG="Polish">波兰语</language_name>
+                        <language_name LANG="Russian">俄国语</language_name>
+                        <language_name LANG="Turkey">土耳其语</language_name>
+                        <language_name LANG="Hebrew">希伯来语</language_name>
+                        <language_name LANG="Thai">泰语</language_name>
+                        <language_name LANG="Hungarian">匈牙利语</language_name>
+                        <language_name LANG="Romanian">罗马尼亚语</language_name>
+                        <language_name LANG="Arabic">阿拉伯语</language_name>
+                </LanguageList>
+                <Fonts>
+                        <font00 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="Cambria" lfHeight="-32" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font01 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-32" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font02 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-32" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font03 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-32" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font04 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-32" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font05 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-32" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font06 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-16" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font07 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-16" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font08 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-16" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font09 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-16" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font10 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-16" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font11 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-16" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font12 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-16" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font13 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-16" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font14 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-16" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font15 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-16" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font16 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-16" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font17 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-16" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font18 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-16" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font19 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-16" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font20 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-16" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                        <font21 lfStrikeOut="0" lfUnderline="0" lfWeight="400" lfEscapement="0" lfPitchAndFamily="2" lfOrientation="0" lfCharSet="134" lfClipPrecision="0" lfFaceName="宋体" lfHeight="-16" lfQuality="0" lfOutPrecision="0" lfWidth="0" lfItalic="0"/>
+                </Fonts>
+                <endian>LITTLEENDIAN</endian>
+                <paneltype>TFTPANEL</paneltype>
+                <picture_path>NULL</picture_path>
+                <excel_path>../../../UITools/UI_TOUCH_1280_480.xls</excel_path>
+                <PageList>
+                        <Page id="0">
+                                <ColorList>
+                                        <Color>FFFFFF</Color>
+                                        <Color>000000</Color>
+                                        <Color>141414</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\0.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\5.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\charging.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\adas.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\3.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\full.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\2.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\状态栏\lock_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\adas_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\7.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\小按键\b_lock.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\0.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\file_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\小按键\b_rec_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\小按键\b_rec.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\4.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\状态栏\lock_off.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\状态栏\card_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\setting.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\9.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\状态栏\video_off.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\2.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\file.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\状态栏\pont.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\setting_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\小按键\b_photo.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\小按键\b_lock_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\6.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\状态栏\pont_c.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\状态栏\video_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\3.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\video.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\car.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\maohao1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\video_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\8.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\状态栏\cardoff.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\小按键\b_photo_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\maohao.png</Picture>
+                                </PictureList>
+                                <CellList>
+                                        <Cell>m1</Cell>
+                                        <Cell>m2</Cell>
+                                        <Cell>m3</Cell>
+                                        <Cell>m4</Cell>
+                                        <Cell>m5</Cell>
+                                        <Cell>m6</Cell>
+                                        <Cell>m7</Cell>
+                                        <Cell>m8</Cell>
+                                        <Cell>m53</Cell>
+                                        <Cell>m9</Cell>
+                                        <Cell>m54</Cell>
+                                        <Cell>m55</Cell>
+                                        <Cell>m56</Cell>
+                                        <Cell>m10</Cell>
+                                </CellList>
+                        </Page>
+                        <Page id="1">
+                                <ColorList>
+                                        <Color>000000</Color>
+                                        <Color>353535</Color>
+                                        <Color>FFC046</Color>
+                                        <Color>55AAA5</Color>
+                                        <Color>FFFFFF</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\car_num_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\date_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\cyclic_video_5.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\video_butto_flash2.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\480.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\date.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\左侧工具栏\home.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_07.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_14.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_G.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_U.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\jianhao.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_20.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\3.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\设置界面\EXP7.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\HDR.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\5.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\interval_video_close.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\flig.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\gravity_sensor_low.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_L.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\NUM_1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_18.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_Y.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_24.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_30.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\7.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\pop_up_window.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\cyclic_video.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\左侧工具栏\setting_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\9.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_02.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_B.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_P.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\3.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\NUM_5.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_28.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\full.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\video_butto_flash1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\0.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\HDR icon_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\gravity_sensor.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_06.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_13.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_F.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_T.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\NUM_9.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\设置界面\ball.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\2.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\interval_video_500.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\左侧工具栏\camera_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\4.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\exposure.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\resolution_ratio.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_K.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\NUM_0.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_17.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_X.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_23.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\6.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\interval_video_100.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\car_num.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\8.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\左侧工具栏\setting.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\resolution_ratio_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_01.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_A.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_O.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\2.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\NUM_4.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_27.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\720.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\lock.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\cyclic_video_3.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\video_butto_flash1_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\btn_lock.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\maohao1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon_on\car_num_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_05.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_12.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_E.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_S.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\NUM_8.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_11.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\check_sport.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\flig_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\check_sport_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\cyclic_video_close.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\3.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_J.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_09.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_16.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_W.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\temple.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_22.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\exposure_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\5.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\7.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\左侧工具栏\camera.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\设置界面\label.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_N.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\sound.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\NUM_3.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_26.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\9.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\video_butto.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\btn_lock_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\interval_video_200.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\maohao1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\SD_close.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\check_sport.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_04.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_D.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_R.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\gravity_sensor_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\jianhao1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\video_butto_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\NUM_7.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_10.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\设置界面\frame.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\左侧工具栏\home_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\0.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\sound.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\stopping_monitor.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\2.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\double_video.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_I.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\double_video_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\gravity_sensor_midller.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_08.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_15.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_H.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_V.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\cyclic_video_10.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_21.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\stopping_monitor_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\gravity_sensor_high.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\4.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\maohao.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\6.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\switch.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\设置界面\label_down.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\sound_close.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_M.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\0.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\NUM_2.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_19.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_Z.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_25.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\cyclic_video_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\1080.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\设置界面\frame2.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\video_butto_flash2_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\switch_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_31.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\sound_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\RED\8.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\HDR.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\car_num.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\maohao.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\设置界面\line.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_03.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_C.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\LETTER_Q.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\NUM_6.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\charging.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\车牌\PRO_29.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\stopping_monitor.png</Picture>
+                                </PictureList>
+                                <CellList>
+                                        <Cell>tip16</Cell>
+                                        <Cell>mv1</Cell>
+                                        <Cell>mv2</Cell>
+                                        <Cell>mv3</Cell>
+                                        <Cell>mp12</Cell>
+                                        <Cell>mv6</Cell>
+                                        <Cell>mp13</Cell>
+                                        <Cell>mv7</Cell>
+                                        <Cell>mv10</Cell>
+                                        <Cell>mv8</Cell>
+                                        <Cell>m14</Cell>
+                                        <Cell>mv9</Cell>
+                                        <Cell>mv11</Cell>
+                                        <Cell>m15</Cell>
+                                        <Cell>mv12</Cell>
+                                        <Cell>m16</Cell>
+                                        <Cell>mv13</Cell>
+                                        <Cell>mv14</Cell>
+                                        <Cell>m18</Cell>
+                                        <Cell>m19</Cell>
+                                        <Cell>tip1</Cell>
+                                        <Cell>tip2</Cell>
+                                        <Cell>tip4</Cell>
+                                        <Cell>tip7</Cell>
+                                        <Cell>tip8</Cell>
+                                        <Cell>m20</Cell>
+                                        <Cell>m21</Cell>
+                                        <Cell>m22</Cell>
+                                        <Cell>m23</Cell>
+                                        <Cell>m24</Cell>
+                                        <Cell>m25</Cell>
+                                </CellList>
+                        </Page>
+                        <Page id="2">
+                                <ColorList>
+                                        <Color>000000</Color>
+                                        <Color>353535</Color>
+                                        <Color>FFC046</Color>
+                                        <Color>55AAA5</Color>
+                                        <Color>FFFFFF</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\VGA.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\date_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\timing_photo_5.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\AWB.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\date.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\左侧工具栏\home.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\timing_photo_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\jianhao.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\hand_shake.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\倒计时\4.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\ISO_auto.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\设置界面\EXP7.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\awb.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\awb_osram_lamp.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\5.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\flig.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\middle.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\quick_scan.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\continuous.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\倒计时\8.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\pop_up_window.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\quick_scan_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\5M.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\左侧工具栏\setting_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\9.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\3.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\full.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\hand_shake.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\0.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\ISO_200.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\color.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\倒计时\3.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\设置界面\ball.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\acuity.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\4.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\exposure.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\resolution_ratio.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\ISO_400.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\设置界面\TPH_RES.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\左侧工具栏\video_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\倒计时\7.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\1M.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\hand_shake_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\8.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\左侧工具栏\setting.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\resolution_ratio_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\2.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\photo_quality.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\acuity_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\awb_sun_cloudy.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\倒计时\2.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\flig_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\photo_quality_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\ISO_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\左侧工具栏\video.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\photo_button.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\3.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\continuous_photo.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\temple.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\倒计时\6.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\exposure_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\10M.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\continuous_photo_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\7.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\8M.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\设置界面\label.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\timing_photo.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\timing_photo_2.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\2M.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\maohao1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\倒计时\10.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\SD_close.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\ISO_100.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\jianhao1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\倒计时\1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\设置界面\frame.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\左侧工具栏\home_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\awb_fluorescent_lamp.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\ISO.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\3M.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\2.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\low.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\倒计时\5.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\6.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\color_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\switch.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\设置界面\label_down.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\0.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\choose\AWB_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\倒计时\9.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\设置界面\frame2.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\switch_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\数字\WHITE\maohao.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\侧滑icon\设置界面\line.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\high.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\timing_photo_10.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\photo_button_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\awb_sun_light.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\电量\charging.png</Picture>
+                                </PictureList>
+                                <CellList>
+                                        <Cell>tip1</Cell>
+                                        <Cell>tip2</Cell>
+                                        <Cell>tip4</Cell>
+                                        <Cell>mp30</Cell>
+                                        <Cell>mp31</Cell>
+                                        <Cell>mp32</Cell>
+                                        <Cell>tip7</Cell>
+                                        <Cell>mp33</Cell>
+                                        <Cell>tip8</Cell>
+                                        <Cell>mp1</Cell>
+                                        <Cell>mp2</Cell>
+                                        <Cell>mp3</Cell>
+                                        <Cell>mp4</Cell>
+                                        <Cell>m19</Cell>
+                                        <Cell>tip16</Cell>
+                                        <Cell>mp12</Cell>
+                                        <Cell>mp13</Cell>
+                                        <Cell>mp14</Cell>
+                                        <Cell>mp15</Cell>
+                                        <Cell>mp16</Cell>
+                                        <Cell>mp17</Cell>
+                                        <Cell>mp19</Cell>
+                                        <Cell>m22</Cell>
+                                        <Cell>m26</Cell>
+                                        <Cell>m27</Cell>
+                                        <Cell>m28</Cell>
+                                        <Cell>m29</Cell>
+                                        <Cell>mp20</Cell>
+                                        <Cell>mp21</Cell>
+                                        <Cell>mp22</Cell>
+                                        <Cell>mp23</Cell>
+                                        <Cell>mp24</Cell>
+                                        <Cell>mp25</Cell>
+                                        <Cell>mp26</Cell>
+                                        <Cell>mp27</Cell>
+                                        <Cell>mp29</Cell>
+                                        <Cell>m30</Cell>
+                                        <Cell>m31</Cell>
+                                        <Cell>m32</Cell>
+                                        <Cell>m33</Cell>
+                                        <Cell>m35</Cell>
+                                        <Cell>m36</Cell>
+                                </CellList>
+                        </Page>
+                        <Page id="3">
+                                <ColorList>
+                                        <Color>858585</Color>
+                                        <Color>FFFF00</Color>
+                                        <Color>353535</Color>
+                                        <Color>AA00FF</Color>
+                                        <Color>FFFFFF</Color>
+                                        <Color>55AAA5</Color>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\lock.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\弹窗\white_choose.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\右侧工具栏\delete_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\video.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\数字\5.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\左侧工具栏\next_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\左侧工具栏\s_back_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\左侧工具栏\back_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\数字\4.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\右侧工具栏\editor_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\数字\3.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\右侧工具栏\PHOTO.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\右侧工具栏\LOCK.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\PAUSE_btn.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\choose.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\左侧工具栏\last_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\数字\2.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\music.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\sil_r.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\右侧工具栏\HOME.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\右侧工具栏\DELETE.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\play.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\弹窗\bg.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\数字\1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\右侧工具栏\RETURN.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\play_btn.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\数字\0.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\pop_up_window.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\右侧工具栏\VIDEO.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\弹窗\yellow.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\pause.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\picture.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\右侧工具栏\lock_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\右侧工具栏\unlock_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\数字\9.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\右侧工具栏\home_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\右侧工具栏\EDIT.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\file.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\数字\8.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\右侧工具栏\return_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\左侧工具栏\next.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\左侧工具栏\s_back.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\右侧工具栏\photo_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\右侧工具栏\UNLOCK.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\左侧工具栏\back.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\数字\7.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\右侧工具栏\video_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\sil_l.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\弹窗\white.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\数字\maohao.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\左侧工具栏\last.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\unchoose.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\数字\6.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\文件查看\弹窗\yellow_choose.png</Picture>
+                                </PictureList>
+                                <CellList>
+                                        <Cell>mf1</Cell>
+                                        <Cell>mf2</Cell>
+                                        <Cell>mf3</Cell>
+                                        <Cell>tip10</Cell>
+                                        <Cell>tip11</Cell>
+                                        <Cell>tip12</Cell>
+                                        <Cell>tip13</Cell>
+                                        <Cell>tip14</Cell>
+                                        <Cell>tip15</Cell>
+                                        <Cell>tip16</Cell>
+                                        <Cell>tip2</Cell>
+                                        <Cell>tip3</Cell>
+                                        <Cell>tip5</Cell>
+                                        <Cell>tip6</Cell>
+                                        <Cell>tip9</Cell>
+                                </CellList>
+                        </Page>
+                        <Page id="4">
+                                <ColorList>
+                                        <Color>FFC046</Color>
+                                        <Color>212121</Color>
+                                        <Color>000000</Color>
+                                        <Color>FFFFFF</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\USB\VIDEO_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\USB\MASS.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\USB\PCCAM.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\USB\MASS_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\USB\s_PC.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\USB\PCCAM_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\USB\VIDEO.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\USB\s_MASS.png</Picture>
+                                </PictureList>
+                                <CellList>
+                                        <Cell>m48</Cell>
+                                        <Cell>m49</Cell>
+                                        <Cell>m50</Cell>
+                                </CellList>
+                        </Page>
+                        <Page id="5">
+                                <ColorList>
+                                        <Color>B3B3B3</Color>
+                                        <Color>FFFFFF</Color>
+                                        <Color>AEAEAE</Color>
+                                        <Color>000000</Color>
+                                        <Color>FFC046</Color>
+                                        <Color>AAAAAA</Color>
+                                        <Color>353535</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_0.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\reset.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_F.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\NUM_7.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\时间\sel.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\时间\empty.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\frame2.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\NUM_3.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_00.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_24.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\format.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon_on\version_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\左侧工具栏\home.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_19.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_20.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\ok.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_A.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_W.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\voice.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_15.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\date.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\左侧工具栏\FILES_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_S.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\car_num.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\左侧工具栏\FILES.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_11.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon_on\date_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_O.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_06.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_31.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_K.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_02.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\时间\timebg.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon_on\voice_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_26.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_G.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\NUM_8.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\cancel.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\languages.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\时间\sel1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\NUM_4.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\version.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\NUM_0.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_01.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_25.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_21.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_B.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_X.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon_on\auto_off_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_16.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_T.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_12.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_P.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_07.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\flig.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_L.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_03.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\左侧工具栏\video.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_27.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_H.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\NUM_9.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon_on\languages_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon_on\lane_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_D.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\NUM_5.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_Z.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\NUM_1.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\时间\PM.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_22.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\左侧工具栏\video_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_C.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_Y.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_17.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_U.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_13.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon_on\reset_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_Q.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_08.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon_on\frequency_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon_on\flig_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_M.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_04.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\lane.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_28.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\forbid.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_I.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\choose.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_E.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\NUM_6.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\lcd_off.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\frame.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\时间\AM.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\NUM_2.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\pop_up_window.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\frequency.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_23.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_18.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon_on\lcd_off_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_V.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_14.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\auto_off.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon_on\car_num_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_R.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon_on\format_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_09.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_10.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\左侧工具栏\home_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_N.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_05.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_29.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\PRO_30.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\车牌黑色\LETTER_J.png</Picture>
+                                </PictureList>
+                                <CellList>
+                                        <Cell>m38</Cell>
+                                        <Cell>m39</Cell>
+                                        <Cell>tip2</Cell>
+                                        <Cell>ms30</Cell>
+                                        <Cell>ms31</Cell>
+                                        <Cell>ms32</Cell>
+                                        <Cell>ms33</Cell>
+                                        <Cell>ms34</Cell>
+                                        <Cell>ms35</Cell>
+                                        <Cell>ms1</Cell>
+                                        <Cell>ms2</Cell>
+                                        <Cell>ms3</Cell>
+                                        <Cell>ms4</Cell>
+                                        <Cell>ms5</Cell>
+                                        <Cell>ms6</Cell>
+                                        <Cell>ms7</Cell>
+                                        <Cell>ms8</Cell>
+                                        <Cell>ms9</Cell>
+                                        <Cell>m40</Cell>
+                                        <Cell>m41</Cell>
+                                        <Cell>m42</Cell>
+                                        <Cell>m43</Cell>
+                                        <Cell>m45</Cell>
+                                        <Cell>m46</Cell>
+                                        <Cell>m47</Cell>
+                                        <Cell>m51</Cell>
+                                        <Cell>m52</Cell>
+                                        <Cell>mst1</Cell>
+                                        <Cell>mst2</Cell>
+                                        <Cell>mst3</Cell>
+                                        <Cell>mst4</Cell>
+                                        <Cell>mst5</Cell>
+                                        <Cell>mst6</Cell>
+                                        <Cell>mst7</Cell>
+                                        <Cell>mst8</Cell>
+                                        <Cell>mst9</Cell>
+                                        <Cell>mst10</Cell>
+                                        <Cell>mst11</Cell>
+                                        <Cell>mst12</Cell>
+                                        <Cell>mst13</Cell>
+                                        <Cell>ms10</Cell>
+                                        <Cell>tip16</Cell>
+                                        <Cell>ms11</Cell>
+                                        <Cell>ms12</Cell>
+                                        <Cell>ms14</Cell>
+                                        <Cell>ms15</Cell>
+                                        <Cell>ms16</Cell>
+                                        <Cell>ms17</Cell>
+                                        <Cell>ms18</Cell>
+                                        <Cell>ms19</Cell>
+                                        <Cell>m25</Cell>
+                                        <Cell>ms21</Cell>
+                                        <Cell>ms22</Cell>
+                                        <Cell>ms23</Cell>
+                                        <Cell>ms24</Cell>
+                                        <Cell>ms25</Cell>
+                                        <Cell>ms26</Cell>
+                                        <Cell>ms27</Cell>
+                                        <Cell>ms28</Cell>
+                                        <Cell>ms29</Cell>
+                                </CellList>
+                        </Page>
+                        <Page id="6">
+                                <ColorList>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\拍摄界面\astern.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="7">
+                                <ColorList>
+                                        <Color>353535</Color>
+                                        <Color>000000</Color>
+                                        <Color>00C4FF</Color>
+                                        <Color>55AAA5</Color>
+                                        <Color>FFF795</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\左侧工具栏\OK_on.png</Picture>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\左侧工具栏\OK.png</Picture>
+                                </PictureList>
+                                <CellList>
+                                        <Cell>tip17</Cell>
+                                        <Cell>tip18</Cell>
+                                </CellList>
+                        </Page>
+                        <Page id="8">
+                                <ColorList>
+                                        <Color>55AAA5</Color>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">F:\AC54_56\80后\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\AC54XX_SDK_V0.5Beta_USB_0.9patch_6.86_80后UI_流媒体\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\初始界面\m_reback.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                </PageList>
+                <language>0x00000013</language>
+                <bmp_transparent_color>0x00FFFFFF</bmp_transparent_color>
+                <png_background_color>0x12345678</png_background_color>
+                <spec_color_list>NULL</spec_color_list>
+                <png2jpg_list>NULL</png2jpg_list>
+                <res>result</res>
+                <resfilename>result.bin</resfilename>
+                <headerfilename>result.h</headerfilename>
+                <image_compress_method>quicklz</image_compress_method>
+                <string_compress_method>rle</string_compress_method>
+                <palette_type>rgb</palette_type>
+                <percent>100%</percent>
+                <excel_crc/>
+                <excel_row/>
+        </Items>
+</Resbuilder>

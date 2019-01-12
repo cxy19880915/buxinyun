@@ -1,0 +1,10 @@
+修改说明：
+isd_tools_flash-new.cfg 增加sdmmc相关配置：
+	# SD卡出口和电源配置
+	sdmmc=1;	[0|1|2]
+	sdmmc_port=C;	[A|B|C]
+	sdmmc_power_io = PB11_0;        SD卡电源脚 + 有效电平，没有电源控制脚赋值为0
+	code_file_name=JL_AC54.BFU;	[sd卡内代码文件的文件名，需要是短文件名]
+2018.10.17:
+bg0806_mipi.c:static u8 vrefh_min_tlb = 0x0c;改为0x0f（line51）
+   0x0090, 0x0000,//01（line143）

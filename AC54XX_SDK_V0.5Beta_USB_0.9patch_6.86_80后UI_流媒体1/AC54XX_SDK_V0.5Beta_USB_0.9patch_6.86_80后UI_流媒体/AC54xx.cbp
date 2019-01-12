@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AC54xx" />
+		<Option pch_mode="2" />
+		<Option compiler="pi32" />
+		<Build>
+			<Target title="Debug">
+				<Option output="cpu/AC54xx/tools/main.or32" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="pi32v2_lto_compiler" />
+				<Compiler>
+					<Add option="-flto" />
+					<Add option="-mllvm -pi32v2-large-program" />
+					<Add option="-DUSE_RTOS" />
+					<Add option="-D_POSIX_SOURCE" />
+					<Add option="-DCONFIG_USE_RTOS" />
+					<Add option="-DCONFIG_CHRDEV" />
+					<Add option="-DCONFIG_DEBUG" />
+					<Add option="-DCONFIG_VFS" />
+					<Add option="-DFS_VERSION=0x020001" />
+					<Add option="-DFATFS_VERSION=0x020101" />
+					<Add option="-DSDFILE_VERSION=0x020000" />
+					<Add option="-DDEVFS_VERSION=0x020000" />
+					<Add option="-DRAMFS_VERSION=0x010000" />
+					<Add option="-DAUDIO_SERVER_VERSION=0x020000" />
+					<Add option="-DSERVER_CORE_VERSION=0x020000" />
+					<Add option="-DUI_SERVER_VERSION=0x020002" />
+					<Add option="-DUSB_SERVER_VERSION=0x030200" />
+					<Add option="-DVIDEO_DEC_SERVER_VERSION=0x020001" />
+					<Add option="-DVIDEO_REC_SERVER_VERSION=0x020102" />
+					<Add option="-DVIDEO_UNPKG_SERVER_VERSION=0x020000" />
+					<Add option="-DVIDEO_ENGINE_SERVER_VERSION=0x020001" />
+					<Add option="-DVIDEO_PKG_SERVER_VERSION=0x020000" />
+					<Add option="-DCPU_VERSION=0x030200" />
+					<Add option="-DDEV_ISP_VERSION=0x030000" />
+					<Add option="-DDEV_AUDIO_VERSION=0x020000" />
+					<Add option="-DDEV_VIDEO_ENGINE_VERSION=0x020000" />
+					<Add option="-DDEV_SD0_VERSION=0x020000" />
+					<Add option="-DDEV_SD1_VERSION=0x020000" />
+					<Add option="-DDEV_SD2_VERSION=0x020000" />
+					<Add option="-DDEV_USB_VERSION=0x040000" />
+					<Add option="-DDEV_VIDEO_VERSION=0x020100" />
+					<Add option="-DMALLOC_VERSION=0x020000" />
+					<Add option="-DRTOS_VERSION=0x020000" />
+					<Add option="-DSYS_VERSION=0x020001" />
+					<Add option="-DUPGRADE_VERSION=0x030100" />
+					<Add directory="include_lib" />
+					<Add directory="include_lib/ui" />
+					<Add directory="include_lib/system" />
+					<Add directory="include_lib/system/generic" />
+					<Add directory="include_lib/system/device" />
+					<Add directory="include_lib/system/fs" />
+					<Add directory="include_lib/system/cpu/AC54xx" />
+					<Add directory="app/car_camera/include" />
+					<Add directory="/opt/pi32v2/include" />
+				</Compiler>
+				<Linker>
+					<Add option="--start-group include_lib/liba/rtos.a include_lib/liba/sd1.a include_lib/liba/ascii.a include_lib/liba/res.a include_lib/liba/pap.a include_lib/liba/usb.a include_lib/liba/usb-host.a include_lib/liba/fs.a include_lib/liba/video_engine.a include_lib/liba/upgrade.a include_lib/liba/rs_ecc.a include_lib/liba/font.a include_lib/liba/server.a include_lib/liba/ui_server.a include_lib/liba/video_engine_server.a include_lib/liba/usb_server.a include_lib/liba/video_dec_server.a include_lib/liba/video_rec_server.a --whole-archive include_lib/liba/dev.a include_lib/liba/cpu.a include_lib/liba/isp.a include_lib/liba/ui.a include_lib/liba/sys.a include_lib/liba/audio_server.a --no-whole-archive include_lib/liba/mm.a include_lib/liba/printf.a include_lib/liba/lbuf.a include_lib/liba/cbuf.a --end-group" />
+					<Add option="-Map=map.txt" />
+					<Add option="--plugin-opt=-inline-threshold=10" />
+					<Add option="--plugin-opt=-enable-ipra=true" />
+					<Add option="--plugin-opt=-pi32v2-always-use-itblock" />
+					<Add option="--plugin-opt=-pi32v2-merge-max-offset=4096" />
+					<Add option="--plugin-opt=-global-merge-on-const" />
+					<Add option="--plugin-opt=-pi32v2-large-program" />
+					<Add option="--plugin-opt=-mattr=+simd" />
+					<Add option="--plugin-opt=save-temps" />
+					<Add option="-T./cpu/AC54xx/ram.ld" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="下载代码.bat" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/dv10_example" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="pi32" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-Os" />
+					<Add option="-g" />
+					<Add option="-Wall" />
+					<Add option="-target pi32-unkown-unkown-unkown" />
+					<Add option="-integrated-as" />
+					<Add option="-mllvm -inline-threshold=1" />
+					<Add option="-mllvm -pi32-memreg-opt" />
+					<Add directory="C:/JL/pi32/include" />
+					<Add directory="C:/JL/pi32/libc/include" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="./" />
+		</Compiler>
+		<Unit filename="app/car_camera/app_database.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/app_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/auto_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/backlight.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/device_mount.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/gsensor/da380.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/gsensor/gSensor_manage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/gsensor/gma301.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/gsensor/msa300.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/gsensor/stk8312.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/key_voice.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/parking_detect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/power_check_ontime.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/power_ctrl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/touch_panel/GT911.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/touch_panel/ICN85XX.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/touch_panel/ICN85XX.h" />
+		<Unit filename="app/car_camera/touch_panel/icn85xx_flash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/touch_panel/icn85xx_fw.h" />
+		<Unit filename="app/car_camera/touch_panel/touch_panel_manager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/ui/style_JL02/ui_action_dec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/ui/style_JL02/ui_action_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/ui/style_JL02/ui_action_photo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/ui/style_JL02/ui_action_rec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/ui/style_JL02/ui_action_sys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/ui/style_JL02/ui_action_usb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/ui/ui_action_animation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/upgrade.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/usb_app.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/usb_app_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/user_isp_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/user_scr_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/version.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/video_dec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/video_dec_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/video_photo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/video_photo_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/video_rec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/video_rec_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/video_system.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/car_camera/video_system_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/ar0330_mipi/ar0330_mipi.h" />
+		<Unit filename="camera/ar0330_mipi/ar0330_mipi_ae.h" />
+		<Unit filename="camera/ar0330_mipi/ar0330_mipi_awb.h" />
+		<Unit filename="camera/ar0330_mipi/ar0330_mipi_iq.h" />
+		<Unit filename="camera/ark7116/ark7116.h" />
+		<Unit filename="camera/av10/av10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/av10/av10.h" />
+		<Unit filename="camera/av10/av10_spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/bg0806_mipi/bg0806_mipi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/bg0806_mipi/bg0806_mipi.h" />
+		<Unit filename="camera/bg0806_mipi/bg0806_mipi_ae.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/bg0806_mipi/bg0806_mipi_ae.h" />
+		<Unit filename="camera/bg0806_mipi/bg0806_mipi_awb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/bg0806_mipi/bg0806_mipi_awb.h" />
+		<Unit filename="camera/bg0806_mipi/bg0806_mipi_iq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera/bg0806_mipi/bg0806_mipi_iq.h" />
+		<Unit filename="camera/c2392/c2392_mipi.h" />
+		<Unit filename="camera/c2392/c2392_mipi_ae.h" />
+		<Unit filename="camera/c2392/c2392_mipi_awb.h" />
+		<Unit filename="camera/c2392/c2392_mipi_iq.h" />
+		<Unit filename="camera/c2392_mipi/c2392_mipi.h" />
+		<Unit filename="camera/c2392_mipi/c2392_mipi_ae.h" />
+		<Unit filename="camera/c2392_mipi/c2392_mipi_awb.h" />
+		<Unit filename="camera/c2392_mipi/c2392_mipi_iq.h" />
+		<Unit filename="camera/gc1004/gc1004.h" />
+		<Unit filename="camera/gc1004/gc1004_ae.h" />
+		<Unit filename="camera/gc1004/gc1004_awb.h" />
+		<Unit filename="camera/gc1004/gc1004_iq.h" />
+		<Unit filename="camera/gc1064_mipi/gc1064_mipi.h" />
+		<Unit filename="camera/gc1064_mipi/gc1064_mipi_ae.h" />
+		<Unit filename="camera/gc1064_mipi/gc1064_mipi_awb.h" />
+		<Unit filename="camera/gc1064_mipi/gc1064_mipi_iq.h" />
+		<Unit filename="camera/gc2023_mipi/gc2023_mipi.h" />
+		<Unit filename="camera/gc2023_mipi/gc2023_mipi_ae.h" />
+		<Unit filename="camera/gc2023_mipi/gc2023_mipi_awb.h" />
+		<Unit filename="camera/gc2023_mipi/gc2023_mipi_iq.h" />
+		<Unit filename="camera/gm7150/gm7150.h" />
+		<Unit filename="camera/h42/h42.h" />
+		<Unit filename="camera/h42/h42_ae.h" />
+		<Unit filename="camera/h42/h42_awb.h" />
+		<Unit filename="camera/h42/h42_iq.h" />
+		<Unit filename="camera/hm2131_mipi/hm2131_mipi.h" />
+		<Unit filename="camera/hm2131_mipi/hm2131_mipi_ae.h" />
+		<Unit filename="camera/hm2131_mipi/hm2131_mipi_awb.h" />
+		<Unit filename="camera/hm2131_mipi/hm2131_mipi_iq.h" />
+		<Unit filename="camera/imx179_mipi/imx179_mipi.h" />
+		<Unit filename="camera/imx179_mipi/imx179_mipi_ae.h" />
+		<Unit filename="camera/imx179_mipi/imx179_mipi_awb.h" />
+		<Unit filename="camera/imx179_mipi/imx179_mipi_iq.h" />
+		<Unit filename="camera/nvp6112/nvp6112.h" />
+		<Unit filename="camera/sc1243/sc1243_dvp.h" />
+		<Unit filename="camera/sc1243/sc1243_dvp_ae.h" />
+		<Unit filename="camera/sc1243/sc1243_dvp_awb.h" />
+		<Unit filename="camera/sc1243/sc1243_dvp_iq.h" />
+		<Unit filename="camera/sc2143_mipi/sc2143_mipi.h" />
+		<Unit filename="camera/sc2143_mipi/sc2143_mipi_ae.h" />
+		<Unit filename="camera/sc2143_mipi/sc2143_mipi_awb.h" />
+		<Unit filename="camera/sc2143_mipi/sc2143_mipi_iq.h" />
+		<Unit filename="camera/sc2303/sc2303_dvp.h" />
+		<Unit filename="camera/sc2303/sc2303_dvp_ae.h" />
+		<Unit filename="camera/sc2303/sc2303_dvp_awb.h" />
+		<Unit filename="camera/sc2303/sc2303_dvp_iq.h" />
+		<Unit filename="camera/sc3033_mipi/sc3033_mipi.h" />
+		<Unit filename="camera/sc3033_mipi/sc3033_mipi_ae.h" />
+		<Unit filename="camera/sc3033_mipi/sc3033_mipi_awb.h" />
+		<Unit filename="camera/sc3033_mipi/sc3033_mipi_iq.h" />
+		<Unit filename="camera/xc7011_dvp/xc7011.h" />
+		<Unit filename="cpu/AC54xx/board/board_mipi_touch_v1_dvp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/ldo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_4lane_1280x480_WT686.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/powerdet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/ram.ld" />
+		<Unit filename="cpu/AC54xx/setup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC54xx/static_memory_alloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/dev/sensor/camera/ark7116.h" />
+		<Unit filename="lib/dev/sensor/camera/bg0806/bg0806.h" />
+		<Unit filename="lib/dev/sensor/camera/bg0806/bg0806_ae.h" />
+		<Unit filename="lib/dev/sensor/camera/bg0806/bg0806_awb.h" />
+		<Unit filename="lib/dev/sensor/camera/bg0806/bg0806_iq.h" />
+		<Unit filename="lib/dev/sensor/camera/gc0308.h" />
+		<Unit filename="lib/dev/sensor/camera/gc1004.h" />
+		<Unit filename="lib/dev/sensor/camera/gc1004/gc1004.h" />
+		<Unit filename="lib/dev/sensor/camera/gc1004/gc1004_ae.h" />
+		<Unit filename="lib/dev/sensor/camera/gc1004/gc1004_awb.h" />
+		<Unit filename="lib/dev/sensor/camera/gc1004/gc1004_iq.h" />
+		<Unit filename="lib/dev/sensor/camera/gm7150.h" />
+		<Unit filename="lib/dev/sensor/camera/h42.h" />
+		<Unit filename="lib/dev/sensor/camera/nt99140.h" />
+		<Unit filename="lib/printf/fcvt.h" />
+		<Unit filename="lib/rtos/os_compat/os_compat.h" />
+		<Unit filename="lib/sdmmc/sd1/src/sd_host_api/sd1_host_api.h" />
+		<Unit filename="lib/sdmmc/sd1/src/sd_host_api/sd_host_internal_api.h" />
+		<Unit filename="lib/sdmmc/sd1/src/sd_host_cmd/sd_host_cmd.h" />
+		<Unit filename="lib/sdmmc/sd1/src/sd_host_reg/sd_host_reg.h" />
+		<Unit filename="lib/system/cpu/AC54xx/sd_ddr_file.h" />
+		<Unit filename="lib/system/device/sensor/camera/bg0806/bg0806.h" />
+		<Unit filename="lib/system/device/sensor/camera/bg0806/bg0806_ae.h" />
+		<Unit filename="lib/system/device/sensor/camera/bg0806/bg0806_awb.h" />
+		<Unit filename="lib/system/device/sensor/camera/bg0806/bg0806_iq.h" />
+		<Unit filename="lib/system/device/sensor/camera/gc1004/gc1004.h" />
+		<Unit filename="lib/system/device/sensor/camera/gc1004/gc1004_ae.h" />
+		<Unit filename="lib/system/device/sensor/camera/gc1004/gc1004_awb.h" />
+		<Unit filename="lib/system/device/sensor/camera/gc1004/gc1004_iq.h" />
+		<Unit filename="lib/system/device/sensor/camera/ov9650.h" />
+		<Unit filename="lib/system/device/sensor/camera/ov9710.h" />
+		<Unit filename="lib/system/device/sensor/camera/ov9712.h" />
+		<Unit filename="lib/system/device/sensor/camera/saa7113.h" />
+		<Unit filename="lib/system/device/sensor/camera/sc1045.h" />
+		<Unit filename="lib/system/device/sensor/camera/sc2143/sc2143.h" />
+		<Unit filename="lib/system/device/sensor/camera/sc2143/sc2143_ae.h" />
+		<Unit filename="lib/system/device/sensor/camera/sc2143/sc2143_awb.h" />
+		<Unit filename="lib/system/device/sensor/camera/sc2143/sc2143_iq.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger>
+				<remote_debugging>
+					<options conn_type="0" serial_baud="115200" ip_address="127.0.0.1" ip_port="9999" />
+				</remote_debugging>
+				<remote_debugging target="Debug">
+					<options conn_type="0" serial_baud="115200" ip_address="127.0.0.1" ip_port="1234" />
+				</remote_debugging>
+			</debugger>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

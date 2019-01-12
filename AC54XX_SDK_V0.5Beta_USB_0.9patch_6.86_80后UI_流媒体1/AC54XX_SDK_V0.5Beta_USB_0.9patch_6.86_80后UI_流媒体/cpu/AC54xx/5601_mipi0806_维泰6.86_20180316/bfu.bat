@@ -1,0 +1,1 @@
+dv12_bfu_make.exe -fi sdram.bin -ld 0x0 -rd 0x0 -fo JL_AC54.bfu

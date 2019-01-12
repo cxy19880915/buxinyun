@@ -1,0 +1,1957 @@
+Archive member included to satisfy reference by file (symbol)
+
+include_lib/liba/rtos.a(os_api.o)
+                              obj\Debug\cpu\AC54xx\setup.o (symbol from plugin) (os_start)
+include_lib/liba/rtos.a(os_core.o)
+                              os_api.o (symbol from plugin) (OSInit)
+include_lib/liba/rtos.a(os_mutex.o)
+                              obj\Debug\camera\av10\av10_spi.o (symbol from plugin) (OSMutexCreate)
+include_lib/liba/rtos.a(os_sem.o)
+                              obj\Debug\app\car_camera\parking_detect.o (symbol from plugin) (OSSemCreate)
+include_lib/liba/rtos.a(os_task.o)
+                              os_api.o (symbol from plugin) (OSTaskCreate)
+include_lib/liba/rtos.a(os_time.o)
+                              obj\Debug\app\car_camera\app_main.o (symbol from plugin) (OSTimeDly)
+include_lib/liba/rtos.a(os_cpu_c.o)
+                              os_mutex.o (symbol from plugin) (is_cpu_int_nesting)
+include_lib/liba/sd1.a(module_sd1.o)
+                              obj\Debug\cpu\AC54xx\board\board_mipi_touch_v1_dvp.o (symbol from plugin) (sd_dev_ops)
+include_lib/liba/sd1.a(sdmmc_init.o)
+                              module_sd1.o (symbol from plugin) (sd1_init)
+include_lib/liba/sd1.a(sd_host_args.o)
+                              module_sd1.o (symbol from plugin) (sd1_cmd_detect)
+include_lib/liba/sd1.a(sd_host_init.o)
+                              sdmmc_init.o (symbol from plugin) (sd1_host_init)
+include_lib/liba/sd1.a(sd_host_mount.o)
+                              sdmmc_init.o (symbol from plugin) (sd1_mount)
+include_lib/liba/sd1.a(sd_host_read_end.o)
+                              module_sd1.o (symbol from plugin) (sd1_read_end)
+include_lib/liba/sd1.a(sd_host_unmount.o)
+                              module_sd1.o (symbol from plugin) (sd1_unmount)
+include_lib/liba/sd1.a(sd_host_write.o)
+                              module_sd1.o (symbol from plugin) (sd1_flush)
+include_lib/liba/sd1.a(sd_host_write_end.o)
+                              module_sd1.o (symbol from plugin) (sd1_write_end)
+include_lib/liba/sd1.a(sd_init.o)
+                              sd_host_mount.o (symbol from plugin) (sd1_init_card)
+include_lib/liba/sd1.a(mmc_host_send_rca.o)
+                              sd_init.o (symbol from plugin) (mmc1_host_send_rca)
+include_lib/liba/sd1.a(sd_host_all_send_cid.o)
+                              sd_init.o (symbol from plugin) (sd1_host_all_send_cid)
+include_lib/liba/sd1.a(sd_host_reset.o)
+                              sd_init.o (symbol from plugin) (sd1_host_reset)
+include_lib/liba/sd1.a(sd_host_send_csd.o)
+                              sd_init.o (symbol from plugin) (sd1_host_send_csd)
+include_lib/liba/sd1.a(sd_host_send_if_cond.o)
+                              sd_init.o (symbol from plugin) (sd1_host_send_if_cond)
+include_lib/liba/sd1.a(sd_host_send_rca.o)
+                              sd_init.o (symbol from plugin) (sd1_host_send_rca)
+include_lib/liba/sd1.a(sd_host_stop_trans.o)
+                              sd_host_write.o (symbol from plugin) (sd1_host_stop_trans)
+include_lib/liba/sd1.a(sd_select_card.o)
+                              sd_init.o (symbol from plugin) (sd1_select_card)
+include_lib/liba/sd1.a(sdmmc_det.o)
+                              module_sd1.o (symbol from plugin) (sd1_is_online)
+include_lib/liba/sd1.a(sd_chk_ctl.o)
+                              sdmmc_det.o (symbol from plugin) (sd1_chk_ctl)
+include_lib/liba/sd1.a(sd_host_hw.o)
+                              sdmmc_det.o (symbol from plugin) (sd1_cmd_check)
+include_lib/liba/sd1.a(sd_wait_idle.o)
+                              sd_host_mount.o (symbol from plugin) (sd1_wait_idle)
+include_lib/liba/sd1.a(sd_host_reg.o)
+                              sd_host_hw.o (symbol from plugin) (SD1_8CLK_EN)
+include_lib/liba/sd1.a(sd_send_command.o)
+                              sd_host_write.o (symbol from plugin) (sd1_send_command)
+include_lib/liba/sd1.a(sd_write_start.o)
+                              sd_host_write.o (symbol from plugin) (sd1_write_start)
+include_lib/liba/sd1.a(sd_host_status.o)
+                              sd_host_read_end.o (symbol from plugin) (sd1_host_status)
+include_lib/liba/sd1.a(mango_dev_sd1.o)
+                              module_sd1.o (symbol from plugin) (SD1_SEM_INIT)
+include_lib/liba/sd1.a(sdmmc_host_set_bus_width.o)
+                              sdmmc_init.o (symbol from plugin) (sd1_set_bus_width)
+include_lib/liba/sd1.a(sdmmc_host_set_hispeed.o)
+                              sdmmc_init.o (symbol from plugin) (sd1_set_hispeed)
+include_lib/liba/sd1.a(sd_host_identification.o)
+                              sd_init.o (symbol from plugin) (sd1_host_identification)
+include_lib/liba/sd1.a(sd_host_read.o)
+                              sd_host_read_end.o (symbol from plugin) (sd1_read)
+include_lib/liba/sd1.a(sd_host_timeout.o)
+                              sd_host_stop_trans.o (symbol from plugin) (sd1_host_get_jiffies)
+include_lib/liba/sd1.a(mmc_host_send_op_cond.o)
+                              sd_host_identification.o (symbol from plugin) (mmc1_host_send_op_cond)
+include_lib/liba/sd1.a(mmc_host_set_bus_width.o)
+                              sdmmc_host_set_bus_width.o (symbol from plugin) (mmc1_host_set_bus_width)
+include_lib/liba/sd1.a(mmc_host_set_hispeed.o)
+                              sdmmc_host_set_hispeed.o (symbol from plugin) (mmc1_host_set_hispeed)
+include_lib/liba/sd1.a(sd_host_sd_status.o)
+                              sdmmc_host_set_bus_width.o (symbol from plugin) (sd1_host_sd_status)
+include_lib/liba/sd1.a(sd_host_send_op_cond.o)
+                              sd_host_identification.o (symbol from plugin) (sd1_host_send_op_cond)
+include_lib/liba/sd1.a(sd_host_set_bus_width.o)
+                              sdmmc_host_set_bus_width.o (symbol from plugin) (sd1_host_set_bus_width)
+include_lib/liba/sd1.a(sd_host_set_hispeed.o)
+                              sdmmc_host_set_hispeed.o (symbol from plugin) (sd1_host_set_hispeed)
+include_lib/liba/sd1.a(sd_host_switch_func.o)
+                              sd_host_set_hispeed.o (symbol from plugin) (sd1_host_switch_func)
+include_lib/liba/sd1.a(sd_send_scr.o)
+                              sdmmc_host_set_bus_width.o (symbol from plugin) (sd1_send_scr)
+include_lib/liba/sd1.a(sd_read_start.o)
+                              sd_host_read.o (symbol from plugin) (sd1_read_start)
+include_lib/liba/sd1.a(sd_host_app_cmd.o)
+                              sd_host_sd_status.o (symbol from plugin) (sd1_host_app_cmd)
+include_lib/liba/ascii.a(ASCII_lib.o)
+                              obj\Debug\app\car_camera\video_dec.o (symbol from plugin) (ASCII_ToUpper)
+include_lib/liba/res.a(resfile.o)
+                              obj\Debug\app\car_camera\video_system_cfg.o (symbol from plugin) (ui_language_set)
+include_lib/liba/res.a(quicklz.o)
+                              resfile.o (symbol from plugin) (qlz_decompress)
+include_lib/liba/pap.a(pap.o)
+                              obj\Debug\cpu\AC54xx\board\board_mipi_touch_v1_dvp.o (symbol from plugin) (pap_dev_ops)
+include_lib/liba/usb.a(usb_dev.o)
+                              obj\Debug\cpu\AC54xx\board\board_mipi_touch_v1_dvp.o (symbol from plugin) (usb_dev_ops)
+include_lib/liba/usb.a(uvc_dev.o)
+                              obj\Debug\cpu\AC54xx\board\board_mipi_touch_v1_dvp.o (symbol from plugin) (uvc_dev_ops)
+include_lib/liba/usb.a(usb_hal.o)
+                              usb_dev.o (symbol from plugin) (usb_phy0)
+include_lib/liba/usb.a(usb_ep_init.o)
+                              usb_hal.o (symbol from plugin) (usb_slave_ep_init)
+include_lib/liba/usb.a(usb_setup.o)
+                              usb_hal.o (symbol from plugin) (ep0_ctrl_transfer)
+include_lib/liba/usb.a(usb_slave_main.o)
+                              usb_dev.o (symbol from plugin) (usb_slave_detect)
+include_lib/liba/usb.a(hid_main.o)
+                              usb_setup.o (symbol from plugin) (hid_setup)
+include_lib/liba/usb.a(msd_main.o)
+                              usb_hal.o (symbol from plugin) (mass_storage_run)
+include_lib/liba/usb.a(uvc_setup.o)
+                              usb_setup.o (symbol from plugin) (uvc_setup)
+include_lib/liba/usb.a(video_descriptor.o)
+                              uvc_setup.o (symbol from plugin) (uvc_slave_probe_commit_control)
+include_lib/liba/usb.a(video_main.o)
+                              usb_slave_main.o (symbol from plugin) (usb_video_feature_init)
+include_lib/liba/usb.a(usb_hub.o)
+                              usb_hal.o (symbol from plugin) (hub_isr)
+include_lib/liba/usb.a(usb_core.o)
+                              usb_hal.o (symbol from plugin) (host_event_notify)
+include_lib/liba/usb.a(usb_ctrl_transfer.o)
+                              usb_hub.o (symbol from plugin) (usb_control_msg)
+include_lib/liba/usb.a(usb_descriptor_parser.o)
+                              usb_core.o (symbol from plugin) (usb_descriptor_parser)
+include_lib/liba/usb.a(usb_storage.o)
+                              usb_core.o (symbol from plugin) (usb_stor_init)
+include_lib/liba/usb.a(usb_video.o)
+                              usb_descriptor_parser.o (symbol from plugin) (usb_uvc_parser)
+include_lib/liba/usb.a(core_descriptor.o)
+                              usb_setup.o (symbol from plugin) (usb_desc_init)
+include_lib/liba/usb.a(hid_descriptor.o)
+                              core_descriptor.o (symbol from plugin) (get_hid_cfg_len)
+include_lib/liba/usb.a(msd_descriptor.o)
+                              core_descriptor.o (symbol from plugin) (sMassDescriptor)
+include_lib/liba/usb.a(usb_bulk_transfer.o)
+                              usb_storage.o (symbol from plugin) (usb_bulk_only_receive)
+include_lib/liba/fs.a(vfs.o)  obj\Debug\app\car_camera\app_main.o (symbol from plugin) (mount)
+include_lib/liba/video_engine.a(video_engine.o)
+                              obj\Debug\cpu\AC54xx\board\board_mipi_touch_v1_dvp.o (symbol from plugin) (video_engine_ops)
+include_lib/liba/upgrade.a(upgrade_detect.o)
+                              obj\Debug\app\car_camera\upgrade.o (symbol from plugin) (upgrade_file_detect)
+include_lib/liba/upgrade.a(jl_upgrade.o)
+                              upgrade_detect.o (symbol from plugin) (upgrade_bfu)
+include_lib/liba/upgrade.a(encrypt.o)
+                              jl_upgrade.o (symbol from plugin) (encode_logo_head)
+include_lib/liba/upgrade.a(gui.o)
+                              jl_upgrade.o (symbol from plugin) (gui_show_message)
+include_lib/liba/upgrade.a(ecc_rs.o)
+                              jl_upgrade.o (symbol from plugin) (ecc_rs_ioctl)
+include_lib/liba/upgrade.a(jl_flash.o)
+                              ecc_rs.o (symbol from plugin) (get_file_addr)
+include_lib/liba/rs_ecc.a(rs.o)
+                              ecc_rs.o (symbol from plugin) (get_ecc_rs_api)
+include_lib/liba/rs_ecc.a(berlekamp.o)
+                              rs.o (symbol from plugin) (mult_polys)
+include_lib/liba/server.a(server_core.o)
+                              obj\Debug\app\car_camera\app_main.o (symbol from plugin) (server_request)
+include_lib/liba/ui_server.a(ui_server.o)
+                              obj\Debug\app\car_camera\version.o (symbol from plugin) (ui_server_version)
+include_lib/liba/video_engine_server.a(video_engine_server.o)
+                              obj\Debug\app\car_camera\version.o (symbol from plugin) (video_engine_server_version)
+include_lib/liba/video_engine_server.a(motion_detect.o)
+                              video_engine_server.o (symbol from plugin) (ve_motion_detect_module)
+include_lib/liba/video_engine_server.a(lane_wrap.o)
+                              video_engine_server.o (symbol from plugin) (ve_lane_detect_module)
+include_lib/liba/video_engine_server.a(lane.o)
+                              lane_wrap.o (symbol from plugin) (lane_calibrate_get_roi_top)
+include_lib/liba/video_engine_server.a(binary_lane.o)
+                              lane.o (symbol from plugin) (mark_lane)
+include_lib/liba/video_engine_server.a(blob.o)
+                              lane.o (symbol from plugin) (findNextContour)
+include_lib/liba/video_engine_server.a(convxhull.o)
+                              blob.o (symbol from plugin) (get_convex_hull)
+include_lib/liba/video_engine_server.a(get_theta.o)
+                              lane.o (symbol from plugin) (get_tan_theta)
+include_lib/liba/video_engine_server.a(img_utils.o)
+                              lane.o (symbol from plugin) (common_sqrt)
+include_lib/liba/video_engine_server.a(lsd.o)
+                              lane.o (symbol from plugin) (lsd)
+include_lib/liba/video_engine_server.a(min_area_rect.o)
+                              blob.o (symbol from plugin) (get_rotate_rect)
+include_lib/liba/usb_server.a(usb_server.o)
+                              obj\Debug\app\car_camera\version.o (symbol from plugin) (usb_server_version)
+include_lib/liba/usb_server.a(mass_storage.o)
+                              usb_server.o (symbol from plugin) (mass_storage_connect)
+include_lib/liba/usb_server.a(uvc_camera.o)
+                              usb_server.o (symbol from plugin) (get_uvc_camera_device)
+include_lib/liba/usb_server.a(isp_tool.o)
+                              usb_server.o (symbol from plugin) (get_isp_tool_ops)
+include_lib/liba/usb_server.a(isd_tool.o)
+                              usb_server.o (symbol from plugin) (get_isd_tool_ops)
+include_lib/liba/usb_server.a(screen_tool.o)
+                              usb_server.o (symbol from plugin) (get_screen_tool_ops)
+include_lib/liba/video_dec_server.a(video_decode_server.o)
+                              obj\Debug\app\car_camera\version.o (symbol from plugin) (video_dec_server_version)
+include_lib/liba/video_dec_server.a(video_unpkg_server.o)
+                              video_decode_server.o (symbol from plugin) (vunpkg_server_version)
+include_lib/liba/video_dec_server.a(avi_unpkg_if.o)
+                              video_unpkg_server.o (symbol from plugin) (get_avi_unpkg_ops)
+include_lib/liba/video_dec_server.a(mov_unpkg_if.o)
+                              video_unpkg_server.o (symbol from plugin) (get_mov_unpkg_ops)
+include_lib/liba/video_dec_server.a(mov_unpkg.o)
+                              mov_unpkg_if.o (symbol from plugin) (mov_unpkg_ctrl_start)
+include_lib/liba/video_dec_server.a(mov_unpkg_aud.o)
+                              mov_unpkg.o (symbol from plugin) (mov_unpkg_jump_aframe)
+include_lib/liba/video_dec_server.a(mov_unpkg_vid.o)
+                              mov_unpkg.o (symbol from plugin) (mov_unpkg_fvstss_idx)
+include_lib/liba/video_dec_server.a(mov_unpkg_idx.o)
+                              mov_unpkg.o (symbol from plugin) (mov_unpkg_idx)
+include_lib/liba/video_dec_server.a(mov_unpkg_dev.o)
+                              mov_unpkg.o (symbol from plugin) (mov_unpkg_fs_init)
+include_lib/liba/video_dec_server.a(avi_unpkg.o)
+                              avi_unpkg_if.o (symbol from plugin) (avi_unpkg_ctrl_start)
+include_lib/liba/video_dec_server.a(avi_unpkg_aud.o)
+                              avi_unpkg.o (symbol from plugin) (avi_unpkg_search_aframe)
+include_lib/liba/video_dec_server.a(avi_unpkg_dev.o)
+                              avi_unpkg.o (symbol from plugin) (avi_unpkg_fs_init)
+include_lib/liba/video_dec_server.a(avi_unpkg_head.o)
+                              avi_unpkg.o (symbol from plugin) (avi_unpkg_head)
+include_lib/liba/video_dec_server.a(avi_uppkg_vid.o)
+                              avi_unpkg.o (symbol from plugin) (avi_unpkg_jump_vframe)
+include_lib/liba/video_rec_server.a(video_server.o)
+                              obj\Debug\app\car_camera\version.o (symbol from plugin) (video_server_version)
+include_lib/liba/video_rec_server.a(video_pkg_server.o)
+                              video_server.o (symbol from plugin) (vpkg_server_version)
+include_lib/liba/video_rec_server.a(avi_pkg_if.o)
+                              video_pkg_server.o (symbol from plugin) (get_avi_pkg_ops)
+include_lib/liba/video_rec_server.a(avi_pkg.o)
+                              avi_pkg_if.o (symbol from plugin) (avi_pkg_ctr_start)
+include_lib/liba/video_rec_server.a(avi_pkg_dev.o)
+                              avi_pkg_if.o (symbol from plugin) (avi_pkg_fs_init)
+include_lib/liba/video_rec_server.a(avi_pkg_head.o)
+                              avi_pkg.o (symbol from plugin) (avihead_get_ptr)
+include_lib/liba/video_rec_server.a(avi_pkg_idx.o)
+                              avi_pkg.o (symbol from plugin) (avi_pkg_idx_skip_frame)
+include_lib/liba/video_rec_server.a(mov_pkg_if.o)
+                              video_pkg_server.o (symbol from plugin) (get_mov_pkg_ops)
+include_lib/liba/video_rec_server.a(mov_pkg_dev.o)
+                              mov_pkg_if.o (symbol from plugin) (mov_pkg_fs_init)
+include_lib/liba/video_rec_server.a(mov_pkg.o)
+                              mov_pkg_if.o (symbol from plugin) (mov_pkg_ctr_start)
+include_lib/liba/video_rec_server.a(mov_pkg_idx.o)
+                              mov_pkg.o (symbol from plugin) (mov_pkg_get_aud_type)
+include_lib/liba/dev.a(device_api.o)
+                              (--whole-archive)
+include_lib/liba/dev.a(iic.o)
+                              (--whole-archive)
+include_lib/liba/dev.a(software_iic.o)
+                              (--whole-archive)
+include_lib/liba/dev.a(lcd_driver.o)
+                              (--whole-archive)
+include_lib/liba/dev.a(spiflash.o)
+                              (--whole-archive)
+include_lib/liba/dev.a(audio_dev.o)
+                              (--whole-archive)
+include_lib/liba/dev.a(video_dev.o)
+                              (--whole-archive)
+include_lib/liba/dev.a(videobuf.o)
+                              (--whole-archive)
+include_lib/liba/dev.a(fbmem.o)
+                              (--whole-archive)
+include_lib/liba/dev.a(subdevice_fb.o)
+                              (--whole-archive)
+include_lib/liba/dev.a(version.o)
+                              (--whole-archive)
+include_lib/liba/dev.a(camera_driver.o)
+                              (--whole-archive)
+include_lib/liba/dev.a(sdio_host.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(version.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(adc.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(dac.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(subdevice_dac.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(clock.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(crc16.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(dma.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(uart.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(hwi.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(gpio.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(port_waked_up.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(delay.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(rtc.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(timer.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(iic.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(sd.o)  (--whole-archive)
+include_lib/liba/cpu.a(cache.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(ui_platform.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(spi0.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(imb.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(imd.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(fbvirtual.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(jive.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(jlmd.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(avo_cfg.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(subdevice_avc_dec.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(avc_decoder.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(avc_decoder_stream.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(avc_abr.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(avc_encoder.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(avc_encoder_stream.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(subdevice_avc.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(imc.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(video_ram.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(subdevice_uvc.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(subdevice_djpeg.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(subdevice_img.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(subdevice_jpeg.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(dsi.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(dsi_packet.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(jpeg_codec.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(jpeg_encoder.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(jpeg_decoder.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(jpeg_dynamic_huffman.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(jpeg_abr.o)
+                              (--whole-archive)
+include_lib/liba/cpu.a(startup.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(version.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(subdevice_isp.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(fix16.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(fix16_exp.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(fix16_sqrt.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(fix16_str.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(fix16_trig.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(adjustment.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(blc.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(ccm.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(chroma.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(debugutils.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(dpc.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(drc.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(gamma.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isc.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(lsc.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(misc.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(nr.o)  (--whole-archive)
+include_lib/liba/isp.a(nr3d.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(sharpen.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(statistic.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(wb.o)  (--whole-archive)
+include_lib/liba/isp.a(isp_ae.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_awb.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_customize.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_dev0.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_dev1.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_if.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_io.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_isr.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_pipeline.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_sen_param.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_tables.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_task.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_tuning.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_utils.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(sensor_dev.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_motion_detect.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_ae_alg.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_awb_alg.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_awb_alg_gw1.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_awb_alg_gw2.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_awb_alg_ct2.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_drc.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(median_filter.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(average_filter.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_contrast.o)
+                              (--whole-archive)
+include_lib/liba/isp.a(isp_params_smooth.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(window.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(layer.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(layout.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(ui_api.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(ui_battery.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(ui_button.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(ui_camera.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(ui_core.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(ui_grid.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(ui_p.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(ui_pic.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(ui_text.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(ui_time.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(ui_animation.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(ui_player.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(ui_watch.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(ui_slider.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(ui_file_browser.o)
+                              (--whole-archive)
+include_lib/liba/ui.a(ui_file_attrs.o)
+                              (--whole-archive)
+include_lib/liba/sys.a(index.o)
+                              (--whole-archive)
+include_lib/liba/sys.a(version.o)
+                              (--whole-archive)
+include_lib/liba/sys.a(app_core.o)
+                              (--whole-archive)
+include_lib/liba/sys.a(event.o)
+                              (--whole-archive)
+include_lib/liba/sys.a(init.o)
+                              (--whole-archive)
+include_lib/liba/sys.a(task.o)
+                              (--whole-archive)
+include_lib/liba/sys.a(timer.o)
+                              (--whole-archive)
+include_lib/liba/sys.a(key_driver.o)
+                              (--whole-archive)
+include_lib/liba/sys.a(wait_completion.o)
+                              (--whole-archive)
+include_lib/liba/sys.a(database.o)
+                              (--whole-archive)
+include_lib/liba/audio_server.a(audio_server.o)
+                              (--whole-archive)
+include_lib/liba/audio_server.a(pcm_decoder.o)
+                              (--whole-archive)
+include_lib/liba/audio_server.a(pcm_encoder.o)
+                              (--whole-archive)
+include_lib/liba/audio_server.a(adpcm_decoder.o)
+                              (--whole-archive)
+include_lib/liba/mm.a(mem_heap.o)
+                              obj\Debug\app\car_camera\ui\style_JL02\ui_action_main.o (symbol from plugin) (malloc_stats)
+include_lib/liba/printf.a(printf-stdarg.o)
+                              obj\Debug\app\car_camera\app_main.o (symbol from plugin) (puts)
+include_lib/liba/printf.a(puthex.o)
+                              obj\Debug\app\car_camera\power_check_ontime.o (symbol from plugin) (putchar)
+include_lib/liba/printf.a(log.o)
+                              uart.o (symbol from plugin) (log_send_completed_cb)
+include_lib/liba/lbuf.a(lbuf.o)
+                              videobuf.o (symbol from plugin) (lbuf_init)
+include_lib/liba/cbuf.a(circular_buf.o)
+                              event.o (symbol from plugin) (cbuf_read)
+include_lib/liba/res.a(ascii.o)
+                              ui_platform.o (symbol from plugin) (font_ascii_init)
+include_lib/liba/fs.a(sdfile.o)
+                              init.o (symbol from plugin) (sdfile_version_check)
+include_lib/liba/fs.a(devfs.o)
+                              init.o (symbol from plugin) (devfs_version_check)
+include_lib/liba/fs.a(fat_compact.o)
+                              init.o (symbol from plugin) (fatfs_version_check)
+include_lib/liba/fs.a(dev_Cache.o)
+                              fat_compact.o (symbol from plugin) (dev_HookInit)
+include_lib/liba/fs.a(fat_Dir.o)
+                              fat_compact.o (symbol from plugin) (fatDir_InitHook)
+include_lib/liba/fs.a(fat_Table.o)
+                              fat_Dir.o (symbol from plugin) (fatTable_AllocClust)
+include_lib/liba/fs.a(ff_api.o)
+                              fat_compact.o (symbol from plugin) (ff_scan)
+include_lib/liba/fs.a(fs_api.o)
+                              fat_compact.o (symbol from plugin) (f_Close)
+include_lib/liba/fs.a(fat_Mount.o)
+                              fs_api.o (symbol from plugin) (ld_word)
+include_lib/liba/fs.a(tff.o)  fat_Dir.o (symbol from plugin) (clust2sect)
+include_lib/liba/fs.a(ramfs.o)
+                              init.o (symbol from plugin) (ramfs_version_check)
+include_lib/liba/font.a(font_textout.o)
+                              ui_platform.o (symbol from plugin) (font_open)
+include_lib/liba/font.a(font_big5.o)
+                              font_textout.o (symbol from plugin) (InitFont_BIG5)
+include_lib/liba/font.a(font_gbk.o)
+                              font_textout.o (symbol from plugin) (InitFont_GBK)
+include_lib/liba/font.a(font_ksc.o)
+                              font_textout.o (symbol from plugin) (InitFont_KSC)
+include_lib/liba/font.a(font_other_language.o)
+                              font_textout.o (symbol from plugin) (InitFont_OtherLanguage)
+include_lib/liba/font.a(font_sdfs.o)
+                              font_big5.o (symbol from plugin) (font_sd_fopen)
+include_lib/liba/font.a(font_sjis.o)
+                              font_textout.o (symbol from plugin) (InitFont_SJIS)
+include_lib/liba/font.a(font_ascii.o)
+                              font_big5.o (symbol from plugin) (InitFont_ASCII)
+C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memcmp.o)
+                              obj\Debug\app\car_camera\touch_panel\GT911.o (symbol from plugin) (memcmp)
+C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memcpy.o)
+                              obj\Debug\app\car_camera\auto_test.o (symbol from plugin) (memcpy)
+C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memset.o)
+                              obj\Debug\app\car_camera\auto_test.o (symbol from plugin) (memset)
+C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcat.o)
+                              obj\Debug\app\car_camera\ui\style_JL02\ui_action_dec.o (symbol from plugin) (strcat)
+C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strchr.o)
+                              obj\Debug\app\car_camera\auto_test.o (symbol from plugin) (strchr)
+C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcmp.o)
+                              obj\Debug\app\car_camera\app_database.o (symbol from plugin) (strcmp)
+C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcpy.o)
+                              obj\Debug\app\car_camera\ui\style_JL02\ui_action_dec.o (symbol from plugin) (strcpy)
+C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strlen.o)
+                              obj\Debug\app\car_camera\auto_test.o (symbol from plugin) (strlen)
+C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strncmp.o)
+                              obj\Debug\app\car_camera\backlight.o (symbol from plugin) (strncmp)
+C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strstr.o)
+                              obj\Debug\app\car_camera\auto_test.o (symbol from plugin) (strstr)
+C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memmove.o)
+                              cpu\AC54xx\tools\main.or32.o (memmove)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(adddf3.o)
+                              cpu\AC54xx\tools\main.or32.o (__adddf3)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(addsf3.o)
+                              cpu\AC54xx\tools\main.or32.o (__addsf3)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparesf2.o)
+                              cpu\AC54xx\tools\main.or32.o (__gesf2)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdi3.o)
+                              cpu\AC54xx\tools\main.or32.o (__divdi3)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfsi.o)
+                              cpu\AC54xx\tools\main.or32.o (__fixdfsi)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixsfsi.o)
+                              cpu\AC54xx\tools\main.or32.o (__fixsfsi)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsidf.o)
+                              cpu\AC54xx\tools\main.or32.o (__floatsidf)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsisf.o)
+                              cpu\AC54xx\tools\main.or32.o (__floatunsisf)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(muldf3.o)
+                              cpu\AC54xx\tools\main.or32.o (__muldf3)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(mulsf3.o)
+                              cpu\AC54xx\tools\main.or32.o (__mulsf3)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(truncdfsf2.o)
+                              cpu\AC54xx\tools\main.or32.o (__truncdfsf2)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivdi3.o)
+                              cpu\AC54xx\tools\main.or32.o (__udivdi3)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivmoddi4.o)
+                              C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdi3.o) (__udivmoddi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+g_awb_height        0x0               isp_awb_alg.o (symbol from plugin)
+isp0_ae_stat_bufs_copy
+                    0x0               isp_ae.o (symbol from plugin)
+OSRdyTbl            0x0               os_core.o (symbol from plugin)
+OSTCBHighRdy        0x0               os_core.o (symbol from plugin)
+GPS_DataBuf         0x0               obj\Debug\app\car_camera\gps.o (symbol from plugin)
+gc1004_vblank       0x0               obj\Debug\camera\gc1004\gc1004.o (symbol from plugin)
+g_isp1_context      0x0               isp_pipeline.o (symbol from plugin)
+g_awb_win_w         0x0               isp_awb_alg.o (symbol from plugin)
+tpd_info            0x0               obj\Debug\app\car_camera\touch_panel\GT911.o (symbol from plugin)
+g_awb_win_h         0x0               isp_awb_alg.o (symbol from plugin)
+g_awb_cur_gain      0x0               isp_awb_alg.o (symbol from plugin)
+min_dgain           0x0               obj\Debug\camera\j1021\j1021_dvp.o (symbol from plugin)
+power_data          0x0               obj\Debug\app\car_camera\power_ctrl.o (symbol from plugin)
+fd_msg              0x0               ff_api.o (symbol from plugin)
+g_still_image_flag  0x0               video_main.o (symbol from plugin)
+pslv_str_desc       0x0               core_descriptor.o (symbol from plugin)
+value_buf1          0x0               obj\Debug\app\car_camera\power_check_ontime.o (symbol from plugin)
+timetick            0x0               timer.o (symbol from plugin)
+OSTime              0x0               os_core.o (symbol from plugin)
+OSRunning           0x0               os_core.o (symbol from plugin)
+OSTCBCur            0x0               os_core.o (symbol from plugin)
+uvc_global_l        0x0               usb_video.o (symbol from plugin)
+sys_handler         0x0               obj\Debug\app\car_camera\video_system.o (symbol from plugin)
+OSTCBPrioTbl        0x0               os_core.o (symbol from plugin)
+gFsErrFlag          0x0               fs_api.o (symbol from plugin)
+at_hdl              0x0               obj\Debug\app\car_camera\auto_test.o (symbol from plugin)
+g_awb_width         0x0               isp_awb_alg.o (symbol from plugin)
+isp0_awb_stat_bufs  0x0               isp_awb.o (symbol from plugin)
+gps_info            0x0               obj\Debug\app\car_camera\gps.o (symbol from plugin)
+port_wakeup_work    0x0               port_waked_up.o (symbol from plugin)
+g_isp0_context      0x0               isp_pipeline.o (symbol from plugin)
+g_awb_subwin_height
+                    0x0               isp_awb_alg.o (symbol from plugin)
+g_awb_params        0x0               isp_awb_alg.o (symbol from plugin)
+GpsSave             0x0               obj\Debug\app\car_camera\gps.o (symbol from plugin)
+sys_cur_mod         0x0               obj\Debug\app\car_camera\ui\style_JL02\ui_action_rec.o (symbol from plugin)
+rtc_fd              0x0               obj\Debug\app\car_camera\power_ctrl.o (symbol from plugin)
+p_dev               0x0               obj\Debug\app\car_camera\power_ctrl.o (symbol from plugin)
+platform_api        0x0               ui_core.o (symbol from plugin)
+g_awb_auto_gain     0x0               isp_awb_alg.o (symbol from plugin)
+total_file          0x0               ff_api.o (symbol from plugin)
+OSIdleCtr           0x0               os_core.o (symbol from plugin)
+g_awb_subwin_width  0x0               isp_awb_alg.o (symbol from plugin)
+g_awb_win_pixels    0x0               isp_awb_alg.o (symbol from plugin)
+jlmd_fh             0x0               jlmd.o (symbol from plugin)
+info                0x0               lane.o (symbol from plugin)
+isp0_awb_stat_bufs_copy
+                    0x0               isp_awb.o (symbol from plugin)
+video_rec_osd_buf   0x0               obj\Debug\app\car_camera\video_rec.o (symbol from plugin)
+layer_yuv420_buf_FB_COLOR_FORMAT_YUV420_LCD_DEV_WIDTHxLCD_DEV_HIGHT_2
+                    0x0               obj\Debug\cpu\AC54xx\static_memory_alloc.o (symbol from plugin)
+idle_tcb            0x0               os_core.o (symbol from plugin)
+sdio_host           0x0               sdio_host.o (symbol from plugin)
+icn85xx_ts          0x0               obj\Debug\app\car_camera\touch_panel\ICN85XX.o (symbol from plugin)
+if_in_rec           0x0               obj\Debug\app\car_camera\ui\style_JL02\ui_action_rec.o (symbol from plugin)
+g_video_status      0x0               video_main.o (symbol from plugin)
+gc1004_pclk         0x0               obj\Debug\camera\gc1004\gc1004.o (symbol from plugin)
+fd_gain             0x0               obj\Debug\camera\j1021\j1021_dvp.o (symbol from plugin)
+vthe                0x0               obj\Debug\camera\j1021\j1021_dvp.o (symbol from plugin)
+dec_handler         0x0               obj\Debug\app\car_camera\video_dec.o (symbol from plugin)
+OSLockNesting       0x0               os_core.o (symbol from plugin)
+isp0_ae_stat_bufs   0x0               isp_ae.o (symbol from plugin)
+point               0x0               obj\Debug\app\car_camera\touch_panel\GT911.o (symbol from plugin)
+awb_stat_data       0x0               isp_awb.o (symbol from plugin)
+device_sd1          0x0               sdmmc_init.o (symbol from plugin)
+value_buf           0x0               obj\Debug\cpu\AC54xx\powerdet.o (symbol from plugin)
+Decode_DataBuf      0x0               obj\Debug\app\car_camera\gps.o (symbol from plugin)
+elm_event_handler_begin
+                    0x0               ui_core.o (symbol from plugin)
+blcc_base           0x0               obj\Debug\camera\j1021\j1021_dvp.o (symbol from plugin)
+devHandle           0x0               jl_flash.o (symbol from plugin)
+blcc_coef           0x0               obj\Debug\camera\j1021\j1021_dvp.o (symbol from plugin)
+CurTime             0x0               obj\Debug\app\car_camera\gps.o (symbol from plugin)
+main_lock_flag      0x0               obj\Debug\app\car_camera\ui\style_JL02\ui_action_rec.o (symbol from plugin)
+rec_handler         0x0               obj\Debug\app\car_camera\video_rec.o (symbol from plugin)
+imd                 0x0               imd.o (symbol from plugin)
+jive_fh             0x0               jive.o (symbol from plugin)
+gc1004_hblank       0x0               obj\Debug\camera\gc1004\gc1004.o (symbol from plugin)
+elm_event_handler_end
+                    0x0               ui_core.o (symbol from plugin)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\app_database.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\app_main.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\auto_test.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\backlight.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\device_mount.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\gps.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\gsensor\da380.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\gsensor\gma301.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\gsensor\gSensor_manage.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\gsensor\msa300.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\gsensor\stk8312.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\key_voice.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\parking_detect.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\power_check_ontime.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\power_ctrl.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\touch_panel\GT911.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\touch_panel\ICN85XX.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\ui\style_JL02\ui_action_dec.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\ui\style_JL02\ui_action_main.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\ui\style_JL02\ui_action_photo.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\ui\style_JL02\ui_action_rec.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\ui\style_JL02\ui_action_sys.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\ui\style_JL02\ui_action_usb.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\ui\style_LY\ui_action_dec.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\ui\style_LY\ui_action_photo.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\ui\style_LY\ui_action_rec.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\ui\style_LY\ui_action_sys.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\ui\style_LY\ui_action_usb.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\ui\ui_action_animation.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\upgrade.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\usb_app.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\usb_app_cfg.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\user_isp_cfg.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\user_scr_cfg.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\version.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\video_dec.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\video_dec_cfg.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\video_photo.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\video_photo_cfg.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\video_rec.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\video_rec_cfg.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\video_system.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\video_system_cfg.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\debug.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\flash_write_protect.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\sd_speed_test.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\ar0330_mipi\ar0330_mipi.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\ar0330_mipi\ar0330_mipi_ae.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\ar0330_mipi\ar0330_mipi_awb.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\ar0330_mipi\ar0330_mipi_iq.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\av10\av10.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\av10\av10_spi.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\bg0806_dvp\bg0806_mipi.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\bg0806_dvp\bg0806_mipi_ae.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\bg0806_dvp\bg0806_mipi_awb.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\bg0806_dvp\bg0806_mipi_iq.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\c2392_mipi\c2392_mipi.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\c2392_mipi\c2392_mipi_ae.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\c2392_mipi\c2392_mipi_awb.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\c2392_mipi\c2392_mipi_iq.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\gc1004\gc1004.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\gc1004\gc1004_ae.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\gc1004\gc1004_awb.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\gc1004\gc1004_iq.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\gc2023_mipi\gc2023_mipi.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\gc2023_mipi\gc2023_mipi_ae.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\gc2023_mipi\gc2023_mipi_awb.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\gc2023_mipi\gc2023_mipi_iq.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\gm7150\gm7150.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\h42\h42.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\h42\h42_ae.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\h42\h42_awb.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\h42\h42_iq.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\hm2131_mipi\hm2131_mipi.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\hm2131_mipi\hm2131_mipi_ae.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\hm2131_mipi\hm2131_mipi_awb.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\hm2131_mipi\hm2131_mipi_iq.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\imx179_mipi\imx179_mipi.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\imx179_mipi\imx179_mipi_ae.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\imx179_mipi\imx179_mipi_awb.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\imx179_mipi\imx179_mipi_iq.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\j1021\j1021_dvp.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\j1021\j1021_dvp_ae.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\j1021\j1021_dvp_awb.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\j1021\j1021_dvp_iq.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\nvp6112\nvp6112.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\pr2000k\pr2000k.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc1243\sc1243_dvp.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc1243\sc1243_dvp_ae.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc1243\sc1243_dvp_awb.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc1243\sc1243_dvp_iq.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc2143\sc2143.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc2143\sc2143_ae.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc2143\sc2143_awb.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc2143\sc2143_iq.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc2143_mipi\sc2143_mipi.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc2143_mipi\sc2143_mipi_ae.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc2143_mipi\sc2143_mipi_awb.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc2143_mipi\sc2143_mipi_iq.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc2303\sc2303_dvp.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc2303\sc2303_dvp_ae.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc2303\sc2303_dvp_awb.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc2303\sc2303_dvp_iq.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc3033_mipi\sc3033_mipi.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc3033_mipi\sc3033_mipi_ae.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc3033_mipi\sc3033_mipi_awb.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\sc3033_mipi\sc3033_mipi_iq.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\camera\xc7011_dvp\xc7011.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\adc.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\adkey.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\board\board_mipi_20170330.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\board\board_mipi_touch_20170419.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\board\board_mipi_touch_v1.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\board\board_mipi_touch_v1_dvp.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\board\board_mipi_v3.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\debug.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_480x272.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_480x272_8bits.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_avout.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_HX8369A_MCU.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_HX8369A_SPI_RGB.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_ILI8960.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_ILI9806.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_LQ026B3UX01.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_LX50FWB4001_V2.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_LYWS030GQ.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_ST7789S.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_T15P00.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\iokey.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\ldo.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_dcs_1lane_16bit.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_dcs_1lane_24bit.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_2lane_24bit.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1080p.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_EK79030.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_HX8394.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_LX68HD.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_WT686.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_WT686_1.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_720p.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_720p_rm68200ga1.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\lcd_mipi_4lane_s8500l0.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\mipi_lcd_1280x480.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\powerdet.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\setup.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\static_memory_alloc.o (symbol from plugin)
+ .text          0x00000000        0x0 os_api.o (symbol from plugin)
+ .text          0x00000000        0x0 os_core.o (symbol from plugin)
+ .text          0x00000000        0x0 os_mutex.o (symbol from plugin)
+ .text          0x00000000        0x0 os_sem.o (symbol from plugin)
+ .text          0x00000000        0x0 os_task.o (symbol from plugin)
+ .text          0x00000000        0x0 os_time.o (symbol from plugin)
+ .text          0x00000000        0x0 os_cpu_c.o (symbol from plugin)
+ .text          0x00000000        0x0 module_sd1.o (symbol from plugin)
+ .text          0x00000000        0x0 sdmmc_init.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_args.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_init.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_mount.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_read_end.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_unmount.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_write.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_write_end.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_init.o (symbol from plugin)
+ .text          0x00000000        0x0 mmc_host_send_rca.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_all_send_cid.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_reset.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_send_csd.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_send_if_cond.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_send_rca.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_stop_trans.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_select_card.o (symbol from plugin)
+ .text          0x00000000        0x0 sdmmc_det.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_chk_ctl.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_hw.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_wait_idle.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_reg.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_send_command.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_write_start.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_status.o (symbol from plugin)
+ .text          0x00000000        0x0 mango_dev_sd1.o (symbol from plugin)
+ .text          0x00000000        0x0 sdmmc_host_set_bus_width.o (symbol from plugin)
+ .text          0x00000000        0x0 sdmmc_host_set_hispeed.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_identification.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_read.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_timeout.o (symbol from plugin)
+ .text          0x00000000        0x0 mmc_host_send_op_cond.o (symbol from plugin)
+ .text          0x00000000        0x0 mmc_host_set_bus_width.o (symbol from plugin)
+ .text          0x00000000        0x0 mmc_host_set_hispeed.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_sd_status.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_send_op_cond.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_set_bus_width.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_set_hispeed.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_switch_func.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_send_scr.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_read_start.o (symbol from plugin)
+ .text          0x00000000        0x0 sd_host_app_cmd.o (symbol from plugin)
+ .text          0x00000000        0x0 ASCII_lib.o (symbol from plugin)
+ .text          0x00000000        0x0 resfile.o (symbol from plugin)
+ .text          0x00000000        0x0 quicklz.o (symbol from plugin)
+ .text          0x00000000        0x0 pap.o (symbol from plugin)
+ .text          0x00000000        0x0 usb_dev.o (symbol from plugin)
+ .text          0x00000000        0x0 uvc_dev.o (symbol from plugin)
+ .text          0x00000000        0x0 usb_hal.o (symbol from plugin)
+ .text          0x00000000        0x0 usb_ep_init.o (symbol from plugin)
+ .text          0x00000000        0x0 usb_setup.o (symbol from plugin)
+ .text          0x00000000        0x0 usb_slave_main.o (symbol from plugin)
+ .text          0x00000000        0x0 hid_main.o (symbol from plugin)
+ .text          0x00000000        0x0 msd_main.o (symbol from plugin)
+ .text          0x00000000        0x0 uvc_setup.o (symbol from plugin)
+ .text          0x00000000        0x0 video_descriptor.o (symbol from plugin)
+ .text          0x00000000        0x0 video_main.o (symbol from plugin)
+ .text          0x00000000        0x0 usb_hub.o (symbol from plugin)
+ .text          0x00000000        0x0 usb_core.o (symbol from plugin)
+ .text          0x00000000        0x0 usb_ctrl_transfer.o (symbol from plugin)
+ .text          0x00000000        0x0 usb_descriptor_parser.o (symbol from plugin)
+ .text          0x00000000        0x0 usb_storage.o (symbol from plugin)
+ .text          0x00000000        0x0 usb_video.o (symbol from plugin)
+ .text          0x00000000        0x0 core_descriptor.o (symbol from plugin)
+ .text          0x00000000        0x0 hid_descriptor.o (symbol from plugin)
+ .text          0x00000000        0x0 msd_descriptor.o (symbol from plugin)
+ .text          0x00000000        0x0 usb_bulk_transfer.o (symbol from plugin)
+ .text          0x00000000        0x0 vfs.o (symbol from plugin)
+ .text          0x00000000        0x0 video_engine.o (symbol from plugin)
+ .text          0x00000000        0x0 upgrade_detect.o (symbol from plugin)
+ .text          0x00000000        0x0 jl_upgrade.o (symbol from plugin)
+ .text          0x00000000        0x0 encrypt.o (symbol from plugin)
+ .text          0x00000000        0x0 gui.o (symbol from plugin)
+ .text          0x00000000        0x0 ecc_rs.o (symbol from plugin)
+ .text          0x00000000        0x0 jl_flash.o (symbol from plugin)
+ .text          0x00000000        0x0 rs.o (symbol from plugin)
+ .text          0x00000000        0x0 berlekamp.o (symbol from plugin)
+ .text          0x00000000        0x0 server_core.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_server.o (symbol from plugin)
+ .text          0x00000000        0x0 video_engine_server.o (symbol from plugin)
+ .text          0x00000000        0x0 motion_detect.o (symbol from plugin)
+ .text          0x00000000        0x0 lane_wrap.o (symbol from plugin)
+ .text          0x00000000        0x0 lane.o (symbol from plugin)
+ .text          0x00000000        0x0 binary_lane.o (symbol from plugin)
+ .text          0x00000000        0x0 blob.o (symbol from plugin)
+ .text          0x00000000        0x0 convxhull.o (symbol from plugin)
+ .text          0x00000000        0x0 get_theta.o (symbol from plugin)
+ .text          0x00000000        0x0 img_utils.o (symbol from plugin)
+ .text          0x00000000        0x0 lsd.o (symbol from plugin)
+ .text          0x00000000        0x0 min_area_rect.o (symbol from plugin)
+ .text          0x00000000        0x0 usb_server.o (symbol from plugin)
+ .text          0x00000000        0x0 mass_storage.o (symbol from plugin)
+ .text          0x00000000        0x0 uvc_camera.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_tool.o (symbol from plugin)
+ .text          0x00000000        0x0 isd_tool.o (symbol from plugin)
+ .text          0x00000000        0x0 screen_tool.o (symbol from plugin)
+ .text          0x00000000        0x0 video_decode_server.o (symbol from plugin)
+ .text          0x00000000        0x0 video_unpkg_server.o (symbol from plugin)
+ .text          0x00000000        0x0 avi_unpkg_if.o (symbol from plugin)
+ .text          0x00000000        0x0 mov_unpkg_if.o (symbol from plugin)
+ .text          0x00000000        0x0 mov_unpkg.o (symbol from plugin)
+ .text          0x00000000        0x0 mov_unpkg_aud.o (symbol from plugin)
+ .text          0x00000000        0x0 mov_unpkg_vid.o (symbol from plugin)
+ .text          0x00000000        0x0 mov_unpkg_idx.o (symbol from plugin)
+ .text          0x00000000        0x0 mov_unpkg_dev.o (symbol from plugin)
+ .text          0x00000000        0x0 avi_unpkg.o (symbol from plugin)
+ .text          0x00000000        0x0 avi_unpkg_aud.o (symbol from plugin)
+ .text          0x00000000        0x0 avi_unpkg_dev.o (symbol from plugin)
+ .text          0x00000000        0x0 avi_unpkg_head.o (symbol from plugin)
+ .text          0x00000000        0x0 avi_uppkg_vid.o (symbol from plugin)
+ .text          0x00000000        0x0 video_server.o (symbol from plugin)
+ .text          0x00000000        0x0 video_pkg_server.o (symbol from plugin)
+ .text          0x00000000        0x0 avi_pkg_if.o (symbol from plugin)
+ .text          0x00000000        0x0 avi_pkg.o (symbol from plugin)
+ .text          0x00000000        0x0 avi_pkg_dev.o (symbol from plugin)
+ .text          0x00000000        0x0 avi_pkg_head.o (symbol from plugin)
+ .text          0x00000000        0x0 avi_pkg_idx.o (symbol from plugin)
+ .text          0x00000000        0x0 mov_pkg_if.o (symbol from plugin)
+ .text          0x00000000        0x0 mov_pkg_dev.o (symbol from plugin)
+ .text          0x00000000        0x0 mov_pkg.o (symbol from plugin)
+ .text          0x00000000        0x0 mov_pkg_idx.o (symbol from plugin)
+ .text          0x00000000        0x0 device_api.o (symbol from plugin)
+ .text          0x00000000        0x0 iic.o (symbol from plugin)
+ .text          0x00000000        0x0 software_iic.o (symbol from plugin)
+ .text          0x00000000        0x0 lcd_driver.o (symbol from plugin)
+ .text          0x00000000        0x0 spiflash.o (symbol from plugin)
+ .text          0x00000000        0x0 audio_dev.o (symbol from plugin)
+ .text          0x00000000        0x0 video_dev.o (symbol from plugin)
+ .text          0x00000000        0x0 videobuf.o (symbol from plugin)
+ .text          0x00000000        0x0 fbmem.o (symbol from plugin)
+ .text          0x00000000        0x0 subdevice_fb.o (symbol from plugin)
+ .text          0x00000000        0x0 version.o (symbol from plugin)
+ .text          0x00000000        0x0 camera_driver.o (symbol from plugin)
+ .text          0x00000000        0x0 sdio_host.o (symbol from plugin)
+ .text          0x00000000        0x0 version.o (symbol from plugin)
+ .text          0x00000000        0x0 adc.o (symbol from plugin)
+ .text          0x00000000        0x0 dac.o (symbol from plugin)
+ .text          0x00000000        0x0 subdevice_dac.o (symbol from plugin)
+ .text          0x00000000        0x0 clock.o (symbol from plugin)
+ .text          0x00000000        0x0 crc16.o (symbol from plugin)
+ .text          0x00000000        0x0 dma.o (symbol from plugin)
+ .text          0x00000000        0x0 uart.o (symbol from plugin)
+ .text          0x00000000        0x0 hwi.o (symbol from plugin)
+ .text          0x00000000        0x0 gpio.o (symbol from plugin)
+ .text          0x00000000        0x0 port_waked_up.o (symbol from plugin)
+ .text          0x00000000        0x0 delay.o (symbol from plugin)
+ .text          0x00000000        0x0 rtc.o (symbol from plugin)
+ .text          0x00000000        0x0 timer.o (symbol from plugin)
+ .text          0x00000000        0x0 iic.o (symbol from plugin)
+ .text          0x00000000        0x0 sd.o (symbol from plugin)
+ .text          0x00000000        0x0 cache.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_platform.o (symbol from plugin)
+ .text          0x00000000        0x0 spi0.o (symbol from plugin)
+ .text          0x00000000        0x0 imb.o (symbol from plugin)
+ .text          0x00000000        0x0 imd.o (symbol from plugin)
+ .text          0x00000000        0x0 fbvirtual.o (symbol from plugin)
+ .text          0x00000000        0x0 jive.o (symbol from plugin)
+ .text          0x00000000        0x0 jlmd.o (symbol from plugin)
+ .text          0x00000000        0x0 avo_cfg.o (symbol from plugin)
+ .text          0x00000000        0x0 subdevice_avc_dec.o (symbol from plugin)
+ .text          0x00000000        0x0 avc_decoder.o (symbol from plugin)
+ .text          0x00000000        0x0 avc_decoder_stream.o (symbol from plugin)
+ .text          0x00000000        0x0 avc_abr.o (symbol from plugin)
+ .text          0x00000000        0x0 avc_encoder.o (symbol from plugin)
+ .text          0x00000000        0x0 avc_encoder_stream.o (symbol from plugin)
+ .text          0x00000000        0x0 subdevice_avc.o (symbol from plugin)
+ .text          0x00000000        0x0 imc.o (symbol from plugin)
+ .text          0x00000000        0x0 video_ram.o (symbol from plugin)
+ .text          0x00000000        0x0 subdevice_uvc.o (symbol from plugin)
+ .text          0x00000000        0x0 subdevice_djpeg.o (symbol from plugin)
+ .text          0x00000000        0x0 subdevice_img.o (symbol from plugin)
+ .text          0x00000000        0x0 subdevice_jpeg.o (symbol from plugin)
+ .text          0x00000000        0x0 dsi.o (symbol from plugin)
+ .text          0x00000000        0x0 dsi_packet.o (symbol from plugin)
+ .text          0x00000000        0x0 jpeg_codec.o (symbol from plugin)
+ .text          0x00000000        0x0 jpeg_encoder.o (symbol from plugin)
+ .text          0x00000000        0x0 jpeg_decoder.o (symbol from plugin)
+ .text          0x00000000        0x0 jpeg_dynamic_huffman.o (symbol from plugin)
+ .text          0x00000000        0x0 jpeg_abr.o (symbol from plugin)
+ .text          0x00000000        0x0 version.o (symbol from plugin)
+ .text          0x00000000        0x0 subdevice_isp.o (symbol from plugin)
+ .text          0x00000000        0x0 fix16.o (symbol from plugin)
+ .text          0x00000000        0x0 fix16_exp.o (symbol from plugin)
+ .text          0x00000000        0x0 fix16_sqrt.o (symbol from plugin)
+ .text          0x00000000        0x0 fix16_str.o (symbol from plugin)
+ .text          0x00000000        0x0 fix16_trig.o (symbol from plugin)
+ .text          0x00000000        0x0 adjustment.o (symbol from plugin)
+ .text          0x00000000        0x0 blc.o (symbol from plugin)
+ .text          0x00000000        0x0 ccm.o (symbol from plugin)
+ .text          0x00000000        0x0 chroma.o (symbol from plugin)
+ .text          0x00000000        0x0 debugutils.o (symbol from plugin)
+ .text          0x00000000        0x0 dpc.o (symbol from plugin)
+ .text          0x00000000        0x0 drc.o (symbol from plugin)
+ .text          0x00000000        0x0 gamma.o (symbol from plugin)
+ .text          0x00000000        0x0 isc.o (symbol from plugin)
+ .text          0x00000000        0x0 lsc.o (symbol from plugin)
+ .text          0x00000000        0x0 misc.o (symbol from plugin)
+ .text          0x00000000        0x0 nr.o (symbol from plugin)
+ .text          0x00000000        0x0 nr3d.o (symbol from plugin)
+ .text          0x00000000        0x0 sharpen.o (symbol from plugin)
+ .text          0x00000000        0x0 statistic.o (symbol from plugin)
+ .text          0x00000000        0x0 wb.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_ae.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_awb.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_customize.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_dev0.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_dev1.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_if.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_io.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_isr.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_pipeline.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_sen_param.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_tables.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_task.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_tuning.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_utils.o (symbol from plugin)
+ .text          0x00000000        0x0 sensor_dev.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_motion_detect.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_ae_alg.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_awb_alg.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_awb_alg_gw1.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_awb_alg_gw2.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_awb_alg_ct2.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_drc.o (symbol from plugin)
+ .text          0x00000000        0x0 median_filter.o (symbol from plugin)
+ .text          0x00000000        0x0 average_filter.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_contrast.o (symbol from plugin)
+ .text          0x00000000        0x0 isp_params_smooth.o (symbol from plugin)
+ .text          0x00000000        0x0 window.o (symbol from plugin)
+ .text          0x00000000        0x0 layer.o (symbol from plugin)
+ .text          0x00000000        0x0 layout.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_api.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_battery.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_button.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_camera.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_core.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_grid.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_p.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_pic.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_text.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_time.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_animation.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_player.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_watch.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_slider.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_file_browser.o (symbol from plugin)
+ .text          0x00000000        0x0 ui_file_attrs.o (symbol from plugin)
+ .text          0x00000000        0x0 index.o (symbol from plugin)
+ .text          0x00000000        0x0 version.o (symbol from plugin)
+ .text          0x00000000        0x0 app_core.o (symbol from plugin)
+ .text          0x00000000        0x0 event.o (symbol from plugin)
+ .text          0x00000000        0x0 init.o (symbol from plugin)
+ .text          0x00000000        0x0 task.o (symbol from plugin)
+ .text          0x00000000        0x0 timer.o (symbol from plugin)
+ .text          0x00000000        0x0 key_driver.o (symbol from plugin)
+ .text          0x00000000        0x0 wait_completion.o (symbol from plugin)
+ .text          0x00000000        0x0 database.o (symbol from plugin)
+ .text          0x00000000        0x0 audio_server.o (symbol from plugin)
+ .text          0x00000000        0x0 pcm_decoder.o (symbol from plugin)
+ .text          0x00000000        0x0 pcm_encoder.o (symbol from plugin)
+ .text          0x00000000        0x0 adpcm_decoder.o (symbol from plugin)
+ .text          0x00000000        0x0 mem_heap.o (symbol from plugin)
+ .text          0x00000000        0x0 printf-stdarg.o (symbol from plugin)
+ .text          0x00000000        0x0 puthex.o (symbol from plugin)
+ .text          0x00000000        0x0 log.o (symbol from plugin)
+ .text          0x00000000        0x0 lbuf.o (symbol from plugin)
+ .text          0x00000000        0x0 circular_buf.o (symbol from plugin)
+ .text          0x00000000        0x0 ascii.o (symbol from plugin)
+ .text          0x00000000        0x0 sdfile.o (symbol from plugin)
+ .text          0x00000000        0x0 devfs.o (symbol from plugin)
+ .text          0x00000000        0x0 fat_compact.o (symbol from plugin)
+ .text          0x00000000        0x0 dev_Cache.o (symbol from plugin)
+ .text          0x00000000        0x0 fat_Dir.o (symbol from plugin)
+ .text          0x00000000        0x0 fat_Table.o (symbol from plugin)
+ .text          0x00000000        0x0 ff_api.o (symbol from plugin)
+ .text          0x00000000        0x0 fs_api.o (symbol from plugin)
+ .text          0x00000000        0x0 fat_Mount.o (symbol from plugin)
+ .text          0x00000000        0x0 tff.o (symbol from plugin)
+ .text          0x00000000        0x0 ramfs.o (symbol from plugin)
+ .text          0x00000000        0x0 font_textout.o (symbol from plugin)
+ .text          0x00000000        0x0 font_big5.o (symbol from plugin)
+ .text          0x00000000        0x0 font_gbk.o (symbol from plugin)
+ .text          0x00000000        0x0 font_ksc.o (symbol from plugin)
+ .text          0x00000000        0x0 font_other_language.o (symbol from plugin)
+ .text          0x00000000        0x0 font_sdfs.o (symbol from plugin)
+ .text          0x00000000        0x0 font_sjis.o (symbol from plugin)
+ .text          0x00000000        0x0 font_ascii.o (symbol from plugin)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+xrom             0x02000000         0x00400000         xr
+sdram_mem        0x04000000         0x02000000         xrw
+ram0             0x03f00000         0x0000fc00         xrw
+vram             0x03fa0000         0x00028800         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD obj\Debug\app\car_camera\app_database.o
+LOAD cpu\AC54xx\tools\main.or32.o
+LOAD obj\Debug\app\car_camera\app_main.o
+LOAD obj\Debug\app\car_camera\auto_test.o
+LOAD obj\Debug\app\car_camera\backlight.o
+LOAD obj\Debug\app\car_camera\device_mount.o
+LOAD obj\Debug\app\car_camera\gps.o
+LOAD obj\Debug\app\car_camera\gsensor\da380.o
+LOAD obj\Debug\app\car_camera\gsensor\gma301.o
+LOAD obj\Debug\app\car_camera\gsensor\gSensor_manage.o
+LOAD obj\Debug\app\car_camera\gsensor\msa300.o
+LOAD obj\Debug\app\car_camera\gsensor\stk8312.o
+LOAD obj\Debug\app\car_camera\key_voice.o
+LOAD obj\Debug\app\car_camera\parking_detect.o
+LOAD obj\Debug\app\car_camera\power_check_ontime.o
+LOAD obj\Debug\app\car_camera\power_ctrl.o
+LOAD obj\Debug\app\car_camera\touch_panel\GT911.o
+LOAD obj\Debug\app\car_camera\touch_panel\ICN85XX.o
+LOAD obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o
+LOAD obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o
+LOAD obj\Debug\app\car_camera\ui\style_JL02\ui_action_dec.o
+LOAD obj\Debug\app\car_camera\ui\style_JL02\ui_action_main.o
+LOAD obj\Debug\app\car_camera\ui\style_JL02\ui_action_photo.o
+LOAD obj\Debug\app\car_camera\ui\style_JL02\ui_action_rec.o
+LOAD obj\Debug\app\car_camera\ui\style_JL02\ui_action_sys.o
+LOAD obj\Debug\app\car_camera\ui\style_JL02\ui_action_usb.o
+LOAD obj\Debug\app\car_camera\ui\style_LY\ui_action_dec.o
+LOAD obj\Debug\app\car_camera\ui\style_LY\ui_action_photo.o
+LOAD obj\Debug\app\car_camera\ui\style_LY\ui_action_rec.o
+LOAD obj\Debug\app\car_camera\ui\style_LY\ui_action_sys.o
+LOAD obj\Debug\app\car_camera\ui\style_LY\ui_action_usb.o
+LOAD obj\Debug\app\car_camera\ui\ui_action_animation.o
+LOAD obj\Debug\app\car_camera\upgrade.o
+LOAD obj\Debug\app\car_camera\usb_app.o
+LOAD obj\Debug\app\car_camera\usb_app_cfg.o
+LOAD obj\Debug\app\car_camera\user_isp_cfg.o
+LOAD obj\Debug\app\car_camera\user_scr_cfg.o
+LOAD obj\Debug\app\car_camera\version.o
+LOAD obj\Debug\app\car_camera\video_dec.o
+LOAD obj\Debug\app\car_camera\video_dec_cfg.o
+LOAD obj\Debug\app\car_camera\video_photo.o
+LOAD obj\Debug\app\car_camera\video_photo_cfg.o
+LOAD obj\Debug\app\car_camera\video_rec.o
+LOAD obj\Debug\app\car_camera\video_rec_cfg.o
+LOAD obj\Debug\app\car_camera\video_system.o
+LOAD obj\Debug\app\car_camera\video_system_cfg.o
+LOAD obj\Debug\app\debug.o
+LOAD obj\Debug\app\flash_write_protect.o
+LOAD obj\Debug\app\sd_speed_test.o
+LOAD obj\Debug\camera\ar0330_mipi\ar0330_mipi.o
+LOAD obj\Debug\camera\ar0330_mipi\ar0330_mipi_ae.o
+LOAD obj\Debug\camera\ar0330_mipi\ar0330_mipi_awb.o
+LOAD obj\Debug\camera\ar0330_mipi\ar0330_mipi_iq.o
+LOAD obj\Debug\camera\av10\av10.o
+LOAD obj\Debug\camera\av10\av10_spi.o
+LOAD obj\Debug\camera\bg0806_dvp\bg0806_mipi.o
+LOAD obj\Debug\camera\bg0806_dvp\bg0806_mipi_ae.o
+LOAD obj\Debug\camera\bg0806_dvp\bg0806_mipi_awb.o
+LOAD obj\Debug\camera\bg0806_dvp\bg0806_mipi_iq.o
+LOAD obj\Debug\camera\c2392_mipi\c2392_mipi.o
+LOAD obj\Debug\camera\c2392_mipi\c2392_mipi_ae.o
+LOAD obj\Debug\camera\c2392_mipi\c2392_mipi_awb.o
+LOAD obj\Debug\camera\c2392_mipi\c2392_mipi_iq.o
+LOAD obj\Debug\camera\gc1004\gc1004.o
+LOAD obj\Debug\camera\gc1004\gc1004_ae.o
+LOAD obj\Debug\camera\gc1004\gc1004_awb.o
+LOAD obj\Debug\camera\gc1004\gc1004_iq.o
+LOAD obj\Debug\camera\gc2023_mipi\gc2023_mipi.o
+LOAD obj\Debug\camera\gc2023_mipi\gc2023_mipi_ae.o
+LOAD obj\Debug\camera\gc2023_mipi\gc2023_mipi_awb.o
+LOAD obj\Debug\camera\gc2023_mipi\gc2023_mipi_iq.o
+LOAD obj\Debug\camera\gm7150\gm7150.o
+LOAD obj\Debug\camera\h42\h42.o
+LOAD obj\Debug\camera\h42\h42_ae.o
+LOAD obj\Debug\camera\h42\h42_awb.o
+LOAD obj\Debug\camera\h42\h42_iq.o
+LOAD obj\Debug\camera\hm2131_mipi\hm2131_mipi.o
+LOAD obj\Debug\camera\hm2131_mipi\hm2131_mipi_ae.o
+LOAD obj\Debug\camera\hm2131_mipi\hm2131_mipi_awb.o
+LOAD obj\Debug\camera\hm2131_mipi\hm2131_mipi_iq.o
+LOAD obj\Debug\camera\imx179_mipi\imx179_mipi.o
+LOAD obj\Debug\camera\imx179_mipi\imx179_mipi_ae.o
+LOAD obj\Debug\camera\imx179_mipi\imx179_mipi_awb.o
+LOAD obj\Debug\camera\imx179_mipi\imx179_mipi_iq.o
+LOAD obj\Debug\camera\j1021\j1021_dvp.o
+LOAD obj\Debug\camera\j1021\j1021_dvp_ae.o
+LOAD obj\Debug\camera\j1021\j1021_dvp_awb.o
+LOAD obj\Debug\camera\j1021\j1021_dvp_iq.o
+LOAD obj\Debug\camera\nvp6112\nvp6112.o
+LOAD obj\Debug\camera\pr2000k\pr2000k.o
+LOAD obj\Debug\camera\sc1243\sc1243_dvp.o
+LOAD obj\Debug\camera\sc1243\sc1243_dvp_ae.o
+LOAD obj\Debug\camera\sc1243\sc1243_dvp_awb.o
+LOAD obj\Debug\camera\sc1243\sc1243_dvp_iq.o
+LOAD obj\Debug\camera\sc2143\sc2143.o
+LOAD obj\Debug\camera\sc2143\sc2143_ae.o
+LOAD obj\Debug\camera\sc2143\sc2143_awb.o
+LOAD obj\Debug\camera\sc2143\sc2143_iq.o
+LOAD obj\Debug\camera\sc2143_mipi\sc2143_mipi.o
+LOAD obj\Debug\camera\sc2143_mipi\sc2143_mipi_ae.o
+LOAD obj\Debug\camera\sc2143_mipi\sc2143_mipi_awb.o
+LOAD obj\Debug\camera\sc2143_mipi\sc2143_mipi_iq.o
+LOAD obj\Debug\camera\sc2303\sc2303_dvp.o
+LOAD obj\Debug\camera\sc2303\sc2303_dvp_ae.o
+LOAD obj\Debug\camera\sc2303\sc2303_dvp_awb.o
+LOAD obj\Debug\camera\sc2303\sc2303_dvp_iq.o
+LOAD obj\Debug\camera\sc3033_mipi\sc3033_mipi.o
+LOAD obj\Debug\camera\sc3033_mipi\sc3033_mipi_ae.o
+LOAD obj\Debug\camera\sc3033_mipi\sc3033_mipi_awb.o
+LOAD obj\Debug\camera\sc3033_mipi\sc3033_mipi_iq.o
+LOAD obj\Debug\camera\xc7011_dvp\xc7011.o
+LOAD obj\Debug\cpu\AC54xx\adc.o
+LOAD obj\Debug\cpu\AC54xx\adkey.o
+LOAD obj\Debug\cpu\AC54xx\board\board_mipi_20170330.o
+LOAD obj\Debug\cpu\AC54xx\board\board_mipi_touch_20170419.o
+LOAD obj\Debug\cpu\AC54xx\board\board_mipi_touch_v1.o
+LOAD obj\Debug\cpu\AC54xx\board\board_mipi_touch_v1_dvp.o
+LOAD obj\Debug\cpu\AC54xx\board\board_mipi_v3.o
+LOAD obj\Debug\cpu\AC54xx\debug.o
+LOAD obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_480x272.o
+LOAD obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_480x272_8bits.o
+LOAD obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_avout.o
+LOAD obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_HX8369A_MCU.o
+LOAD obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_HX8369A_SPI_RGB.o
+LOAD obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_ILI8960.o
+LOAD obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_ILI9806.o
+LOAD obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_LQ026B3UX01.o
+LOAD obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_LX50FWB4001_V2.o
+LOAD obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_LYWS030GQ.o
+LOAD obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_ST7789S.o
+LOAD obj\Debug\cpu\AC54xx\dvp_lcd_driver\lcd_T15P00.o
+LOAD obj\Debug\cpu\AC54xx\iokey.o
+LOAD obj\Debug\cpu\AC54xx\ldo.o
+LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_dcs_1lane_16bit.o
+LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_dcs_1lane_24bit.o
+LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_2lane_24bit.o
+LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1080p.o
+LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_EK79030.o
+LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_HX8394.o
+LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_LX68HD.o
+LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_WT686.o
+LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_WT686_1.o
+LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_720p.o
+LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_720p_rm68200ga1.o
+LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\lcd_mipi_4lane_s8500l0.o
+LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\mipi_lcd_1280x480.o
+LOAD obj\Debug\cpu\AC54xx\powerdet.o
+LOAD obj\Debug\cpu\AC54xx\setup.o
+LOAD obj\Debug\cpu\AC54xx\static_memory_alloc.o
+START GROUP
+LOAD include_lib/liba/rtos.a
+LOAD include_lib/liba/sd1.a
+LOAD include_lib/liba/ascii.a
+LOAD include_lib/liba/res.a
+LOAD include_lib/liba/pap.a
+LOAD include_lib/liba/usb.a
+LOAD include_lib/liba/usb-host.a
+LOAD include_lib/liba/fs.a
+LOAD include_lib/liba/video_engine.a
+LOAD include_lib/liba/upgrade.a
+LOAD include_lib/liba/rs_ecc.a
+LOAD include_lib/liba/font.a
+LOAD include_lib/liba/server.a
+LOAD include_lib/liba/ui_server.a
+LOAD include_lib/liba/video_engine_server.a
+LOAD include_lib/liba/usb_server.a
+LOAD include_lib/liba/video_dec_server.a
+LOAD include_lib/liba/video_rec_server.a
+LOAD include_lib/liba/dev.a
+LOAD include_lib/liba/cpu.a
+LOAD include_lib/liba/isp.a
+LOAD include_lib/liba/ui.a
+LOAD include_lib/liba/sys.a
+LOAD include_lib/liba/audio_server.a
+LOAD include_lib/liba/mm.a
+LOAD include_lib/liba/printf.a
+LOAD include_lib/liba/lbuf.a
+LOAD include_lib/liba/cbuf.a
+END GROUP
+                0x02000000                SDRAM_SIZE = 0x2000000
+
+.lib_version    0x02000000        0x4
+ .lib_version   0x02000000        0x4 cpu\AC54xx\tools\main.or32.o
+                0x02000000                __version_upgrade
+                0x04000000                . = ORIGIN (sdram_mem)
+
+.rom_code       0x04000000    0x88c80
+                0x04000000                _text_rodata_begin = .
+                [!provide]                PROVIDE (text_rodata_begin, .)
+ *startup.o(.text)
+ .text          0x04000000       0x88 include_lib/liba/cpu.a(startup.o)
+                0x04000000                _start
+                0x04000074                cpu1_start
+ *sfc_boot.o(.text*)
+ *sfc_boot.o(.rodata*)
+ *boot_main.o(.text*)
+ *boot_main.o(.rodata*)
+ *(.text*)
+ .text          0x04000088    0x643f4 cpu\AC54xx\tools\main.or32.o
+                0x0402a09c                cpu1_main
+                0x040622e4                main
+ .text          0x0406447c       0x3c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memcmp.o)
+                0x0406447c                memcmp
+ .text          0x040644b8       0x86 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memcpy.o)
+                0x040644b8                memcpy
+ .text          0x0406453e       0xe2 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memset.o)
+                0x0406453e                memset
+ .text          0x04064620       0x1a C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcat.o)
+                0x04064620                strcat
+ .text          0x0406463a       0x16 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strchr.o)
+                0x0406463a                strchr
+ .text          0x04064650       0x16 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcmp.o)
+                0x04064650                strcmp
+ .text          0x04064666       0x10 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcpy.o)
+                0x04064666                strcpy
+ .text          0x04064676        0xe C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strlen.o)
+                0x04064676                strlen
+ .text          0x04064684       0x24 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strncmp.o)
+                0x04064684                strncmp
+ .text          0x040646a8       0x2e C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strstr.o)
+                0x040646a8                strstr
+ .text          0x040646d6       0x2c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memmove.o)
+                0x040646d6                memmove
+ .text          0x04064702      0x2ba C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(adddf3.o)
+                0x04064702                __adddf3
+ .text          0x040649bc      0x166 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(addsf3.o)
+                0x040649bc                __addsf3
+ .text          0x04064b22       0xa4 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparesf2.o)
+                0x04064b22                __lesf2
+                0x04064b62                __gesf2
+                0x04064ba2                __unordsf2
+                0x04064bbe                __eqsf2
+                0x04064bc0                __ltsf2
+                0x04064bc2                __nesf2
+                0x04064bc4                __gtsf2
+ .text          0x04064bc6       0x54 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdi3.o)
+                0x04064bc6                __divdi3
+ .text          0x04064c1a       0x42 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfsi.o)
+                0x04064c1a                __fixdfsi
+ .text          0x04064c5c       0x4a C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixsfsi.o)
+                0x04064c5c                __fixsfsi
+ .text          0x04064ca6       0x3c C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsidf.o)
+                0x04064ca6                __floatsidf
+ .text          0x04064ce2       0x50 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsisf.o)
+                0x04064ce2                __floatunsisf
+ .text          0x04064d32      0x262 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(muldf3.o)
+                0x04064d32                __muldf3
+ .text          0x04064f94      0x130 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(mulsf3.o)
+                0x04064f94                __mulsf3
+ .text          0x040650c4       0xd8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(truncdfsf2.o)
+                0x040650c4                __truncdfsf2
+ .text          0x0406519c       0x10 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivdi3.o)
+                0x0406519c                __udivdi3
+ .text          0x040651ac      0x236 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivmoddi4.o)
+                0x040651ac                __udivmoddi4
+ *(.rodata*)
+ .rodata.str1.1
+                0x040653e2      0xfd7 cpu\AC54xx\tools\main.or32.o
+                                0xfe0 (size before relaxing)
+ *fill*         0x040663b9        0x7 
+ .rodata        0x040663c0    0x147ac cpu\AC54xx\tools\main.or32.o
+ .rodata.cst4   0x0407ab6c        0x4 cpu\AC54xx\tools\main.or32.o
+ .rodata.cst32  0x0407ab70       0x40 cpu\AC54xx\tools\main.or32.o
+ .rodata.str1.16
+                0x0407abb0      0x430 cpu\AC54xx\tools\main.or32.o
+                                0x427 (size before relaxing)
+ .rodata.str4.4
+                0x0407afe0      0x278 cpu\AC54xx\tools\main.or32.o
+                0x0407b258                _text_rodata_end = .
+                [!provide]                PROVIDE (text_rodata_end, .)
+                0x0407b260                . = ALIGN (0x20)
+ *fill*         0x0407b258        0x8 
+ *(.data)
+ *fill*         0x0407b260       0x20 
+ .data          0x0407b280     0xb924 cpu\AC54xx\tools\main.or32.o
+                0x04086ba4                . = ALIGN (0x4)
+                0x04086ba4                vfs_ops_begin = .
+ *(.vfs_operations)
+ .vfs_operations
+                0x04086ba4      0x190 cpu\AC54xx\tools\main.or32.o
+                0x04086d34                vfs_ops_end = .
+                0x04086d34                _lcd_device_begin = .
+                [!provide]                PROVIDE (lcd_device_begin, .)
+ *(.lcd_device)
+                0x04086d34                _lcd_device_end = .
+                [!provide]                PROVIDE (lcd_device_end, .)
+                0x04086d34                _lcd_device_drive_begin = .
+                0x04086d34                PROVIDE (lcd_device_drive_begin, .)
+ *(.lcd_device_drive)
+ .lcd_device_drive
+                0x04086d34       0x38 cpu\AC54xx\tools\main.or32.o
+                0x04086d6c                _lcd_device_drive_end = .
+                0x04086d6c                PROVIDE (lcd_device_drive_end, .)
+                0x04086d6c                _gsensor_dev_begin = .
+                0x04086d6c                PROVIDE (gsensor_dev_begin, .)
+ *(.gsensor_dev)
+ .gsensor_dev   0x04086d6c       0x60 cpu\AC54xx\tools\main.or32.o
+                0x04086dcc                _gsensor_dev_end = .
+                0x04086dcc                PROVIDE (gsensor_dev_end, .)
+                0x04086dcc                _touch_panel_dev_begin = .
+                0x04086dcc                PROVIDE (touch_panel_dev_begin, .)
+ *(.touch_panel_dev)
+ .touch_panel_dev
+                0x04086dcc       0x18 cpu\AC54xx\tools\main.or32.o
+                0x04086de4                _touch_panel_dev_end = .
+                0x04086de4                PROVIDE (touch_panel_dev_end, .)
+                0x04086de4                _isp_scr_begin = .
+                0x04086de4                PROVIDE (isp_scr_begin, .)
+ *(.isp_scr_work)
+ .isp_scr_work  0x04086de4       0x18 cpu\AC54xx\tools\main.or32.o
+                0x04086dfc                _isp_scr_end = .
+                0x04086dfc                PROVIDE (isp_scr_end, .)
+                0x04086dfc                _power_dev_begin = .
+                0x04086dfc                PROVIDE (power_dev_begin, .)
+ *(.power_dev)
+ .power_dev     0x04086dfc       0x18 cpu\AC54xx\tools\main.or32.o
+                0x04086e14                _power_dev_end = .
+                0x04086e14                PROVIDE (power_dev_end, .)
+                0x04086e14                _eth_phy_device_begin = .
+                [!provide]                PROVIDE (eth_phy_device_begin, .)
+ *(.eth_phy_device)
+                0x04086e14                _eth_phy_device_end = .
+                [!provide]                PROVIDE (eth_phy_device_end, .)
+                0x04086e14                _ui_style_begin = .
+                0x04086e14                PROVIDE (ui_style_begin, .)
+ *(.ui_style)
+ .ui_style      0x04086e14       0x24 cpu\AC54xx\tools\main.or32.o
+                0x04086e38                _ui_style_end = .
+                0x04086e38                PROVIDE (ui_style_end, .)
+                0x04086e38                _elm_event_handler_begin_UPGRADE = .
+                0x04086e38                PROVIDE (elm_event_handler_begin_UPGRADE, .)
+ *(.elm_event_handler_UPGRADE)
+                0x04086e38                _elm_event_handler_end_UPGRADE = .
+                0x04086e38                PROVIDE (elm_event_handler_end_UPGRADE, .)
+                0x04086e38                _elm_event_handler_begin_JL02 = .
+                0x04086e38                PROVIDE (elm_event_handler_begin_JL02, .)
+ *(.elm_event_handler_JL02)
+ .elm_event_handler_JL02
+                0x04086e38      0xfd0 cpu\AC54xx\tools\main.or32.o
+                0x04087e08                _elm_event_handler_end_JL02 = .
+                0x04087e08                PROVIDE (elm_event_handler_end_JL02, .)
+                0x04087e08                _elm_event_handler_begin_ANI = .
+                0x04087e08                PROVIDE (elm_event_handler_begin_ANI, .)
+ *(.elm_event_handler_ANI)
+ .elm_event_handler_ANI
+                0x04087e08       0x20 cpu\AC54xx\tools\main.or32.o
+                0x04087e28                _elm_event_handler_end_ANI = .
+                0x04087e28                PROVIDE (elm_event_handler_end_ANI, .)
+                0x04087e28                _elm_event_handler_begin_LY = .
+                [!provide]                PROVIDE (elm_event_handler_begin_LY, .)
+ *(.elm_event_handler_LY)
+                0x04087e28                _elm_event_handler_end_LY = .
+                [!provide]                PROVIDE (elm_event_handler_end_LY, .)
+                0x04087e28                _control_event_handler_begin = .
+                [!provide]                PROVIDE (control_event_handler_begin, .)
+ *(.control_event_handler)
+                0x04087e28                _control_event_handler_end = .
+                [!provide]                PROVIDE (control_event_handler_end, .)
+                0x04087e28                _control_ops_begin = .
+                0x04087e28                PROVIDE (control_ops_begin, .)
+ *(.control_ops)
+ .control_ops   0x04087e28       0x78 cpu\AC54xx\tools\main.or32.o
+                0x04087ea0                _control_ops_end = .
+                0x04087ea0                PROVIDE (control_ops_end, .)
+                0x04087ea0                _vg_event_handler_begin = .
+                [!provide]                PROVIDE (vg_event_handler_begin, .)
+ *(.vg_event_handler)
+                0x04087ea0                _vg_event_handler_end = .
+                [!provide]                PROVIDE (vg_event_handler_end, .)
+                0x04087ea0                _on_show_map_begin = .
+                [!provide]                PROVIDE (on_show_map_begin, .)
+ *(.on_show_map)
+                0x04087ea0                _on_show_map_end = .
+                [!provide]                PROVIDE (on_show_map_end, .)
+                0x04087ea0                _on_click_map_begin = .
+                [!provide]                PROVIDE (on_click_map_begin, .)
+ *(.on_click_map)
+                0x04087ea0                _on_click_map_end = .
+                [!provide]                PROVIDE (on_click_map_end, .)
+                0x04087ea0                _on_touch_map_begin = .
+                [!provide]                PROVIDE (on_touch_map_begin, .)
+ *(.on_touch_map)
+                0x04087ea0                _on_touch_map_end = .
+                [!provide]                PROVIDE (on_touch_map_end, .)
+                0x04087ea0                _on_change_map_begin = .
+                [!provide]                PROVIDE (on_change_map_begin, .)
+ *(.on_change_map)
+                0x04087ea0                _on_change_map_end = .
+                [!provide]                PROVIDE (on_change_map_end, .)
+                0x04087ea0                _on_key_map_begin = .
+                [!provide]                PROVIDE (on_key_map_begin, .)
+ *(.on_key_map)
+                0x04087ea0                _on_key_map_end = .
+                [!provide]                PROVIDE (on_key_map_end, .)
+                0x04087ea0                _img_loader_begin = .
+                [!provide]                PROVIDE (img_loader_begin, .)
+ *(.img_loader)
+                0x04087ea0                _img_loader_end = .
+                [!provide]                PROVIDE (img_loader_end, .)
+                0x04087ea0                _battery_notify_begin = .
+                [!provide]                PROVIDE (battery_notify_begin, .)
+ *(.battery_notify)
+                0x04087ea0                _battery_notify_end = .
+                [!provide]                PROVIDE (battery_notify_end, .)
+                0x04087ea0                _lib_version_begin = .
+                0x04087ea0                PROVIDE (lib_version_begin, .)
+ *(.version)
+ .version       0x04087ea0       0x48 cpu\AC54xx\tools\main.or32.o
+                0x04087ea0                __version_fs
+                0x04087ea4                __version_fatfs
+                0x04087ea8                __version_server_core
+                0x04087eac                __version_ui_server
+                0x04087eb0                __version_video_engine_server
+                0x04087eb4                __version_usb_server
+                0x04087eb8                __version_video_dec_server
+                0x04087ebc                __version_vunpkg_server
+                0x04087ec0                __version_video_server
+                0x04087ec4                __version_vpkg_server
+                0x04087ec8                __version_video_dev
+                0x04087ecc                __version_cpu
+                0x04087ed0                __version_isp
+                0x04087ed4                __version_sys
+                0x04087ed8                __version_audio_server
+                0x04087edc                __version_sdfile
+                0x04087ee0                __version_devfs
+                0x04087ee4                __version_ramfs
+                0x04087ee8                _lib_version_end = .
+                0x04087ee8                PROVIDE (lib_version_end, .)
+                0x04087ee8                _initcall_begin = .
+                0x04087ee8                PROVIDE (initcall_begin, .)
+ *(.initcall)
+ .initcall      0x04087ee8       0x18 cpu\AC54xx\tools\main.or32.o
+                0x04087ee8                __initcall_app_config_init
+                0x04087eec                __initcall_spi_flash_write_protect
+                0x04087ef0                __initcall_video_engine_server_init
+                0x04087ef4                __initcall_usb_server_init
+                0x04087ef8                __initcall_video_server_init
+                0x04087efc                __initcall_vpkg_server_init
+                0x04087f00                _initcall_end = .
+                0x04087f00                PROVIDE (initcall_end, .)
+                0x04087f00                _early_initcall_begin = .
+                0x04087f00                PROVIDE (early_initcall_begin, .)
+ *(.early.initcall)
+ .early.initcall
+                0x04087f00       0x18 cpu\AC54xx\tools\main.or32.o
+                0x04087f00                __initcall_app_version_check
+                0x04087f04                __initcall_dma_copy_init
+                0x04087f08                __initcall_port_wakeup_init
+                0x04087f0c                __initcall_timer1_init
+                0x04087f10                __initcall_sys_event_init
+                0x04087f14                __initcall_wait_completion_init
+                0x04087f18                _early_initcall_end = .
+                0x04087f18                PROVIDE (early_initcall_end, .)
+                0x04087f18                _late_initcall_begin = .
+                0x04087f18                PROVIDE (late_initcall_begin, .)
+ *(.late.initcall)
+ .late.initcall
+                0x04087f18       0x30 cpu\AC54xx\tools\main.or32.o
+                0x04087f18                __initcall_auto_test_init
+                0x04087f1c                __initcall_gps_decode
+                0x04087f20                __initcall_key_voice_init
+                0x04087f24                __initcall_accin_detect_init
+                0x04087f28                __initcall_parking_detect_init
+                0x04087f2c                __initcall_charging_detect
+                0x04087f30                __initcall_lower_power_close_ctrl
+                0x04087f34                __initcall_touch_panel_init
+                0x04087f38                __initcall_usb0_init
+                0x04087f3c                __initcall_usb1_init
+                0x04087f40                __initcall_init_application
+                0x04087f44                __initcall_log_send_mode_change
+                0x04087f48                _late_initcall_end = .
+                0x04087f48                PROVIDE (late_initcall_end, .)
+                0x04087f48                _platform_initcall_begin = .
+                0x04087f48                PROVIDE (platform_initcall_begin, .)
+ *(.platform.initcall)
+ .platform.initcall
+                0x04087f48        0x8 cpu\AC54xx\tools\main.or32.o
+                0x04087f48                __initcall_adc_scan_init
+                0x04087f4c                __initcall_register_fbinfo
+                0x04087f50                _platform_initcall_end = .
+                0x04087f50                PROVIDE (platform_initcall_end, .)
+                0x04087f50                _module_initcall_begin = .
+                0x04087f50                PROVIDE (module_initcall_begin, .)
+ *(.module.initcall)
+                0x04087f50                _module_initcall_end = .
+                0x04087f50                PROVIDE (module_initcall_end, .)
+                0x04087f50                _sys_event_handler_begin = .
+                0x04087f50                PROVIDE (sys_event_handler_begin, .)
+ *(.sys_event.4.handler)
+ .sys_event.4.handler
+                0x04087f50       0x18 cpu\AC54xx\tools\main.or32.o
+                0x04087f50                __event_handler_backlight_charge_event_handler
+                0x04087f58                __event_handler_backlight_event_handler
+                0x04087f60                __event_handler_lower_power_close_handler
+ *(.sys_event.3.handler)
+ .sys_event.3.handler
+                0x04087f68        0x8 cpu\AC54xx\tools\main.or32.o
+                0x04087f68                __event_handler_key_event_handler
+ *(.sys_event.2.handler)
+ *(.sys_event.1.handler)
+ *(.sys_event.0.handler)
+ .sys_event.0.handler
+                0x04087f70       0x30 cpu\AC54xx\tools\main.or32.o
+                0x04087f70                __event_handler_device_event_handler
+                0x04087f78                __event_handler_video_device_event_handler
+                0x04087f80                __event_handler_auto_close_event_handler
+                0x04087f88                __event_handler_charg_off_close_event_handler
+                0x04087f90                __event_handler_msg_device_event_handler
+                0x04087f98                __event_handler_uvc_device_event_handler
+                0x04087fa0                _sys_event_handler_end = .
+                0x04087fa0                PROVIDE (sys_event_handler_end, .)
+                0x04087fa0                _syscfg_arg_begin = .
+                [!provide]                PROVIDE (syscfg_arg_begin, .)
+ *(.syscfg.arg)
+                0x04087fa0                _syscfg_arg_end = .
+                [!provide]                PROVIDE (syscfg_arg_end, .)
+                0x04087fa0                _syscfg_handler_begin = .
+                [!provide]                PROVIDE (syscfg_handler_begin, .)
+ *(.syscfg.handler)
+                0x04087fa0                _syscfg_handler_end = .
+                [!provide]                PROVIDE (syscfg_handler_end, .)
+                0x04087fa0                _server_info_begin = .
+                0x04087fa0                PROVIDE (server_info_begin, .)
+ *(.server_info)
+ .server_info   0x04087fa0       0x80 cpu\AC54xx\tools\main.or32.o
+                0x04087fa0                ui_server_info
+                0x04087fb0                video_engine_server_info
+                0x04087fc0                usb_server_info
+                0x04087fd0                video_dec_server_info
+                0x04087fe0                vunpkg_server_info
+                0x04087ff0                video_server_info
+                0x04088000                vpkg_server_info
+                0x04088010                audio_server_info
+                0x04088020                _server_info_end = .
+                0x04088020                PROVIDE (server_info_end, .)
+                0x04088020                _app_begin = .
+                0x04088020                PROVIDE (app_begin, .)
+ *(.app)
+ .app           0x04088020       0xc0 cpu\AC54xx\tools\main.or32.o
+                0x040880e0                _app_end = .
+                0x040880e0                PROVIDE (app_end, .)
+                0x040880e0                . = ALIGN (0x20)
+                0x040880e0                _camera_dev_begin = .
+                0x040880e0                PROVIDE (camera_dev_begin, .)
+ *(.camera_dev)
+ .camera_dev    0x040880e0      0x804 cpu\AC54xx\tools\main.or32.o
+                0x040888e4                _camera_dev_end = .
+                0x040888e4                PROVIDE (camera_dev_end, .)
+                0x040888e4                _adc_scan_begin = .
+                0x040888e4                PROVIDE (adc_scan_begin, .)
+ *(.adc_scan)
+ .adc_scan      0x040888e4        0xc cpu\AC54xx\tools\main.or32.o
+                0x040888f0                _adc_scan_end = .
+                0x040888f0                PROVIDE (adc_scan_end, .)
+                0x040888f0                _spi_device_begin = .
+                [!provide]                PROVIDE (spi_device_begin, .)
+ *(.spi_device)
+                0x040888f0                _spi_device_end = .
+                [!provide]                PROVIDE (spi_device_end, .)
+                0x04088900                . = ALIGN (0x20)
+ *fill*         0x040888f0       0x10 
+                0x04088900                _device_node_begin = .
+                0x04088900                PROVIDE (device_node_begin, .)
+ *(.device)
+ .device        0x04088900      0x15c cpu\AC54xx\tools\main.or32.o
+                0x04088900                device_table
+                0x04088a50                virtual_audio_dev
+                0x04088a5c                _device_node_end = .
+                0x04088a5c                PROVIDE (device_node_end, .)
+                0x04088a5c                _video_subdev_begin = .
+                0x04088a5c                PROVIDE (video_subdev_begin, .)
+ *(.video_subdev.0)
+ .video_subdev.0
+                0x04088a5c       0x80 cpu\AC54xx\tools\main.or32.o
+ *(.video_subdev.1)
+ .video_subdev.1
+                0x04088adc       0x20 cpu\AC54xx\tools\main.or32.o
+ *(.video_subdev.2)
+ .video_subdev.2
+                0x04088afc       0x10 cpu\AC54xx\tools\main.or32.o
+ *(.video_subdev.3)
+ .video_subdev.3
+                0x04088b0c       0x20 cpu\AC54xx\tools\main.or32.o
+ *(.video_subdev.4)
+ *(.video_subdev.5)
+                0x04088b2c                _video_subdev_end = .
+                0x04088b2c                PROVIDE (video_subdev_end, .)
+                0x04088b2c                _audio_subdev_begin = .
+                0x04088b2c                PROVIDE (audio_subdev_begin, .)
+ *(.audio_subdev.0)
+ .audio_subdev.0
+                0x04088b2c       0x18 cpu\AC54xx\tools\main.or32.o
+                0x04088b2c                subdev_adc
+                0x04088b38                subdev_dac
+ *(.audio_subdev.1)
+ .audio_subdev.1
+                0x04088b44        0xc cpu\AC54xx\tools\main.or32.o
+                0x04088b44                subdev_pcm_enc
+ *(.audio_subdev.2)
+ *(.audio_subdev.3)
+                0x04088b50                _audio_subdev_end = .
+                0x04088b50                PROVIDE (audio_subdev_end, .)
+                0x04088b50                _iic_device_begin = .
+                0x04088b50                PROVIDE (iic_device_begin, .)
+ *(.iic)
+ .iic           0x04088b50       0x28 cpu\AC54xx\tools\main.or32.o
+                0x04088b78                _iic_device_end = .
+                0x04088b78                PROVIDE (iic_device_end, .)
+                0x04088b78                _avin_spi_device_begin = .
+                0x04088b78                PROVIDE (avin_spi_device_begin, .)
+ *(.sw_spi)
+ .sw_spi        0x04088b78       0x2c cpu\AC54xx\tools\main.or32.o
+                0x04088ba4                _avin_spi_device_end = .
+                0x04088ba4                PROVIDE (avin_spi_device_end, .)
+                0x04088bc0                . = ALIGN (0x20)
+ *fill*         0x04088ba4       0x1c 
+                0x04088bc0                _key_driver_begin = .
+                0x04088bc0                PROVIDE (key_driver_begin, .)
+ *(.key_driver)
+ .key_driver    0x04088bc0       0x50 cpu\AC54xx\tools\main.or32.o
+                0x04088c10                _key_driver_end = .
+                0x04088c10                PROVIDE (key_driver_end, .)
+                0x04088c10                _touch_driver_begin = .
+                [!provide]                PROVIDE (touch_driver_begin, .)
+ *(.touch_driver)
+                0x04088c10                _touch_driver_end = .
+                [!provide]                PROVIDE (touch_driver_end, .)
+                0x04088c10                _static_hi_timer_begin = .
+                0x04088c10                PROVIDE (static_hi_timer_begin, .)
+ *(.hi_timer)
+ .hi_timer      0x04088c10       0x10 cpu\AC54xx\tools\main.or32.o
+                0x04088c20                _static_hi_timer_end = .
+                0x04088c20                PROVIDE (static_hi_timer_end, .)
+                0x04088c20                _sys_cpu_timer_begin = .
+                0x04088c20                PROVIDE (sys_cpu_timer_begin, .)
+ *(.sys_cpu_timer)
+ .sys_cpu_timer
+                0x04088c20       0x10 cpu\AC54xx\tools\main.or32.o
+                0x04088c20                cpu_timer2
+                0x04088c30                _sys_cpu_timer_end = .
+                0x04088c30                PROVIDE (sys_cpu_timer_end, .)
+                0x04088c30                _sys_config_begin = .
+                [!provide]                PROVIDE (sys_config_begin, .)
+ *(.sys_cfg)
+                0x04088c30                _sys_config_end = .
+                [!provide]                PROVIDE (sys_config_end, .)
+                0x04088c30                _audio_decoder_begin = .
+                0x04088c30                PROVIDE (audio_decoder_begin, .)
+ *(.audio_decoder)
+ .audio_decoder
+                0x04088c30       0x20 cpu\AC54xx\tools\main.or32.o
+                0x04088c30                pcm_decoder_ops
+                0x04088c40                adpcm_decoder_ops
+                0x04088c50                _audio_decoder_end = .
+                0x04088c50                PROVIDE (audio_decoder_end, .)
+                0x04088c60                . = (((. + 0x1f) / 0x20) * 0x20)
+ *fill*         0x04088c50       0x10 
+                0x04088c60                _layer_buf_begin = .
+                0x04088c60                PROVIDE (layer_buf_begin, .)
+ *(.layer_buf_t)
+ .layer_buf_t   0x04088c60       0x10 cpu\AC54xx\tools\main.or32.o
+                0x04088c70                _layer_buf_end = .
+                0x04088c70                PROVIDE (layer_buf_end, .)
+                0x04088c80                . = (((. + 0x1f) / 0x20) * 0x20)
+ *fill*         0x04088c70       0x10 
+                0x04088c80                _font_info_begin = .
+                0x04088c80                PROVIDE (font_info_begin, .)
+ *(.font_info_t)
+                0x04088c80                _font_info_end = .
+                0x04088c80                PROVIDE (font_info_end, .)
+
+.data           0x04088c80        0x0
+
+.bss            0x04088c80   0x6a1da0
+ *(.stack)
+ .stack         0x04088c80     0x4800 include_lib/liba/cpu.a(startup.o)
+                0x04089080                _stack_cpu0
+                0x0408b480                _stack_cpu1
+                0x0408d480                _stack1_cpu1
+                0x0408d480                _system_data_begin = .
+ *(.bss)
+ .bss           0x0408d480   0x4db58c cpu\AC54xx\tools\main.or32.o
+ *(COMMON)
+ *(.usb_slave_var)
+ *(.mem_heap)
+                0x04568a20                . = (((. + 0x1f) / 0x20) * 0x20)
+ *fill*         0x04568a0c       0x14 
+                0x04568a20                _lcd_dev_buf_addr = .
+                0x04568a20                PROVIDE (lcd_dev_buf_addr, .)
+ *(.lcd_dev_buf)
+ .lcd_dev_buf   0x04568a20   0x1c2000 cpu\AC54xx\tools\main.or32.o
+                0x04568a20                lcd_dev_buf
+                0x0472aa20                _system_data_end = .
+                0x0472aa20                _HEAP_BEGIN = (((. + 0x1f) / 0x20) * 0x20)
+                0x0472aa20                PROVIDE (HEAP_BEGIN, (((. + 0x1f) / 0x20) * 0x20))
+                0x05ffffe0                _HEAP_END = ((0x4000000 + SDRAM_SIZE) - 0x20)
+                0x05ffffe0                PROVIDE (HEAP_END, ((0x4000000 + SDRAM_SIZE) - 0x20))
+                0x018d55c0                _MALLOC_SIZE = (_HEAP_END - _HEAP_BEGIN)
+                [!provide]                PROVIDE (MALLOC_SIZE, (_HEAP_END - _HEAP_BEGIN))
+                0x03f08000                . = 0x3f08000
+
+.sram
+ *(.boot)
+                0x03f00000                . = ORIGIN (ram0)
+
+.ram0_data      0x03f00000        0x0
+                0x03f00000                _VM_CODE_START = .
+ *(.vm)
+                0x03f00000                _VM_CODE_END = .
+ *(.flushinv_icache)
+
+.ram0_bss       0x03f00000     0xecc0
+ *(.sd_var)
+ .sd_var        0x03f00000       0x60 cpu\AC54xx\tools\main.or32.o
+                0x03f00000                sd1_cmd_detect
+                0x03f00020                sd1_host_var
+ *(.sram)
+ .sram          0x03f00060      0x200 cpu\AC54xx\tools\main.or32.o
+ *(.usb0_fifo)
+ *fill*         0x03f00260       0x20 
+ .usb0_fifo     0x03f00280     0xea40 cpu\AC54xx\tools\main.or32.o
+                0x02000000                . = ORIGIN (xrom)
+
+.xrom
+                0x04000000                text_begin = ADDR (.rom_code)
+                0x00088c80                text_size = SIZEOF (.rom_code)
+                0x04088c80                bss_begin = ADDR (.bss)
+                0x006a1da0                bss_size = SIZEOF (.bss)
+                0x0069d5a0                bss_size1 = (_system_data_end - _system_data_begin)
+                0x0408d480                bss_begin1 = _system_data_begin
+                0x04088c80                data_begin = LOADADDR (.data)
+                0x04088c80                data_addr = ADDR (.data)
+                0x00000000                data_size = SIZEOF (.data)
+                0x03f00000                _ram0_bss_vma = ADDR (.ram0_bss)
+                0x0000ecc0                _ram0_bss_size = SIZEOF (.ram0_bss)
+                0x03f00000                _ram0_data_vma = ADDR (.ram0_data)
+                0x04088c80                _ram0_data_lma = (text_begin + SIZEOF (.rom_code))
+                0x00000000                _ram0_data_size = SIZEOF (.ram0_data)
+LOAD C:\JL\pi32\pi32v2-lib\libc.a
+LOAD C:\JL\pi32\pi32v2-lib\libcompiler-rt.a
+OUTPUT(cpu\AC54xx\tools\main.or32 elf32-pi32v2)
+
+.debug_str      0x00000000     0x15b7
+ .debug_str     0x00000000     0x15b7 cpu\AC54xx\tools\main.or32.o
+                               0x168e (size before relaxing)
+
+.debug_loc      0x00000000        0x0
+ .debug_loc     0x00000000        0x0 cpu\AC54xx\tools\main.or32.o
+
+.debug_abbrev   0x00000000      0x1a9
+ .debug_abbrev  0x00000000      0x1a9 cpu\AC54xx\tools\main.or32.o
+
+.debug_info     0x00000000     0x3510
+ .debug_info    0x00000000     0x3510 cpu\AC54xx\tools\main.or32.o
+
+.debug_ranges   0x00000000        0x0
+ .debug_ranges  0x00000000        0x0 cpu\AC54xx\tools\main.or32.o
+
+.debug_macinfo  0x00000000        0x1
+ .debug_macinfo
+                0x00000000        0x1 cpu\AC54xx\tools\main.or32.o
+
+.debug_pubnames
+                0x00000000      0x2cd
+ .debug_pubnames
+                0x00000000      0x2cd cpu\AC54xx\tools\main.or32.o
+
+.debug_pubtypes
+                0x00000000      0x8b8
+ .debug_pubtypes
+                0x00000000      0x8b8 cpu\AC54xx\tools\main.or32.o
+
+.debug_frame    0x00000000    0x102c4
+ .debug_frame   0x00000000    0x102c4 cpu\AC54xx\tools\main.or32.o
+
+.debug_line     0x00000000      0xccd
+ .debug_line    0x00000000      0xccd cpu\AC54xx\tools\main.or32.o

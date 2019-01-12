@@ -1,0 +1,8 @@
+[Project]
+Size=1000*480
+CustomTemplateDir=../../../UITools/control/ex
+Dir=.
+ImageDir=config
+LangugeFile=../../../UITools/UI_TOUCH_1280_480.xls
+TemplateJson=../../../UITools/control/control.json
+LastOpen=@ByteArray(./UI_TOUCH_1280_480_ANI.json)

@@ -1693,33 +1693,33 @@ C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(subdf3.o)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(adddf3.o)
                               C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(subdf3.o) (__adddf3)
 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memmove.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o (memmove)
+                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o (memmove)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(addsf3.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o (__addsf3)
+                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o (__addsf3)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparedf2.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o (__eqdf2)
+                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o (__eqdf2)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparesf2.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o (__gesf2)
+                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o (__gesf2)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdf3.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o (__divdf3)
+                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o (__divdf3)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdi3.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o (__divdi3)
+                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o (__divdi3)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfsi.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o (__fixdfsi)
+                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o (__fixdfsi)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixsfsi.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o (__fixsfsi)
+                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o (__fixsfsi)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsidf.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o (__floatsidf)
+                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o (__floatsidf)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsisf.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o (__floatunsisf)
+                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o (__floatunsisf)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(muldf3.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o (__muldf3)
+                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o (__muldf3)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(mulsf3.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o (__mulsf3)
+                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o (__mulsf3)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(truncdfsf2.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o (__truncdfsf2)
+                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o (__truncdfsf2)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivdi3.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o (__udivdi3)
+                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o (__udivdi3)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivmoddi4.o)
                               C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdi3.o) (__udivmoddi4)
 
@@ -2903,7 +2903,7 @@ vram             0x03fa0000         0x00028800         xrw
 Linker script and memory map
 
 LOAD obj\Debug\app\debug.o
-LOAD C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
+LOAD C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
 LOAD obj\Debug\app\echo_cancell.o
 LOAD obj\Debug\app\flash_write_protect.o
 LOAD obj\Debug\app\wifi_car_camera\app_database.o
@@ -3130,7 +3130,7 @@ END GROUP
                 0x00000036                __cpu_id__ = 0x36
                 0x04000000                . = ORIGIN (sdram_mem)
 
-.rom_code       0x04000000    0xd105c
+.rom_code       0x04000000    0xb9d3c
                 0x04000000                _text_rodata_begin = .
                 [!provide]                PROVIDE (text_rodata_begin, .)
  *startup.o(.text)
@@ -3142,719 +3142,712 @@ END GROUP
  *boot_main.o(.text*)
  *boot_main.o(.rodata*)
  *(.text*)
- .text          0x04000088    0x97d9c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x0401edf6                cpu1_main
-                0x0404bffe                main
- .text          0x04097e24       0x70 C:\JL\pi32\pi32v2-lib\libm.a(lib_a-s_modf.o)
-                0x04097e24                modf
- .text          0x04097e94       0x10 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-atoi.o)
-                0x04097e94                atoi
-                0x04097e9c                _atoi_r
- .text          0x04097ea4       0x10 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-atol.o)
-                0x04097ea4                atol
-                0x04097eac                _atol_r
- .text          0x04097eb4       0x42 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-bsearch.o)
-                0x04097eb4                bsearch
- .text          0x04097ef6        0x0 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-ctype_.o)
- .text          0x04097ef6        0x0 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-impure.o)
- .text          0x04097ef6       0x1a C:\JL\pi32\pi32v2-lib\libc.a(lib_a-isblank.o)
-                0x04097ef6                isblank
- .text          0x04097f10       0x24 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-isprint.o)
-                0x04097f10                isgraph
-                0x04097f22                isprint
- .text          0x04097f34       0x12 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-isspace.o)
-                0x04097f34                isspace
- .text          0x04097f46       0x6c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-locale.o)
-                0x04097f46                _setlocale_r
-                0x04097f80                __locale_charset
-                0x04097f88                __locale_mb_cur_max
-                0x04097f92                __locale_msgcharset
-                0x04097f9a                __locale_cjk_lang
-                0x04097f9e                _localeconv_r
-                0x04097fa6                setlocale
-                0x04097faa                localeconv
- .text          0x04097fb2       0x1a C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memchr.o)
-                0x04097fb2                memchr
- .text          0x04097fcc       0x3c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memcmp.o)
-                0x04097fcc                memcmp
- .text          0x04098008       0x86 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memcpy.o)
-                0x04098008                memcpy
- .text          0x0409808e       0x28 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memmem.o)
-                0x0409808e                memmem
- .text          0x040980b6       0xe2 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memset.o)
-                0x040980b6                memset
- .text          0x04098198      0x2d8 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-qsort.o)
-                0x04098198                qsort
- .text          0x04098470       0x60 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-s_fpclassify.o)
-                0x04098470                __fpclassifyd
- .text          0x040984d0       0x42 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcasecmp.o)
-                0x040984d0                strcasecmp
- .text          0x04098512       0x1a C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcat.o)
-                0x04098512                strcat
- .text          0x0409852c       0x16 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strchr.o)
-                0x0409852c                strchr
- .text          0x04098542       0x16 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcmp.o)
-                0x04098542                strcmp
- .text          0x04098558       0x10 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcpy.o)
-                0x04098558                strcpy
- .text          0x04098568       0x24 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcspn.o)
-                0x04098568                strcspn
- .text          0x0409858c       0x2c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strlcpy.o)
-                0x0409858c                strlcpy
- .text          0x040985b8        0xe C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strlen.o)
-                0x040985b8                strlen
- .text          0x040985c6       0x4a C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strncasecmp.o)
-                0x040985c6                strncasecmp
- .text          0x04098610       0x24 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strncmp.o)
-                0x04098610                strncmp
- .text          0x04098634       0x2c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strncpy.o)
-                0x04098634                strncpy
- .text          0x04098660       0x38 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strpbrk.o)
-                0x04098660                strpbrk
- .text          0x04098698       0x24 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strrchr.o)
-                0x04098698                strrchr
- .text          0x040986bc        0xa C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strsep.o)
-                0x040986bc                strsep
- .text          0x040986c6       0x26 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strspn.o)
-                0x040986c6                strspn
- .text          0x040986ec       0x2e C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strstr.o)
-                0x040986ec                strstr
- .text          0x0409871a       0x10 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strtok.o)
-                0x0409871a                strtok
- .text          0x0409872a       0x54 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strtok_r.o)
-                0x0409872a                __strtok_r
-                0x0409877a                strtok_r
- .text          0x0409877e      0x11e C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strtol.o)
-                0x0409877e                _strtol_r
-                0x04098884                strtol
- .text          0x0409889c       0x1e C:\JL\pi32\pi32v2-lib\libc.a(lib_a-tolower.o)
-                0x0409889c                tolower
- .text          0x040988ba        0x8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(subdf3.o)
-                0x040988ba                __subdf3
- .text          0x040988c2      0x2ba C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(adddf3.o)
-                0x040988c2                __adddf3
- .text          0x04098b7c       0x2c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memmove.o)
-                0x04098b7c                memmove
- .text          0x04098ba8      0x166 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(addsf3.o)
-                0x04098ba8                __addsf3
- .text          0x04098d0e      0x176 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparedf2.o)
-                0x04098d0e                __ledf2
-                0x04098da4                __gedf2
-                0x04098e3c                __unorddf2
-                0x04098e7c                __eqdf2
-                0x04098e7e                __ltdf2
-                0x04098e80                __nedf2
-                0x04098e82                __gtdf2
- .text          0x04098e84       0xa4 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparesf2.o)
-                0x04098e84                __lesf2
-                0x04098ec4                __gesf2
-                0x04098f04                __unordsf2
-                0x04098f20                __eqsf2
-                0x04098f22                __ltsf2
-                0x04098f24                __nesf2
-                0x04098f26                __gtsf2
- .text          0x04098f28      0x2c6 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdf3.o)
-                0x04098f28                __divdf3
- .text          0x040991ee       0x54 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdi3.o)
-                0x040991ee                __divdi3
- .text          0x04099242       0x42 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfsi.o)
-                0x04099242                __fixdfsi
- .text          0x04099284       0x4a C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixsfsi.o)
-                0x04099284                __fixsfsi
- .text          0x040992ce       0x3c C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsidf.o)
-                0x040992ce                __floatsidf
- .text          0x0409930a       0x50 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsisf.o)
-                0x0409930a                __floatunsisf
- .text          0x0409935a      0x262 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(muldf3.o)
-                0x0409935a                __muldf3
- .text          0x040995bc      0x130 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(mulsf3.o)
-                0x040995bc                __mulsf3
- .text          0x040996ec       0xd8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(truncdfsf2.o)
-                0x040996ec                __truncdfsf2
- .text          0x040997c4       0x10 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivdi3.o)
-                0x040997c4                __udivdi3
- .text          0x040997d4      0x236 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivmoddi4.o)
-                0x040997d4                __udivmoddi4
+ .text          0x04000088    0x89786 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x0401dd36                cpu1_main
+                0x0404a866                main
+ .text          0x0408980e       0x70 C:\JL\pi32\pi32v2-lib\libm.a(lib_a-s_modf.o)
+                0x0408980e                modf
+ .text          0x0408987e       0x10 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-atoi.o)
+                0x0408987e                atoi
+                0x04089886                _atoi_r
+ .text          0x0408988e       0x10 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-atol.o)
+                0x0408988e                atol
+                0x04089896                _atol_r
+ .text          0x0408989e       0x42 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-bsearch.o)
+                0x0408989e                bsearch
+ .text          0x040898e0        0x0 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-ctype_.o)
+ .text          0x040898e0        0x0 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-impure.o)
+ .text          0x040898e0       0x1a C:\JL\pi32\pi32v2-lib\libc.a(lib_a-isblank.o)
+                0x040898e0                isblank
+ .text          0x040898fa       0x24 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-isprint.o)
+                0x040898fa                isgraph
+                0x0408990c                isprint
+ .text          0x0408991e       0x12 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-isspace.o)
+                0x0408991e                isspace
+ .text          0x04089930       0x6c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-locale.o)
+                0x04089930                _setlocale_r
+                0x0408996a                __locale_charset
+                0x04089972                __locale_mb_cur_max
+                0x0408997c                __locale_msgcharset
+                0x04089984                __locale_cjk_lang
+                0x04089988                _localeconv_r
+                0x04089990                setlocale
+                0x04089994                localeconv
+ .text          0x0408999c       0x1a C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memchr.o)
+                0x0408999c                memchr
+ .text          0x040899b6       0x3c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memcmp.o)
+                0x040899b6                memcmp
+ .text          0x040899f2       0x86 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memcpy.o)
+                0x040899f2                memcpy
+ .text          0x04089a78       0x28 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memmem.o)
+                0x04089a78                memmem
+ .text          0x04089aa0       0xe2 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memset.o)
+                0x04089aa0                memset
+ .text          0x04089b82      0x2d8 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-qsort.o)
+                0x04089b82                qsort
+ .text          0x04089e5a       0x60 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-s_fpclassify.o)
+                0x04089e5a                __fpclassifyd
+ .text          0x04089eba       0x42 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcasecmp.o)
+                0x04089eba                strcasecmp
+ .text          0x04089efc       0x1a C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcat.o)
+                0x04089efc                strcat
+ .text          0x04089f16       0x16 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strchr.o)
+                0x04089f16                strchr
+ .text          0x04089f2c       0x16 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcmp.o)
+                0x04089f2c                strcmp
+ .text          0x04089f42       0x10 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcpy.o)
+                0x04089f42                strcpy
+ .text          0x04089f52       0x24 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcspn.o)
+                0x04089f52                strcspn
+ .text          0x04089f76       0x2c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strlcpy.o)
+                0x04089f76                strlcpy
+ .text          0x04089fa2        0xe C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strlen.o)
+                0x04089fa2                strlen
+ .text          0x04089fb0       0x4a C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strncasecmp.o)
+                0x04089fb0                strncasecmp
+ .text          0x04089ffa       0x24 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strncmp.o)
+                0x04089ffa                strncmp
+ .text          0x0408a01e       0x2c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strncpy.o)
+                0x0408a01e                strncpy
+ .text          0x0408a04a       0x38 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strpbrk.o)
+                0x0408a04a                strpbrk
+ .text          0x0408a082       0x24 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strrchr.o)
+                0x0408a082                strrchr
+ .text          0x0408a0a6        0xa C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strsep.o)
+                0x0408a0a6                strsep
+ .text          0x0408a0b0       0x26 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strspn.o)
+                0x0408a0b0                strspn
+ .text          0x0408a0d6       0x2e C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strstr.o)
+                0x0408a0d6                strstr
+ .text          0x0408a104       0x10 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strtok.o)
+                0x0408a104                strtok
+ .text          0x0408a114       0x54 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strtok_r.o)
+                0x0408a114                __strtok_r
+                0x0408a164                strtok_r
+ .text          0x0408a168      0x11e C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strtol.o)
+                0x0408a168                _strtol_r
+                0x0408a26e                strtol
+ .text          0x0408a286       0x1e C:\JL\pi32\pi32v2-lib\libc.a(lib_a-tolower.o)
+                0x0408a286                tolower
+ .text          0x0408a2a4        0x8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(subdf3.o)
+                0x0408a2a4                __subdf3
+ .text          0x0408a2ac      0x2ba C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(adddf3.o)
+                0x0408a2ac                __adddf3
+ .text          0x0408a566       0x2c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memmove.o)
+                0x0408a566                memmove
+ .text          0x0408a592      0x166 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(addsf3.o)
+                0x0408a592                __addsf3
+ .text          0x0408a6f8      0x176 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparedf2.o)
+                0x0408a6f8                __ledf2
+                0x0408a78e                __gedf2
+                0x0408a826                __unorddf2
+                0x0408a866                __eqdf2
+                0x0408a868                __ltdf2
+                0x0408a86a                __nedf2
+                0x0408a86c                __gtdf2
+ .text          0x0408a86e       0xa4 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparesf2.o)
+                0x0408a86e                __lesf2
+                0x0408a8ae                __gesf2
+                0x0408a8ee                __unordsf2
+                0x0408a90a                __eqsf2
+                0x0408a90c                __ltsf2
+                0x0408a90e                __nesf2
+                0x0408a910                __gtsf2
+ .text          0x0408a912      0x2c6 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdf3.o)
+                0x0408a912                __divdf3
+ .text          0x0408abd8       0x54 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdi3.o)
+                0x0408abd8                __divdi3
+ .text          0x0408ac2c       0x42 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfsi.o)
+                0x0408ac2c                __fixdfsi
+ .text          0x0408ac6e       0x4a C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixsfsi.o)
+                0x0408ac6e                __fixsfsi
+ .text          0x0408acb8       0x3c C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsidf.o)
+                0x0408acb8                __floatsidf
+ .text          0x0408acf4       0x50 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsisf.o)
+                0x0408acf4                __floatunsisf
+ .text          0x0408ad44      0x262 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(muldf3.o)
+                0x0408ad44                __muldf3
+ .text          0x0408afa6      0x130 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(mulsf3.o)
+                0x0408afa6                __mulsf3
+ .text          0x0408b0d6       0xd8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(truncdfsf2.o)
+                0x0408b0d6                __truncdfsf2
+ .text          0x0408b1ae       0x10 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivdi3.o)
+                0x0408b1ae                __udivdi3
+ .text          0x0408b1be      0x236 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivmoddi4.o)
+                0x0408b1be                __udivmoddi4
  *(.rodata*)
  .rodata.str1.1
-                0x04099a0a    0x13892 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                              0x13ec6 (size before relaxing)
- *fill*         0x040ad29c       0x24 
- .rodata        0x040ad2c0    0x1062c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
- .rodata.cst8   0x040bd8ec       0x68 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
+                0x0408b3f4     0xed1b C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                               0xf13c (size before relaxing)
+ *fill*         0x0409a10f       0x31 
+ .rodata        0x0409a140     0xf35c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+ .rodata.cst8   0x040a949c       0x68 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
                                  0x78 (size before relaxing)
- .rodata.cst4   0x040bd954       0x18 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                                 0x2c (size before relaxing)
- .rodata.cst16  0x040bd96c       0xd0 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
- *fill*         0x040bda3c        0x4 
- .rodata.cst32  0x040bda40      0x1a0 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
+ .rodata.cst4   0x040a9504       0x1c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                                 0x30 (size before relaxing)
+ .rodata.cst16  0x040a9520       0xc0 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+ .rodata.cst32  0x040a95e0      0x160 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
  .rodata.str4.4
-                0x040bdbe0      0x2dc C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
- *fill*         0x040bdebc        0x4 
+                0x040a9740      0x2dc C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+ *fill*         0x040a9a1c        0x4 
  .rodata.str1.16
-                0x040bdec0     0x1080 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                               0x1079 (size before relaxing)
- .rodata.str4.16
-                0x040bef40       0x40 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                                 0x34 (size before relaxing)
- .rodata        0x040bef80      0x281 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-ctype_.o)
-                0x040bf100                _ctype_
- *fill*         0x040bf201        0x3 
- .rodata        0x040bf204        0x4 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-impure.o)
-                0x040bf204                _global_impure_ptr
+                0x040a9a20      0xbc0 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                                0xbb9 (size before relaxing)
+ .rodata        0x040aa5e0      0x281 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-ctype_.o)
+                0x040aa760                _ctype_
+ *fill*         0x040aa861        0x3 
+ .rodata        0x040aa864        0x4 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-impure.o)
+                0x040aa864                _global_impure_ptr
  .rodata.str1.1
-                0x040bf208        0x0 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-impure.o)
+                0x040aa868        0x0 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-impure.o)
                                   0x2 (size before relaxing)
  .rodata.str1.1
-                0x040bf208        0x6 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-locale.o)
+                0x040aa868        0x6 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-locale.o)
                                   0xb (size before relaxing)
-                0x040bf20e                _text_rodata_end = .
+                0x040aa86e                _text_rodata_end = .
                 [!provide]                PROVIDE (text_rodata_end, .)
-                0x040bf220                . = ALIGN (0x20)
- *fill*         0x040bf20e       0x12 
+                0x040aa880                . = ALIGN (0x20)
+ *fill*         0x040aa86e       0x12 
  *(.data)
- *fill*         0x040bf220       0x20 
- .data          0x040bf240     0xf3a0 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
- .data          0x040ce5e0        0x4 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-ctype_.o)
-                0x040ce5e0                __ctype_ptr__
- .data          0x040ce5e4      0x428 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-impure.o)
-                0x040ce5e4                _impure_ptr
- .data          0x040cea0c       0x7c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-locale.o)
-                0x040cea0c                __mb_cur_max
-                0x040cea88                . = ALIGN (0x4)
-                0x040cea88                vfs_ops_begin = .
+ .data          0x040aa880     0xca50 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+ .data          0x040b72d0        0x4 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-ctype_.o)
+                0x040b72d0                __ctype_ptr__
+ .data          0x040b72d4      0x428 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-impure.o)
+                0x040b72d4                _impure_ptr
+ .data          0x040b76fc       0x7c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-locale.o)
+                0x040b76fc                __mb_cur_max
+                0x040b7778                . = ALIGN (0x4)
+                0x040b7778                vfs_ops_begin = .
  *(.vfs_operations)
  .vfs_operations
-                0x040cea88      0x190 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cec18                vfs_ops_end = .
-                0x040cec18                _lcd_device_begin = .
+                0x040b7778      0x190 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b7908                vfs_ops_end = .
+                0x040b7908                _lcd_device_begin = .
                 [!provide]                PROVIDE (lcd_device_begin, .)
  *(.lcd_device)
- .lcd_device    0x040cec18      0x398 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cefb0                _lcd_device_end = .
+ .lcd_device    0x040b7908      0x398 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b7ca0                _lcd_device_end = .
                 [!provide]                PROVIDE (lcd_device_end, .)
-                0x040cefb0                _lcd_device_drive_begin = .
-                0x040cefb0                PROVIDE (lcd_device_drive_begin, .)
+                0x040b7ca0                _lcd_device_drive_begin = .
+                0x040b7ca0                PROVIDE (lcd_device_drive_begin, .)
  *(.lcd_device_drive)
  .lcd_device_drive
-                0x040cefb0       0x38 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cefe8                _lcd_device_drive_end = .
-                0x040cefe8                PROVIDE (lcd_device_drive_end, .)
-                0x040cefe8                _gsensor_dev_begin = .
-                0x040cefe8                PROVIDE (gsensor_dev_begin, .)
+                0x040b7ca0       0x38 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b7cd8                _lcd_device_drive_end = .
+                0x040b7cd8                PROVIDE (lcd_device_drive_end, .)
+                0x040b7cd8                _gsensor_dev_begin = .
+                0x040b7cd8                PROVIDE (gsensor_dev_begin, .)
  *(.gsensor_dev)
- .gsensor_dev   0x040cefe8       0x60 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cf048                _gsensor_dev_end = .
-                0x040cf048                PROVIDE (gsensor_dev_end, .)
-                0x040cf048                _touch_panel_dev_begin = .
+ .gsensor_dev   0x040b7cd8       0x60 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b7d38                _gsensor_dev_end = .
+                0x040b7d38                PROVIDE (gsensor_dev_end, .)
+                0x040b7d38                _touch_panel_dev_begin = .
                 [!provide]                PROVIDE (touch_panel_dev_begin, .)
  *(.touch_panel_dev)
-                0x040cf048                _touch_panel_dev_end = .
+                0x040b7d38                _touch_panel_dev_end = .
                 [!provide]                PROVIDE (touch_panel_dev_end, .)
-                0x040cf048                _isp_scr_begin = .
-                0x040cf048                PROVIDE (isp_scr_begin, .)
+                0x040b7d38                _isp_scr_begin = .
+                0x040b7d38                PROVIDE (isp_scr_begin, .)
  *(.isp_scr_work)
- .isp_scr_work  0x040cf048       0x18 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cf060                _isp_scr_end = .
-                0x040cf060                PROVIDE (isp_scr_end, .)
-                0x040cf060                _power_dev_begin = .
+ .isp_scr_work  0x040b7d38       0x18 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b7d50                _isp_scr_end = .
+                0x040b7d50                PROVIDE (isp_scr_end, .)
+                0x040b7d50                _power_dev_begin = .
                 [!provide]                PROVIDE (power_dev_begin, .)
  *(.power_dev)
-                0x040cf060                _power_dev_end = .
+                0x040b7d50                _power_dev_end = .
                 [!provide]                PROVIDE (power_dev_end, .)
-                0x040cf060                _eth_phy_device_begin = .
+                0x040b7d50                _eth_phy_device_begin = .
                 [!provide]                PROVIDE (eth_phy_device_begin, .)
  *(.eth_phy_device)
-                0x040cf060                _eth_phy_device_end = .
+                0x040b7d50                _eth_phy_device_end = .
                 [!provide]                PROVIDE (eth_phy_device_end, .)
-                0x040cf060                _ui_style_begin = .
-                0x040cf060                PROVIDE (ui_style_begin, .)
+                0x040b7d50                _ui_style_begin = .
+                0x040b7d50                PROVIDE (ui_style_begin, .)
  *(.ui_style)
- .ui_style      0x040cf060       0x30 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cf090                _ui_style_end = .
-                0x040cf090                PROVIDE (ui_style_end, .)
-                0x040cf090                _elm_event_handler_begin_UPGRADE = .
-                0x040cf090                PROVIDE (elm_event_handler_begin_UPGRADE, .)
+ .ui_style      0x040b7d50       0x30 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b7d80                _ui_style_end = .
+                0x040b7d80                PROVIDE (ui_style_end, .)
+                0x040b7d80                _elm_event_handler_begin_UPGRADE = .
+                0x040b7d80                PROVIDE (elm_event_handler_begin_UPGRADE, .)
  *(.elm_event_handler_UPGRADE)
-                0x040cf090                _elm_event_handler_end_UPGRADE = .
-                0x040cf090                PROVIDE (elm_event_handler_end_UPGRADE, .)
-                0x040cf090                _elm_event_handler_begin_JL02 = .
+                0x040b7d80                _elm_event_handler_end_UPGRADE = .
+                0x040b7d80                PROVIDE (elm_event_handler_end_UPGRADE, .)
+                0x040b7d80                _elm_event_handler_begin_JL02 = .
                 [!provide]                PROVIDE (elm_event_handler_begin_JL02, .)
  *(.elm_event_handler_JL02)
-                0x040cf090                _elm_event_handler_end_JL02 = .
+                0x040b7d80                _elm_event_handler_end_JL02 = .
                 [!provide]                PROVIDE (elm_event_handler_end_JL02, .)
-                0x040cf090                _elm_event_handler_begin_ANI = .
-                0x040cf090                PROVIDE (elm_event_handler_begin_ANI, .)
+                0x040b7d80                _elm_event_handler_begin_ANI = .
+                0x040b7d80                PROVIDE (elm_event_handler_begin_ANI, .)
  *(.elm_event_handler_ANI)
  .elm_event_handler_ANI
-                0x040cf090       0x20 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cf0b0                _elm_event_handler_end_ANI = .
-                0x040cf0b0                PROVIDE (elm_event_handler_end_ANI, .)
-                0x040cf0b0                _elm_event_handler_begin_LY = .
-                0x040cf0b0                PROVIDE (elm_event_handler_begin_LY, .)
+                0x040b7d80       0x20 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b7da0                _elm_event_handler_end_ANI = .
+                0x040b7da0                PROVIDE (elm_event_handler_end_ANI, .)
+                0x040b7da0                _elm_event_handler_begin_LY = .
+                0x040b7da0                PROVIDE (elm_event_handler_begin_LY, .)
  *(.elm_event_handler_LY)
  .elm_event_handler_LY
-                0x040cf0b0      0x8e0 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cf990                _elm_event_handler_end_LY = .
-                0x040cf990                PROVIDE (elm_event_handler_end_LY, .)
-                0x040cf990                _control_event_handler_begin = .
+                0x040b7da0      0x8e0 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b8680                _elm_event_handler_end_LY = .
+                0x040b8680                PROVIDE (elm_event_handler_end_LY, .)
+                0x040b8680                _control_event_handler_begin = .
                 [!provide]                PROVIDE (control_event_handler_begin, .)
  *(.control_event_handler)
-                0x040cf990                _control_event_handler_end = .
+                0x040b8680                _control_event_handler_end = .
                 [!provide]                PROVIDE (control_event_handler_end, .)
-                0x040cf990                _control_ops_begin = .
-                0x040cf990                PROVIDE (control_ops_begin, .)
+                0x040b8680                _control_ops_begin = .
+                0x040b8680                PROVIDE (control_ops_begin, .)
  *(.control_ops)
- .control_ops   0x040cf990       0x78 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cfa08                _control_ops_end = .
-                0x040cfa08                PROVIDE (control_ops_end, .)
-                0x040cfa08                _vg_event_handler_begin = .
+ .control_ops   0x040b8680       0x78 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b86f8                _control_ops_end = .
+                0x040b86f8                PROVIDE (control_ops_end, .)
+                0x040b86f8                _vg_event_handler_begin = .
                 [!provide]                PROVIDE (vg_event_handler_begin, .)
  *(.vg_event_handler)
-                0x040cfa08                _vg_event_handler_end = .
+                0x040b86f8                _vg_event_handler_end = .
                 [!provide]                PROVIDE (vg_event_handler_end, .)
-                0x040cfa08                _on_show_map_begin = .
+                0x040b86f8                _on_show_map_begin = .
                 [!provide]                PROVIDE (on_show_map_begin, .)
  *(.on_show_map)
-                0x040cfa08                _on_show_map_end = .
+                0x040b86f8                _on_show_map_end = .
                 [!provide]                PROVIDE (on_show_map_end, .)
-                0x040cfa08                _on_click_map_begin = .
+                0x040b86f8                _on_click_map_begin = .
                 [!provide]                PROVIDE (on_click_map_begin, .)
  *(.on_click_map)
-                0x040cfa08                _on_click_map_end = .
+                0x040b86f8                _on_click_map_end = .
                 [!provide]                PROVIDE (on_click_map_end, .)
-                0x040cfa08                _on_touch_map_begin = .
+                0x040b86f8                _on_touch_map_begin = .
                 [!provide]                PROVIDE (on_touch_map_begin, .)
  *(.on_touch_map)
-                0x040cfa08                _on_touch_map_end = .
+                0x040b86f8                _on_touch_map_end = .
                 [!provide]                PROVIDE (on_touch_map_end, .)
-                0x040cfa08                _on_change_map_begin = .
+                0x040b86f8                _on_change_map_begin = .
                 [!provide]                PROVIDE (on_change_map_begin, .)
  *(.on_change_map)
-                0x040cfa08                _on_change_map_end = .
+                0x040b86f8                _on_change_map_end = .
                 [!provide]                PROVIDE (on_change_map_end, .)
-                0x040cfa08                _on_key_map_begin = .
+                0x040b86f8                _on_key_map_begin = .
                 [!provide]                PROVIDE (on_key_map_begin, .)
  *(.on_key_map)
-                0x040cfa08                _on_key_map_end = .
+                0x040b86f8                _on_key_map_end = .
                 [!provide]                PROVIDE (on_key_map_end, .)
-                0x040cfa08                _img_loader_begin = .
+                0x040b86f8                _img_loader_begin = .
                 [!provide]                PROVIDE (img_loader_begin, .)
  *(.img_loader)
-                0x040cfa08                _img_loader_end = .
+                0x040b86f8                _img_loader_end = .
                 [!provide]                PROVIDE (img_loader_end, .)
-                0x040cfa08                _battery_notify_begin = .
+                0x040b86f8                _battery_notify_begin = .
                 [!provide]                PROVIDE (battery_notify_begin, .)
  *(.battery_notify)
-                0x040cfa08                _battery_notify_end = .
+                0x040b86f8                _battery_notify_end = .
                 [!provide]                PROVIDE (battery_notify_end, .)
-                0x040cfa08                _lib_version_begin = .
+                0x040b86f8                _lib_version_begin = .
                 [!provide]                PROVIDE (lib_version_begin, .)
  *(.lib_version)
- .lib_version   0x040cfa08       0x4c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cfa08                __version_fs
-                0x040cfa0c                __version_fatfs
-                0x040cfa10                __version_server_core
-                0x040cfa14                __version_ui_server
-                0x040cfa18                __version_usb_server
-                0x040cfa1c                __version_video_dec_server
-                0x040cfa20                __version_vunpkg_server
-                0x040cfa24                __version_video_server
-                0x040cfa28                __version_vpkg_server
-                0x040cfa2c                __version_upgrade
-                0x040cfa30                __version_video_engine_server
-                0x040cfa34                __version_video_dev
-                0x040cfa38                __version_sys
-                0x040cfa3c                __version_audio_server
-                0x040cfa40                __version_cpu
-                0x040cfa44                __version_isp
-                0x040cfa48                __version_sdfile
-                0x040cfa4c                __version_devfs
-                0x040cfa50                __version_ramfs
-                0x040cfa54                _lib_version_end = .
+ .lib_version   0x040b86f8       0x4c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b86f8                __version_fs
+                0x040b86fc                __version_fatfs
+                0x040b8700                __version_server_core
+                0x040b8704                __version_ui_server
+                0x040b8708                __version_usb_server
+                0x040b870c                __version_video_dec_server
+                0x040b8710                __version_vunpkg_server
+                0x040b8714                __version_video_server
+                0x040b8718                __version_vpkg_server
+                0x040b871c                __version_upgrade
+                0x040b8720                __version_video_engine_server
+                0x040b8724                __version_video_dev
+                0x040b8728                __version_sys
+                0x040b872c                __version_audio_server
+                0x040b8730                __version_cpu
+                0x040b8734                __version_isp
+                0x040b8738                __version_sdfile
+                0x040b873c                __version_devfs
+                0x040b8740                __version_ramfs
+                0x040b8744                _lib_version_end = .
                 [!provide]                PROVIDE (lib_version_end, .)
-                0x040cfa54                _initcall_begin = .
-                0x040cfa54                PROVIDE (initcall_begin, .)
+                0x040b8744                _initcall_begin = .
+                0x040b8744                PROVIDE (initcall_begin, .)
  *(.initcall)
- .initcall      0x040cfa54       0x18 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cfa54                __initcall_spi_flash_write_protect
-                0x040cfa58                __initcall_app_config_init
-                0x040cfa5c                __initcall_usb_server_init
-                0x040cfa60                __initcall_video_server_init
-                0x040cfa64                __initcall_vpkg_server_init
-                0x040cfa68                __initcall_video_engine_server_init
-                0x040cfa6c                _initcall_end = .
-                0x040cfa6c                PROVIDE (initcall_end, .)
-                0x040cfa6c                _early_initcall_begin = .
-                0x040cfa6c                PROVIDE (early_initcall_begin, .)
+ .initcall      0x040b8744       0x18 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b8744                __initcall_spi_flash_write_protect
+                0x040b8748                __initcall_app_config_init
+                0x040b874c                __initcall_usb_server_init
+                0x040b8750                __initcall_video_server_init
+                0x040b8754                __initcall_vpkg_server_init
+                0x040b8758                __initcall_video_engine_server_init
+                0x040b875c                _initcall_end = .
+                0x040b875c                PROVIDE (initcall_end, .)
+                0x040b875c                _early_initcall_begin = .
+                0x040b875c                PROVIDE (early_initcall_begin, .)
  *(.early.initcall)
  .early.initcall
-                0x040cfa6c       0x14 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cfa6c                __initcall_sys_event_init
-                0x040cfa70                __initcall_wait_completion_init
-                0x040cfa74                __initcall_dma_copy_init
-                0x040cfa78                __initcall_port_wakeup_init
-                0x040cfa7c                __initcall_timer1_init
-                0x040cfa80                _early_initcall_end = .
-                0x040cfa80                PROVIDE (early_initcall_end, .)
-                0x040cfa80                _late_initcall_begin = .
-                0x040cfa80                PROVIDE (late_initcall_begin, .)
+                0x040b875c       0x14 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b875c                __initcall_sys_event_init
+                0x040b8760                __initcall_wait_completion_init
+                0x040b8764                __initcall_dma_copy_init
+                0x040b8768                __initcall_port_wakeup_init
+                0x040b876c                __initcall_timer1_init
+                0x040b8770                _early_initcall_end = .
+                0x040b8770                PROVIDE (early_initcall_end, .)
+                0x040b8770                _late_initcall_begin = .
+                0x040b8770                PROVIDE (late_initcall_begin, .)
  *(.late.initcall)
  .late.initcall
-                0x040cfa80       0x20 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cfa80                __initcall_auto_test_init
-                0x040cfa84                __initcall_gsensor_init
-                0x040cfa88                __initcall_auto_close_init
-                0x040cfa8c                __initcall_charging_detect
-                0x040cfa90                __initcall_lower_power_close_ctrl
-                0x040cfa94                __initcall_usb0_init
-                0x040cfa98                __initcall_usb1_init
-                0x040cfa9c                __initcall_init_application
-                0x040cfaa0                _late_initcall_end = .
-                0x040cfaa0                PROVIDE (late_initcall_end, .)
-                0x040cfaa0                _platform_initcall_begin = .
-                0x040cfaa0                PROVIDE (platform_initcall_begin, .)
+                0x040b8770       0x20 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b8770                __initcall_auto_test_init
+                0x040b8774                __initcall_gsensor_init
+                0x040b8778                __initcall_auto_close_init
+                0x040b877c                __initcall_charging_detect
+                0x040b8780                __initcall_lower_power_close_ctrl
+                0x040b8784                __initcall_usb0_init
+                0x040b8788                __initcall_usb1_init
+                0x040b878c                __initcall_init_application
+                0x040b8790                _late_initcall_end = .
+                0x040b8790                PROVIDE (late_initcall_end, .)
+                0x040b8790                _platform_initcall_begin = .
+                0x040b8790                PROVIDE (platform_initcall_begin, .)
  *(.platform.initcall)
  .platform.initcall
-                0x040cfaa0        0xc C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cfaa0                __initcall_wkup_reaon_check
-                0x040cfaa4                __initcall_adc_scan_init
-                0x040cfaa8                __initcall_register_fbinfo
-                0x040cfaac                _platform_initcall_end = .
-                0x040cfaac                PROVIDE (platform_initcall_end, .)
-                0x040cfaac                _module_initcall_begin = .
-                0x040cfaac                PROVIDE (module_initcall_begin, .)
+                0x040b8790        0xc C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b8790                __initcall_wkup_reaon_check
+                0x040b8794                __initcall_adc_scan_init
+                0x040b8798                __initcall_register_fbinfo
+                0x040b879c                _platform_initcall_end = .
+                0x040b879c                PROVIDE (platform_initcall_end, .)
+                0x040b879c                _module_initcall_begin = .
+                0x040b879c                PROVIDE (module_initcall_begin, .)
  *(.module.initcall)
  .module.initcall
-                0x040cfaac        0x4 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cfaac                __initcall_thread_fork_init
-                0x040cfab0                _module_initcall_end = .
-                0x040cfab0                PROVIDE (module_initcall_end, .)
-                0x040cfab0                _sys_event_handler_begin = .
-                0x040cfab0                PROVIDE (sys_event_handler_begin, .)
+                0x040b879c        0x4 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b879c                __initcall_thread_fork_init
+                0x040b87a0                _module_initcall_end = .
+                0x040b87a0                PROVIDE (module_initcall_end, .)
+                0x040b87a0                _sys_event_handler_begin = .
+                0x040b87a0                PROVIDE (sys_event_handler_begin, .)
  *(.sys_event.4.handler)
  .sys_event.4.handler
-                0x040cfab0       0x18 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cfab0                __event_handler_backlight_charge_event_handler
-                0x040cfab8                __event_handler_backlight_event_handler
-                0x040cfac0                __event_handler_lower_power_close_handler
+                0x040b87a0       0x18 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b87a0                __event_handler_backlight_charge_event_handler
+                0x040b87a8                __event_handler_backlight_event_handler
+                0x040b87b0                __event_handler_lower_power_close_handler
  *(.sys_event.3.handler)
  .sys_event.3.handler
-                0x040cfac8        0x8 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cfac8                __event_handler_key_event_handler
+                0x040b87b8        0x8 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b87b8                __event_handler_key_event_handler
  *(.sys_event.2.handler)
  *(.sys_event.1.handler)
  *(.sys_event.0.handler)
  .sys_event.0.handler
-                0x040cfad0       0x30 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cfad0                __event_handler_device_event_handler
-                0x040cfad8                __event_handler_auto_close_event_handler
-                0x040cfae0                __event_handler_charg_off_close_event_handler
-                0x040cfae8                __event_handler_msg_device_event_handler
-                0x040cfaf0                __event_handler_uvc_device_event_handler
-                0x040cfaf8                __event_handler_device_event_handler3
-                0x040cfb00                _sys_event_handler_end = .
-                0x040cfb00                PROVIDE (sys_event_handler_end, .)
-                0x040cfb00                _syscfg_arg_begin = .
+                0x040b87c0       0x30 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b87c0                __event_handler_device_event_handler
+                0x040b87c8                __event_handler_auto_close_event_handler
+                0x040b87d0                __event_handler_charg_off_close_event_handler
+                0x040b87d8                __event_handler_msg_device_event_handler
+                0x040b87e0                __event_handler_uvc_device_event_handler
+                0x040b87e8                __event_handler_device_event_handler3
+                0x040b87f0                _sys_event_handler_end = .
+                0x040b87f0                PROVIDE (sys_event_handler_end, .)
+                0x040b87f0                _syscfg_arg_begin = .
                 [!provide]                PROVIDE (syscfg_arg_begin, .)
  *(.syscfg.arg)
-                0x040cfb00                _syscfg_arg_end = .
+                0x040b87f0                _syscfg_arg_end = .
                 [!provide]                PROVIDE (syscfg_arg_end, .)
-                0x040cfb00                _syscfg_handler_begin = .
+                0x040b87f0                _syscfg_handler_begin = .
                 [!provide]                PROVIDE (syscfg_handler_begin, .)
  *(.syscfg.handler)
-                0x040cfb00                _syscfg_handler_end = .
+                0x040b87f0                _syscfg_handler_end = .
                 [!provide]                PROVIDE (syscfg_handler_end, .)
-                0x040cfb00                _server_info_begin = .
-                0x040cfb00                PROVIDE (server_info_begin, .)
+                0x040b87f0                _server_info_begin = .
+                0x040b87f0                PROVIDE (server_info_begin, .)
  *(.server_info)
- .server_info   0x040cfb00       0x90 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cfb00                ui_server_info
-                0x040cfb10                usb_server_info
-                0x040cfb20                video_dec_server_info
-                0x040cfb30                vunpkg_server_info
-                0x040cfb40                video_server_info
-                0x040cfb50                vpkg_server_info
-                0x040cfb60                video_engine_server_info
-                0x040cfb70                audio_server_info
-                0x040cfb80                ctp_server_info
-                0x040cfb90                _server_info_end = .
-                0x040cfb90                PROVIDE (server_info_end, .)
-                0x040cfb90                _app_begin = .
-                0x040cfb90                PROVIDE (app_begin, .)
+ .server_info   0x040b87f0       0x90 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b87f0                ui_server_info
+                0x040b8800                usb_server_info
+                0x040b8810                video_dec_server_info
+                0x040b8820                vunpkg_server_info
+                0x040b8830                video_server_info
+                0x040b8840                vpkg_server_info
+                0x040b8850                video_engine_server_info
+                0x040b8860                audio_server_info
+                0x040b8870                ctp_server_info
+                0x040b8880                _server_info_end = .
+                0x040b8880                PROVIDE (server_info_end, .)
+                0x040b8880                _app_begin = .
+                0x040b8880                PROVIDE (app_begin, .)
  *(.app)
- .app           0x040cfb90       0xe0 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cfc70                _app_end = .
-                0x040cfc70                PROVIDE (app_end, .)
-                0x040cfc70                _bus_device_begin = .
-                0x040cfc70                PROVIDE (bus_device_begin, .)
+ .app           0x040b8880       0xe0 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b8960                _app_end = .
+                0x040b8960                PROVIDE (app_end, .)
+                0x040b8960                _bus_device_begin = .
+                0x040b8960                PROVIDE (bus_device_begin, .)
  *(.bus_device)
- .bus_device    0x040cfc70       0x20 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040cfc70                buf_dev_imb
-                0x040cfc78                bus_dev_avc
-                0x040cfc80                buf_dev_imc
-                0x040cfc88                bus_dev_jpg
-                0x040cfc90                _bus_device_end = .
-                0x040cfc90                PROVIDE (bus_device_end, .)
-                0x040cfca0                . = ALIGN (0x20)
- *fill*         0x040cfc90       0x10 
-                0x040cfca0                _camera_dev_begin = .
-                0x040cfca0                PROVIDE (camera_dev_begin, .)
+ .bus_device    0x040b8960       0x20 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b8960                buf_dev_imb
+                0x040b8968                bus_dev_avc
+                0x040b8970                buf_dev_imc
+                0x040b8978                bus_dev_jpg
+                0x040b8980                _bus_device_end = .
+                0x040b8980                PROVIDE (bus_device_end, .)
+                0x040b8980                . = ALIGN (0x20)
+                0x040b8980                _camera_dev_begin = .
+                0x040b8980                PROVIDE (camera_dev_begin, .)
  *(.camera_dev)
- .camera_dev    0x040cfca0      0x948 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d05e8                _camera_dev_end = .
-                0x040d05e8                PROVIDE (camera_dev_end, .)
-                0x040d05e8                _adc_scan_begin = .
-                0x040d05e8                PROVIDE (adc_scan_begin, .)
+ .camera_dev    0x040b8980      0x948 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b92c8                _camera_dev_end = .
+                0x040b92c8                PROVIDE (camera_dev_end, .)
+                0x040b92c8                _adc_scan_begin = .
+                0x040b92c8                PROVIDE (adc_scan_begin, .)
  *(.adc_scan)
- .adc_scan      0x040d05e8        0xc C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d05f4                _adc_scan_end = .
-                0x040d05f4                PROVIDE (adc_scan_end, .)
-                0x040d05f4                _spi_device_begin = .
+ .adc_scan      0x040b92c8        0xc C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b92d4                _adc_scan_end = .
+                0x040b92d4                PROVIDE (adc_scan_end, .)
+                0x040b92d4                _spi_device_begin = .
                 [!provide]                PROVIDE (spi_device_begin, .)
  *(.spi_device)
-                0x040d05f4                _spi_device_end = .
+                0x040b92d4                _spi_device_end = .
                 [!provide]                PROVIDE (spi_device_end, .)
-                0x040d0600                . = ALIGN (0x20)
- *fill*         0x040d05f4        0xc 
-                0x040d0600                _device_node_begin = .
-                0x040d0600                PROVIDE (device_node_begin, .)
+                0x040b92e0                . = ALIGN (0x20)
+ *fill*         0x040b92d4        0xc 
+                0x040b92e0                _device_node_begin = .
+                0x040b92e0                PROVIDE (device_node_begin, .)
  *(.device)
- .device        0x040d0600      0x114 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d0600                device_table
-                0x040d0708                virtual_audio_dev
-                0x040d0714                _device_node_end = .
-                0x040d0714                PROVIDE (device_node_end, .)
-                0x040d0714                _video_subdev_begin = .
-                0x040d0714                PROVIDE (video_subdev_begin, .)
+ .device        0x040b92e0      0x114 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b92e0                device_table
+                0x040b93e8                virtual_audio_dev
+                0x040b93f4                _device_node_end = .
+                0x040b93f4                PROVIDE (device_node_end, .)
+                0x040b93f4                _video_subdev_begin = .
+                0x040b93f4                PROVIDE (video_subdev_begin, .)
  *(.video_subdev.0)
  .video_subdev.0
-                0x040d0714       0xc8 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
+                0x040b93f4       0xc8 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
  *(.video_subdev.1)
  .video_subdev.1
-                0x040d07dc       0x28 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
+                0x040b94bc       0x28 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
  *(.video_subdev.2)
  .video_subdev.2
-                0x040d0804       0x14 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
+                0x040b94e4       0x14 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
  *(.video_subdev.3)
  .video_subdev.3
-                0x040d0818       0x3c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
+                0x040b94f8       0x3c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
  *(.video_subdev.4)
  *(.video_subdev.5)
-                0x040d0854                _video_subdev_end = .
-                0x040d0854                PROVIDE (video_subdev_end, .)
-                0x040d0854                _audio_subdev_begin = .
-                0x040d0854                PROVIDE (audio_subdev_begin, .)
+                0x040b9534                _video_subdev_end = .
+                0x040b9534                PROVIDE (video_subdev_end, .)
+                0x040b9534                _audio_subdev_begin = .
+                0x040b9534                PROVIDE (audio_subdev_begin, .)
  *(.audio_subdev.0)
  .audio_subdev.0
-                0x040d0854       0x24 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d0854                subdev_adc
-                0x040d0860                subdev_dac
-                0x040d086c                subdev_net_audio
+                0x040b9534       0x24 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b9534                subdev_adc
+                0x040b9540                subdev_dac
+                0x040b954c                subdev_net_audio
  *(.audio_subdev.1)
  .audio_subdev.1
-                0x040d0878       0x18 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d0878                subdev_pcm_enc
-                0x040d0884                subdev_g729_enc
+                0x040b9558       0x18 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b9558                subdev_pcm_enc
+                0x040b9564                subdev_g729_enc
  *(.audio_subdev.2)
  *(.audio_subdev.3)
-                0x040d0890                _audio_subdev_end = .
-                0x040d0890                PROVIDE (audio_subdev_end, .)
-                0x040d0890                _iic_device_begin = .
-                0x040d0890                PROVIDE (iic_device_begin, .)
+                0x040b9570                _audio_subdev_end = .
+                0x040b9570                PROVIDE (audio_subdev_end, .)
+                0x040b9570                _iic_device_begin = .
+                0x040b9570                PROVIDE (iic_device_begin, .)
  *(.iic)
- .iic           0x040d0890       0x28 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d08b8                _iic_device_end = .
-                0x040d08b8                PROVIDE (iic_device_end, .)
-                0x040d08b8                _uart_device_begin = .
-                0x040d08b8                PROVIDE (uart_device_begin, .)
+ .iic           0x040b9570       0x28 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b9598                _iic_device_end = .
+                0x040b9598                PROVIDE (iic_device_end, .)
+                0x040b9598                _uart_device_begin = .
+                0x040b9598                PROVIDE (uart_device_begin, .)
  *(.uart)
- .uart          0x040d08b8       0x90 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d0948                _uart_device_end = .
-                0x040d0948                PROVIDE (uart_device_end, .)
-                0x040d0948                _gps_device_begin = .
+ .uart          0x040b9598       0x90 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b9628                _uart_device_end = .
+                0x040b9628                PROVIDE (uart_device_end, .)
+                0x040b9628                _gps_device_begin = .
                 [!provide]                PROVIDE (gps_device_begin, .)
  *(.gps)
-                0x040d0948                _gps_device_end = .
+                0x040b9628                _gps_device_end = .
                 [!provide]                PROVIDE (gps_device_end, .)
-                0x040d0948                _pwm_device_begin = .
+                0x040b9628                _pwm_device_begin = .
                 [!provide]                PROVIDE (pwm_device_begin, .)
  *(.pwm)
-                0x040d0948                _pwm_device_end = .
+                0x040b9628                _pwm_device_end = .
                 [!provide]                PROVIDE (pwm_device_end, .)
-                0x040d0948                _eth_phy_device_begin = .
+                0x040b9628                _eth_phy_device_begin = .
                 [!provide]                PROVIDE (eth_phy_device_begin, .)
  *(.eth_phy_device)
-                0x040d0948                _eth_phy_device_end = .
+                0x040b9628                _eth_phy_device_end = .
                 [!provide]                PROVIDE (eth_phy_device_end, .)
-                0x040d0948                _rf_phy_device_begin = .
-                0x040d0948                PROVIDE (rf_phy_device_begin, .)
+                0x040b9628                _rf_phy_device_begin = .
+                0x040b9628                PROVIDE (rf_phy_device_begin, .)
  *(.rf_phy_device)
  .rf_phy_device
-                0x040d0948       0x10 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d0958                _rf_phy_device_end = .
-                0x040d0958                PROVIDE (rf_phy_device_end, .)
-                0x040d0958                _ctp_mapping_tab_begin = .
-                0x040d0958                PROVIDE (ctp_mapping_tab_begin, .)
-                0x040d0958                _ctp_mapping_tab_system_cmd_begin = .
+                0x040b9628       0x10 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b9638                _rf_phy_device_end = .
+                0x040b9638                PROVIDE (rf_phy_device_end, .)
+                0x040b9638                _ctp_mapping_tab_begin = .
+                0x040b9638                PROVIDE (ctp_mapping_tab_begin, .)
+                0x040b9638                _ctp_mapping_tab_system_cmd_begin = .
                 [!provide]                PROVIDE (ctp_mapping_tab_system_cmd_begin, .)
  *(.ctp_system_cmd)
  .ctp_system_cmd
-                0x040d0958      0x280 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d0958                ctp_system_cmd_tab
-                0x040d0bd8                _ctp_mapping_tab_system_cmd_end = .
+                0x040b9638      0x280 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b9638                ctp_system_cmd_tab
+                0x040b98b8                _ctp_mapping_tab_system_cmd_end = .
                 [!provide]                PROVIDE (ctp_mapping_tab_system_cmd_end, .)
-                0x040d0bd8                _ctp_mapping_tab_video_cmd_begin = .
+                0x040b98b8                _ctp_mapping_tab_video_cmd_begin = .
                 [!provide]                PROVIDE (ctp_mapping_tab_video_cmd_begin, .)
  *(.ctp_video_cmd)
  .ctp_video_cmd
-                0x040d0bd8      0x230 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d0bd8                ctp_video_cmd_tab
-                0x040d0e08                _ctp_mapping_tab_video_cmd_end = .
+                0x040b98b8      0x230 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b98b8                ctp_video_cmd_tab
+                0x040b9ae8                _ctp_mapping_tab_video_cmd_end = .
                 [!provide]                PROVIDE (ctp_mapping_tab_video_cmd_end, .)
-                0x040d0e08                _ctp_mapping_tab_photo_cmd_begin = .
+                0x040b9ae8                _ctp_mapping_tab_photo_cmd_begin = .
                 [!provide]                PROVIDE (ctp_mapping_tab_photo_cmd_begin, .)
  *(.ctp_photo_cmd)
  .ctp_photo_cmd
-                0x040d0e08       0x3c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d0e08                ctp_photo_cmd_tab
-                0x040d0e44                _ctp_mapping_tab_photo_cmd_end = .
+                0x040b9ae8       0x3c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b9ae8                ctp_photo_cmd_tab
+                0x040b9b24                _ctp_mapping_tab_photo_cmd_end = .
                 [!provide]                PROVIDE (ctp_mapping_tab_photo_cmd_end, .)
-                0x040d0e44                _ctp_mapping_tab_end = .
-                0x040d0e44                PROVIDE (ctp_mapping_tab_end, .)
-                0x040d0e44                _sig_mapping_tab_cmd_begin = .
+                0x040b9b24                _ctp_mapping_tab_end = .
+                0x040b9b24                PROVIDE (ctp_mapping_tab_end, .)
+                0x040b9b24                _sig_mapping_tab_cmd_begin = .
                 [!provide]                PROVIDE (sig_mapping_tab_cmd_begin, .)
  *(.sig_cmd)
-                0x040d0e44                _sig_mapping_tab_cmd_end = .
+                0x040b9b24                _sig_mapping_tab_cmd_end = .
                 [!provide]                PROVIDE (sig_mapping_tab_cmd_end, .)
-                0x040d0e44                _net_video_stream_sub_begin = .
-                0x040d0e44                PROVIDE (net_video_stream_sub_begin, .)
+                0x040b9b24                _net_video_stream_sub_begin = .
+                0x040b9b24                PROVIDE (net_video_stream_sub_begin, .)
  *(.net_video_stream)
  .net_video_stream
-                0x040d0e44       0x64 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d0ea8                _net_video_stream_sub_end = .
-                0x040d0ea8                PROVIDE (net_video_stream_sub_end, .)
-                0x040d0ea8                _avin_spi_device_begin = .
-                0x040d0ea8                PROVIDE (avin_spi_device_begin, .)
+                0x040b9b24       0x64 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b9b88                _net_video_stream_sub_end = .
+                0x040b9b88                PROVIDE (net_video_stream_sub_end, .)
+                0x040b9b88                _avin_spi_device_begin = .
+                0x040b9b88                PROVIDE (avin_spi_device_begin, .)
  *(.sw_spi)
- .sw_spi        0x040d0ea8       0x2c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d0ed4                _avin_spi_device_end = .
-                0x040d0ed4                PROVIDE (avin_spi_device_end, .)
-                0x040d0ee0                . = ALIGN (0x20)
- *fill*         0x040d0ed4        0xc 
-                0x040d0ee0                _key_driver_begin = .
-                0x040d0ee0                PROVIDE (key_driver_begin, .)
+ .sw_spi        0x040b9b88       0x2c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b9bb4                _avin_spi_device_end = .
+                0x040b9bb4                PROVIDE (avin_spi_device_end, .)
+                0x040b9bc0                . = ALIGN (0x20)
+ *fill*         0x040b9bb4        0xc 
+                0x040b9bc0                _key_driver_begin = .
+                0x040b9bc0                PROVIDE (key_driver_begin, .)
  *(.key_driver)
- .key_driver    0x040d0ee0       0xa0 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d0f80                _key_driver_end = .
-                0x040d0f80                PROVIDE (key_driver_end, .)
-                0x040d0f80                _touch_driver_begin = .
+ .key_driver    0x040b9bc0       0xa0 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b9c60                _key_driver_end = .
+                0x040b9c60                PROVIDE (key_driver_end, .)
+                0x040b9c60                _touch_driver_begin = .
                 [!provide]                PROVIDE (touch_driver_begin, .)
  *(.touch_driver)
-                0x040d0f80                _touch_driver_end = .
+                0x040b9c60                _touch_driver_end = .
                 [!provide]                PROVIDE (touch_driver_end, .)
-                0x040d0f80                _static_hi_timer_begin = .
-                0x040d0f80                PROVIDE (static_hi_timer_begin, .)
+                0x040b9c60                _static_hi_timer_begin = .
+                0x040b9c60                PROVIDE (static_hi_timer_begin, .)
  *(.hi_timer)
-                0x040d0f80                _static_hi_timer_end = .
-                0x040d0f80                PROVIDE (static_hi_timer_end, .)
-                0x040d0f80                _sys_cpu_timer_begin = .
-                0x040d0f80                PROVIDE (sys_cpu_timer_begin, .)
+                0x040b9c60                _static_hi_timer_end = .
+                0x040b9c60                PROVIDE (static_hi_timer_end, .)
+                0x040b9c60                _sys_cpu_timer_begin = .
+                0x040b9c60                PROVIDE (sys_cpu_timer_begin, .)
  *(.sys_cpu_timer)
  .sys_cpu_timer
-                0x040d0f80       0x10 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d0f80                cpu_timer2
-                0x040d0f90                _sys_cpu_timer_end = .
-                0x040d0f90                PROVIDE (sys_cpu_timer_end, .)
-                0x040d0f90                _sys_config_begin = .
+                0x040b9c60       0x10 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b9c60                cpu_timer2
+                0x040b9c70                _sys_cpu_timer_end = .
+                0x040b9c70                PROVIDE (sys_cpu_timer_end, .)
+                0x040b9c70                _sys_config_begin = .
                 [!provide]                PROVIDE (sys_config_begin, .)
  *(.sys_cfg)
-                0x040d0f90                _sys_config_end = .
+                0x040b9c70                _sys_config_end = .
                 [!provide]                PROVIDE (sys_config_end, .)
-                0x040d0f90                _audio_decoder_begin = .
-                0x040d0f90                PROVIDE (audio_decoder_begin, .)
+                0x040b9c70                _audio_decoder_begin = .
+                0x040b9c70                PROVIDE (audio_decoder_begin, .)
  *(.audio_decoder)
  .audio_decoder
-                0x040d0f90       0x20 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d0f90                pcm_decoder_ops
-                0x040d0fa0                adpcm_decoder_ops
-                0x040d0fb0                _audio_decoder_end = .
-                0x040d0fb0                PROVIDE (audio_decoder_end, .)
-                0x040d0fb0                _audio_pkg_begin = .
-                0x040d0fb0                PROVIDE (audio_pkg_begin, .)
+                0x040b9c70       0x20 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b9c70                pcm_decoder_ops
+                0x040b9c80                adpcm_decoder_ops
+                0x040b9c90                _audio_decoder_end = .
+                0x040b9c90                PROVIDE (audio_decoder_end, .)
+                0x040b9c90                _audio_pkg_begin = .
+                0x040b9c90                PROVIDE (audio_pkg_begin, .)
  *(.audio_pkg)
- .audio_pkg     0x040d0fb0       0x38 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d0fb0                pcm_pkg_ops
-                0x040d0fcc                g729_pkg_ops
-                0x040d0fe8                _audio_pkg_end = .
-                0x040d0fe8                PROVIDE (audio_pkg_end, .)
-                0x040d0fe8                _audio_enc_fsys_begin = .
-                0x040d0fe8                PROVIDE (audio_enc_fsys_begin, .)
+ .audio_pkg     0x040b9c90       0x38 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b9c90                pcm_pkg_ops
+                0x040b9cac                g729_pkg_ops
+                0x040b9cc8                _audio_pkg_end = .
+                0x040b9cc8                PROVIDE (audio_pkg_end, .)
+                0x040b9cc8                _audio_enc_fsys_begin = .
+                0x040b9cc8                PROVIDE (audio_enc_fsys_begin, .)
  *(.audio_enc_fsys)
  .audio_enc_fsys
-                0x040d0fe8       0x40 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d0fe8                apkg_fsys_ops
-                0x040d1008                g729pkg_fsys_ops
-                0x040d1028                _audio_enc_fsys_end = .
-                0x040d1028                PROVIDE (audio_enc_fsys_end, .)
-                0x040d1040                . = (((. + 0x1f) / 0x20) * 0x20)
- *fill*         0x040d1028       0x18 
-                0x040d1040                _layer_buf_begin = .
-                0x040d1040                PROVIDE (layer_buf_begin, .)
+                0x040b9cc8       0x40 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b9cc8                apkg_fsys_ops
+                0x040b9ce8                g729pkg_fsys_ops
+                0x040b9d08                _audio_enc_fsys_end = .
+                0x040b9d08                PROVIDE (audio_enc_fsys_end, .)
+                0x040b9d20                . = (((. + 0x1f) / 0x20) * 0x20)
+ *fill*         0x040b9d08       0x18 
+                0x040b9d20                _layer_buf_begin = .
+                0x040b9d20                PROVIDE (layer_buf_begin, .)
  *(.layer_buf_t)
-                0x040d1040                _layer_buf_end = .
-                0x040d1040                PROVIDE (layer_buf_end, .)
-                0x040d1040                . = (((. + 0x1f) / 0x20) * 0x20)
-                0x040d1040                _font_info_begin = .
-                0x040d1040                PROVIDE (font_info_begin, .)
+                0x040b9d20                _layer_buf_end = .
+                0x040b9d20                PROVIDE (layer_buf_end, .)
+                0x040b9d20                . = (((. + 0x1f) / 0x20) * 0x20)
+                0x040b9d20                _font_info_begin = .
+                0x040b9d20                PROVIDE (font_info_begin, .)
  *(.font_info_t)
-                0x040d1040                _font_info_end = .
-                0x040d1040                PROVIDE (font_info_end, .)
-                0x040d1040                . = (((. + 0x1f) / 0x20) * 0x20)
-                0x040d1040                _screen_tool_info_begin = .
-                0x040d1040                PROVIDE (screen_tool_info_begin, .)
+                0x040b9d20                _font_info_end = .
+                0x040b9d20                PROVIDE (font_info_end, .)
+                0x040b9d20                . = (((. + 0x1f) / 0x20) * 0x20)
+                0x040b9d20                _screen_tool_info_begin = .
+                0x040b9d20                PROVIDE (screen_tool_info_begin, .)
  *(.screen_tool_info)
  .screen_tool_info
-                0x040d1040       0x1c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x040d1040                screen
-                0x040d105c                _screen_tool_info_end = .
+                0x040b9d20       0x1c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x040b9d20                screen
+                0x040b9d3c                _screen_tool_info_end = .
                 [!provide]                PROVIDE (screen_tool_info_end, .)
 
-.data           0x040d105c        0x0
+.data           0x040b9d3c        0x0
 
-.bss            0x040d1060   0x437580
+.bss            0x040b9d40   0x435b40
  *(.stack)
- .stack         0x040d1060     0x4800 include_lib/liba/cpu.a(startup.o)
-                0x040d1460                _stack_cpu0
-                0x040d3860                _stack_cpu1
-                0x040d5860                _stack1_cpu1
-                0x040d5860                _system_data_begin = .
+ .stack         0x040b9d40     0x4800 include_lib/liba/cpu.a(startup.o)
+                0x040ba140                _stack_cpu0
+                0x040bc540                _stack_cpu1
+                0x040be540                _stack1_cpu1
+                0x040be540                _system_data_begin = .
  *(.bss)
- *fill*         0x040d5860       0x20 
- .bss           0x040d5880   0x36aa94 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
- .bss           0x04440314        0xc C:\JL\pi32\pi32v2-lib\libc.a(lib_a-locale.o)
-                0x04440314                __nlocale_changed
-                0x04440318                __mlocale_changed
-                0x0444031c                _PathLocale
+ .bss           0x040be540   0x369064 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+ .bss           0x044275a4        0xc C:\JL\pi32\pi32v2-lib\libc.a(lib_a-locale.o)
+                0x044275a4                __nlocale_changed
+                0x044275a8                __mlocale_changed
+                0x044275ac                _PathLocale
  *(COMMON)
  *(.usb_slave_var)
  *(.mem_heap)
  *(.memp_memory_x)
  .memp_memory_x
-                0x04440320    0x57abf C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x04497de0                . = (((. + 0x1f) / 0x20) * 0x20)
- *fill*         0x04497ddf        0x1 
-                0x04497de0                _lcd_dev_buf_addr = .
-                0x04497de0                PROVIDE (lcd_dev_buf_addr, .)
+                0x044275b0    0x57abf C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x0447f080                . = (((. + 0x1f) / 0x20) * 0x20)
+ *fill*         0x0447f06f       0x11 
+                0x0447f080                _lcd_dev_buf_addr = .
+                0x0447f080                PROVIDE (lcd_dev_buf_addr, .)
  *(.lcd_dev_buf)
- .lcd_dev_buf   0x04497de0    0x70800 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                0x04497de0                lcd_dev_buf
-                0x045085e0                _system_data_end = .
-                0x045085e0                _HEAP_BEGIN = (((. + 0x1f) / 0x20) * 0x20)
-                0x045085e0                PROVIDE (HEAP_BEGIN, (((. + 0x1f) / 0x20) * 0x20))
+ .lcd_dev_buf   0x0447f080    0x70800 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                0x0447f080                lcd_dev_buf
+                0x044ef880                _system_data_end = .
+                0x044ef880                _HEAP_BEGIN = (((. + 0x1f) / 0x20) * 0x20)
+                0x044ef880                PROVIDE (HEAP_BEGIN, (((. + 0x1f) / 0x20) * 0x20))
                 0x07ffffe0                _HEAP_END = ((0x4000000 + SDRAM_SIZE) - 0x20)
                 0x07ffffe0                PROVIDE (HEAP_END, ((0x4000000 + SDRAM_SIZE) - 0x20))
-                0x03af7a00                _MALLOC_SIZE = (_HEAP_END - _HEAP_BEGIN)
+                0x03b10760                _MALLOC_SIZE = (_HEAP_END - _HEAP_BEGIN)
                 [!provide]                PROVIDE (MALLOC_SIZE, (_HEAP_END - _HEAP_BEGIN))
                 0x03f08000                . = 0x3f08000
 
@@ -3870,29 +3863,29 @@ END GROUP
 
 .ram0_bss       0x03f00000     0xe340
  *(.sd_var)
- .sd_var        0x03f00000       0x80 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
+ .sd_var        0x03f00000       0x80 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
                 0x03f00000                sd1_cmd_detect
                 0x03f00020                sd1_host_var
  *(.sram)
- .sram          0x03f00080      0x200 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
+ .sram          0x03f00080      0x200 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
  *(.usb0_fifo)
- .usb0_fifo     0x03f00280     0xe0c0 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
+ .usb0_fifo     0x03f00280     0xe0c0 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
                 0x02000000                . = ORIGIN (xrom)
 
 .xrom
                 0x04000000                text_begin = ADDR (.rom_code)
-                0x000d105c                text_size = SIZEOF (.rom_code)
-                0x040d1060                bss_begin = ADDR (.bss)
-                0x00437580                bss_size = SIZEOF (.bss)
-                0x00432d80                bss_size1 = (_system_data_end - _system_data_begin)
-                0x040d5860                bss_begin1 = _system_data_begin
-                0x040d105c                data_begin = LOADADDR (.data)
-                0x040d105c                data_addr = ADDR (.data)
+                0x000b9d3c                text_size = SIZEOF (.rom_code)
+                0x040b9d40                bss_begin = ADDR (.bss)
+                0x00435b40                bss_size = SIZEOF (.bss)
+                0x00431340                bss_size1 = (_system_data_end - _system_data_begin)
+                0x040be540                bss_begin1 = _system_data_begin
+                0x040b9d3c                data_begin = LOADADDR (.data)
+                0x040b9d3c                data_addr = ADDR (.data)
                 0x00000000                data_size = SIZEOF (.data)
                 0x03f00000                _ram0_bss_vma = ADDR (.ram0_bss)
                 0x0000e340                _ram0_bss_size = SIZEOF (.ram0_bss)
                 0x03f00000                _ram0_data_vma = ADDR (.ram0_data)
-                0x040d105c                _ram0_data_lma = (text_begin + SIZEOF (.rom_code))
+                0x040b9d3c                _ram0_data_lma = (text_begin + SIZEOF (.rom_code))
                 0x00000000                _ram0_data_size = SIZEOF (.ram0_data)
 LOAD include_lib\liba\zbar.a
 LOAD include_lib\liba\libdmtx.a
@@ -3924,44 +3917,44 @@ LOAD C:\JL\pi32\pi32v2-lib\libc.a
 LOAD C:\JL\pi32\pi32v2-lib\libcompiler-rt.a
 OUTPUT(cpu\AC54xx\tools\main.or32 elf32-pi32v2)
 
-.debug_str      0x00000000    0x61492
- .debug_str     0x00000000    0x61492 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
-                              0x6852f (size before relaxing)
+.debug_str      0x00000000    0x5f7bd
+ .debug_str     0x00000000    0x5f7bd C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+                              0x6655c (size before relaxing)
 
-.debug_loc      0x00000000    0x6d4e9
- .debug_loc     0x00000000    0x6d4e9 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
+.debug_loc      0x00000000    0x64ed9
+ .debug_loc     0x00000000    0x64ed9 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
 
-.debug_abbrev   0x00000000     0x10f5
- .debug_abbrev  0x00000000     0x10cd C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
- .debug_abbrev  0x000010cd       0x28 include_lib/liba/cpu.a(startup.o)
+.debug_abbrev   0x00000000     0x10e5
+ .debug_abbrev  0x00000000     0x10bd C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+ .debug_abbrev  0x000010bd       0x28 include_lib/liba/cpu.a(startup.o)
 
-.debug_info     0x00000000   0x4b52fa
- .debug_info    0x00000000   0x4b5123 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
- .debug_info    0x004b5123      0x1d7 include_lib/liba/cpu.a(startup.o)
+.debug_info     0x00000000   0x48872d
+ .debug_info    0x00000000   0x488556 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+ .debug_info    0x00488556      0x1d7 include_lib/liba/cpu.a(startup.o)
 
-.debug_ranges   0x00000000     0xab48
- .debug_ranges  0x00000000     0xab48 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
+.debug_ranges   0x00000000     0xa068
+ .debug_ranges  0x00000000     0xa068 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
 
 .debug_macinfo  0x00000000        0x1
  .debug_macinfo
-                0x00000000        0x1 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
+                0x00000000        0x1 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
 
 .debug_pubnames
-                0x00000000    0x34960
+                0x00000000    0x32555
  .debug_pubnames
-                0x00000000    0x34960 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
+                0x00000000    0x32555 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
 
 .debug_pubtypes
-                0x00000000    0x7da2f
+                0x00000000    0x77eb2
  .debug_pubtypes
-                0x00000000    0x7da2f C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
+                0x00000000    0x77eb2 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
 
-.debug_frame    0x00000000    0x15234
- .debug_frame   0x00000000    0x15234 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
+.debug_frame    0x00000000    0x13d44
+ .debug_frame   0x00000000    0x13d44 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
 
-.debug_line     0x00000000    0xe8788
- .debug_line    0x00000000    0xe8723 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-455087.o
- .debug_line    0x000e8723       0x65 include_lib/liba/cpu.a(startup.o)
+.debug_line     0x00000000    0xd7e78
+ .debug_line    0x00000000    0xd7e13 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-efdcdf.o
+ .debug_line    0x000d7e13       0x65 include_lib/liba/cpu.a(startup.o)
 
 .debug_aranges  0x00000000       0x20
  .debug_aranges

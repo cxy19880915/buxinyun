@@ -2,14 +2,44 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+	<File name="camera\bg0806_mipi\bg0806_mipi.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="cpu\AC54xx\dvp_lcd_driver\lcd_ILI8961c.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="344" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="app\wifi_car_camera\ui\style_LY\ui_action_my_sys_set.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="camera\bg0806_mipi\bg0806_mipi.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="app\wifi_car_camera\ui\style_LY\ui_action_rec.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="0" topLine="0" />
+			<Cursor1 position="66609" topLine="2757" />
+		</Cursor>
+	</File>
+	<File name="app\wifi_car_camera\app_database.c" open="1" top="1" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="462" topLine="107" />
+		</Cursor>
+	</File>
+	<File name="app\wifi_car_camera\video_rec.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="187274" topLine="7013" />
+		</Cursor>
+	</File>
+	<File name="app\wifi_car_camera\gsensor\da380.c" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7639" topLine="225" />
+		</Cursor>
+	</File>
+	<File name="app\wifi_car_camera\app_main.c" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="529" topLine="84" />
 		</Cursor>
 	</File>
 	<File name="include_lib\system\cpu\AC54xx\asm\lcd_config.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -17,24 +47,9 @@
 			<Cursor1 position="2593" topLine="102" />
 		</Cursor>
 	</File>
-	<File name="app\wifi_car_camera\ui\style_LY\ui_action_rec.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="app\flash_write_protect.c" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="66609" topLine="2754" />
-		</Cursor>
-	</File>
-	<File name="app\wifi_car_camera\video_rec.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="187274" topLine="7010" />
-		</Cursor>
-	</File>
-	<File name="cpu\AC54xx\dvp_lcd_driver\lcd_ILI8961c.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="168" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="app\wifi_car_camera\gsensor\da380.c" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="7639" topLine="225" />
+			<Cursor1 position="279" topLine="28" />
 		</Cursor>
 	</File>
 	<File name="camera\bg0806_mipi\bg0806_mipi.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">

@@ -1,0 +1,93 @@
+<?xml version='2.0' encoding='UTF-8'?>
+<Resbuilder>
+        <Items>
+                <LanguageList>
+                        <language_name LANG="Chinese_Simplified">简体中文</language_name>
+                        <language_name LANG="Chinese_Traditional">繁体中文</language_name>
+                        <language_name LANG="Japanese">日语</language_name>
+                        <language_name LANG="Korean">韩语</language_name>
+                        <language_name LANG="English">英语</language_name>
+                        <language_name LANG="French">法语</language_name>
+                        <language_name LANG="German">德语</language_name>
+                        <language_name LANG="Italian">意大利语</language_name>
+                        <language_name LANG="Dutch">荷兰语</language_name>
+                        <language_name LANG="Portuguese">葡萄牙语</language_name>
+                        <language_name LANG="Spanish">西班牙语</language_name>
+                        <language_name LANG="Swedish">瑞典语</language_name>
+                        <language_name LANG="Czech">捷克语</language_name>
+                        <language_name LANG="Danish">丹麦语</language_name>
+                        <language_name LANG="Polish">波兰语</language_name>
+                        <language_name LANG="Russian">俄国语</language_name>
+                        <language_name LANG="Turkey">土耳其语</language_name>
+                        <language_name LANG="Hebrew">希伯来语</language_name>
+                        <language_name LANG="Thai">泰语</language_name>
+                        <language_name LANG="Hungarian">匈牙利语</language_name>
+                        <language_name LANG="Romanian">罗马尼亚语</language_name>
+                        <language_name LANG="Arabic">阿拉伯语</language_name>
+                </LanguageList>
+                <Fonts>
+                        <font00 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-32" lfFaceName="Cambria" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font01 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-32" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font02 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-32" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font03 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-32" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font04 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-32" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font05 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-32" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font06 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-16" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font07 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-16" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font08 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-16" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font09 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-16" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font10 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-16" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font11 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-16" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font12 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-16" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font13 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-16" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font14 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-16" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font15 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-16" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font16 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-16" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font17 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-16" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font18 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-16" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font19 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-16" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font20 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-16" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                        <font21 lfWeight="400" lfEscapement="0" lfCharSet="134" lfStrikeOut="0" lfUnderline="0" lfQuality="0" lfOrientation="0" lfOutPrecision="0" lfHeight="-16" lfFaceName="宋体" lfPitchAndFamily="2" lfWidth="0" lfClipPrecision="0" lfItalic="0"/>
+                </Fonts>
+                <endian>LITTLEENDIAN</endian>
+                <paneltype>TFTPANEL</paneltype>
+                <picture_path>NULL</picture_path>
+                <excel_path>../../../UITools/UI_TOUCH_1280_480.xls</excel_path>
+                <PageList>
+                        <Page id="0">
+                                <ColorList>
+                                        <Color>282828</Color>
+                                        <Color>000000</Color>
+                                        <Color>FFFFFF</Color>
+                                        <Color>55AAFF</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">E:\SDK\5401\0.7\最新补丁\AC54XX_SDK_V0.5Beta_USB_0.7patch_贝思特UI\UI_工程\ui_1280x480_touch_screen\升级界面\project\config\upgrade\message_1.PNG</Picture>
+                                        <Picture fmt="OSD8">E:\SDK\5401\0.7\最新补丁\AC54XX_SDK_V0.5Beta_USB_0.7patch_贝思特UI\UI_工程\ui_1280x480_touch_screen\升级界面\project\config\upgrade\progress.png</Picture>
+                                        <Picture fmt="OSD8">E:\SDK\5401\0.7\最新补丁\AC54XX_SDK_V0.5Beta_USB_0.7patch_贝思特UI\UI_工程\ui_1280x480_touch_screen\升级界面\project\config\upgrade\message_2.PNG</Picture>
+                                        <Picture fmt="OSD8">E:\SDK\5401\0.7\最新补丁\AC54XX_SDK_V0.5Beta_USB_0.7patch_贝思特UI\UI_工程\ui_1280x480_touch_screen\升级界面\project\config\upgrade\message_3.PNG</Picture>
+                                        <Picture fmt="OSD8">E:\SDK\5401\0.7\最新补丁\AC54XX_SDK_V0.5Beta_USB_0.7patch_贝思特UI\UI_工程\ui_1280x480_touch_screen\升级界面\project\config\upgrade\progress_1.PNG</Picture>
+                                        <Picture fmt="OSD8">E:\SDK\5401\0.7\最新补丁\AC54XX_SDK_V0.5Beta_USB_0.7patch_贝思特UI\UI_工程\ui_1280x480_touch_screen\升级界面\project\config\upgrade\message_4.PNG</Picture>
+                                        <Picture fmt="OSD8">E:\SDK\5401\0.7\最新补丁\AC54XX_SDK_V0.5Beta_USB_0.7patch_贝思特UI\UI_工程\ui_1280x480_touch_screen\升级界面\project\config\upgrade\message_5.PNG</Picture>
+                                        <Picture fmt="OSD8">E:\SDK\5401\0.7\最新补丁\AC54XX_SDK_V0.5Beta_USB_0.7patch_贝思特UI\UI_工程\ui_1280x480_touch_screen\升级界面\project\config\upgrade\message_6.PNG</Picture>
+                                        <Picture fmt="OSD8">E:\SDK\5401\0.7\最新补丁\AC54XX_SDK_V0.5Beta_USB_0.7patch_贝思特UI\UI_工程\ui_1280x480_touch_screen\升级界面\project\config\upgrade\message_0.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                </PageList>
+                <language>0x00000007</language>
+                <bmp_transparent_color>0x00FFFFFF</bmp_transparent_color>
+                <png_background_color>0x12345678</png_background_color>
+                <spec_color_list>NULL</spec_color_list>
+                <png2jpg_list>NULL</png2jpg_list>
+                <res>result</res>
+                <resfilename>result.bin</resfilename>
+                <headerfilename>result.h</headerfilename>
+                <image_compress_method>quicklz</image_compress_method>
+                <string_compress_method>rle</string_compress_method>
+                <palette_type>rgb</palette_type>
+                <percent>100%</percent>
+                <excel_crc/>
+                <excel_row/>
+        </Items>
+</Resbuilder>

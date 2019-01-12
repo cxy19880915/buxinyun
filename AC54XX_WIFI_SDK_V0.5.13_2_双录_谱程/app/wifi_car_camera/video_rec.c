@@ -7403,6 +7403,7 @@ static int video_rec_key_event_handler(struct key_event *key)
 
             break;
         case KEY_UP:
+			#if 0
             puts("KEY_UP in\n");
 			sys_key_event_disable();
 			if(__this->wifi_on == 0)
@@ -7419,7 +7420,7 @@ static int video_rec_key_event_handler(struct key_event *key)
 			}
             
 			sys_key_event_enable();
-			
+			#endif
             break;
         case KEY_DOWN:
             /* video_rec_take_photo(); */
