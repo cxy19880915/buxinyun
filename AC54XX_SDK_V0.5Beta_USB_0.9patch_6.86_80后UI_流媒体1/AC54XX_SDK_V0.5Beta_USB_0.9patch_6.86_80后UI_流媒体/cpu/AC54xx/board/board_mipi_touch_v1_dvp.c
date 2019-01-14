@@ -12,41 +12,41 @@
 
 /* #define UART0 */
 
-static const struct uart_platform_data data = {
-//UART0_PLATFORM_DATA_BEGIN(uart0_data)
+//static const struct uart_platform_data data = {
+UART0_PLATFORM_DATA_BEGIN(uart0_data)
     .baudrate	= 115200,
     .tx_pin		= IO_PORTG_14,
     .flags		= UART_DEBUG,
-//UART0_PLATFORM_DATA_END();
-	.irq		= UART0_INT,
-};
-static const struct uart_platform_data data = {
-//UART2_PLATFORM_DATA_BEGIN(uartedog_data)
+UART0_PLATFORM_DATA_END();
+//	.irq		= UART0_INT,
+//};
+//static const struct uart_platform_data data = {
+UART2_PLATFORM_DATA_BEGIN(uartedog_data)
     .baudrate	= 115200,
     .rx_pin		= IO_PORTH_09,
     .tx_pin		= IO_PORTH_10,
 //	.flags		= UART_RX_USE_DMA,
-//UART2_PLATFORM_DATA_END();
-	.irq		= UART2_INT,
-};
+UART2_PLATFORM_DATA_END();
+//	.irq		= UART2_INT,
+//};
 
 
 
 #ifdef CONFIG_SD0_ENABLE
-static const struct sdmmc_platform_data data = {
-//SD0_PLATFORM_DATA_BEGIN(sd0_data)
+//static const struct sdmmc_platform_data data = {
+SD0_PLATFORM_DATA_BEGIN(sd0_data)
 	.port 					= 'C',
 	.priority 				= 3,
 	.data_width 			= 4,
 	.speed 					= 30000000,
 	.detect_mode 			= SD_CMD_DECT,
 	.detect_func 			= sdmmc_0_clk_detect,
-//SD0_PLATFORM_DATA_END()
-	.irq 					= SD0_INT, 
-    .sfr                    = &SD0_CON0, 
-	.port_init 				= sdmmc_0_port_init, 
-	.detect_time_interval 	= 30, 
-};
+SD0_PLATFORM_DATA_END()
+//	.irq 					= SD0_INT, 
+//    .sfr                    = &SD0_CON0, 
+//	.port_init 				= sdmmc_0_port_init, 
+//	.detect_time_interval 	= 30, 
+//};
 
 #endif //CONFIG_SD0_ENABLE
 
@@ -95,27 +95,27 @@ SD2_PLATFORM_DATA_BEGIN(sd2_data)
 SD2_PLATFORM_DATA_END()
 
 #endif //CONFIG_SD2_ENABLE
-static const struct hw_iic_platform_data data0 = { 
-		.head = { 
-			.type = IIC_TYPE_HW, 
-		}, 
-		.iic = {
-//HW_IIC0_PLATFORM_DATA_BEGIN(hw_iic0_data)
+//static const struct hw_iic_platform_data data0 = { 
+//		.head = { 
+//			.type = IIC_TYPE_HW, 
+//		}, 
+//		.iic = {
+HW_IIC0_PLATFORM_DATA_BEGIN(hw_iic0_data)
 		.clk_pin = IO_PORTB_04,//IO_PORTD_14,
 		.dat_pin = IO_PORTB_03,//IO_PORTD_15,
 		.baudrate = 0x42,//300k  0x50 250k
-//HW_IIC0_PLATFORM_DATA_END()
-		.occupy_reg = (u32)&IOMC1, 
-		.occupy_io_mask = ~(BIT(6)|BIT(7)), 
-		.reg = (struct iic_reg *)&IIC0_CON, 
-		.outport_map = { 
-				{IO_PORTG_06, IO_PORTG_07, 0}, 
-				{IO_PORTH_12, IO_PORTH_14, BIT(6)}, 
-				{IO_PORTB_04, IO_PORTB_03, BIT(7)}, 
-				{IO_PORTD_14, IO_PORTD_15, (BIT(6) | BIT(7))}, 
-			}, 
-		}, 
-};
+HW_IIC0_PLATFORM_DATA_END()
+//		.occupy_reg = (u32)&IOMC1, 
+//		.occupy_io_mask = ~(BIT(6)|BIT(7)), 
+//		.reg = (struct iic_reg *)&IIC0_CON, 
+//		.outport_map = { 
+//				{IO_PORTG_06, IO_PORTG_07, 0}, 
+//				{IO_PORTH_12, IO_PORTH_14, BIT(6)}, 
+//				{IO_PORTB_04, IO_PORTB_03, BIT(7)}, 
+//				{IO_PORTD_14, IO_PORTD_15, (BIT(6) | BIT(7))}, 
+//			}, 
+//		}, 
+//};
 
 HW_IIC1_PLATFORM_DATA_BEGIN(hw_iic1_data)
 	.clk_pin = IO_PORTB_00,//IO_PORTD_14,

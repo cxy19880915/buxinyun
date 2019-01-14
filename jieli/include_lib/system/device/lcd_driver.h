@@ -7,7 +7,7 @@
 #include "asm/imd.h"
 
 #define 	LCD_ESD_CHECK_CTRL 			_IOW('F', 0, sizeof(int))
-
+#if 1
 struct lcd_platform_data {
     enum LCD_IF  interface;
     u8  *lcd_name;
@@ -24,6 +24,19 @@ struct lcd_platform_data {
         u8 lcd_spi_do;
     } lcd_io;
 };
+#else
+struct lcd_platform_data {
+    enum LCD_IF  interface;
+    u8  *lcd_name;
+    u8  lcd_mode;
+    struct {
+        u8 lcd_reset;
+        u8 lcd_sda;
+        u8 lcd_scl;
+    } lcd_io;
+};
+
+#endif
 
 #define LCD_PLATFORM_DATA_BEGIN(data) \
 static const struct lcd_platform_data data = { \

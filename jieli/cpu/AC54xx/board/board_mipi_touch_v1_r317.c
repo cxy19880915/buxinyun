@@ -130,14 +130,14 @@ SW_IIC_PLATFORM_DATA_BEGIN(sw_iic_data)
 SW_IIC_PLATFORM_DATA_END()
 
 SW_IIC_PLATFORM_DATA_BEGIN(sw_iic1_data)
-    .clk_pin = IO_PORTG_09,
-    .dat_pin = IO_PORTG_08,
+    .clk_pin = IO_PORTG_05,
+    .dat_pin = IO_PORTG_03,
 	.sw_iic_delay = 50,
 SW_IIC_PLATFORM_DATA_END()
 
 SW_IIC_PLATFORM_DATA_BEGIN(sw_iic2_data)
-    .clk_pin = IO_PORTG_03,
-    .dat_pin = IO_PORTG_05,
+    .clk_pin = IO_PORTB_00,
+    .dat_pin = IO_PORTB_01,
 	.sw_iic_delay = 50,
 SW_IIC_PLATFORM_DATA_END()
 
@@ -631,8 +631,9 @@ REGISTER_DEVICES(device_table) = {
 
     { "iic1",  &iic_dev_ops, (void *)&hw_iic0_data },
     { "iic0",  &iic_dev_ops, (void *)&hw_iic1_data },
-#ifdef CONFIG_TOUCH_PANEL_ENABLE
+//lcd icn6211
     { "iic2",  &iic_dev_ops, (void *)&sw_iic1_data },
+#ifdef CONFIG_TOUCH_PANEL_ENABLE
     { "iic3",  &iic_dev_ops, (void *)&sw_iic2_data },
     {"touch_panel", &touch_panel_dev_ops, (void *)&touch_panel_data},
 #endif //CONFIG_TOUCH_PANEL_ENABLE

@@ -140,7 +140,7 @@
 #endif
 
 
-#ifdef CONFIG_BOARD_MIPI_TOUCH_20170419
+#ifdef CONFIG_LB_DVP_AHD_V1_1_20171225
 /*------------触摸屏开关----------*/
 #define CONFIG_TOUCH_PANEL_ENABLE
 /*-----------TOUCH UI开关-----------*/

@@ -1,11 +1,12 @@
----- CONFIG_BOARD_MIPI_TOUCH_V1_DVP Matches (5 in 3 files) ----
-App_config.h (app\car_camera\include):18
-#define CONFIG_BOARD_MIPI_TOUCH_V1_DVP
-App_config.h (app\car_camera\include):144
-#ifdef CONFIG_BOARD_MIPI_TOUCH_V1_DVP
+---- CONFIG_LB_DVP_AHD_V1_1_20171225 Matches (2 in 2 files) ----
+App_config.h (app\car_camera\include):8
+#define CONFIG_LB_DVP_AHD_V1_1_20171225
 Board_mipi_touch_v1_dvp.c (cpu\...\board):10
-#ifdef CONFIG_BOARD_MIPI_TOUCH_V1_DVP
-User_isp_cfg.c (app\car_camera):34
-#ifdef CONFIG_BOARD_MIPI_TOUCH_V1_DVP
-User_isp_cfg.c (app\car_camera):62
-#ifdef CONFIG_BOARD_MIPI_TOUCH_V1_DVP
+#ifdef CONFIG_LB_DVP_AHD_V1_1_20171225
+---- CONFIG_LB_DVP_AHD_V1_1_20171225 Matches (3 in 2 files) ----
+App_config.h (app\car_camera\include):8
+#define CONFIG_LB_DVP_AHD_V1_1_20171225
+App_config.h (app\car_camera\include):143
+#ifdef CONFIG_LB_DVP_AHD_V1_1_20171225
+Board_mipi_touch_v1_dvp.c (cpu\...\board):10
+#ifdef CONFIG_LB_DVP_AHD_V1_1_20171225

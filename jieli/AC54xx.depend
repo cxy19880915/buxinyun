@@ -5846,7 +5846,7 @@
 	"device/device.h"
 	"system/task.h"
 
-1512546647 e:\cxy job\git_work\jieli\include_lib\system\device\lcd_driver.h
+1547450939 e:\cxy job\git_work\jieli\include_lib\system\device\lcd_driver.h
 	"generic/typedef.h"
 	"device/device.h"
 	"asm/cpu.h"
@@ -5929,7 +5929,7 @@
 1498821133 e:\cxy job\git_work\jieli\include_lib\system\cpu\ac54xx\asm\debug.h
 	"generic/typedef.h"
 
-1517305762 e:\cxy job\git_work\jieli\include_lib\system\cpu\ac54xx\asm\iic.h
+1547285754 e:\cxy job\git_work\jieli\include_lib\system\cpu\ac54xx\asm\iic.h
 	"typedef.h"
 	"asm/cpu.h"
 	"device/iic.h"
@@ -7276,7 +7276,7 @@
 	"asm/imb_driver.h"
 	"asm/lcd_config.h"
 
-1547277878 source:e:\cxy job\git_work\jieli\cpu\ac54xx\board\board_mipi_touch_v1_r317.c
+1547445030 source:e:\cxy job\git_work\jieli\cpu\ac54xx\board\board_mipi_touch_v1_r317.c
 	"system/includes.h"
 	"app_config.h"
 	"gSensor_manage.h"
@@ -7284,9 +7284,121 @@
 	"power_ctrl.h"
 	"touch_panel_manager.h"
 
-1547278951 source:e:\cxy job\git_work\jieli\cpu\ac54xx\mipi_lcd_driver\icn6211.c
+1547465177 source:e:\cxy job\git_work\jieli\cpu\ac54xx\mipi_lcd_driver\icn6211.c
 	"generic/typedef.h"
 	"asm/dsi.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+	"asm/iic.h"
+	"asm/isp_dev.h"
+	"asm/isp_alg.h"
+
+1498821129 source:e:\cxy job\git_work\jieli\cpu\ac54xx\dvp_lcd_driver\lcd_480x272.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1498821129 source:e:\cxy job\git_work\jieli\cpu\ac54xx\dvp_lcd_driver\lcd_480x272_8bits.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1498821129 source:e:\cxy job\git_work\jieli\cpu\ac54xx\dvp_lcd_driver\lcd_avout.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"asm/avo_cfg.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1498821133 e:\cxy job\git_work\jieli\include_lib\system\cpu\ac54xx\asm\avo_cfg.h
+	"generic/typedef.h"
+
+1498821129 source:e:\cxy job\git_work\jieli\cpu\ac54xx\dvp_lcd_driver\lcd_hx8369a_mcu.c
+	"generic/typedef.h"
+	"asm/imb_driver.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"os/os_api.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1498821129 source:e:\cxy job\git_work\jieli\cpu\ac54xx\dvp_lcd_driver\lcd_hx8369a_spi_rgb.c
+	"generic/typedef.h"
+	"asm/imb_driver.h"
+	"asm/imd.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1498821129 source:e:\cxy job\git_work\jieli\cpu\ac54xx\dvp_lcd_driver\lcd_ili8960.c
+	"asm/cpu.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1498821129 source:e:\cxy job\git_work\jieli\cpu\ac54xx\dvp_lcd_driver\lcd_ili9806.c
+	"asm/cpu.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1498821129 source:e:\cxy job\git_work\jieli\cpu\ac54xx\dvp_lcd_driver\lcd_lq026b3ux01.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1498821129 source:e:\cxy job\git_work\jieli\cpu\ac54xx\dvp_lcd_driver\lcd_lx50fwb4001_v2.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1498821129 source:e:\cxy job\git_work\jieli\cpu\ac54xx\dvp_lcd_driver\lcd_lyws030gq.c
+	"generic/typedef.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"gpio.h"
+
+1498821129 source:e:\cxy job\git_work\jieli\cpu\ac54xx\dvp_lcd_driver\lcd_st7789s.c
+	"generic/typedef.h"
+	"asm/imb_driver.h"
+	"asm/imd.h"
+	"asm/imb_driver.h"
+	"asm/pap.h"
+	"asm/lcd_config.h"
+	"device/lcd_driver.h"
+	"os/os_api.h"
+	"gpio.h"
+
+1498821129 source:e:\cxy job\git_work\jieli\cpu\ac54xx\dvp_lcd_driver\lcd_t15p00.c
+	"generic/typedef.h"
+	"asm/imd.h"
 	"asm/imb_driver.h"
 	"asm/lcd_config.h"
 	"device/lcd_driver.h"

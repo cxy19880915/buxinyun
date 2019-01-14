@@ -6126,7 +6126,7 @@
 1520669381 e:\cxy job\git_work\ac54xx_sdk_v0.5beta_usb_0.9patch_6.86_80后ui_流媒体1\ac54xx_sdk_v0.5beta_usb_0.9patch_6.86_80后ui_流媒体\app\car_camera\include\action.h
 	"app_config.h"
 
-1547258526 e:\cxy job\git_work\ac54xx_sdk_v0.5beta_usb_0.9patch_6.86_80后ui_流媒体1\ac54xx_sdk_v0.5beta_usb_0.9patch_6.86_80后ui_流媒体\app\car_camera\include\app_config.h
+1547288988 e:\cxy job\git_work\ac54xx_sdk_v0.5beta_usb_0.9patch_6.86_80后ui_流媒体1\ac54xx_sdk_v0.5beta_usb_0.9patch_6.86_80后ui_流媒体\app\car_camera\include\app_config.h
 
 1499906816 e:\cxy job\git_work\ac54xx_sdk_v0.5beta_usb_0.9patch_6.86_80后ui_流媒体1\ac54xx_sdk_v0.5beta_usb_0.9patch_6.86_80后ui_流媒体\app\car_camera\include\ani_style.h
 
@@ -7135,7 +7135,7 @@
 	"power_ctrl.h"
 	"touch_panel_manager.h"
 
-1547200464 source:e:\cxy job\git_work\ac54xx_sdk_v0.5beta_usb_0.9patch_6.86_80后ui_流媒体1\ac54xx_sdk_v0.5beta_usb_0.9patch_6.86_80后ui_流媒体\cpu\ac54xx\board\board_mipi_touch_v1_dvp.c
+1547289198 source:e:\cxy job\git_work\ac54xx_sdk_v0.5beta_usb_0.9patch_6.86_80后ui_流媒体1\ac54xx_sdk_v0.5beta_usb_0.9patch_6.86_80后ui_流媒体\cpu\ac54xx\board\board_mipi_touch_v1_dvp.c
 	"system/includes.h"
 	"app_config.h"
 	"gSensor_manage.h"

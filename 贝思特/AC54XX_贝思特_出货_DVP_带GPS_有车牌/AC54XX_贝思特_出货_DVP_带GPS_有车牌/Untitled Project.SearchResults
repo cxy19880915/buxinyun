@@ -1,219 +1,283 @@
----- lib_version_begin Matches (4 in 3 files) ----
-Main.or32.resolution.txt (cpu\...\tools):1121
--r=obj\Debug\app\car_camera\version.o,lib_version_begin,
-Map.txt:1586
-                0x04087ea0                PROVIDE (lib_version_begin, .)
-Version.h (include_lib\system\generic):100
-extern version_t lib_version_begin[], lib_version_end[];
-Version.h (include_lib\system\generic):106
-        for (version = lib_version_begin; version < lib_version_end; version++) { \
----- version Matches (82 in 39 files) ----
-App_main.c (app\car_camera):247
-            style.version = ANI_UI_VERSION;
-App_main.c (app\car_camera):471
-    style.version = ANI_UI_VERSION;
-Auto_test.c (app\car_camera):696
-    if (strstr(str, "update version control disable")) {
-Auto_test.c (app\car_camera):698
-        puts("update version control disable!\n");
-Debug.txt (ui_工程\...\project):4
-|| version: 791871758
-Debug.txt (ui_工程\...\project):4
-|| version: 77033419
-Debug.txt (ui_工程\...\project):4
-|| version: 566448397
-Debug.txt (ui_工程\...\project):4
-|| version: 397587608
-Debug.txt (ui_工程\...\project):4
-|| version: 566448397
-Gm7150.c (camera\gm7150):186
-    u16 version = 0;
-Gm7150.c (camera\gm7150):203
-    rdGM7150Reg(0x82, (unsigned char *)&version);
-    version <<= 8;
-Gm7150.c (camera\gm7150):206
-    version |= version1;
-Gm7150.c (camera\gm7150):208
-    put_u16hex(version);
-GT911.c (app\car_camera\touch_panel):355
-            drv_cfg_version = cfg_info_group[0];       // backup  config version
-GT911.c (app\car_camera\touch_panel):361
-            printf("\nFailed to get ic config version!\nNo config sent!");
-ICN85XX.c (app\car_camera\touch_panel):19
-     2012,10,30, V0.1 first version
-ICN85XX.h (app\car_camera\touch_panel):19
-   2012,10,30, V0.1 first version
-Icn85xx_flash.c (app\...\touch_panel):209
-function    :   return version
-Icn85xx_flash.c (app\...\touch_panel):222
-	printf("current version: 0x%x\n", CurVersion);
-Icn85xx_flash.c (app\...\touch_panel):718
-function    :   read fw version
-Icn85xx_flash.c (app\...\touch_panel):1333
-        char version = 0;
-Icn85xx_flash.c (app\...\touch_panel):1366
-        while(version != 0x87)
-Icn85xx_flash.c (app\...\touch_panel):1375
-            ret = icn85xx_read_reg(0xa, &version);
-Icn85xx_flash.c (app\...\touch_panel):1377
-            printf("after upgrdate Value: %x\n",version);
-Includes.h (include_lib\system\generic):17
-#include "version.h"
-Isp.h (include_lib\system\device):89
-    u16     version;
-Main.or32.resolution.txt (cpu\...\tools):1109
-obj\Debug\app\car_camera\version.o
--r=obj\Debug\app\car_camera\version.o,log_print,l
--r=obj\Debug\app\car_camera\version.o,video_server_version,l
--r=obj\Debug\app\car_camera\version.o,video_dec_server_version,l
--r=obj\Debug\app\car_camera\version.o,ui_server_version,l
--r=obj\Debug\app\car_camera\version.o,audio_server_version,l
--r=obj\Debug\app\car_camera\version.o,video_engine_server_version,l
--r=obj\Debug\app\car_camera\version.o,usb_server_version,l
--r=obj\Debug\app\car_camera\version.o,isp_version,l
--r=obj\Debug\app\car_camera\version.o,__initcall_app_version_check,pl
--r=obj\Debug\app\car_camera\version.o,key_dev_ops,l
--r=obj\Debug\app\car_camera\version.o,audio_dev_ops,l
--r=obj\Debug\app\car_camera\version.o,lib_version_begin,
--r=obj\Debug\app\car_camera\version.o,lib_version_end,
-Main.or32.resolution.txt (cpu\...\tools):4963
-include_lib/liba/dev.a.llvm.100836.version.c
--r=include_lib/liba/dev.a.llvm.100836.version.c,video_dev_version,pl
--r=include_lib/liba/dev.a.llvm.100836.version.c,log_print,l
--r=include_lib/liba/dev.a.llvm.100836.version.c,__version_video_dev,pl
-Main.or32.resolution.txt (cpu\...\tools):5045
-include_lib/liba/cpu.a.llvm.9248.version.c
--r=include_lib/liba/cpu.a.llvm.9248.version.c,cpu_version,pl
--r=include_lib/liba/cpu.a.llvm.9248.version.c,log_print,l
--r=include_lib/liba/cpu.a.llvm.9248.version.c,__version_cpu,pl
-Main.or32.resolution.txt (cpu\...\tools):6039
-include_lib/liba/isp.a.llvm.12044.version.c
--r=include_lib/liba/isp.a.llvm.12044.version.c,isp_version,pl
--r=include_lib/liba/isp.a.llvm.12044.version.c,log_print,l
--r=include_lib/liba/isp.a.llvm.12044.version.c,__version_isp,pl
-Main.or32.resolution.txt (cpu\...\tools):7493
-include_lib/liba/sys.a.llvm.3894.version.c
--r=include_lib/liba/sys.a.llvm.3894.version.c,sys_version,pl
--r=include_lib/liba/sys.a.llvm.3894.version.c,log_print,l
--r=include_lib/liba/sys.a.llvm.3894.version.c,__version_sys,pl
-Map.txt:175
-                              obj\Debug\app\car_camera\version.o (symbol from plugin) (ui_server_version)
-Map.txt:177
-                              obj\Debug\app\car_camera\version.o (symbol from plugin) (video_engine_server_version)
-Map.txt:199
-                              obj\Debug\app\car_camera\version.o (symbol from plugin) (usb_server_version)
-Map.txt:211
-                              obj\Debug\app\car_camera\version.o (symbol from plugin) (video_dec_server_version)
-Map.txt:239
-                              obj\Debug\app\car_camera\version.o (symbol from plugin) (video_server_version)
-Map.txt:280
-include_lib/liba/dev.a(version.o)
-Map.txt:286
-include_lib/liba/cpu.a(version.o)
-Map.txt:377
-include_lib/liba/isp.a(version.o)
-Map.txt:513
-include_lib/liba/sys.a(version.o)
-Map.txt:762
- .text          0x00000000        0x0 obj\Debug\app\car_camera\version.o (symbol from plugin)
-Map.txt:1013
- .text          0x00000000        0x0 version.o (symbol from plugin)
-Map.txt:1016
- .text          0x00000000        0x0 version.o (symbol from plugin)
-Map.txt:1061
- .text          0x00000000        0x0 version.o (symbol from plugin)
-Map.txt:1130
- .text          0x00000000        0x0 version.o (symbol from plugin)
-Map.txt:1218
-LOAD obj\Debug\app\car_camera\version.o
-Map.txt:1587
- *(.version)
- .version       0x04087ea0       0x48 cpu\AC54xx\tools\main.or32.o
-Resbuilder.xml (ui_工程\uitools):1
-<?xml version='2.0' encoding='UTF-8'?>
-Resbuilder.xml (ui_工程\...\project):1
-<?xml version='2.0' encoding='UTF-8'?>
-Resbuilder.xml (ui_工程\...\project):1
-<?xml version='2.0' encoding='UTF-8'?>
-Resbuilder.xml (ui_工程\...\project):686
-                                        <Picture fmt="OSD8">E:\贝思特\6.86\数字后拉\18.12.05效果\AC54XX_贝思特_出货_DVP_带GPS_有车牌_20181204\AC54XX_贝思特_出货_DVP_带GPS_有车牌_20181204\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\version.png</Picture>
-Resbuilder.xml (ui_工程\...\project):1
-<?xml version='2.0' encoding='UTF-8'?>
-Resbuilder.xml (ui_工程\...\project):1
-<?xml version='2.0' encoding='UTF-8'?>
-Resbuilder.xml (ui_工程\...\project):1
-<?xml version='2.0' encoding='UTF-8'?>
-Result.xml (ui_工程\...\project):1
-<?xml version="2.0" encoding="UTF-8"?>
-Result.xml (ui_工程\...\project):1
-<?xml version="2.0" encoding="UTF-8"?>
-Result.xml (ui_工程\...\project):1905
-                <Picture id="102">E:\贝思特\6.86\数字后拉\18.12.05效果\AC54XX_贝思特_出货_DVP_带GPS_有车牌_20181204\AC54XX_贝思特_出货_DVP_带GPS_有车牌_20181204\UI_工程\ui_1280x480_touch_screen\模式界面\project\config\UI_1280_480\系统设置\icon\version.png</Picture>
-Result.xml (ui_工程\...\project):1
-<?xml version="2.0" encoding="UTF-8"?>
-Result.xml (ui_工程\...\project):1
-<?xml version="2.0" encoding="UTF-8"?>
-Result.xml (ui_工程\...\project):1
-<?xml version="2.0" encoding="UTF-8"?>
-Result.xml (ui_工程\...\project):1
-<?xml version="2.0" encoding="UTF-8"?>
-Sd.h (include_lib\system\device):8
- * the Free Software Foundation; either version 2 of the License, or (at
- * your option) any later version.
-Sdio.h (include_lib\system\device):8
- * the Free Software Foundation; either version 2 of the License, or (at
- * your option) any later version.
-Sdio_func.h (include_lib\system\device):8
- * the Free Software Foundation; either version 2 of the License, or (at
- * your option) any later version.
-Sd_ddr_file.h (include_lib\...\asm):22
-    u32 version;
-Ui.h (include_lib\ui\ui):26
-int ui_style_file_version_compare(int version);
-Ui_core.h (include_lib\ui\ui):214
-    u32 version;
-Untitled Project.bookmarks.xml (untitled project.si4project):1
-<?xml version="1.0" encoding="utf-8"?>
-Untitled Project.siproj_settings.xml (untitled project.si4project):1
-<?xml version="1.0" encoding="utf-8"?>
-Upgrade.c (app\car_camera):209
-    style.version = UPD_UI_VERSION;
-Version.h (include_lib\system\generic):27
-#define __MODULE_VERSION_EXPORT(module, version) \
-Version.h (include_lib\system\generic):31
-            log_i(#module": %d.%d.%d  build at: %s\n", (version)>>16, \
-                    ((version) >> 8) & 0xff, (version) & 0xff, __DATE__); \
-Version.h (include_lib\system\generic):34
-		return version; \
-Version.h (include_lib\system\generic):37
-        __attribute__((section(".version"),used)) = module##_version
-Version.h (include_lib\system\generic):40
-#define _MODULE_VERSION_EXPORT(module, version) \
-	__MODULE_VERSION_EXPORT(module, version)
-Version.h (include_lib\system\generic):53
-#define __VERSION_CHECK(module, version) \
-Version.h (include_lib\system\generic):57
-        if (MAJOR(version) != MAJOR(v) || MINOR(version) > MINOR(v)) { \
-            log_i("=======version not match=======\n");  \
-Version.h (include_lib\system\generic):72
-#define MODULE_VERSION_EXPORT(module, version) \
-	__MODULE_VERSION_EXPORT(module, version)
-Version.h (include_lib\system\generic):79
-#define MODULE_DEPEND(module_d, version) \
-        __VERSION_CHECK(module_d, version)
-Version.h (include_lib\system\generic):87
-#define VERSION_CHECK(module, version) \
-    __VERSION_CHECK(module, version)
-Version.h (include_lib\system\generic):104
-        version_t *version; \
-        log_i("=========version check===========\n"); \
-        for (version = lib_version_begin; version < lib_version_end; version++) { \
-            (*version)(1); \
-Video_system.h (app\car_camera\include):35
-    const char *version;
----- version Search Errors Encountered (4) ----
-The following 4 files could not be processed:
-E:\cxy job\git_work\贝思特\AC54XX_贝思特_出货_DVP_带GPS_有车牌\AC54XX_贝思特_出货_DVP_带GPS_有车牌\camera\av10\av10.c : File could not be opened.
-E:\cxy job\git_work\贝思特\AC54XX_贝思特_出货_DVP_带GPS_有车牌\AC54XX_贝思特_出货_DVP_带GPS_有车牌\cpu\AC54xx\debug.c : File could not be opened.
-E:\cxy job\git_work\贝思特\AC54XX_贝思特_出货_DVP_带GPS_有车牌\AC54XX_贝思特_出货_DVP_带GPS_有车牌\camera\gc1004\gc1004.c : File could not be opened.
-E:\cxy job\git_work\贝思特\AC54XX_贝思特_出货_DVP_带GPS_有车牌\AC54XX_贝思特_出货_DVP_带GPS_有车牌\include_lib\system\cpu\AC54xx\asm\hwi.h : File could not be opened.
+---- touch_panel Matches (51 in 8 files) ----
+Board_mipi_20170330.c (cpu\ac54xx\board):515
+    {"touch_panel", &touch_panel_dev_ops, (void *)&touch_panel_data},
+Board_mipi_touch_20170419.c (cpu\...\board):535
+    {"touch_panel", &touch_panel_dev_ops, (void *)&touch_panel_data},
+Board_mipi_touch_v1.c (cpu\ac54xx\board):571
+    {"touch_panel", &touch_panel_dev_ops, (void *)&touch_panel_data},
+Board_mipi_touch_v1_dvp.c (cpu\...\board):614
+    {"touch_panel", &touch_panel_dev_ops, (void *)&touch_panel_data},
+Main.or32.resolution.txt (cpu\...\tools):423
+obj\Debug\app\car_camera\touch_panel\GT911.o
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,TCH_INT_H,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,gpio_direction_output,l
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,TCH_INT_L,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,TCH_RST_H,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,TCH_RST_L,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,TCH_INT_IN,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,gpio_direction_input,l
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,GT911_iic_write,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,_touch_panel_write,l
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,GT911_iic_read,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,_touch_panel_read,l
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,GT911_int_sync,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,delay_2ms,l
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,GT911_reset_guitar,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,puts,l
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,GT911_iic_read_dbl_check,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,memset,l
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,memcmp,l
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,memcpy,l
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,printf,l
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,GT911_send_cfg,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,GT911_init_panel,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,GT911_event_handler,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,putchar,l
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,GT911_read_id,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,strncmp,l
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,GT911_read_point,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,sys_event_notify,l
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,GT911_sleep,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,GT911_wakeup,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,GT911_check,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,GT911_init,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,sys_timer_add,l
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,GT911_ioctl,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,sys_timer_del,l
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,point,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,tpd_info,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,gt911_ops,pl
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,key_dev_ops,l
+-r=obj\Debug\app\car_camera\touch_panel\GT911.o,audio_dev_ops,l
+obj\Debug\app\car_camera\touch_panel\ICN85XX.o
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_report_point_info,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_i2c_rxdata,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,printf,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_read_point,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,gpio_read,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,sys_event_notify,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn_iic_prog_write,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,_touch_panel_write,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn_iic_prog_write_32BIT,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,_touch_panel_write_32BIT,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn_iic_prog_read,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,_touch_panel_read,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn_iic_prog_read_32BIT,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,_touch_panel_read_32BIT,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn_iic_prog_write_87,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn_iic_prog_read_87,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,ICN85XX_reset,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,delay_2ms,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,ICN85XX_read_id,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_iic_test,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_check,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,ICN85XX_init,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_update,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,sys_timer_add,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,ICN85XX_read_point,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,ICN85XX_sleep,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_write_reg,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,ICN85XX_wakeup,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_prog_i2c_rxdata,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_prog_i2c_txdata,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_prog_write_reg,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_prog_read_reg,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_i2c_txdata,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_read_reg,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn87xx_prog_i2c_rxdata,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn87xx_prog_i2c_txdata,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_goto_progmode,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_read_flashid,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_set_fw,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_fw_update,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_read_fw_Ver,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_readVersion,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn87xx_fw_update,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_ioctl,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,sys_timer_del,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,gpio_direction_output,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,gpio_direction_input,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,icn85xx_ts,pl
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,key_dev_ops,l
+-r=obj\Debug\app\car_camera\touch_panel\ICN85XX.o,audio_dev_ops,l
+obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_rawdatadump,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,printf,l
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_memdump,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_checksum,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_update_status,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_get_status,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_set_fw,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_open_fw,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_read_fw,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,memcpy,l
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_close_fw,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_readVersion,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_i2c_rxdata,l
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_goto_progmode,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,ICN85XX_reset,l
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_prog_i2c_txdata,l
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,delay_2ms,l
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_check_progmod,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_prog_i2c_rxdata,l
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,FlashState,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_read_flashid,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,FlashWriteEnable,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,ClearFlashState,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,EarseFlash,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_erase_flash,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_prog_buffer,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_prog_data,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_read_flash,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_read_fw_Ver,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_fw_download,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_bootfrom_flash,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_bootfrom_sram,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_crc_calc,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_crc_enable,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_crc_check,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_fw_update,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,clr_wdt,l
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn87xx_fw_update,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn87xx_read_fw_info,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn87xx_erase_chip,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn87xx_fw_Crc,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn87xx_fw_download,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn87xx_calculate_crc,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn87xx_flash_write,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn87xx_write_flash_info,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn87xx_boot_flash,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_read_reg,l
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn87xx_boot_sram,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn87xx_prog_i2c_txdata,l
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn87xx_read_flashid,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn87xx_prog_i2c_rxdata,l
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn87xx_erase_flash,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn87xx_read_flashstate,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,g_status,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icnt87_sram_crc,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icnt87_sram_length,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,Crc16Table,pl
+-r=obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o,icn85xx_ts,l
+obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,_touch_panel_write,pl
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,puts,l
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,dev_ioctl,l
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,delay,l
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,_touch_panel_read_32BIT,pl
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,_touch_panel_write_32BIT,pl
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,_touch_panel_read,pl
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,_touch_panel_init,pl
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,_touch_panel_open,pl
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,dev_open,l
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,printf,l
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,_touch_panel_ioctl,pl
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,get_touch_panel,pl
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,dev_close_touch,pl
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,dev_close,l
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,touch_panel_dev_begin,
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,touch_panel_dev_end,
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,touch_panel_dev_ops,pl
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,__initcall_touch_panel_init,pl
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,key_dev_ops,l
+-r=obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o,audio_dev_ops,l
+Map.txt:591
+                              obj\Debug\app\car_camera\touch_panel\GT911.o (symbol from plugin) (memcmp)
+Map.txt:651
+tpd_info            0x0               obj\Debug\app\car_camera\touch_panel\GT911.o (symbol from plugin)
+Map.txt:696
+icn85xx_ts          0x0               obj\Debug\app\car_camera\touch_panel\ICN85XX.o (symbol from plugin)
+Map.txt:705
+point               0x0               obj\Debug\app\car_camera\touch_panel\GT911.o (symbol from plugin)
+Map.txt:741
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\touch_panel\GT911.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\touch_panel\ICN85XX.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o (symbol from plugin)
+ .text          0x00000000        0x0 obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o (symbol from plugin)
+Map.txt:1197
+LOAD obj\Debug\app\car_camera\touch_panel\GT911.o
+LOAD obj\Debug\app\car_camera\touch_panel\ICN85XX.o
+LOAD obj\Debug\app\car_camera\touch_panel\icn85xx_flash.o
+LOAD obj\Debug\app\car_camera\touch_panel\touch_panel_manager.o
+Touch_panel_manager.c (app\...\touch_panel):7
+static void *touch_panel = NULL;
+Touch_panel_manager.c (app\...\touch_panel):17
+        puts("\n touch_panel iic wr err -1");
+Touch_panel_manager.c (app\...\touch_panel):23
+        puts("\n touch_panel iic wr err -2");
+Touch_panel_manager.c (app\...\touch_panel):30
+        puts("\n touch_panel iic wr err 0\n");
+Touch_panel_manager.c (app\...\touch_panel):38
+        puts("\n touch_panel iic wr err 1\n");
+Touch_panel_manager.c (app\...\touch_panel):44
+        puts("\n touch_panel iic wr err 1\n");
+Touch_panel_manager.c (app\...\touch_panel):53
+            puts("\n touch_panel iic wr err 2\n");
+Touch_panel_manager.c (app\...\touch_panel):60
+        puts("\n touch_panel iic wr err 3\n");
+Touch_panel_manager.c (app\...\touch_panel):79
+        puts("\n touch_panel iic rd err -1");
+Touch_panel_manager.c (app\...\touch_panel):85
+        puts("\n touch_panel iic rd err -2");
+Touch_panel_manager.c (app\...\touch_panel):92
+        puts("\n touch_panel iic rd err 0\n");
+Touch_panel_manager.c (app\...\touch_panel):100
+        puts("\n touch_panel iic rd err 1\n");
+Touch_panel_manager.c (app\...\touch_panel):106
+        puts("\n touch_panel iic rd err 1\n");
+Touch_panel_manager.c (app\...\touch_panel):112
+        puts("\n touch_panel iic rd err 1\n");
+Touch_panel_manager.c (app\...\touch_panel):118
+        puts("\n touch_panel iic rd err 1\n");
+Touch_panel_manager.c (app\...\touch_panel):127
+        puts("\n touch_panel iic rd err 2\n");
+Touch_panel_manager.c (app\...\touch_panel):137
+            puts("\n touch_panel iic rd err 3\n");
+Touch_panel_manager.c (app\...\touch_panel):144
+        puts("\n touch_panel iic rd err 4\n");
+Touch_panel_manager.c (app\...\touch_panel):160
+        puts("\n touch_panel iic wr err -1");
+Touch_panel_manager.c (app\...\touch_panel):166
+        puts("\n touch_panel iic wr err -2");
+Touch_panel_manager.c (app\...\touch_panel):173
+        puts("\n touch_panel iic wr err 0\n");
+Touch_panel_manager.c (app\...\touch_panel):181
+        puts("\n touch_panel iic wr err 1\n");
+Touch_panel_manager.c (app\...\touch_panel):187
+        puts("\n touch_panel iic wr err 1\n");
+Touch_panel_manager.c (app\...\touch_panel):192
+        puts("\n touch_panel iic wr err 1\n");
+Touch_panel_manager.c (app\...\touch_panel):198
+        puts("\n touch_panel iic wr err 1\n");
+Touch_panel_manager.c (app\...\touch_panel):207
+            puts("\n touch_panel iic wr err 2\n");
+Touch_panel_manager.c (app\...\touch_panel):214
+        puts("\n touch_panel iic wr err 3\n");
+Touch_panel_manager.c (app\...\touch_panel):232
+        puts("\n touch_panel iic rd err -1");
+Touch_panel_manager.c (app\...\touch_panel):238
+        puts("\n touch_panel iic rd err -2");
+Touch_panel_manager.c (app\...\touch_panel):245
+        puts("\n touch_panel iic rd err 0\n");
+Touch_panel_manager.c (app\...\touch_panel):253
+        puts("\n touch_panel iic rd err 1\n");
+Touch_panel_manager.c (app\...\touch_panel):259
+        puts("\n touch_panel iic rd err 1\n");
+Touch_panel_manager.c (app\...\touch_panel):268
+        puts("\n touch_panel iic rd err 2\n");
+Touch_panel_manager.c (app\...\touch_panel):278
+            puts("\n touch_panel iic rd err 3\n");
+Touch_panel_manager.c (app\...\touch_panel):285
+        puts("\n touch_panel iic rd err 4\n");
+Touch_panel_manager.c (app\...\touch_panel):376
+    return touch_panel;
+Touch_panel_manager.c (app\...\touch_panel):382
+    dev_close(touch_panel);   
+Touch_panel_manager.c (app\...\touch_panel):388
+    puts("\n  init touch_panel ======");
+Touch_panel_manager.c (app\...\touch_panel):390
+        touch_panel = dev_open("touch_panel", 0);
+        if (!touch_panel) {
+Touch_panel_manager.h (app\...\include):77
+#define REGISTER_TOUCH_PANEL(touch_panel) \
+	static TOUCH_PANEL_INTERFACE touch_panel sec(.touch_panel_dev) = {

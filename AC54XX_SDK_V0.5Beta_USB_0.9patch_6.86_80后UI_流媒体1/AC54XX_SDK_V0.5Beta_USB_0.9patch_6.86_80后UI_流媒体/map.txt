@@ -1165,68 +1165,68 @@ END GROUP
  *boot_main.o(.text*)
  *boot_main.o(.rodata*)
  *(.text*)
- .text          0x04000088    0x5d2a2 cpu\AC54xx\tools\main.or32.o
-                0x0402301a                cpu1_main
-                0x0405b1c4                main
- .text          0x0405d32a       0x3c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memcmp.o)
-                0x0405d32a                memcmp
- .text          0x0405d366       0x86 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memcpy.o)
-                0x0405d366                memcpy
- .text          0x0405d3ec       0xe2 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memset.o)
-                0x0405d3ec                memset
- .text          0x0405d4ce       0x1a C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcat.o)
-                0x0405d4ce                strcat
- .text          0x0405d4e8       0x16 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strchr.o)
-                0x0405d4e8                strchr
- .text          0x0405d4fe       0x16 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcmp.o)
-                0x0405d4fe                strcmp
- .text          0x0405d514       0x10 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcpy.o)
-                0x0405d514                strcpy
- .text          0x0405d524        0xe C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strlen.o)
-                0x0405d524                strlen
- .text          0x0405d532       0x24 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strncmp.o)
-                0x0405d532                strncmp
- .text          0x0405d556       0x2e C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strstr.o)
-                0x0405d556                strstr
- .text          0x0405d584       0x2c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memmove.o)
-                0x0405d584                memmove
- .text          0x0405d5b0      0x2ba C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(adddf3.o)
-                0x0405d5b0                __adddf3
- .text          0x0405d86a      0x166 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(addsf3.o)
-                0x0405d86a                __addsf3
- .text          0x0405d9d0       0xa4 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparesf2.o)
-                0x0405d9d0                __lesf2
-                0x0405da10                __gesf2
-                0x0405da50                __unordsf2
-                0x0405da6c                __eqsf2
-                0x0405da6e                __ltsf2
-                0x0405da70                __nesf2
-                0x0405da72                __gtsf2
- .text          0x0405da74       0x54 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdi3.o)
-                0x0405da74                __divdi3
- .text          0x0405dac8       0x42 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfsi.o)
-                0x0405dac8                __fixdfsi
- .text          0x0405db0a       0x4a C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixsfsi.o)
-                0x0405db0a                __fixsfsi
- .text          0x0405db54       0x3c C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsidf.o)
-                0x0405db54                __floatsidf
- .text          0x0405db90       0x50 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsisf.o)
-                0x0405db90                __floatunsisf
- .text          0x0405dbe0      0x262 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(muldf3.o)
-                0x0405dbe0                __muldf3
- .text          0x0405de42      0x130 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(mulsf3.o)
-                0x0405de42                __mulsf3
- .text          0x0405df72       0xd8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(truncdfsf2.o)
-                0x0405df72                __truncdfsf2
- .text          0x0405e04a       0x10 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivdi3.o)
-                0x0405e04a                __udivdi3
- .text          0x0405e05a      0x236 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivmoddi4.o)
-                0x0405e05a                __udivmoddi4
+ .text          0x04000088    0x5d29e cpu\AC54xx\tools\main.or32.o
+                0x04023016                cpu1_main
+                0x0405b1c0                main
+ .text          0x0405d326       0x3c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memcmp.o)
+                0x0405d326                memcmp
+ .text          0x0405d362       0x86 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memcpy.o)
+                0x0405d362                memcpy
+ .text          0x0405d3e8       0xe2 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memset.o)
+                0x0405d3e8                memset
+ .text          0x0405d4ca       0x1a C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcat.o)
+                0x0405d4ca                strcat
+ .text          0x0405d4e4       0x16 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strchr.o)
+                0x0405d4e4                strchr
+ .text          0x0405d4fa       0x16 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcmp.o)
+                0x0405d4fa                strcmp
+ .text          0x0405d510       0x10 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcpy.o)
+                0x0405d510                strcpy
+ .text          0x0405d520        0xe C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strlen.o)
+                0x0405d520                strlen
+ .text          0x0405d52e       0x24 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strncmp.o)
+                0x0405d52e                strncmp
+ .text          0x0405d552       0x2e C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strstr.o)
+                0x0405d552                strstr
+ .text          0x0405d580       0x2c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memmove.o)
+                0x0405d580                memmove
+ .text          0x0405d5ac      0x2ba C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(adddf3.o)
+                0x0405d5ac                __adddf3
+ .text          0x0405d866      0x166 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(addsf3.o)
+                0x0405d866                __addsf3
+ .text          0x0405d9cc       0xa4 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparesf2.o)
+                0x0405d9cc                __lesf2
+                0x0405da0c                __gesf2
+                0x0405da4c                __unordsf2
+                0x0405da68                __eqsf2
+                0x0405da6a                __ltsf2
+                0x0405da6c                __nesf2
+                0x0405da6e                __gtsf2
+ .text          0x0405da70       0x54 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdi3.o)
+                0x0405da70                __divdi3
+ .text          0x0405dac4       0x42 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfsi.o)
+                0x0405dac4                __fixdfsi
+ .text          0x0405db06       0x4a C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixsfsi.o)
+                0x0405db06                __fixsfsi
+ .text          0x0405db50       0x3c C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsidf.o)
+                0x0405db50                __floatsidf
+ .text          0x0405db8c       0x50 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsisf.o)
+                0x0405db8c                __floatunsisf
+ .text          0x0405dbdc      0x262 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(muldf3.o)
+                0x0405dbdc                __muldf3
+ .text          0x0405de3e      0x130 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(mulsf3.o)
+                0x0405de3e                __mulsf3
+ .text          0x0405df6e       0xd8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(truncdfsf2.o)
+                0x0405df6e                __truncdfsf2
+ .text          0x0405e046       0x10 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivdi3.o)
+                0x0405e046                __udivdi3
+ .text          0x0405e056      0x236 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivmoddi4.o)
+                0x0405e056                __udivmoddi4
  *(.rodata*)
  .rodata.str1.1
-                0x0405e290      0xf6b cpu\AC54xx\tools\main.or32.o
+                0x0405e28c      0xf6b cpu\AC54xx\tools\main.or32.o
                                 0xf74 (size before relaxing)
- *fill*         0x0405f1fb        0x5 
+ *fill*         0x0405f1f7        0x9 
  .rodata        0x0405f200     0xf8dc cpu\AC54xx\tools\main.or32.o
  *fill*         0x0406eadc        0x4 
  .rodata.str1.16

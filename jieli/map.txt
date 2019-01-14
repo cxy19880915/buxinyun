@@ -826,19 +826,6 @@ Discarded input sections
  .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\debug.o (symbol from plugin)
  .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\iokey.o (symbol from plugin)
  .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\ldo.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_dcs_1lane_16bit.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_dcs_1lane_24bit.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_2lane_24bit.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1080p.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_EK79030.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_HX8394.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_LX68HD.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_WT686.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x720_ssd_2201.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x800.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_720p.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_720p_rm68200ga1.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_hx839d_boe686_480X1280.o (symbol from plugin)
  .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\mipi_lcd_driver\icn6211.o (symbol from plugin)
  .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\powerdet.o (symbol from plugin)
  .text          0x00000000        0x0 obj\Debug\cpu\AC54xx\setup.o (symbol from plugin)
@@ -1261,19 +1248,6 @@ LOAD obj\Debug\cpu\AC54xx\board\board_mipi_touch_v1_r317.o
 LOAD obj\Debug\cpu\AC54xx\debug.o
 LOAD obj\Debug\cpu\AC54xx\iokey.o
 LOAD obj\Debug\cpu\AC54xx\ldo.o
-LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_dcs_1lane_16bit.o
-LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_dcs_1lane_24bit.o
-LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_2lane_24bit.o
-LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1080p.o
-LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_EK79030.o
-LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_HX8394.o
-LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_LX68HD.o
-LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x480_WT686.o
-LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x720_ssd_2201.o
-LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_1280x800.o
-LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_720p.o
-LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_720p_rm68200ga1.o
-LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\dsi_vdo_4lane_hx839d_boe686_480X1280.o
 LOAD obj\Debug\cpu\AC54xx\mipi_lcd_driver\icn6211.o
 LOAD obj\Debug\cpu\AC54xx\powerdet.o
 LOAD obj\Debug\cpu\AC54xx\setup.o
@@ -1311,7 +1285,7 @@ END GROUP
                 0x02000000                SDRAM_SIZE = 0x2000000
                 0x04000000                . = ORIGIN (sdram_mem)
 
-.rom_code       0x04000000    0x87b80
+.rom_code       0x04000000    0x87c80
                 0x04000000                _text_rodata_begin = .
                 [!provide]                PROVIDE (text_rodata_begin, .)
  *startup.o(.text)
@@ -1323,505 +1297,505 @@ END GROUP
  *boot_main.o(.text*)
  *boot_main.o(.rodata*)
  *(.text*)
- .text          0x04000088    0x63638 cpu\AC54xx\tools\main.or32.o
-                0x040291c0                cpu1_main
-                0x04061556                main
- .text          0x040636c0       0x3c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memcmp.o)
-                0x040636c0                memcmp
- .text          0x040636fc       0x86 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memcpy.o)
-                0x040636fc                memcpy
- .text          0x04063782       0xe2 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memset.o)
-                0x04063782                memset
- .text          0x04063864       0x1a C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcat.o)
-                0x04063864                strcat
- .text          0x0406387e       0x16 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strchr.o)
-                0x0406387e                strchr
- .text          0x04063894       0x16 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcmp.o)
-                0x04063894                strcmp
- .text          0x040638aa       0x10 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcpy.o)
-                0x040638aa                strcpy
- .text          0x040638ba        0xe C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strlen.o)
-                0x040638ba                strlen
- .text          0x040638c8       0x24 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strncmp.o)
-                0x040638c8                strncmp
- .text          0x040638ec       0x2e C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strstr.o)
-                0x040638ec                strstr
- .text          0x0406391a       0x2c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memmove.o)
-                0x0406391a                memmove
- .text          0x04063946      0x2ba C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(adddf3.o)
-                0x04063946                __adddf3
- .text          0x04063c00      0x166 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(addsf3.o)
-                0x04063c00                __addsf3
- .text          0x04063d66       0xa4 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparesf2.o)
-                0x04063d66                __lesf2
-                0x04063da6                __gesf2
-                0x04063de6                __unordsf2
-                0x04063e02                __eqsf2
-                0x04063e04                __ltsf2
-                0x04063e06                __nesf2
-                0x04063e08                __gtsf2
- .text          0x04063e0a       0x54 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdi3.o)
-                0x04063e0a                __divdi3
- .text          0x04063e5e       0x42 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfsi.o)
-                0x04063e5e                __fixdfsi
- .text          0x04063ea0       0x4a C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixsfsi.o)
-                0x04063ea0                __fixsfsi
- .text          0x04063eea       0x3c C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsidf.o)
-                0x04063eea                __floatsidf
- .text          0x04063f26       0x50 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsisf.o)
-                0x04063f26                __floatunsisf
- .text          0x04063f76      0x262 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(muldf3.o)
-                0x04063f76                __muldf3
- .text          0x040641d8      0x130 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(mulsf3.o)
-                0x040641d8                __mulsf3
- .text          0x04064308       0xd8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(truncdfsf2.o)
-                0x04064308                __truncdfsf2
- .text          0x040643e0       0x10 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivdi3.o)
-                0x040643e0                __udivdi3
- .text          0x040643f0      0x236 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivmoddi4.o)
-                0x040643f0                __udivmoddi4
+ .text          0x04000088    0x63758 cpu\AC54xx\tools\main.or32.o
+                0x040292c6                cpu1_main
+                0x04061676                main
+ .text          0x040637e0       0x3c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memcmp.o)
+                0x040637e0                memcmp
+ .text          0x0406381c       0x86 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memcpy.o)
+                0x0406381c                memcpy
+ .text          0x040638a2       0xe2 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memset.o)
+                0x040638a2                memset
+ .text          0x04063984       0x1a C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcat.o)
+                0x04063984                strcat
+ .text          0x0406399e       0x16 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strchr.o)
+                0x0406399e                strchr
+ .text          0x040639b4       0x16 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcmp.o)
+                0x040639b4                strcmp
+ .text          0x040639ca       0x10 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strcpy.o)
+                0x040639ca                strcpy
+ .text          0x040639da        0xe C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strlen.o)
+                0x040639da                strlen
+ .text          0x040639e8       0x24 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strncmp.o)
+                0x040639e8                strncmp
+ .text          0x04063a0c       0x2e C:\JL\pi32\pi32v2-lib\libc.a(lib_a-strstr.o)
+                0x04063a0c                strstr
+ .text          0x04063a3a       0x2c C:\JL\pi32\pi32v2-lib\libc.a(lib_a-memmove.o)
+                0x04063a3a                memmove
+ .text          0x04063a66      0x2ba C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(adddf3.o)
+                0x04063a66                __adddf3
+ .text          0x04063d20      0x166 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(addsf3.o)
+                0x04063d20                __addsf3
+ .text          0x04063e86       0xa4 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparesf2.o)
+                0x04063e86                __lesf2
+                0x04063ec6                __gesf2
+                0x04063f06                __unordsf2
+                0x04063f22                __eqsf2
+                0x04063f24                __ltsf2
+                0x04063f26                __nesf2
+                0x04063f28                __gtsf2
+ .text          0x04063f2a       0x54 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdi3.o)
+                0x04063f2a                __divdi3
+ .text          0x04063f7e       0x42 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfsi.o)
+                0x04063f7e                __fixdfsi
+ .text          0x04063fc0       0x4a C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixsfsi.o)
+                0x04063fc0                __fixsfsi
+ .text          0x0406400a       0x3c C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsidf.o)
+                0x0406400a                __floatsidf
+ .text          0x04064046       0x50 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsisf.o)
+                0x04064046                __floatunsisf
+ .text          0x04064096      0x262 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(muldf3.o)
+                0x04064096                __muldf3
+ .text          0x040642f8      0x130 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(mulsf3.o)
+                0x040642f8                __mulsf3
+ .text          0x04064428       0xd8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(truncdfsf2.o)
+                0x04064428                __truncdfsf2
+ .text          0x04064500       0x10 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivdi3.o)
+                0x04064500                __udivdi3
+ .text          0x04064510      0x236 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivmoddi4.o)
+                0x04064510                __udivmoddi4
  *(.rodata*)
  .rodata.str1.1
-                0x04064626      0xfe8 cpu\AC54xx\tools\main.or32.o
-                                0xff1 (size before relaxing)
- *fill*         0x0406560e       0x32 
- .rodata        0x04065640    0x147fc cpu\AC54xx\tools\main.or32.o
- .rodata.cst4   0x04079e3c        0x4 cpu\AC54xx\tools\main.or32.o
- .rodata.cst32  0x04079e40       0x40 cpu\AC54xx\tools\main.or32.o
+                0x04064746      0xff0 cpu\AC54xx\tools\main.or32.o
+                                0xff9 (size before relaxing)
+ *fill*         0x04065736        0xa 
+ .rodata        0x04065740    0x1480c cpu\AC54xx\tools\main.or32.o
+ .rodata.cst4   0x04079f4c        0x4 cpu\AC54xx\tools\main.or32.o
+ .rodata.cst32  0x04079f50       0x40 cpu\AC54xx\tools\main.or32.o
  .rodata.str1.16
-                0x04079e80      0x430 cpu\AC54xx\tools\main.or32.o
+                0x04079f90      0x430 cpu\AC54xx\tools\main.or32.o
                                 0x427 (size before relaxing)
  .rodata.str4.4
-                0x0407a2b0      0x278 cpu\AC54xx\tools\main.or32.o
-                0x0407a528                _text_rodata_end = .
+                0x0407a3c0      0x278 cpu\AC54xx\tools\main.or32.o
+                0x0407a638                _text_rodata_end = .
                 [!provide]                PROVIDE (text_rodata_end, .)
-                0x0407a540                . = ALIGN (0x20)
- *fill*         0x0407a528       0x18 
+                0x0407a640                . = ALIGN (0x20)
+ *fill*         0x0407a638        0x8 
  *(.data)
- .data          0x0407a540     0xb684 cpu\AC54xx\tools\main.or32.o
-                0x04085bc4                . = ALIGN (0x4)
-                0x04085bc4                vfs_ops_begin = .
+ .data          0x0407a640     0xb684 cpu\AC54xx\tools\main.or32.o
+                0x04085cc4                . = ALIGN (0x4)
+                0x04085cc4                vfs_ops_begin = .
  *(.vfs_operations)
  .vfs_operations
-                0x04085bc4      0x190 cpu\AC54xx\tools\main.or32.o
-                0x04085d54                vfs_ops_end = .
-                0x04085d54                _lcd_device_begin = .
+                0x04085cc4      0x190 cpu\AC54xx\tools\main.or32.o
+                0x04085e54                vfs_ops_end = .
+                0x04085e54                _lcd_device_begin = .
                 [!provide]                PROVIDE (lcd_device_begin, .)
  *(.lcd_device)
-                0x04085d54                _lcd_device_end = .
+                0x04085e54                _lcd_device_end = .
                 [!provide]                PROVIDE (lcd_device_end, .)
-                0x04085d54                _lcd_device_drive_begin = .
-                0x04085d54                PROVIDE (lcd_device_drive_begin, .)
+                0x04085e54                _lcd_device_drive_begin = .
+                0x04085e54                PROVIDE (lcd_device_drive_begin, .)
  *(.lcd_device_drive)
  .lcd_device_drive
-                0x04085d54       0x38 cpu\AC54xx\tools\main.or32.o
-                0x04085d8c                _lcd_device_drive_end = .
-                0x04085d8c                PROVIDE (lcd_device_drive_end, .)
-                0x04085d8c                _gsensor_dev_begin = .
-                0x04085d8c                PROVIDE (gsensor_dev_begin, .)
+                0x04085e54       0x38 cpu\AC54xx\tools\main.or32.o
+                0x04085e8c                _lcd_device_drive_end = .
+                0x04085e8c                PROVIDE (lcd_device_drive_end, .)
+                0x04085e8c                _gsensor_dev_begin = .
+                0x04085e8c                PROVIDE (gsensor_dev_begin, .)
  *(.gsensor_dev)
- .gsensor_dev   0x04085d8c       0x60 cpu\AC54xx\tools\main.or32.o
-                0x04085dec                _gsensor_dev_end = .
-                0x04085dec                PROVIDE (gsensor_dev_end, .)
-                0x04085dec                _touch_panel_dev_begin = .
-                0x04085dec                PROVIDE (touch_panel_dev_begin, .)
+ .gsensor_dev   0x04085e8c       0x60 cpu\AC54xx\tools\main.or32.o
+                0x04085eec                _gsensor_dev_end = .
+                0x04085eec                PROVIDE (gsensor_dev_end, .)
+                0x04085eec                _touch_panel_dev_begin = .
+                0x04085eec                PROVIDE (touch_panel_dev_begin, .)
  *(.touch_panel_dev)
  .touch_panel_dev
-                0x04085dec       0x18 cpu\AC54xx\tools\main.or32.o
-                0x04085e04                _touch_panel_dev_end = .
-                0x04085e04                PROVIDE (touch_panel_dev_end, .)
-                0x04085e04                _isp_scr_begin = .
-                0x04085e04                PROVIDE (isp_scr_begin, .)
+                0x04085eec       0x18 cpu\AC54xx\tools\main.or32.o
+                0x04085f04                _touch_panel_dev_end = .
+                0x04085f04                PROVIDE (touch_panel_dev_end, .)
+                0x04085f04                _isp_scr_begin = .
+                0x04085f04                PROVIDE (isp_scr_begin, .)
  *(.isp_scr_work)
- .isp_scr_work  0x04085e04       0x18 cpu\AC54xx\tools\main.or32.o
-                0x04085e1c                _isp_scr_end = .
-                0x04085e1c                PROVIDE (isp_scr_end, .)
-                0x04085e1c                _power_dev_begin = .
-                0x04085e1c                PROVIDE (power_dev_begin, .)
+ .isp_scr_work  0x04085f04       0x18 cpu\AC54xx\tools\main.or32.o
+                0x04085f1c                _isp_scr_end = .
+                0x04085f1c                PROVIDE (isp_scr_end, .)
+                0x04085f1c                _power_dev_begin = .
+                0x04085f1c                PROVIDE (power_dev_begin, .)
  *(.power_dev)
- .power_dev     0x04085e1c       0x18 cpu\AC54xx\tools\main.or32.o
-                0x04085e34                _power_dev_end = .
-                0x04085e34                PROVIDE (power_dev_end, .)
-                0x04085e34                _eth_phy_device_begin = .
+ .power_dev     0x04085f1c       0x18 cpu\AC54xx\tools\main.or32.o
+                0x04085f34                _power_dev_end = .
+                0x04085f34                PROVIDE (power_dev_end, .)
+                0x04085f34                _eth_phy_device_begin = .
                 [!provide]                PROVIDE (eth_phy_device_begin, .)
  *(.eth_phy_device)
-                0x04085e34                _eth_phy_device_end = .
+                0x04085f34                _eth_phy_device_end = .
                 [!provide]                PROVIDE (eth_phy_device_end, .)
-                0x04085e34                _ui_style_begin = .
-                0x04085e34                PROVIDE (ui_style_begin, .)
+                0x04085f34                _ui_style_begin = .
+                0x04085f34                PROVIDE (ui_style_begin, .)
  *(.ui_style)
- .ui_style      0x04085e34       0x24 cpu\AC54xx\tools\main.or32.o
-                0x04085e58                _ui_style_end = .
-                0x04085e58                PROVIDE (ui_style_end, .)
-                0x04085e58                _elm_event_handler_begin_UPGRADE = .
-                0x04085e58                PROVIDE (elm_event_handler_begin_UPGRADE, .)
+ .ui_style      0x04085f34       0x24 cpu\AC54xx\tools\main.or32.o
+                0x04085f58                _ui_style_end = .
+                0x04085f58                PROVIDE (ui_style_end, .)
+                0x04085f58                _elm_event_handler_begin_UPGRADE = .
+                0x04085f58                PROVIDE (elm_event_handler_begin_UPGRADE, .)
  *(.elm_event_handler_UPGRADE)
-                0x04085e58                _elm_event_handler_end_UPGRADE = .
-                0x04085e58                PROVIDE (elm_event_handler_end_UPGRADE, .)
-                0x04085e58                _elm_event_handler_begin_JL02 = .
-                0x04085e58                PROVIDE (elm_event_handler_begin_JL02, .)
+                0x04085f58                _elm_event_handler_end_UPGRADE = .
+                0x04085f58                PROVIDE (elm_event_handler_end_UPGRADE, .)
+                0x04085f58                _elm_event_handler_begin_JL02 = .
+                0x04085f58                PROVIDE (elm_event_handler_begin_JL02, .)
  *(.elm_event_handler_JL02)
  .elm_event_handler_JL02
-                0x04085e58      0xf80 cpu\AC54xx\tools\main.or32.o
-                0x04086dd8                _elm_event_handler_end_JL02 = .
-                0x04086dd8                PROVIDE (elm_event_handler_end_JL02, .)
-                0x04086dd8                _elm_event_handler_begin_ANI = .
-                0x04086dd8                PROVIDE (elm_event_handler_begin_ANI, .)
+                0x04085f58      0xf80 cpu\AC54xx\tools\main.or32.o
+                0x04086ed8                _elm_event_handler_end_JL02 = .
+                0x04086ed8                PROVIDE (elm_event_handler_end_JL02, .)
+                0x04086ed8                _elm_event_handler_begin_ANI = .
+                0x04086ed8                PROVIDE (elm_event_handler_begin_ANI, .)
  *(.elm_event_handler_ANI)
  .elm_event_handler_ANI
-                0x04086dd8       0x20 cpu\AC54xx\tools\main.or32.o
-                0x04086df8                _elm_event_handler_end_ANI = .
-                0x04086df8                PROVIDE (elm_event_handler_end_ANI, .)
-                0x04086df8                _elm_event_handler_begin_LY = .
+                0x04086ed8       0x20 cpu\AC54xx\tools\main.or32.o
+                0x04086ef8                _elm_event_handler_end_ANI = .
+                0x04086ef8                PROVIDE (elm_event_handler_end_ANI, .)
+                0x04086ef8                _elm_event_handler_begin_LY = .
                 [!provide]                PROVIDE (elm_event_handler_begin_LY, .)
  *(.elm_event_handler_LY)
-                0x04086df8                _elm_event_handler_end_LY = .
+                0x04086ef8                _elm_event_handler_end_LY = .
                 [!provide]                PROVIDE (elm_event_handler_end_LY, .)
-                0x04086df8                _control_event_handler_begin = .
+                0x04086ef8                _control_event_handler_begin = .
                 [!provide]                PROVIDE (control_event_handler_begin, .)
  *(.control_event_handler)
-                0x04086df8                _control_event_handler_end = .
+                0x04086ef8                _control_event_handler_end = .
                 [!provide]                PROVIDE (control_event_handler_end, .)
-                0x04086df8                _control_ops_begin = .
-                0x04086df8                PROVIDE (control_ops_begin, .)
+                0x04086ef8                _control_ops_begin = .
+                0x04086ef8                PROVIDE (control_ops_begin, .)
  *(.control_ops)
- .control_ops   0x04086df8       0x78 cpu\AC54xx\tools\main.or32.o
-                0x04086e70                _control_ops_end = .
-                0x04086e70                PROVIDE (control_ops_end, .)
-                0x04086e70                _vg_event_handler_begin = .
+ .control_ops   0x04086ef8       0x78 cpu\AC54xx\tools\main.or32.o
+                0x04086f70                _control_ops_end = .
+                0x04086f70                PROVIDE (control_ops_end, .)
+                0x04086f70                _vg_event_handler_begin = .
                 [!provide]                PROVIDE (vg_event_handler_begin, .)
  *(.vg_event_handler)
-                0x04086e70                _vg_event_handler_end = .
+                0x04086f70                _vg_event_handler_end = .
                 [!provide]                PROVIDE (vg_event_handler_end, .)
-                0x04086e70                _on_show_map_begin = .
+                0x04086f70                _on_show_map_begin = .
                 [!provide]                PROVIDE (on_show_map_begin, .)
  *(.on_show_map)
-                0x04086e70                _on_show_map_end = .
+                0x04086f70                _on_show_map_end = .
                 [!provide]                PROVIDE (on_show_map_end, .)
-                0x04086e70                _on_click_map_begin = .
+                0x04086f70                _on_click_map_begin = .
                 [!provide]                PROVIDE (on_click_map_begin, .)
  *(.on_click_map)
-                0x04086e70                _on_click_map_end = .
+                0x04086f70                _on_click_map_end = .
                 [!provide]                PROVIDE (on_click_map_end, .)
-                0x04086e70                _on_touch_map_begin = .
+                0x04086f70                _on_touch_map_begin = .
                 [!provide]                PROVIDE (on_touch_map_begin, .)
  *(.on_touch_map)
-                0x04086e70                _on_touch_map_end = .
+                0x04086f70                _on_touch_map_end = .
                 [!provide]                PROVIDE (on_touch_map_end, .)
-                0x04086e70                _on_change_map_begin = .
+                0x04086f70                _on_change_map_begin = .
                 [!provide]                PROVIDE (on_change_map_begin, .)
  *(.on_change_map)
-                0x04086e70                _on_change_map_end = .
+                0x04086f70                _on_change_map_end = .
                 [!provide]                PROVIDE (on_change_map_end, .)
-                0x04086e70                _on_key_map_begin = .
+                0x04086f70                _on_key_map_begin = .
                 [!provide]                PROVIDE (on_key_map_begin, .)
  *(.on_key_map)
-                0x04086e70                _on_key_map_end = .
+                0x04086f70                _on_key_map_end = .
                 [!provide]                PROVIDE (on_key_map_end, .)
-                0x04086e70                _img_loader_begin = .
+                0x04086f70                _img_loader_begin = .
                 [!provide]                PROVIDE (img_loader_begin, .)
  *(.img_loader)
-                0x04086e70                _img_loader_end = .
+                0x04086f70                _img_loader_end = .
                 [!provide]                PROVIDE (img_loader_end, .)
-                0x04086e70                _battery_notify_begin = .
+                0x04086f70                _battery_notify_begin = .
                 [!provide]                PROVIDE (battery_notify_begin, .)
  *(.battery_notify)
-                0x04086e70                _battery_notify_end = .
+                0x04086f70                _battery_notify_end = .
                 [!provide]                PROVIDE (battery_notify_end, .)
-                0x04086e70                _lib_version_begin = .
-                0x04086e70                PROVIDE (lib_version_begin, .)
+                0x04086f70                _lib_version_begin = .
+                0x04086f70                PROVIDE (lib_version_begin, .)
  *(.version)
- .version       0x04086e70       0x4c cpu\AC54xx\tools\main.or32.o
-                0x04086e70                __version_fs
-                0x04086e74                __version_fatfs
-                0x04086e78                __version_upgrade
-                0x04086e7c                __version_server_core
-                0x04086e80                __version_ui_server
-                0x04086e84                __version_video_engine_server
-                0x04086e88                __version_usb_server
-                0x04086e8c                __version_video_dec_server
-                0x04086e90                __version_vunpkg_server
-                0x04086e94                __version_video_server
-                0x04086e98                __version_vpkg_server
-                0x04086e9c                __version_video_dev
-                0x04086ea0                __version_cpu
-                0x04086ea4                __version_isp
-                0x04086ea8                __version_sys
-                0x04086eac                __version_audio_server
-                0x04086eb0                __version_sdfile
-                0x04086eb4                __version_devfs
-                0x04086eb8                __version_ramfs
-                0x04086ebc                _lib_version_end = .
-                0x04086ebc                PROVIDE (lib_version_end, .)
-                0x04086ebc                _initcall_begin = .
-                0x04086ebc                PROVIDE (initcall_begin, .)
+ .version       0x04086f70       0x4c cpu\AC54xx\tools\main.or32.o
+                0x04086f70                __version_fs
+                0x04086f74                __version_fatfs
+                0x04086f78                __version_upgrade
+                0x04086f7c                __version_server_core
+                0x04086f80                __version_ui_server
+                0x04086f84                __version_video_engine_server
+                0x04086f88                __version_usb_server
+                0x04086f8c                __version_video_dec_server
+                0x04086f90                __version_vunpkg_server
+                0x04086f94                __version_video_server
+                0x04086f98                __version_vpkg_server
+                0x04086f9c                __version_video_dev
+                0x04086fa0                __version_cpu
+                0x04086fa4                __version_isp
+                0x04086fa8                __version_sys
+                0x04086fac                __version_audio_server
+                0x04086fb0                __version_sdfile
+                0x04086fb4                __version_devfs
+                0x04086fb8                __version_ramfs
+                0x04086fbc                _lib_version_end = .
+                0x04086fbc                PROVIDE (lib_version_end, .)
+                0x04086fbc                _initcall_begin = .
+                0x04086fbc                PROVIDE (initcall_begin, .)
  *(.initcall)
- .initcall      0x04086ebc       0x18 cpu\AC54xx\tools\main.or32.o
-                0x04086ebc                __initcall_app_config_init
-                0x04086ec0                __initcall_spi_flash_write_protect
-                0x04086ec4                __initcall_video_engine_server_init
-                0x04086ec8                __initcall_usb_server_init
-                0x04086ecc                __initcall_video_server_init
-                0x04086ed0                __initcall_vpkg_server_init
-                0x04086ed4                _initcall_end = .
-                0x04086ed4                PROVIDE (initcall_end, .)
-                0x04086ed4                _early_initcall_begin = .
-                0x04086ed4                PROVIDE (early_initcall_begin, .)
+ .initcall      0x04086fbc       0x18 cpu\AC54xx\tools\main.or32.o
+                0x04086fbc                __initcall_app_config_init
+                0x04086fc0                __initcall_spi_flash_write_protect
+                0x04086fc4                __initcall_video_engine_server_init
+                0x04086fc8                __initcall_usb_server_init
+                0x04086fcc                __initcall_video_server_init
+                0x04086fd0                __initcall_vpkg_server_init
+                0x04086fd4                _initcall_end = .
+                0x04086fd4                PROVIDE (initcall_end, .)
+                0x04086fd4                _early_initcall_begin = .
+                0x04086fd4                PROVIDE (early_initcall_begin, .)
  *(.early.initcall)
  .early.initcall
-                0x04086ed4       0x18 cpu\AC54xx\tools\main.or32.o
-                0x04086ed4                __initcall_app_version_check
-                0x04086ed8                __initcall_dma_copy_init
-                0x04086edc                __initcall_port_wakeup_init
-                0x04086ee0                __initcall_timer1_init
-                0x04086ee4                __initcall_sys_event_init
-                0x04086ee8                __initcall_wait_completion_init
-                0x04086eec                _early_initcall_end = .
-                0x04086eec                PROVIDE (early_initcall_end, .)
-                0x04086eec                _late_initcall_begin = .
-                0x04086eec                PROVIDE (late_initcall_begin, .)
+                0x04086fd4       0x18 cpu\AC54xx\tools\main.or32.o
+                0x04086fd4                __initcall_app_version_check
+                0x04086fd8                __initcall_dma_copy_init
+                0x04086fdc                __initcall_port_wakeup_init
+                0x04086fe0                __initcall_timer1_init
+                0x04086fe4                __initcall_sys_event_init
+                0x04086fe8                __initcall_wait_completion_init
+                0x04086fec                _early_initcall_end = .
+                0x04086fec                PROVIDE (early_initcall_end, .)
+                0x04086fec                _late_initcall_begin = .
+                0x04086fec                PROVIDE (late_initcall_begin, .)
  *(.late.initcall)
  .late.initcall
-                0x04086eec       0x28 cpu\AC54xx\tools\main.or32.o
-                0x04086eec                __initcall_auto_test_init
-                0x04086ef0                __initcall_key_voice_init
-                0x04086ef4                __initcall_parking_detect_init
-                0x04086ef8                __initcall_charging_detect
-                0x04086efc                __initcall_lower_power_close_ctrl
-                0x04086f00                __initcall_touch_panel_init
-                0x04086f04                __initcall_usb0_init
-                0x04086f08                __initcall_usb1_init
-                0x04086f0c                __initcall_init_application
-                0x04086f10                __initcall_log_send_mode_change
-                0x04086f14                _late_initcall_end = .
-                0x04086f14                PROVIDE (late_initcall_end, .)
-                0x04086f14                _platform_initcall_begin = .
-                0x04086f14                PROVIDE (platform_initcall_begin, .)
+                0x04086fec       0x28 cpu\AC54xx\tools\main.or32.o
+                0x04086fec                __initcall_auto_test_init
+                0x04086ff0                __initcall_key_voice_init
+                0x04086ff4                __initcall_parking_detect_init
+                0x04086ff8                __initcall_charging_detect
+                0x04086ffc                __initcall_lower_power_close_ctrl
+                0x04087000                __initcall_touch_panel_init
+                0x04087004                __initcall_usb0_init
+                0x04087008                __initcall_usb1_init
+                0x0408700c                __initcall_init_application
+                0x04087010                __initcall_log_send_mode_change
+                0x04087014                _late_initcall_end = .
+                0x04087014                PROVIDE (late_initcall_end, .)
+                0x04087014                _platform_initcall_begin = .
+                0x04087014                PROVIDE (platform_initcall_begin, .)
  *(.platform.initcall)
  .platform.initcall
-                0x04086f14        0x8 cpu\AC54xx\tools\main.or32.o
-                0x04086f14                __initcall_adc_scan_init
-                0x04086f18                __initcall_register_fbinfo
-                0x04086f1c                _platform_initcall_end = .
-                0x04086f1c                PROVIDE (platform_initcall_end, .)
-                0x04086f1c                _module_initcall_begin = .
-                0x04086f1c                PROVIDE (module_initcall_begin, .)
+                0x04087014        0x8 cpu\AC54xx\tools\main.or32.o
+                0x04087014                __initcall_adc_scan_init
+                0x04087018                __initcall_register_fbinfo
+                0x0408701c                _platform_initcall_end = .
+                0x0408701c                PROVIDE (platform_initcall_end, .)
+                0x0408701c                _module_initcall_begin = .
+                0x0408701c                PROVIDE (module_initcall_begin, .)
  *(.module.initcall)
-                0x04086f1c                _module_initcall_end = .
-                0x04086f1c                PROVIDE (module_initcall_end, .)
-                0x04086f1c                _sys_event_handler_begin = .
-                0x04086f1c                PROVIDE (sys_event_handler_begin, .)
+                0x0408701c                _module_initcall_end = .
+                0x0408701c                PROVIDE (module_initcall_end, .)
+                0x0408701c                _sys_event_handler_begin = .
+                0x0408701c                PROVIDE (sys_event_handler_begin, .)
  *(.sys_event.4.handler)
  .sys_event.4.handler
-                0x04086f1c       0x18 cpu\AC54xx\tools\main.or32.o
-                0x04086f1c                __event_handler_backlight_charge_event_handler
-                0x04086f24                __event_handler_backlight_event_handler
-                0x04086f2c                __event_handler_lower_power_close_handler
+                0x0408701c       0x18 cpu\AC54xx\tools\main.or32.o
+                0x0408701c                __event_handler_backlight_charge_event_handler
+                0x04087024                __event_handler_backlight_event_handler
+                0x0408702c                __event_handler_lower_power_close_handler
  *(.sys_event.3.handler)
  .sys_event.3.handler
-                0x04086f34        0x8 cpu\AC54xx\tools\main.or32.o
-                0x04086f34                __event_handler_key_event_handler
+                0x04087034        0x8 cpu\AC54xx\tools\main.or32.o
+                0x04087034                __event_handler_key_event_handler
  *(.sys_event.2.handler)
  *(.sys_event.1.handler)
  *(.sys_event.0.handler)
  .sys_event.0.handler
-                0x04086f3c       0x30 cpu\AC54xx\tools\main.or32.o
-                0x04086f3c                __event_handler_device_event_handler
-                0x04086f44                __event_handler_video_device_event_handler
-                0x04086f4c                __event_handler_auto_close_event_handler
-                0x04086f54                __event_handler_charg_off_close_event_handler
-                0x04086f5c                __event_handler_msg_device_event_handler
-                0x04086f64                __event_handler_uvc_device_event_handler
-                0x04086f6c                _sys_event_handler_end = .
-                0x04086f6c                PROVIDE (sys_event_handler_end, .)
-                0x04086f6c                _syscfg_arg_begin = .
+                0x0408703c       0x30 cpu\AC54xx\tools\main.or32.o
+                0x0408703c                __event_handler_device_event_handler
+                0x04087044                __event_handler_video_device_event_handler
+                0x0408704c                __event_handler_auto_close_event_handler
+                0x04087054                __event_handler_charg_off_close_event_handler
+                0x0408705c                __event_handler_msg_device_event_handler
+                0x04087064                __event_handler_uvc_device_event_handler
+                0x0408706c                _sys_event_handler_end = .
+                0x0408706c                PROVIDE (sys_event_handler_end, .)
+                0x0408706c                _syscfg_arg_begin = .
                 [!provide]                PROVIDE (syscfg_arg_begin, .)
  *(.syscfg.arg)
-                0x04086f6c                _syscfg_arg_end = .
+                0x0408706c                _syscfg_arg_end = .
                 [!provide]                PROVIDE (syscfg_arg_end, .)
-                0x04086f6c                _syscfg_handler_begin = .
+                0x0408706c                _syscfg_handler_begin = .
                 [!provide]                PROVIDE (syscfg_handler_begin, .)
  *(.syscfg.handler)
-                0x04086f6c                _syscfg_handler_end = .
+                0x0408706c                _syscfg_handler_end = .
                 [!provide]                PROVIDE (syscfg_handler_end, .)
-                0x04086f6c                _server_info_begin = .
-                0x04086f6c                PROVIDE (server_info_begin, .)
+                0x0408706c                _server_info_begin = .
+                0x0408706c                PROVIDE (server_info_begin, .)
  *(.server_info)
- .server_info   0x04086f6c       0x80 cpu\AC54xx\tools\main.or32.o
-                0x04086f6c                ui_server_info
-                0x04086f7c                video_engine_server_info
-                0x04086f8c                usb_server_info
-                0x04086f9c                video_dec_server_info
-                0x04086fac                vunpkg_server_info
-                0x04086fbc                video_server_info
-                0x04086fcc                vpkg_server_info
-                0x04086fdc                audio_server_info
-                0x04086fec                _server_info_end = .
-                0x04086fec                PROVIDE (server_info_end, .)
-                0x04086fec                _app_begin = .
-                0x04086fec                PROVIDE (app_begin, .)
+ .server_info   0x0408706c       0x80 cpu\AC54xx\tools\main.or32.o
+                0x0408706c                ui_server_info
+                0x0408707c                video_engine_server_info
+                0x0408708c                usb_server_info
+                0x0408709c                video_dec_server_info
+                0x040870ac                vunpkg_server_info
+                0x040870bc                video_server_info
+                0x040870cc                vpkg_server_info
+                0x040870dc                audio_server_info
+                0x040870ec                _server_info_end = .
+                0x040870ec                PROVIDE (server_info_end, .)
+                0x040870ec                _app_begin = .
+                0x040870ec                PROVIDE (app_begin, .)
  *(.app)
- .app           0x04086fec       0xc0 cpu\AC54xx\tools\main.or32.o
-                0x040870ac                _app_end = .
-                0x040870ac                PROVIDE (app_end, .)
-                0x040870c0                . = ALIGN (0x20)
- *fill*         0x040870ac       0x14 
-                0x040870c0                _camera_dev_begin = .
-                0x040870c0                PROVIDE (camera_dev_begin, .)
+ .app           0x040870ec       0xc0 cpu\AC54xx\tools\main.or32.o
+                0x040871ac                _app_end = .
+                0x040871ac                PROVIDE (app_end, .)
+                0x040871c0                . = ALIGN (0x20)
+ *fill*         0x040871ac       0x14 
+                0x040871c0                _camera_dev_begin = .
+                0x040871c0                PROVIDE (camera_dev_begin, .)
  *(.camera_dev)
- .camera_dev    0x040870c0      0x72c cpu\AC54xx\tools\main.or32.o
-                0x040877ec                _camera_dev_end = .
-                0x040877ec                PROVIDE (camera_dev_end, .)
-                0x040877ec                _adc_scan_begin = .
-                0x040877ec                PROVIDE (adc_scan_begin, .)
+ .camera_dev    0x040871c0      0x72c cpu\AC54xx\tools\main.or32.o
+                0x040878ec                _camera_dev_end = .
+                0x040878ec                PROVIDE (camera_dev_end, .)
+                0x040878ec                _adc_scan_begin = .
+                0x040878ec                PROVIDE (adc_scan_begin, .)
  *(.adc_scan)
- .adc_scan      0x040877ec        0xc cpu\AC54xx\tools\main.or32.o
-                0x040877f8                _adc_scan_end = .
-                0x040877f8                PROVIDE (adc_scan_end, .)
-                0x040877f8                _spi_device_begin = .
+ .adc_scan      0x040878ec        0xc cpu\AC54xx\tools\main.or32.o
+                0x040878f8                _adc_scan_end = .
+                0x040878f8                PROVIDE (adc_scan_end, .)
+                0x040878f8                _spi_device_begin = .
                 [!provide]                PROVIDE (spi_device_begin, .)
  *(.spi_device)
-                0x040877f8                _spi_device_end = .
+                0x040878f8                _spi_device_end = .
                 [!provide]                PROVIDE (spi_device_end, .)
-                0x04087800                . = ALIGN (0x20)
- *fill*         0x040877f8        0x8 
-                0x04087800                _device_node_begin = .
-                0x04087800                PROVIDE (device_node_begin, .)
+                0x04087900                . = ALIGN (0x20)
+ *fill*         0x040878f8        0x8 
+                0x04087900                _device_node_begin = .
+                0x04087900                PROVIDE (device_node_begin, .)
  *(.device)
- .device        0x04087800      0x15c cpu\AC54xx\tools\main.or32.o
-                0x04087800                device_table
-                0x04087950                virtual_audio_dev
-                0x0408795c                _device_node_end = .
-                0x0408795c                PROVIDE (device_node_end, .)
-                0x0408795c                _video_subdev_begin = .
-                0x0408795c                PROVIDE (video_subdev_begin, .)
+ .device        0x04087900      0x15c cpu\AC54xx\tools\main.or32.o
+                0x04087900                device_table
+                0x04087a50                virtual_audio_dev
+                0x04087a5c                _device_node_end = .
+                0x04087a5c                PROVIDE (device_node_end, .)
+                0x04087a5c                _video_subdev_begin = .
+                0x04087a5c                PROVIDE (video_subdev_begin, .)
  *(.video_subdev.0)
  .video_subdev.0
-                0x0408795c       0x80 cpu\AC54xx\tools\main.or32.o
+                0x04087a5c       0x80 cpu\AC54xx\tools\main.or32.o
  *(.video_subdev.1)
  .video_subdev.1
-                0x040879dc       0x20 cpu\AC54xx\tools\main.or32.o
+                0x04087adc       0x20 cpu\AC54xx\tools\main.or32.o
  *(.video_subdev.2)
  .video_subdev.2
-                0x040879fc       0x10 cpu\AC54xx\tools\main.or32.o
+                0x04087afc       0x10 cpu\AC54xx\tools\main.or32.o
  *(.video_subdev.3)
  .video_subdev.3
-                0x04087a0c       0x20 cpu\AC54xx\tools\main.or32.o
+                0x04087b0c       0x20 cpu\AC54xx\tools\main.or32.o
  *(.video_subdev.4)
  *(.video_subdev.5)
-                0x04087a2c                _video_subdev_end = .
-                0x04087a2c                PROVIDE (video_subdev_end, .)
-                0x04087a2c                _audio_subdev_begin = .
-                0x04087a2c                PROVIDE (audio_subdev_begin, .)
+                0x04087b2c                _video_subdev_end = .
+                0x04087b2c                PROVIDE (video_subdev_end, .)
+                0x04087b2c                _audio_subdev_begin = .
+                0x04087b2c                PROVIDE (audio_subdev_begin, .)
  *(.audio_subdev.0)
  .audio_subdev.0
-                0x04087a2c       0x18 cpu\AC54xx\tools\main.or32.o
-                0x04087a2c                subdev_adc
-                0x04087a38                subdev_dac
+                0x04087b2c       0x18 cpu\AC54xx\tools\main.or32.o
+                0x04087b2c                subdev_adc
+                0x04087b38                subdev_dac
  *(.audio_subdev.1)
  .audio_subdev.1
-                0x04087a44        0xc cpu\AC54xx\tools\main.or32.o
-                0x04087a44                subdev_pcm_enc
+                0x04087b44        0xc cpu\AC54xx\tools\main.or32.o
+                0x04087b44                subdev_pcm_enc
  *(.audio_subdev.2)
  *(.audio_subdev.3)
-                0x04087a50                _audio_subdev_end = .
-                0x04087a50                PROVIDE (audio_subdev_end, .)
-                0x04087a50                _iic_device_begin = .
-                0x04087a50                PROVIDE (iic_device_begin, .)
+                0x04087b50                _audio_subdev_end = .
+                0x04087b50                PROVIDE (audio_subdev_end, .)
+                0x04087b50                _iic_device_begin = .
+                0x04087b50                PROVIDE (iic_device_begin, .)
  *(.iic)
- .iic           0x04087a50       0x28 cpu\AC54xx\tools\main.or32.o
-                0x04087a78                _iic_device_end = .
-                0x04087a78                PROVIDE (iic_device_end, .)
-                0x04087a78                _avin_spi_device_begin = .
-                0x04087a78                PROVIDE (avin_spi_device_begin, .)
+ .iic           0x04087b50       0x28 cpu\AC54xx\tools\main.or32.o
+                0x04087b78                _iic_device_end = .
+                0x04087b78                PROVIDE (iic_device_end, .)
+                0x04087b78                _avin_spi_device_begin = .
+                0x04087b78                PROVIDE (avin_spi_device_begin, .)
  *(.sw_spi)
- .sw_spi        0x04087a78       0x2c cpu\AC54xx\tools\main.or32.o
-                0x04087aa4                _avin_spi_device_end = .
-                0x04087aa4                PROVIDE (avin_spi_device_end, .)
-                0x04087ac0                . = ALIGN (0x20)
- *fill*         0x04087aa4       0x1c 
-                0x04087ac0                _key_driver_begin = .
-                0x04087ac0                PROVIDE (key_driver_begin, .)
+ .sw_spi        0x04087b78       0x2c cpu\AC54xx\tools\main.or32.o
+                0x04087ba4                _avin_spi_device_end = .
+                0x04087ba4                PROVIDE (avin_spi_device_end, .)
+                0x04087bc0                . = ALIGN (0x20)
+ *fill*         0x04087ba4       0x1c 
+                0x04087bc0                _key_driver_begin = .
+                0x04087bc0                PROVIDE (key_driver_begin, .)
  *(.key_driver)
- .key_driver    0x04087ac0       0x50 cpu\AC54xx\tools\main.or32.o
-                0x04087b10                _key_driver_end = .
-                0x04087b10                PROVIDE (key_driver_end, .)
-                0x04087b10                _touch_driver_begin = .
+ .key_driver    0x04087bc0       0x50 cpu\AC54xx\tools\main.or32.o
+                0x04087c10                _key_driver_end = .
+                0x04087c10                PROVIDE (key_driver_end, .)
+                0x04087c10                _touch_driver_begin = .
                 [!provide]                PROVIDE (touch_driver_begin, .)
  *(.touch_driver)
-                0x04087b10                _touch_driver_end = .
+                0x04087c10                _touch_driver_end = .
                 [!provide]                PROVIDE (touch_driver_end, .)
-                0x04087b10                _static_hi_timer_begin = .
-                0x04087b10                PROVIDE (static_hi_timer_begin, .)
+                0x04087c10                _static_hi_timer_begin = .
+                0x04087c10                PROVIDE (static_hi_timer_begin, .)
  *(.hi_timer)
- .hi_timer      0x04087b10       0x10 cpu\AC54xx\tools\main.or32.o
-                0x04087b20                _static_hi_timer_end = .
-                0x04087b20                PROVIDE (static_hi_timer_end, .)
-                0x04087b20                _sys_cpu_timer_begin = .
-                0x04087b20                PROVIDE (sys_cpu_timer_begin, .)
+ .hi_timer      0x04087c10       0x10 cpu\AC54xx\tools\main.or32.o
+                0x04087c20                _static_hi_timer_end = .
+                0x04087c20                PROVIDE (static_hi_timer_end, .)
+                0x04087c20                _sys_cpu_timer_begin = .
+                0x04087c20                PROVIDE (sys_cpu_timer_begin, .)
  *(.sys_cpu_timer)
  .sys_cpu_timer
-                0x04087b20       0x10 cpu\AC54xx\tools\main.or32.o
-                0x04087b20                cpu_timer2
-                0x04087b30                _sys_cpu_timer_end = .
-                0x04087b30                PROVIDE (sys_cpu_timer_end, .)
-                0x04087b30                _sys_config_begin = .
+                0x04087c20       0x10 cpu\AC54xx\tools\main.or32.o
+                0x04087c20                cpu_timer2
+                0x04087c30                _sys_cpu_timer_end = .
+                0x04087c30                PROVIDE (sys_cpu_timer_end, .)
+                0x04087c30                _sys_config_begin = .
                 [!provide]                PROVIDE (sys_config_begin, .)
  *(.sys_cfg)
-                0x04087b30                _sys_config_end = .
+                0x04087c30                _sys_config_end = .
                 [!provide]                PROVIDE (sys_config_end, .)
-                0x04087b30                _audio_decoder_begin = .
-                0x04087b30                PROVIDE (audio_decoder_begin, .)
+                0x04087c30                _audio_decoder_begin = .
+                0x04087c30                PROVIDE (audio_decoder_begin, .)
  *(.audio_decoder)
  .audio_decoder
-                0x04087b30       0x20 cpu\AC54xx\tools\main.or32.o
-                0x04087b30                pcm_decoder_ops
-                0x04087b40                adpcm_decoder_ops
-                0x04087b50                _audio_decoder_end = .
-                0x04087b50                PROVIDE (audio_decoder_end, .)
-                0x04087b60                . = (((. + 0x1f) / 0x20) * 0x20)
- *fill*         0x04087b50       0x10 
-                0x04087b60                _layer_buf_begin = .
-                0x04087b60                PROVIDE (layer_buf_begin, .)
+                0x04087c30       0x20 cpu\AC54xx\tools\main.or32.o
+                0x04087c30                pcm_decoder_ops
+                0x04087c40                adpcm_decoder_ops
+                0x04087c50                _audio_decoder_end = .
+                0x04087c50                PROVIDE (audio_decoder_end, .)
+                0x04087c60                . = (((. + 0x1f) / 0x20) * 0x20)
+ *fill*         0x04087c50       0x10 
+                0x04087c60                _layer_buf_begin = .
+                0x04087c60                PROVIDE (layer_buf_begin, .)
  *(.layer_buf_t)
- .layer_buf_t   0x04087b60       0x10 cpu\AC54xx\tools\main.or32.o
-                0x04087b70                _layer_buf_end = .
-                0x04087b70                PROVIDE (layer_buf_end, .)
-                0x04087b80                . = (((. + 0x1f) / 0x20) * 0x20)
- *fill*         0x04087b70       0x10 
-                0x04087b80                _font_info_begin = .
-                0x04087b80                PROVIDE (font_info_begin, .)
+ .layer_buf_t   0x04087c60       0x10 cpu\AC54xx\tools\main.or32.o
+                0x04087c70                _layer_buf_end = .
+                0x04087c70                PROVIDE (layer_buf_end, .)
+                0x04087c80                . = (((. + 0x1f) / 0x20) * 0x20)
+ *fill*         0x04087c70       0x10 
+                0x04087c80                _font_info_begin = .
+                0x04087c80                PROVIDE (font_info_begin, .)
  *(.font_info_t)
-                0x04087b80                _font_info_end = .
-                0x04087b80                PROVIDE (font_info_end, .)
+                0x04087c80                _font_info_end = .
+                0x04087c80                PROVIDE (font_info_end, .)
 
-.data           0x04087b80        0x0
+.data           0x04087c80        0x0
 
-.bss            0x04087b80   0x5500c0
+.bss            0x04087c80   0x5500c0
  *(.stack)
- .stack         0x04087b80     0x4800 include_lib/liba/cpu.a(startup.o)
-                0x04087f80                _stack_cpu0
-                0x0408a380                _stack_cpu1
-                0x0408c380                _stack1_cpu1
-                0x0408c380                _system_data_begin = .
+ .stack         0x04087c80     0x4800 include_lib/liba/cpu.a(startup.o)
+                0x04088080                _stack_cpu0
+                0x0408a480                _stack_cpu1
+                0x0408c480                _stack1_cpu1
+                0x0408c480                _system_data_begin = .
  *(.bss)
- .bss           0x0408c380   0x4324a4 cpu\AC54xx\tools\main.or32.o
+ .bss           0x0408c480   0x4324a4 cpu\AC54xx\tools\main.or32.o
  *(COMMON)
  *(.usb_slave_var)
  *(.mem_heap)
-                0x044be840                . = (((. + 0x1f) / 0x20) * 0x20)
- *fill*         0x044be824       0x1c 
-                0x044be840                _lcd_dev_buf_addr = .
-                0x044be840                PROVIDE (lcd_dev_buf_addr, .)
+                0x044be940                . = (((. + 0x1f) / 0x20) * 0x20)
+ *fill*         0x044be924       0x1c 
+                0x044be940                _lcd_dev_buf_addr = .
+                0x044be940                PROVIDE (lcd_dev_buf_addr, .)
  *(.lcd_dev_buf)
- .lcd_dev_buf   0x044be840   0x119400 cpu\AC54xx\tools\main.or32.o
-                0x044be840                lcd_dev_buf
-                0x045d7c40                _system_data_end = .
-                0x045d7c40                _HEAP_BEGIN = (((. + 0x1f) / 0x20) * 0x20)
-                0x045d7c40                PROVIDE (HEAP_BEGIN, (((. + 0x1f) / 0x20) * 0x20))
+ .lcd_dev_buf   0x044be940   0x119400 cpu\AC54xx\tools\main.or32.o
+                0x044be940                lcd_dev_buf
+                0x045d7d40                _system_data_end = .
+                0x045d7d40                _HEAP_BEGIN = (((. + 0x1f) / 0x20) * 0x20)
+                0x045d7d40                PROVIDE (HEAP_BEGIN, (((. + 0x1f) / 0x20) * 0x20))
                 0x05ffffe0                _HEAP_END = ((0x4000000 + SDRAM_SIZE) - 0x20)
                 0x05ffffe0                PROVIDE (HEAP_END, ((0x4000000 + SDRAM_SIZE) - 0x20))
-                0x01a283a0                _MALLOC_SIZE = (_HEAP_END - _HEAP_BEGIN)
+                0x01a282a0                _MALLOC_SIZE = (_HEAP_END - _HEAP_BEGIN)
                 [!provide]                PROVIDE (MALLOC_SIZE, (_HEAP_END - _HEAP_BEGIN))
                 0x03f08000                . = 0x3f08000
 
@@ -1849,18 +1823,18 @@ END GROUP
 
 .xrom
                 0x04000000                text_begin = ADDR (.rom_code)
-                0x00087b80                text_size = SIZEOF (.rom_code)
-                0x04087b80                bss_begin = ADDR (.bss)
+                0x00087c80                text_size = SIZEOF (.rom_code)
+                0x04087c80                bss_begin = ADDR (.bss)
                 0x005500c0                bss_size = SIZEOF (.bss)
                 0x0054b8c0                bss_size1 = (_system_data_end - _system_data_begin)
-                0x0408c380                bss_begin1 = _system_data_begin
-                0x04087b80                data_begin = LOADADDR (.data)
-                0x04087b80                data_addr = ADDR (.data)
+                0x0408c480                bss_begin1 = _system_data_begin
+                0x04087c80                data_begin = LOADADDR (.data)
+                0x04087c80                data_addr = ADDR (.data)
                 0x00000000                data_size = SIZEOF (.data)
                 0x03f00000                _ram0_bss_vma = ADDR (.ram0_bss)
                 0x0000ecc0                _ram0_bss_size = SIZEOF (.ram0_bss)
                 0x03f00000                _ram0_data_vma = ADDR (.ram0_data)
-                0x04087b80                _ram0_data_lma = (text_begin + SIZEOF (.rom_code))
+                0x04087c80                _ram0_data_lma = (text_begin + SIZEOF (.rom_code))
                 0x00000000                _ram0_data_size = SIZEOF (.ram0_data)
 LOAD C:\JL\pi32\pi32v2-lib\libc.a
 LOAD C:\JL\pi32\pi32v2-lib\libcompiler-rt.a
@@ -1896,8 +1870,8 @@ OUTPUT(cpu\AC54xx\tools\main.or32 elf32-pi32v2)
  .debug_pubtypes
                 0x00000000      0x8b8 cpu\AC54xx\tools\main.or32.o
 
-.debug_frame    0x00000000     0xfcd0
- .debug_frame   0x00000000     0xfcd0 cpu\AC54xx\tools\main.or32.o
+.debug_frame    0x00000000     0xfcd4
+ .debug_frame   0x00000000     0xfcd4 cpu\AC54xx\tools\main.or32.o
 
 .debug_line     0x00000000      0xccd
  .debug_line    0x00000000      0xccd cpu\AC54xx\tools\main.or32.o
