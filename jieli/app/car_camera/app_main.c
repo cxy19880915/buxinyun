@@ -105,11 +105,11 @@ static void power_off_play_end(void *_ui)
     {
         printf("usb_is_charging()\n");
         
-        if(get_power_off_state())  //Èç¹ûÊÇUSBµôµç¹Ø»úµÄ£¬´ËÊ±ÒÑ¾­ÖØÐÂÉÏµç£¬ÖØÐÂ¿ª»ú
+        if(get_power_off_state())  //?????USB????????????????????ç£¬???????
         {
             cpu_reset();
         }
-        WDT_CON &= ~BIT(4); //¹Ø±Õ¿´ÃÅ¹·
+        WDT_CON &= ~BIT(4); //???????
         
         gpio_direction_input(IO_PORT_PR_01);
 		gpio_set_pull_up(IO_PORT_PR_01, 0);
@@ -173,7 +173,10 @@ static int main_key_event_handler(struct key_event *key)
 
     switch (key->event) {
     case KEY_EVENT_CLICK:
+		#if 0
         switch (key->value) {
+		case KEY_OK:
+			break;
         case KEY_MODE:
             init_intent(&it);
             app = get_current_app();
@@ -201,6 +204,7 @@ static int main_key_event_handler(struct key_event *key)
         default:
             return false;
         }
+		#endif
         break;
     case KEY_EVENT_LONG:
         if (key->value == KEY_POWER) {
@@ -212,9 +216,9 @@ static int main_key_event_handler(struct key_event *key)
             }
             power_fi = 1;
             sys_key_event_disable();
-            sys_touch_event_disable(); //Ôö¼Ó
+            sys_touch_event_disable(); //????
             
-            dev_close_touch();  //Ôö¼Ó
+            dev_close_touch();  //????
             
             init_intent(&it);
             app = get_current_app();
@@ -388,7 +392,7 @@ void app_main()
     if (!fdir_exist("mnt/spiflash")) {
         mount("spiflash", "mnt/spiflash", "sdfile", NULL);
     }
-
+	puts("```````````````````````````````````");
     mount_sd_to_fs(SDX_DEV);
 
     err = upgrade_detect(SDX_DEV);

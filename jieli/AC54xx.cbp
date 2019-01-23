@@ -139,16 +139,7 @@
 		<Unit filename="app/car_camera/power_ctrl.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="app/car_camera/touch_panel/GT911.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="app/car_camera/touch_panel/ICN85XX.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="app/car_camera/touch_panel/ICN85XX.h" />
-		<Unit filename="app/car_camera/touch_panel/icn85xx_flash.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="app/car_camera/touch_panel/icn85xx_fw.h" />
 		<Unit filename="app/car_camera/touch_panel/touch_panel_manager.c">
 			<Option compilerVar="CC" />
@@ -240,237 +231,66 @@
 		<Unit filename="app/sd_speed_test.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="camera/ar0330_mipi/ar0330_mipi.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/ar0330_mipi/ar0330_mipi.h" />
-		<Unit filename="camera/ar0330_mipi/ar0330_mipi_ae.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/ar0330_mipi/ar0330_mipi_ae.h" />
-		<Unit filename="camera/ar0330_mipi/ar0330_mipi_awb.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/ar0330_mipi/ar0330_mipi_awb.h" />
-		<Unit filename="camera/ar0330_mipi/ar0330_mipi_iq.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/ar0330_mipi/ar0330_mipi_iq.h" />
 		<Unit filename="camera/ark7116/ark7116.h" />
-		<Unit filename="camera/av10/av10.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/av10/av10.h" />
-		<Unit filename="camera/av10/av10_spi.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="camera/bg0806_mipi/bg0806_mipi.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/bg0806_mipi/bg0806_mipi.h" />
-		<Unit filename="camera/bg0806_mipi/bg0806_mipi_ae.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/bg0806_mipi/bg0806_mipi_ae.h" />
-		<Unit filename="camera/bg0806_mipi/bg0806_mipi_awb.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/bg0806_mipi/bg0806_mipi_awb.h" />
-		<Unit filename="camera/bg0806_mipi/bg0806_mipi_iq.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/bg0806_mipi/bg0806_mipi_iq.h" />
 		<Unit filename="camera/c2392/c2392_mipi.h" />
 		<Unit filename="camera/c2392/c2392_mipi_ae.h" />
 		<Unit filename="camera/c2392/c2392_mipi_awb.h" />
 		<Unit filename="camera/c2392/c2392_mipi_iq.h" />
-		<Unit filename="camera/c2392_mipi/c2392_mipi.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/c2392_mipi/c2392_mipi.h" />
-		<Unit filename="camera/c2392_mipi/c2392_mipi_ae.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/c2392_mipi/c2392_mipi_ae.h" />
-		<Unit filename="camera/c2392_mipi/c2392_mipi_awb.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/c2392_mipi/c2392_mipi_awb.h" />
-		<Unit filename="camera/c2392_mipi/c2392_mipi_iq.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/c2392_mipi/c2392_mipi_iq.h" />
-		<Unit filename="camera/gc1004/gc1004.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/gc1004/gc1004.h" />
-		<Unit filename="camera/gc1004/gc1004_ae.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/gc1004/gc1004_ae.h" />
-		<Unit filename="camera/gc1004/gc1004_awb.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/gc1004/gc1004_awb.h" />
-		<Unit filename="camera/gc1004/gc1004_iq.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/gc1004/gc1004_iq.h" />
-		<Unit filename="camera/gc1064_mipi/gc1064_mipi.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/gc1064_mipi/gc1064_mipi.h" />
-		<Unit filename="camera/gc1064_mipi/gc1064_mipi_ae.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/gc1064_mipi/gc1064_mipi_ae.h" />
-		<Unit filename="camera/gc1064_mipi/gc1064_mipi_awb.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/gc1064_mipi/gc1064_mipi_awb.h" />
-		<Unit filename="camera/gc1064_mipi/gc1064_mipi_iq.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/gc1064_mipi/gc1064_mipi_iq.h" />
-		<Unit filename="camera/gc2023_mipi/gc2023_mipi.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/gc2023_mipi/gc2023_mipi.h" />
-		<Unit filename="camera/gc2023_mipi/gc2023_mipi_ae.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/gc2023_mipi/gc2023_mipi_ae.h" />
-		<Unit filename="camera/gc2023_mipi/gc2023_mipi_awb.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/gc2023_mipi/gc2023_mipi_awb.h" />
-		<Unit filename="camera/gc2023_mipi/gc2023_mipi_iq.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/gc2023_mipi/gc2023_mipi_iq.h" />
-		<Unit filename="camera/gm7150/gm7150.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/gm7150/gm7150.h" />
-		<Unit filename="camera/h42/h42.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/h42/h42.h" />
-		<Unit filename="camera/h42/h42_ae.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/h42/h42_ae.h" />
-		<Unit filename="camera/h42/h42_awb.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/h42/h42_awb.h" />
-		<Unit filename="camera/h42/h42_iq.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/h42/h42_iq.h" />
-		<Unit filename="camera/hm2131_mipi/hm2131_mipi.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/hm2131_mipi/hm2131_mipi.h" />
-		<Unit filename="camera/hm2131_mipi/hm2131_mipi_ae.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/hm2131_mipi/hm2131_mipi_ae.h" />
-		<Unit filename="camera/hm2131_mipi/hm2131_mipi_awb.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/hm2131_mipi/hm2131_mipi_awb.h" />
-		<Unit filename="camera/hm2131_mipi/hm2131_mipi_iq.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/hm2131_mipi/hm2131_mipi_iq.h" />
-		<Unit filename="camera/imx179_mipi/imx179_mipi.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/imx179_mipi/imx179_mipi.h" />
-		<Unit filename="camera/imx179_mipi/imx179_mipi_ae.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/imx179_mipi/imx179_mipi_ae.h" />
-		<Unit filename="camera/imx179_mipi/imx179_mipi_awb.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/imx179_mipi/imx179_mipi_awb.h" />
-		<Unit filename="camera/imx179_mipi/imx179_mipi_iq.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/imx179_mipi/imx179_mipi_iq.h" />
-		<Unit filename="camera/nvp6112/nvp6112.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/nvp6112/nvp6112.h" />
-		<Unit filename="camera/sc1243/sc1243_dvp.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/sc1243/sc1243_dvp.h" />
-		<Unit filename="camera/sc1243/sc1243_dvp_ae.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/sc1243/sc1243_dvp_ae.h" />
-		<Unit filename="camera/sc1243/sc1243_dvp_awb.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/sc1243/sc1243_dvp_awb.h" />
-		<Unit filename="camera/sc1243/sc1243_dvp_iq.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/sc1243/sc1243_dvp_iq.h" />
-		<Unit filename="camera/sc2143_mipi/sc2143_mipi.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/sc2143_mipi/sc2143_mipi.h" />
-		<Unit filename="camera/sc2143_mipi/sc2143_mipi_ae.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/sc2143_mipi/sc2143_mipi_ae.h" />
-		<Unit filename="camera/sc2143_mipi/sc2143_mipi_awb.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/sc2143_mipi/sc2143_mipi_awb.h" />
-		<Unit filename="camera/sc2143_mipi/sc2143_mipi_iq.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/sc2143_mipi/sc2143_mipi_iq.h" />
-		<Unit filename="camera/sc2303/sc2303_dvp.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/sc2303/sc2303_dvp.h" />
-		<Unit filename="camera/sc2303/sc2303_dvp_ae.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/sc2303/sc2303_dvp_ae.h" />
-		<Unit filename="camera/sc2303/sc2303_dvp_awb.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/sc2303/sc2303_dvp_awb.h" />
-		<Unit filename="camera/sc2303/sc2303_dvp_iq.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/sc2303/sc2303_dvp_iq.h" />
-		<Unit filename="camera/sc3033_mipi/sc3033_mipi.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/sc3033_mipi/sc3033_mipi.h" />
-		<Unit filename="camera/sc3033_mipi/sc3033_mipi_ae.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/sc3033_mipi/sc3033_mipi_ae.h" />
-		<Unit filename="camera/sc3033_mipi/sc3033_mipi_awb.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/sc3033_mipi/sc3033_mipi_awb.h" />
-		<Unit filename="camera/sc3033_mipi/sc3033_mipi_iq.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/sc3033_mipi/sc3033_mipi_iq.h" />
-		<Unit filename="camera/xc7011_dvp/xc7011.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="camera/xc7011_dvp/xc7011.h" />
 		<Unit filename="cpu/AC54xx/adc.c">
 			<Option compilerVar="CC" />
@@ -478,58 +298,10 @@
 		<Unit filename="cpu/AC54xx/adkey.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="cpu/AC54xx/board/board_mipi_20170330.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/board/board_mipi_touch_20170419.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/board/board_mipi_touch_v1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/board/board_mipi_touch_v1_dvp.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/board/board_mipi_v3.c">
+		<Unit filename="cpu/AC54xx/board/board_mipi_v1_r317.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="cpu/AC54xx/debug.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_480x272.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_480x272_8bits.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_HX8369A_MCU.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_HX8369A_SPI_RGB.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_ILI8960.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_ILI9806.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_LQ026B3UX01.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_LX50FWB4001_V2.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_LYWS030GQ.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_ST7789S.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_T15P00.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/dvp_lcd_driver/lcd_avout.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="cpu/AC54xx/iokey.c">
@@ -538,51 +310,10 @@
 		<Unit filename="cpu/AC54xx/ldo.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_dcs_1lane_16bit.c">
+		<Unit filename="cpu/AC54xx/mipi_lcd_driver/icn6211.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_dcs_1lane_24bit.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_2lane_24bit.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_4lane_1080p.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_4lane_1280x480_EK79030.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_4lane_1280x480_HX8394.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_4lane_1280x480_LX68HD.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_4lane_1280x480_WT686.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_4lane_1280x720_ssd_2201.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_4lane_1280x800.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_4lane_720p.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_4lane_720p_rm68200ga1.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/mipi_lcd_driver/dsi_vdo_4lane_hx839d_boe686_480X1280.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/mipi_lcd_driver/lcd_mipi_4lane_s8500l0.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu/AC54xx/mipi_lcd_driver/mipi_lcd_1280x480.c">
-			<Option compilerVar="CC" />
-		</Unit>
+		<Unit filename="cpu/AC54xx/mipi_lcd_driver/icn6211.h" />
 		<Unit filename="cpu/AC54xx/powerdet.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -593,6 +324,7 @@
 		<Unit filename="cpu/AC54xx/static_memory_alloc.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="cpu/isd_tools_flash-new.cfg" />
 		<Unit filename="lib/dev/sensor/camera/ark7116.h" />
 		<Unit filename="lib/dev/sensor/camera/bg0806/bg0806.h" />
 		<Unit filename="lib/dev/sensor/camera/bg0806/bg0806_ae.h" />

@@ -197,6 +197,7 @@ static int dsi_vdo_rm68200gai_init(void *_data)
         delay_2ms(5);
     }
 
+
     dsi_dev_init(&mipi_dev_t);
 
     return 0;

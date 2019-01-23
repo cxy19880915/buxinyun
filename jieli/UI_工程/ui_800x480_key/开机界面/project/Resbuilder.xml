@@ -1,0 +1,87 @@
+<?xml version='2.0' encoding='UTF-8'?>
+<Resbuilder>
+        <Items>
+                <LanguageList>
+                        <language_name LANG="Chinese_Simplified">简体中文</language_name>
+                        <language_name LANG="Chinese_Traditional">繁体中文</language_name>
+                        <language_name LANG="Japanese">日语</language_name>
+                        <language_name LANG="Korean">韩语</language_name>
+                        <language_name LANG="English">英语</language_name>
+                        <language_name LANG="French">法语</language_name>
+                        <language_name LANG="German">德语</language_name>
+                        <language_name LANG="Italian">意大利语</language_name>
+                        <language_name LANG="Dutch">荷兰语</language_name>
+                        <language_name LANG="Portuguese">葡萄牙语</language_name>
+                        <language_name LANG="Spanish">西班牙语</language_name>
+                        <language_name LANG="Swedish">瑞典语</language_name>
+                        <language_name LANG="Czech">捷克语</language_name>
+                        <language_name LANG="Danish">丹麦语</language_name>
+                        <language_name LANG="Polish">波兰语</language_name>
+                        <language_name LANG="Russian">俄国语</language_name>
+                        <language_name LANG="Turkey">土耳其语</language_name>
+                        <language_name LANG="Hebrew">希伯来语</language_name>
+                        <language_name LANG="Thai">泰语</language_name>
+                        <language_name LANG="Hungarian">匈牙利语</language_name>
+                        <language_name LANG="Romanian">罗马尼亚语</language_name>
+                        <language_name LANG="Arabic">阿拉伯语</language_name>
+                </LanguageList>
+                <Fonts>
+                        <font00 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="Cambria" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-32" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font01 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-32" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font02 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-32" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font03 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-32" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font04 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-32" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font05 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-32" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font06 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-16" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font07 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-16" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font08 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-16" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font09 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-16" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font10 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-16" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font11 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-16" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font12 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-16" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font13 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-16" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font14 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-16" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font15 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-16" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font16 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-16" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font17 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-16" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font18 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-16" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font19 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-16" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font20 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-16" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                        <font21 lfQuality="0" lfItalic="0" lfOrientation="0" lfWeight="400" lfFaceName="宋体" lfPitchAndFamily="2" lfEscapement="0" lfOutPrecision="0" lfHeight="-16" lfStrikeOut="0" lfUnderline="0" lfCharSet="134" lfWidth="0" lfClipPrecision="0"/>
+                </Fonts>
+                <endian>LITTLEENDIAN</endian>
+                <paneltype>TFTPANEL</paneltype>
+                <picture_path>NULL</picture_path>
+                <excel_path>../../../UITools/多国语言.xls</excel_path>
+                <PageList>
+                        <Page id="0">
+                                <ColorList/>
+                                <PictureList>
+                                        <Picture fmt="YUV">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\开机界面\project\config\开机图片\1280x72011.jpg</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="1">
+                                <ColorList/>
+                                <PictureList>
+                                        <Picture fmt="YUV">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\开机界面\project\config\开机图片\1280x72011.jpg</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                </PageList>
+                <language>0x00000007</language>
+                <bmp_transparent_color>0x00FFFFFF</bmp_transparent_color>
+                <png_background_color>0x12345678</png_background_color>
+                <spec_color_list>NULL</spec_color_list>
+                <png2jpg_list>NULL</png2jpg_list>
+                <res>result</res>
+                <resfilename>result.bin</resfilename>
+                <headerfilename>result.h</headerfilename>
+                <image_compress_method>quicklz</image_compress_method>
+                <string_compress_method>rle</string_compress_method>
+                <palette_type>rgb</palette_type>
+                <percent>100%</percent>
+                <excel_crc/>
+                <excel_row/>
+        </Items>
+</Resbuilder>

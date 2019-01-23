@@ -1,22 +1,558 @@
----- CONFIG_board_mipi_touch_v1_r317 Matches (5 in 2 files) ----
-App_config.h (app\car_camera\include):8
-#define CONFIG_board_mipi_touch_v1_r317
+---- sd1_data Matches (2 in 1 files) ----
+Board_mipi_v1_r317.c (cpu\ac54xx\board):61
+SD1_PLATFORM_DATA_BEGIN(sd1_data)
+Board_mipi_v1_r317.c (cpu\ac54xx\board):625
+    { "sd1",  &sd_dev_ops, (void *)&sd1_data },
+---- sd1_data Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+E:\cxy job\git_work\jieli\doc\快速上手说明\板子快速配置使用.c : File could not be opened.
+---- sd1 Matches (53 in 9 files) ----
+App_config.h (app\car_camera\include):41
+#define CONFIG_SD1_PATH 	"storage/sd1"
 App_config.h (app\car_camera\include):49
-#elif(LCD_TYPE ==  CONFIG_board_mipi_touch_v1_r317)
-App_config.h (app\car_camera\include):65
-#ifdef CONFIG_board_mipi_touch_v1_r317
-App_config.h (app\car_camera\include):112
-#ifdef CONFIG_board_mipi_touch_v1_r317
-Board_mipi_touch_v1_r317.c (cpu\...\board):10
-#ifdef CONFIG_board_mipi_touch_v1_r317
----- LCD_ICN6211_800x480 Matches (5 in 2 files) ----
-Icn6211.c (cpu\ac54xx\mipi_lcd_driver):40
-#if (LCD_TYPE == LCD_ICN6211_800x480)
-Icn6211.c (cpu\ac54xx\mipi_lcd_driver):455
-    .enable  = IF_ENABLE(LCD_ICN6211_800x480),
-Icn6211.c (cpu\ac54xx\mipi_lcd_driver):469
-    .enable  = IF_ENABLE(LCD_ICN6211_800x480),
-Lcd_config.h (include_lib\...\asm):21
-#define LCD_ICN6211_800x480		12
-Lcd_config.h (include_lib\...\asm):44
-#define LCD_TYPE 	LCD_ICN6211_800x480
+#define SDX_DEV					"sd1"
+Board_mipi_v1_r317.c (cpu\ac54xx\board):625
+    { "sd1",  &sd_dev_ops, (void *)&sd1_data },
+Device_mount.c (app\car_camera):10
+    { "sd1", CONFIG_SD1_PATH },
+Main.or32.resolution.txt (cpu\...\tools):1529
+include_lib/liba/sd1.a.llvm.9280.module_sd1.c
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sd1_online_detect,pl
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sd1_io_det,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sd1_clk_det,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,OSMutexPend,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sd1_cmd_det,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,OSMutexPost,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sd1_is_online,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sys_event_notify,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,OSMutexCreate,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sys_timer_add,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,SD1_SEM_INIT,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,request_irq,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sd1_isr,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,clk_get,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sd1_init,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,CRC16,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sd1_read_end,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sd1_write_end,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sd1_flush,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sd1_unmount,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sd_dev_ops,pl
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,key_dev_ops,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,audio_dev_ops,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,device_sd1,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sd_sfr,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sd1_host_var,l
+-r=include_lib/liba/sd1.a.llvm.9280.module_sd1.c,sd1_cmd_detect,l
+include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c
+-r=include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c,sd1_init,pl
+-r=include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c,puts,l
+-r=include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c,SD1_SEM_INIT,l
+-r=include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c,sd1_lowlevel_init,pl
+-r=include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c,sd1_mount,l
+-r=include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c,sd1_is_online,l
+-r=include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c,sd1_set_bus_width,l
+-r=include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c,printf,l
+-r=include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c,sd1_set_hispeed,l
+-r=include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c,sd1_set_clk,l
+-r=include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c,request_irq,l
+-r=include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c,sd1_isr,l
+-r=include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c,sd1_host_init,l
+-r=include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c,clk_get,l
+-r=include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c,sd1_host_var,l
+-r=include_lib/liba/sd1.a.llvm.26428.sdmmc_init.c,device_sd1,pl
+include_lib/liba/sd1.a.llvm.31316.sd_host_args.c
+-r=include_lib/liba/sd1.a.llvm.31316.sd_host_args.c,sd1_cmd_detect,pl
+include_lib/liba/sd1.a.llvm.35716.sd_host_init.c
+-r=include_lib/liba/sd1.a.llvm.35716.sd_host_init.c,sd1_host_init,pl
+-r=include_lib/liba/sd1.a.llvm.35716.sd_host_init.c,SD1_CONTROLLER_RESET,l
+-r=include_lib/liba/sd1.a.llvm.35716.sd_host_init.c,SD1_BAUD,l
+-r=include_lib/liba/sd1.a.llvm.35716.sd_host_init.c,SD1_CONTROLLER_EN,l
+-r=include_lib/liba/sd1.a.llvm.35716.sd_host_init.c,sd1_set_clk,pl
+-r=include_lib/liba/sd1.a.llvm.35716.sd_host_init.c,SD1_DAT_EDGE,l
+-r=include_lib/liba/sd1.a.llvm.35716.sd_host_init.c,sd1_host_var,l
+-r=include_lib/liba/sd1.a.llvm.35716.sd_host_init.c,sd1_cmd_detect,l
+include_lib/liba/sd1.a.llvm.38772.sd_host_mount.c
+-r=include_lib/liba/sd1.a.llvm.38772.sd_host_mount.c,sd1_mount,pl
+-r=include_lib/liba/sd1.a.llvm.38772.sd_host_mount.c,sd1_wait_idle,l
+-r=include_lib/liba/sd1.a.llvm.38772.sd_host_mount.c,SD1_BAUD,l
+-r=include_lib/liba/sd1.a.llvm.38772.sd_host_mount.c,puts,l
+-r=include_lib/liba/sd1.a.llvm.38772.sd_host_mount.c,sd1_init_card,l
+-r=include_lib/liba/sd1.a.llvm.38772.sd_host_mount.c,sd1_is_online,l
+-r=include_lib/liba/sd1.a.llvm.38772.sd_host_mount.c,SD1_IDLE_CLK_EN,l
+-r=include_lib/liba/sd1.a.llvm.38772.sd_host_mount.c,sd1_cmd_detect,l
+-r=include_lib/liba/sd1.a.llvm.38772.sd_host_mount.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.47064.sd_host_read_end.c
+-r=include_lib/liba/sd1.a.llvm.47064.sd_host_read_end.c,sd1_read_end,pl
+-r=include_lib/liba/sd1.a.llvm.47064.sd_host_read_end.c,sd1_read,l
+-r=include_lib/liba/sd1.a.llvm.47064.sd_host_read_end.c,sd1_wait_idle,l
+-r=include_lib/liba/sd1.a.llvm.47064.sd_host_read_end.c,puts,l
+-r=include_lib/liba/sd1.a.llvm.47064.sd_host_read_end.c,sd1_host_status,l
+-r=include_lib/liba/sd1.a.llvm.47064.sd_host_read_end.c,printf,l
+-r=include_lib/liba/sd1.a.llvm.47064.sd_host_read_end.c,sd1_host_var,l
+-r=include_lib/liba/sd1.a.llvm.47064.sd_host_read_end.c,sd_sfr,l
+include_lib/liba/sd1.a.llvm.54668.sd_host_unmount.c
+-r=include_lib/liba/sd1.a.llvm.54668.sd_host_unmount.c,sd1_unmount,pl
+-r=include_lib/liba/sd1.a.llvm.54668.sd_host_unmount.c,SD1_CONTROLLER_EN,l
+-r=include_lib/liba/sd1.a.llvm.54668.sd_host_unmount.c,SD1_SEM_DEL,l
+-r=include_lib/liba/sd1.a.llvm.54668.sd_host_unmount.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.57396.sd_host_write.c
+-r=include_lib/liba/sd1.a.llvm.57396.sd_host_write.c,sd1_write,pl
+-r=include_lib/liba/sd1.a.llvm.57396.sd_host_write.c,puts,l
+-r=include_lib/liba/sd1.a.llvm.57396.sd_host_write.c,sd1_wait_idle,l
+-r=include_lib/liba/sd1.a.llvm.57396.sd_host_write.c,sd1_host_status,l
+-r=include_lib/liba/sd1.a.llvm.57396.sd_host_write.c,printf,l
+-r=include_lib/liba/sd1.a.llvm.57396.sd_host_write.c,SD1_BAUD,l
+-r=include_lib/liba/sd1.a.llvm.57396.sd_host_write.c,sd1_host_stop_trans,l
+-r=include_lib/liba/sd1.a.llvm.57396.sd_host_write.c,sd1_write_start,l
+-r=include_lib/liba/sd1.a.llvm.57396.sd_host_write.c,sd1_send_command,l
+-r=include_lib/liba/sd1.a.llvm.57396.sd_host_write.c,SD1_CTU_IE,l
+-r=include_lib/liba/sd1.a.llvm.57396.sd_host_write.c,sd1_flush,pl
+-r=include_lib/liba/sd1.a.llvm.57396.sd_host_write.c,sd1_host_var,l
+-r=include_lib/liba/sd1.a.llvm.57396.sd_host_write.c,sd1_cmd_detect,l
+include_lib/liba/sd1.a.llvm.62388.sd_host_write_end.c
+-r=include_lib/liba/sd1.a.llvm.62388.sd_host_write_end.c,sd1_write_end,pl
+-r=include_lib/liba/sd1.a.llvm.62388.sd_host_write_end.c,sd1_write,l
+-r=include_lib/liba/sd1.a.llvm.62388.sd_host_write_end.c,printf,l
+-r=include_lib/liba/sd1.a.llvm.62388.sd_host_write_end.c,sd1_wait_idle,l
+-r=include_lib/liba/sd1.a.llvm.62388.sd_host_write_end.c,puts,l
+-r=include_lib/liba/sd1.a.llvm.62388.sd_host_write_end.c,sd1_host_status,l
+-r=include_lib/liba/sd1.a.llvm.62388.sd_host_write_end.c,sd1_host_var,l
+-r=include_lib/liba/sd1.a.llvm.62388.sd_host_write_end.c,sd_sfr,l
+include_lib/liba/sd1.a.llvm.66624.sd_init.c
+-r=include_lib/liba/sd1.a.llvm.66624.sd_init.c,sd1_init_card,pl
+-r=include_lib/liba/sd1.a.llvm.66624.sd_init.c,sd1_host_reset,l
+-r=include_lib/liba/sd1.a.llvm.66624.sd_init.c,sd1_host_send_if_cond,l
+-r=include_lib/liba/sd1.a.llvm.66624.sd_init.c,sd1_host_identification,l
+-r=include_lib/liba/sd1.a.llvm.66624.sd_init.c,puts,l
+-r=include_lib/liba/sd1.a.llvm.66624.sd_init.c,sd1_host_all_send_cid,l
+-r=include_lib/liba/sd1.a.llvm.66624.sd_init.c,mmc1_host_send_rca,l
+-r=include_lib/liba/sd1.a.llvm.66624.sd_init.c,sd1_host_send_rca,l
+-r=include_lib/liba/sd1.a.llvm.66624.sd_init.c,sd1_host_send_csd,l
+-r=include_lib/liba/sd1.a.llvm.66624.sd_init.c,sd1_select_card,l
+-r=include_lib/liba/sd1.a.llvm.66624.sd_init.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.75368.mmc_host_send_rca.c
+-r=include_lib/liba/sd1.a.llvm.75368.mmc_host_send_rca.c,mmc1_host_send_rca,pl
+-r=include_lib/liba/sd1.a.llvm.75368.mmc_host_send_rca.c,sd1_send_command,l
+-r=include_lib/liba/sd1.a.llvm.75368.mmc_host_send_rca.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.89548.sd_host_all_send_cid.c
+-r=include_lib/liba/sd1.a.llvm.89548.sd_host_all_send_cid.c,sd1_host_all_send_cid,pl
+-r=include_lib/liba/sd1.a.llvm.89548.sd_host_all_send_cid.c,sd1_send_command,l
+include_lib/liba/sd1.a.llvm.96844.sd_host_reset.c
+-r=include_lib/liba/sd1.a.llvm.96844.sd_host_reset.c,sd1_host_reset,pl
+-r=include_lib/liba/sd1.a.llvm.96844.sd_host_reset.c,sd1_send_command,l
+include_lib/liba/sd1.a.llvm.103384.sd_host_send_csd.c
+-r=include_lib/liba/sd1.a.llvm.103384.sd_host_send_csd.c,sd1_host_send_csd,pl
+-r=include_lib/liba/sd1.a.llvm.103384.sd_host_send_csd.c,sd1_send_command,l
+-r=include_lib/liba/sd1.a.llvm.103384.sd_host_send_csd.c,sd1_get_capacity,pl
+-r=include_lib/liba/sd1.a.llvm.103384.sd_host_send_csd.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.107168.sd_host_send_if_cond.c
+-r=include_lib/liba/sd1.a.llvm.107168.sd_host_send_if_cond.c,sd1_host_send_if_cond,pl
+-r=include_lib/liba/sd1.a.llvm.107168.sd_host_send_if_cond.c,sd1_send_command,l
+include_lib/liba/sd1.a.llvm.111892.sd_host_send_rca.c
+-r=include_lib/liba/sd1.a.llvm.111892.sd_host_send_rca.c,sd1_host_send_rca,pl
+-r=include_lib/liba/sd1.a.llvm.111892.sd_host_send_rca.c,sd1_send_command,l
+-r=include_lib/liba/sd1.a.llvm.111892.sd_host_send_rca.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.120812.sd_host_stop_trans.c
+-r=include_lib/liba/sd1.a.llvm.120812.sd_host_stop_trans.c,sd1_host_stop_trans,pl
+-r=include_lib/liba/sd1.a.llvm.120812.sd_host_stop_trans.c,sd1_host_get_jiffies,l
+-r=include_lib/liba/sd1.a.llvm.120812.sd_host_stop_trans.c,sd1_send_command,l
+-r=include_lib/liba/sd1.a.llvm.120812.sd_host_stop_trans.c,puts,l
+-r=include_lib/liba/sd1.a.llvm.120812.sd_host_stop_trans.c,SD1_IDLE_CLK_EN,l
+-r=include_lib/liba/sd1.a.llvm.120812.sd_host_stop_trans.c,SD1_DELAY_MS,l
+-r=include_lib/liba/sd1.a.llvm.120812.sd_host_stop_trans.c,sd1_host_timeout,l
+-r=include_lib/liba/sd1.a.llvm.120812.sd_host_stop_trans.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.127816.sd_select_card.c
+-r=include_lib/liba/sd1.a.llvm.127816.sd_select_card.c,sd1_select_card,pl
+-r=include_lib/liba/sd1.a.llvm.127816.sd_select_card.c,sd1_send_command,l
+-r=include_lib/liba/sd1.a.llvm.127816.sd_select_card.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.134668.sdmmc_det.c
+-r=include_lib/liba/sd1.a.llvm.134668.sdmmc_det.c,sd1_is_online,pl
+-r=include_lib/liba/sd1.a.llvm.134668.sdmmc_det.c,sd1_io_det,pl
+-r=include_lib/liba/sd1.a.llvm.134668.sdmmc_det.c,sd1_host_status,l
+-r=include_lib/liba/sd1.a.llvm.134668.sdmmc_det.c,sd1_clk_det,pl
+-r=include_lib/liba/sd1.a.llvm.134668.sdmmc_det.c,sd1_cmd_det_init,pl
+-r=include_lib/liba/sd1.a.llvm.134668.sdmmc_det.c,sd1_lowlevel_init,l
+-r=include_lib/liba/sd1.a.llvm.134668.sdmmc_det.c,sd1_chk_ctl,l
+-r=include_lib/liba/sd1.a.llvm.134668.sdmmc_det.c,sd1_cmd_det,pl
+-r=include_lib/liba/sd1.a.llvm.134668.sdmmc_det.c,sd1_cmd_check,l
+-r=include_lib/liba/sd1.a.llvm.134668.sdmmc_det.c,sd1_host_var,l
+-r=include_lib/liba/sd1.a.llvm.134668.sdmmc_det.c,sd1_cmd_detect,l
+-r=include_lib/liba/sd1.a.llvm.134668.sdmmc_det.c,device_sd1,l
+include_lib/liba/sd1.a.llvm.139224.sd_chk_ctl.c
+-r=include_lib/liba/sd1.a.llvm.139224.sd_chk_ctl.c,sd1_chk_ctl,pl
+-r=include_lib/liba/sd1.a.llvm.139224.sd_chk_ctl.c,sd1_host_get_jiffies,l
+-r=include_lib/liba/sd1.a.llvm.139224.sd_chk_ctl.c,sd1_host_timeout,l
+-r=include_lib/liba/sd1.a.llvm.139224.sd_chk_ctl.c,sd1_cmd_detect,l
+-r=include_lib/liba/sd1.a.llvm.139224.sd_chk_ctl.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,sd1_cmd_check,pl
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,sd1_active_check,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,sd1_idle_check,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,sd1_isr_oc,pl
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,sd1_send_command_isr,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,SD1_IDLE_CLK_EN,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,sd1_isr,pl
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,SD1_CMD_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,CLR_SD1_CMD_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,SD1_CMD_TIMEOUT,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,SD1_CMD_IE,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,SD1_8CLK_EN,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,SD1_CTU_DATA_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,SD1_CTU_ERR_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,CLR_SD1_DAT_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,CLR_SD1_CTU_DATA_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,puts,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,CLR_SD1_CTU_ERR_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,SD1_DAT_8CLK_EN,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,SD1_SEM_POST,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,sd1_cmd_detect,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,sd1_host_var,l
+-r=include_lib/liba/sd1.a.llvm.142292.sd_host_hw.c,sd_sfr,l
+include_lib/liba/sd1.a.llvm.148292.sd_wait_idle.c
+-r=include_lib/liba/sd1.a.llvm.148292.sd_wait_idle.c,sd1_wait_idle,pl
+-r=include_lib/liba/sd1.a.llvm.148292.sd_wait_idle.c,SD1_SEM_PEND,l
+-r=include_lib/liba/sd1.a.llvm.148292.sd_wait_idle.c,sd1_cmd_detect,l
+-r=include_lib/liba/sd1.a.llvm.148292.sd_wait_idle.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_CMD_MODE,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_CMD_CRC,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_8CLK_EN,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_CMD_TIMEOUT,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,CLR_SD1_CMD_PENDING,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_CMD_PENDING,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_DAT_MODE,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_CTU_MODE,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_DAT_CRC,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_DAT_8CLK_EN,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_SET_4WIRE_MODE,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,CLR_SD1_DAT_PENDING,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,CLR_SD1_CTU_PENDING,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,CLR_SD1_CTU_DATA_PENDING,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,CLR_SD1_CTU_ERR_PENDING,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_DAT_PENDING,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_CTU_DATA_PENDING,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_CTU_ERR_PENDING,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_CONTROLLER_RESET,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_CONTROLLER_EN,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_CRC_STATE,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_DAT_EDGE,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_IDLE_CLK_EN,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_CMD_IE,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_CTU_IE,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_DAT_IE,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_BAUD,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_BLOCK_WRITE_CRC_ERR,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SET_SD1_CMD_PTR,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SET_SD1_DAT_PTR,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SET_SD1_CNT,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,SD1_SET_CTU_CNT,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,sd1_send_command_isr,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,sd1_active_check,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,sd1_idle_check,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,sd_sfr,pl
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,sd1_host_var,l
+-r=include_lib/liba/sd1.a.llvm.151156.sd_host_reg.c,sd1_cmd_detect,l
+include_lib/liba/sd1.a.llvm.161328.sd_send_command.c
+-r=include_lib/liba/sd1.a.llvm.161328.sd_send_command.c,sd1_send_command,pl
+-r=include_lib/liba/sd1.a.llvm.161328.sd_send_command.c,SET_SD1_CMD_PTR,l
+-r=include_lib/liba/sd1.a.llvm.161328.sd_send_command.c,SD1_8CLK_EN,l
+-r=include_lib/liba/sd1.a.llvm.161328.sd_send_command.c,CLR_SD1_CMD_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.161328.sd_send_command.c,SD1_CMD_IE,l
+-r=include_lib/liba/sd1.a.llvm.161328.sd_send_command.c,SD1_CMD_MODE,l
+-r=include_lib/liba/sd1.a.llvm.161328.sd_send_command.c,sd1_host_get_jiffies,l
+-r=include_lib/liba/sd1.a.llvm.161328.sd_send_command.c,SD1_CMD_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.161328.sd_send_command.c,sd1_host_timeout,l
+-r=include_lib/liba/sd1.a.llvm.161328.sd_send_command.c,puts,l
+-r=include_lib/liba/sd1.a.llvm.161328.sd_send_command.c,SD1_DELAY_MS,l
+-r=include_lib/liba/sd1.a.llvm.161328.sd_send_command.c,SD1_CMD_TIMEOUT,l
+-r=include_lib/liba/sd1.a.llvm.161328.sd_send_command.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.165220.sd_write_start.c
+-r=include_lib/liba/sd1.a.llvm.165220.sd_write_start.c,sd1_write_start,pl
+-r=include_lib/liba/sd1.a.llvm.165220.sd_write_start.c,SET_SD1_CNT,l
+-r=include_lib/liba/sd1.a.llvm.165220.sd_write_start.c,CLR_SD1_CTU_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.165220.sd_write_start.c,SD1_DAT_8CLK_EN,l
+-r=include_lib/liba/sd1.a.llvm.165220.sd_write_start.c,SET_SD1_DAT_PTR,l
+-r=include_lib/liba/sd1.a.llvm.165220.sd_write_start.c,SD1_IDLE_CLK_EN,l
+-r=include_lib/liba/sd1.a.llvm.165220.sd_write_start.c,SD1_CTU_MODE,l
+-r=include_lib/liba/sd1.a.llvm.165220.sd_write_start.c,SD1_SET_CTU_CNT,l
+-r=include_lib/liba/sd1.a.llvm.165220.sd_write_start.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.168108.sd_host_status.c
+-r=include_lib/liba/sd1.a.llvm.168108.sd_host_status.c,sd1_host_status,pl
+-r=include_lib/liba/sd1.a.llvm.168108.sd_host_status.c,sd1_host_var,pl
+include_lib/liba/sd1.a.llvm.5392.mango_dev_sd1.c
+-r=include_lib/liba/sd1.a.llvm.5392.mango_dev_sd1.c,SD1_SEM_INIT,pl
+-r=include_lib/liba/sd1.a.llvm.5392.mango_dev_sd1.c,OSSemCreate,l
+-r=include_lib/liba/sd1.a.llvm.5392.mango_dev_sd1.c,SD1_DELAY_MS,pl
+-r=include_lib/liba/sd1.a.llvm.5392.mango_dev_sd1.c,OSTimeDly,l
+-r=include_lib/liba/sd1.a.llvm.5392.mango_dev_sd1.c,SD1_SEM_PEND,pl
+-r=include_lib/liba/sd1.a.llvm.5392.mango_dev_sd1.c,OSSemPend,l
+-r=include_lib/liba/sd1.a.llvm.5392.mango_dev_sd1.c,sd1_is_online,l
+-r=include_lib/liba/sd1.a.llvm.5392.mango_dev_sd1.c,printf,l
+-r=include_lib/liba/sd1.a.llvm.5392.mango_dev_sd1.c,SD1_SEM_POST,pl
+-r=include_lib/liba/sd1.a.llvm.5392.mango_dev_sd1.c,OSSemPost,l
+-r=include_lib/liba/sd1.a.llvm.5392.mango_dev_sd1.c,SD1_SEM_DEL,pl
+-r=include_lib/liba/sd1.a.llvm.5392.mango_dev_sd1.c,OSSemDel,l
+-r=include_lib/liba/sd1.a.llvm.5392.mango_dev_sd1.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.17768.sdmmc_host_set_bus_width.c
+-r=include_lib/liba/sd1.a.llvm.17768.sdmmc_host_set_bus_width.c,sd1_set_bus_width,pl
+-r=include_lib/liba/sd1.a.llvm.17768.sdmmc_host_set_bus_width.c,sd1_wait_idle,l
+-r=include_lib/liba/sd1.a.llvm.17768.sdmmc_host_set_bus_width.c,sd1_host_status,l
+-r=include_lib/liba/sd1.a.llvm.17768.sdmmc_host_set_bus_width.c,mmc1_host_set_bus_width,l
+-r=include_lib/liba/sd1.a.llvm.17768.sdmmc_host_set_bus_width.c,SD1_SET_4WIRE_MODE,l
+-r=include_lib/liba/sd1.a.llvm.17768.sdmmc_host_set_bus_width.c,printf,l
+-r=include_lib/liba/sd1.a.llvm.17768.sdmmc_host_set_bus_width.c,sd1_send_scr,l
+-r=include_lib/liba/sd1.a.llvm.17768.sdmmc_host_set_bus_width.c,sd1_host_set_bus_width,l
+-r=include_lib/liba/sd1.a.llvm.17768.sdmmc_host_set_bus_width.c,sd1_host_sd_status,l
+-r=include_lib/liba/sd1.a.llvm.17768.sdmmc_host_set_bus_width.c,puts,l
+-r=include_lib/liba/sd1.a.llvm.17768.sdmmc_host_set_bus_width.c,sd1_host_var,l
+-r=include_lib/liba/sd1.a.llvm.17768.sdmmc_host_set_bus_width.c,sd1_cmd_detect,l
+-r=include_lib/liba/sd1.a.llvm.17768.sdmmc_host_set_bus_width.c,device_sd1,l
+include_lib/liba/sd1.a.llvm.22500.sdmmc_host_set_hispeed.c
+-r=include_lib/liba/sd1.a.llvm.22500.sdmmc_host_set_hispeed.c,sd1_set_hispeed,pl
+-r=include_lib/liba/sd1.a.llvm.22500.sdmmc_host_set_hispeed.c,sd1_wait_idle,l
+-r=include_lib/liba/sd1.a.llvm.22500.sdmmc_host_set_hispeed.c,sd1_host_status,l
+-r=include_lib/liba/sd1.a.llvm.22500.sdmmc_host_set_hispeed.c,mmc1_host_set_hispeed,l
+-r=include_lib/liba/sd1.a.llvm.22500.sdmmc_host_set_hispeed.c,sd1_send_scr,l
+-r=include_lib/liba/sd1.a.llvm.22500.sdmmc_host_set_hispeed.c,puts,l
+-r=include_lib/liba/sd1.a.llvm.22500.sdmmc_host_set_hispeed.c,sd1_host_set_hispeed,l
+-r=include_lib/liba/sd1.a.llvm.22500.sdmmc_host_set_hispeed.c,sd1_host_var,l
+-r=include_lib/liba/sd1.a.llvm.22500.sdmmc_host_set_hispeed.c,sd1_cmd_detect,l
+include_lib/liba/sd1.a.llvm.32596.sd_host_identification.c
+-r=include_lib/liba/sd1.a.llvm.32596.sd_host_identification.c,sd1_host_identification,pl
+-r=include_lib/liba/sd1.a.llvm.32596.sd_host_identification.c,sd1_host_send_op_cond,l
+-r=include_lib/liba/sd1.a.llvm.32596.sd_host_identification.c,SD1_DELAY_MS,l
+-r=include_lib/liba/sd1.a.llvm.32596.sd_host_identification.c,sd1_host_reset,l
+-r=include_lib/liba/sd1.a.llvm.32596.sd_host_identification.c,mmc1_host_send_op_cond,l
+-r=include_lib/liba/sd1.a.llvm.32596.sd_host_identification.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.42792.sd_host_read.c
+-r=include_lib/liba/sd1.a.llvm.42792.sd_host_read.c,sd1_read,pl
+-r=include_lib/liba/sd1.a.llvm.42792.sd_host_read.c,sd1_wait_idle,l
+-r=include_lib/liba/sd1.a.llvm.42792.sd_host_read.c,SD1_BAUD,l
+-r=include_lib/liba/sd1.a.llvm.42792.sd_host_read.c,sd1_host_stop_trans,l
+-r=include_lib/liba/sd1.a.llvm.42792.sd_host_read.c,sd1_read_start,l
+-r=include_lib/liba/sd1.a.llvm.42792.sd_host_read.c,sd1_send_command,l
+-r=include_lib/liba/sd1.a.llvm.42792.sd_host_read.c,printf,l
+-r=include_lib/liba/sd1.a.llvm.42792.sd_host_read.c,puts,l
+-r=include_lib/liba/sd1.a.llvm.42792.sd_host_read.c,SD1_CTU_IE,l
+-r=include_lib/liba/sd1.a.llvm.42792.sd_host_read.c,sd1_host_var,l
+-r=include_lib/liba/sd1.a.llvm.42792.sd_host_read.c,sd1_cmd_detect,l
+include_lib/liba/sd1.a.llvm.51236.sd_host_timeout.c
+-r=include_lib/liba/sd1.a.llvm.51236.sd_host_timeout.c,sd1_host_get_jiffies,pl
+-r=include_lib/liba/sd1.a.llvm.51236.sd_host_timeout.c,sd1_host_timeout,pl
+-r=include_lib/liba/sd1.a.llvm.51236.sd_host_timeout.c,puts,l
+-r=include_lib/liba/sd1.a.llvm.51236.sd_host_timeout.c,jiffies,l
+-r=include_lib/liba/sd1.a.llvm.51236.sd_host_timeout.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.73048.mmc_host_send_op_cond.c
+-r=include_lib/liba/sd1.a.llvm.73048.mmc_host_send_op_cond.c,mmc1_host_send_op_cond,pl
+-r=include_lib/liba/sd1.a.llvm.73048.mmc_host_send_op_cond.c,sd1_send_command,l
+include_lib/liba/sd1.a.llvm.80704.mmc_host_set_bus_width.c
+-r=include_lib/liba/sd1.a.llvm.80704.mmc_host_set_bus_width.c,mmc1_host_set_bus_width,pl
+-r=include_lib/liba/sd1.a.llvm.80704.mmc_host_set_bus_width.c,sd1_send_command,l
+-r=include_lib/liba/sd1.a.llvm.80704.mmc_host_set_bus_width.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.83452.mmc_host_set_hispeed.c
+-r=include_lib/liba/sd1.a.llvm.83452.mmc_host_set_hispeed.c,mmc1_host_set_hispeed,pl
+-r=include_lib/liba/sd1.a.llvm.83452.mmc_host_set_hispeed.c,sd1_send_command,l
+-r=include_lib/liba/sd1.a.llvm.83452.mmc_host_set_hispeed.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c
+-r=include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c,sd1_host_sd_status,pl
+-r=include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c,sd1_host_app_cmd,l
+-r=include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c,CLR_SD1_DAT_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c,SD1_DAT_8CLK_EN,l
+-r=include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c,SET_SD1_DAT_PTR,l
+-r=include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c,SD1_DAT_IE,l
+-r=include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c,SET_SD1_CNT,l
+-r=include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c,SD1_DAT_MODE,l
+-r=include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c,sd1_send_command,l
+-r=include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c,sd1_host_get_jiffies,l
+-r=include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c,SD1_DAT_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c,SD1_DELAY_MS,l
+-r=include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c,sd1_host_timeout,l
+-r=include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c,SD1_DAT_CRC,l
+-r=include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c,puts,l
+-r=include_lib/liba/sd1.a.llvm.99144.sd_host_sd_status.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.109484.sd_host_send_op_cond.c
+-r=include_lib/liba/sd1.a.llvm.109484.sd_host_send_op_cond.c,sd1_host_send_op_cond,pl
+-r=include_lib/liba/sd1.a.llvm.109484.sd_host_send_op_cond.c,sd1_host_app_cmd,l
+-r=include_lib/liba/sd1.a.llvm.109484.sd_host_send_op_cond.c,sd1_send_command,l
+include_lib/liba/sd1.a.llvm.114604.sd_host_set_bus_width.c
+-r=include_lib/liba/sd1.a.llvm.114604.sd_host_set_bus_width.c,sd1_host_set_bus_width,pl
+-r=include_lib/liba/sd1.a.llvm.114604.sd_host_set_bus_width.c,sd1_host_stop_trans,l
+-r=include_lib/liba/sd1.a.llvm.114604.sd_host_set_bus_width.c,sd1_host_app_cmd,l
+-r=include_lib/liba/sd1.a.llvm.114604.sd_host_set_bus_width.c,sd1_send_command,l
+include_lib/liba/sd1.a.llvm.117044.sd_host_set_hispeed.c
+-r=include_lib/liba/sd1.a.llvm.117044.sd_host_set_hispeed.c,sd1_host_set_hispeed,pl
+-r=include_lib/liba/sd1.a.llvm.117044.sd_host_set_hispeed.c,sd1_host_switch_func,l
+-r=include_lib/liba/sd1.a.llvm.117044.sd_host_set_hispeed.c,puts,l
+-r=include_lib/liba/sd1.a.llvm.117044.sd_host_set_hispeed.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.124460.sd_host_switch_func.c
+-r=include_lib/liba/sd1.a.llvm.124460.sd_host_switch_func.c,sd1_host_switch_func,pl
+-r=include_lib/liba/sd1.a.llvm.124460.sd_host_switch_func.c,sd1_host_stop_trans,l
+-r=include_lib/liba/sd1.a.llvm.124460.sd_host_switch_func.c,CLR_SD1_DAT_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.124460.sd_host_switch_func.c,SD1_DAT_8CLK_EN,l
+-r=include_lib/liba/sd1.a.llvm.124460.sd_host_switch_func.c,SET_SD1_DAT_PTR,l
+-r=include_lib/liba/sd1.a.llvm.124460.sd_host_switch_func.c,SD1_DAT_IE,l
+-r=include_lib/liba/sd1.a.llvm.124460.sd_host_switch_func.c,SET_SD1_CNT,l
+-r=include_lib/liba/sd1.a.llvm.124460.sd_host_switch_func.c,SD1_DAT_MODE,l
+-r=include_lib/liba/sd1.a.llvm.124460.sd_host_switch_func.c,sd1_send_command,l
+-r=include_lib/liba/sd1.a.llvm.124460.sd_host_switch_func.c,sd1_host_get_jiffies,l
+-r=include_lib/liba/sd1.a.llvm.124460.sd_host_switch_func.c,SD1_DAT_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.124460.sd_host_switch_func.c,SD1_DELAY_MS,l
+-r=include_lib/liba/sd1.a.llvm.124460.sd_host_switch_func.c,sd1_host_timeout,l
+-r=include_lib/liba/sd1.a.llvm.124460.sd_host_switch_func.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c
+-r=include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c,sd1_send_scr,pl
+-r=include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c,sd1_host_stop_trans,l
+-r=include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c,sd1_host_app_cmd,l
+-r=include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c,CLR_SD1_DAT_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c,SD1_DAT_8CLK_EN,l
+-r=include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c,SET_SD1_DAT_PTR,l
+-r=include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c,SD1_DAT_IE,l
+-r=include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c,SET_SD1_CNT,l
+-r=include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c,SD1_DAT_MODE,l
+-r=include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c,sd1_send_command,l
+-r=include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c,puts,l
+-r=include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c,sd1_host_get_jiffies,l
+-r=include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c,SD1_DAT_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c,SD1_DELAY_MS,l
+-r=include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c,sd1_host_timeout,l
+-r=include_lib/liba/sd1.a.llvm.130508.sd_send_scr.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.158444.sd_read_start.c
+-r=include_lib/liba/sd1.a.llvm.158444.sd_read_start.c,sd1_read_start,pl
+-r=include_lib/liba/sd1.a.llvm.158444.sd_read_start.c,SET_SD1_CNT,l
+-r=include_lib/liba/sd1.a.llvm.158444.sd_read_start.c,CLR_SD1_CTU_PENDING,l
+-r=include_lib/liba/sd1.a.llvm.158444.sd_read_start.c,SD1_DAT_8CLK_EN,l
+-r=include_lib/liba/sd1.a.llvm.158444.sd_read_start.c,SET_SD1_DAT_PTR,l
+-r=include_lib/liba/sd1.a.llvm.158444.sd_read_start.c,SD1_IDLE_CLK_EN,l
+-r=include_lib/liba/sd1.a.llvm.158444.sd_read_start.c,SD1_CTU_MODE,l
+-r=include_lib/liba/sd1.a.llvm.158444.sd_read_start.c,SD1_SET_CTU_CNT,l
+-r=include_lib/liba/sd1.a.llvm.158444.sd_read_start.c,sd1_host_var,l
+include_lib/liba/sd1.a.llvm.91860.sd_host_app_cmd.c
+-r=include_lib/liba/sd1.a.llvm.91860.sd_host_app_cmd.c,sd1_host_app_cmd,pl
+-r=include_lib/liba/sd1.a.llvm.91860.sd_host_app_cmd.c,sd1_send_command,l
+-r=include_lib/liba/sd1.a.llvm.91860.sd_host_app_cmd.c,sd1_host_var,l
+Map.txt:15
+include_lib/liba/sd1.a(module_sd1.o)
+Map.txt:17
+include_lib/liba/sd1.a(sdmmc_init.o)
+Map.txt:19
+include_lib/liba/sd1.a(sd_host_args.o)
+Map.txt:21
+include_lib/liba/sd1.a(sd_host_init.o)
+Map.txt:23
+include_lib/liba/sd1.a(sd_host_mount.o)
+Map.txt:25
+include_lib/liba/sd1.a(sd_host_read_end.o)
+Map.txt:27
+include_lib/liba/sd1.a(sd_host_unmount.o)
+Map.txt:29
+include_lib/liba/sd1.a(sd_host_write.o)
+Map.txt:31
+include_lib/liba/sd1.a(sd_host_write_end.o)
+Map.txt:33
+include_lib/liba/sd1.a(sd_init.o)
+Map.txt:35
+include_lib/liba/sd1.a(mmc_host_send_rca.o)
+Map.txt:37
+include_lib/liba/sd1.a(sd_host_all_send_cid.o)
+Map.txt:39
+include_lib/liba/sd1.a(sd_host_reset.o)
+Map.txt:41
+include_lib/liba/sd1.a(sd_host_send_csd.o)
+Map.txt:43
+include_lib/liba/sd1.a(sd_host_send_if_cond.o)
+Map.txt:45
+include_lib/liba/sd1.a(sd_host_send_rca.o)
+Map.txt:47
+include_lib/liba/sd1.a(sd_host_stop_trans.o)
+Map.txt:49
+include_lib/liba/sd1.a(sd_select_card.o)
+Map.txt:51
+include_lib/liba/sd1.a(sdmmc_det.o)
+Map.txt:53
+include_lib/liba/sd1.a(sd_chk_ctl.o)
+Map.txt:55
+include_lib/liba/sd1.a(sd_host_hw.o)
+Map.txt:57
+include_lib/liba/sd1.a(sd_wait_idle.o)
+Map.txt:59
+include_lib/liba/sd1.a(sd_host_reg.o)
+Map.txt:61
+include_lib/liba/sd1.a(sd_send_command.o)
+Map.txt:63
+include_lib/liba/sd1.a(sd_write_start.o)
+Map.txt:65
+include_lib/liba/sd1.a(sd_host_status.o)
+Map.txt:67
+include_lib/liba/sd1.a(mango_dev_sd1.o)
+Map.txt:69
+include_lib/liba/sd1.a(sdmmc_host_set_bus_width.o)
+Map.txt:71
+include_lib/liba/sd1.a(sdmmc_host_set_hispeed.o)
+Map.txt:73
+include_lib/liba/sd1.a(sd_host_identification.o)
+Map.txt:75
+include_lib/liba/sd1.a(sd_host_read.o)
+Map.txt:77
+include_lib/liba/sd1.a(sd_host_timeout.o)
+Map.txt:79
+include_lib/liba/sd1.a(mmc_host_send_op_cond.o)
+Map.txt:81
+include_lib/liba/sd1.a(mmc_host_set_bus_width.o)
+Map.txt:83
+include_lib/liba/sd1.a(mmc_host_set_hispeed.o)
+Map.txt:85
+include_lib/liba/sd1.a(sd_host_sd_status.o)
+Map.txt:87
+include_lib/liba/sd1.a(sd_host_send_op_cond.o)
+Map.txt:89
+include_lib/liba/sd1.a(sd_host_set_bus_width.o)
+Map.txt:91
+include_lib/liba/sd1.a(sd_host_set_hispeed.o)
+Map.txt:93
+include_lib/liba/sd1.a(sd_host_switch_func.o)
+Map.txt:95
+include_lib/liba/sd1.a(sd_send_scr.o)
+Map.txt:97
+include_lib/liba/sd1.a(sd_read_start.o)
+Map.txt:99
+include_lib/liba/sd1.a(sd_host_app_cmd.o)
+Map.txt:1128
+LOAD include_lib/liba/sd1.a
+Ui_action_dec.c (app\...\style_jl02):745
+    if (!strcmp(event->arg, "sd0") || !strcmp(event->arg, "sd1") || !strcmp(event->arg, "sd2")) {
+Ui_action_main.c (app\...\style_jl02):342
+    if (!strcmp(event->arg, "sd0") || !strcmp(event->arg, "sd1") || !strcmp(event->arg, "sd2")) {
+Ui_action_photo.c (app\...\style_jl02):1229
+    if (!strcmp(event->arg, "sd0") || !strcmp(event->arg, "sd1") || !strcmp(event->arg, "sd2")) {
+Ui_action_rec.c (app\...\style_jl02):1052
+    if (!strcmp(event->arg, "sd0") || !strcmp(event->arg, "sd1") || !strcmp(event->arg, "sd2")) {
+---- sd1 Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+E:\cxy job\git_work\jieli\doc\快速上手说明\板子快速配置使用.c : File could not be opened.
+---- mount_sd_to_fs Matches (12 in 6 files) ----
+App_main.c (app\car_camera):395
+    mount_sd_to_fs(SDX_DEV);
+Device_mount.c (app\car_camera):25
+int mount_sd_to_fs(const char *name)
+Device_mount.c (app\car_camera):70
+        mount_sd_to_fs(event->arg);
+Main.or32.resolution.txt (cpu\...\tools):20
+-r=obj\Debug\app\car_camera\app_main.o,mount_sd_to_fs,l
+Main.or32.resolution.txt (cpu\...\tools):119
+-r=obj\Debug\app\car_camera\device_mount.o,mount_sd_to_fs,pl
+Main.or32.resolution.txt (cpu\...\tools):755
+-r=obj\Debug\app\car_camera\upgrade.o,mount_sd_to_fs,l
+Main.or32.resolution.txt (cpu\...\tools):1147
+-r=obj\Debug\app\car_camera\video_system_cfg.o,mount_sd_to_fs,l
+Storage_device.h (app\...\include):8
+extern int mount_sd_to_fs(const char *name);
+Upgrade.c (app\car_camera):177
+        mount_sd_to_fs(SDX_DEV);
+Upgrade.c (app\car_camera):525
+        mount_sd_to_fs(SDX_DEV);
+Upgrade.c (app\car_camera):532
+        err = mount_sd_to_fs(sdcard_name);
+Video_system_cfg.c (app\car_camera):77
+            mount_sd_to_fs(SDX_DEV);
+---- SD_ERR_OFFLINE Matches (0 in 0 files) ----

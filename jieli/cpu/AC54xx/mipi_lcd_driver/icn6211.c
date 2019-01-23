@@ -1,4 +1,5 @@
-//#include "icn2611.h"
+
+//#include "icn2311.h"
 #include "generic/typedef.h"
 #include "asm/dsi.h"
 #include "asm/imb_driver.h"
@@ -9,19 +10,17 @@
 #include "asm/isp_dev.h"
 #include "asm/isp_alg.h"
 
+#define LCD_SDA_OUT()   gpio_direction_output(IO_PORTG_03,0);gpio_set_pull_up(IO_PORTG_03,1)
+#define LCD_SDA_IN()    gpio_direction_input(IO_PORTG_03)
+#define LCD_SDA_H()     gpio_direction_output(IO_PORTG_03,1)
+#define LCD_SDA_L()     gpio_direction_output(IO_PORTG_03,0)
+#define LCD_SDA_R()     gpio_read(IO_PORTG_03)
 
-/******************IO info*********************/
-#define LCD_SDA_OUT()   PORTG_DIR &=~BIT(3);PORTB_PU |= BIT(3)
-#define LCD_SDA_IN()    PORTG_DIR |= BIT(3)
-#define LCD_SDA_H()     PORTG_OUT |= BIT(3)
-#define LCD_SDA_L()     PORTG_OUT &=~BIT(3)
-#define LCD_SDA_R()     PORTG_IN  & BIT(3)
+#define LCD_SCL_OUT()   gpio_direction_output(IO_PORTG_05,0)
+#define LCD_SCL_H()     gpio_direction_output(IO_PORTG_05,1)
+#define LCD_SCL_L()     gpio_direction_output(IO_PORTG_05,0)
 
-#define LCD_SCL_OUT()   PORTG_DIR &=~BIT(5)
-#define LCD_SCL_H()     PORTG_OUT |= BIT(5)
-#define LCD_SCL_L()     PORTG_OUT &=~BIT(5)
-
-/**********************************************/
+static void *iic = NULL;
 
 #define freq 300
 #define lane_num 4
@@ -32,50 +31,23 @@
  *  24: PIXEL_RGB888
  */
 #define bpp_num  24
-#define vsa_line 2
-#define vbp_line 6
+#define vsa_line 3///2
+#define vbp_line 32//6
 #define vda_line 800
-#define vfp_line 6
-#define hsa_cyc  4
-#define hbp_cyc  16
+#define vfp_line 13//6
+#define hsa_cyc  48
+#define hbp_cyc  88//16
 #define hda_cyc  480
-#define hfp_cyc  10
+#define hfp_cyc  40//10
 
 #if (LCD_TYPE == LCD_ICN6211_800x480)
 
-#define data_type unsigned char
 u8 chip_icn6211 = 0x58;
 
 const static u8 init_cmd_list[] ={
-    0x20, 0xF0,
-    0x21, 0x40,
-    0x22, 0x10,
-    0x23, 0x0A,
-    0x24, 0x0A,
-    0x25, 0x14,
-    0x26, 0x00,
-    0x27, 0x04,
-    0x28, 0x02,
-    0x29, 0x02,
-    0x34, 0x80,
-    0x36, 0x0A,
-    0x86, 0x2A,
-    0xB5, 0xA0,
-    0x5C, 0xFF,
-    0x87, 0x10,
-    0x2A, 0x01,
-    0x56, 0x92,
-    0x6B, 0x61,
-    0x69, 0x10,
-    0x10, 0x10,
-    0x11, 0x98,
-    0xB6, 0x20,
-    0x51, 0x20,
-    0x09, 0x10,
+   0
 };
 
-
-#if 1
 static struct mipi_dev mipi_dev_t = {
     .info = {
         .xres 			= LCD_DEV_WIDTH,
@@ -83,7 +55,7 @@ static struct mipi_dev mipi_dev_t = {
         .buf_addr 		= LCD_DEV_BUF,
         .buf_num 		= LCD_DEV_BNUM,
         .sample         = LCD_DEV_SAMPLE,
-        .test_mode 		= false,
+        .test_mode 		= true,//false,
         .color 			= 0x0000ff,
         .itp_mode_en 	= false,
         .format 		= FORMAT_RGB888,
@@ -159,145 +131,343 @@ static struct mipi_dev mipi_dev_t = {
     .target_freq = 800,
     .pll_division = MIPI_PLL_DIV2,
 
-//    .cmd_list = init_cmd_list,
-//    .cmd_list_item = sizeof(init_cmd_list),
+    .cmd_list = init_cmd_list,
+    .cmd_list_item = sizeof(init_cmd_list),
     .debug_mode = true,
 };
-#else
-static struct mipi_dev icn6211_dev = {
-	0,
+
+static unsigned char ICN_2611_init(void* _data);
+static unsigned char ICN_2611_write_reg(unsigned char icn_data);
+//static unsigned char icn2611_init(u8 cmd_list);
+static unsigned char _icn6211_write_one_byte(unsigned char w_chip_id, unsigned char register_address, unsigned char buf);
+static void wr_reg(u8 w_chip_id,u8 reg, u8 dat);
+
+static void lcd_io_init()
+{
+    LCD_SDA_OUT();
+    LCD_SCL_OUT();
+
+    LCD_SDA_H();
+    LCD_SCL_H();
 }
+
+static void delay_50ns(u16 cnt)//380ns
+{
+    while (cnt--) {
+        delay(100);//50ns
+    }
+}
+static void wr_start(void)
+{
+    LCD_SDA_OUT();
+	LCD_SCL_OUT();
+    LCD_SDA_H();//拉高数据线
+    delay_us(250);//delay_50ns(20);
+    LCD_SCL_H();//拉高时钟线
+    delay_us(250);//delay_50ns(20);
+    LCD_SDA_L();//在时钟线为高电平时，拉低数据线，产生起始信号。
+    delay_us(50);//delay_50ns(20);
+    LCD_SCL_L();//拉低时钟线
+}
+static void wr_stop(void)
+{
+	LCD_SCL_L();//拉低时钟线
+	delay_us(50);//delay_50ns(20);
+    LCD_SDA_L();//拉低数据线
+    delay_us(50);//delay_50ns(20);
+    LCD_SCL_H();//拉高时钟线。
+    delay_us(50);//delay_50ns(20);
+    LCD_SDA_H();//时钟时线为高电平时，拉高数据线，产生停止信号。
+    delay_us(50);//delay_50ns(20);
+}
+
+static void wr_dat(u8 dat)
+{
+    char i;
+    for (i = 7; i >= 0; i--) {
+        LCD_SCL_L();
+        delay_us(50);//delay_us(1);//delay_50ns(1);
+
+        if (dat& BIT(7)) {
+            LCD_SDA_H();
+        } else {
+            LCD_SDA_L();
+        }
+		delay_us(50);//delay_us(1);//delay_50ns(1);
+        LCD_SCL_H();
+        delay_us(100);//delay_50ns(1);
+        dat <<= 1;		
+    }	
+}
+static void wr_Rack(void)
+{
+	LCD_SCL_L();
+//	LCD_SDA_IN();
+	delay_us(50);//delay_50ns(1);
+	LCD_SDA_H();//释放数据总线，准备接收应答信号。
+    delay_us(50);//delay_50ns(1);
+
+	LCD_SCL_H();//拉高时钟线。
+    delay_us(50);//delay_50ns(1);
+	//while(LCD_SDA_R());//读取应答信号的状态。
+    delay_us(50);//delay_50ns(10);
+}
+
+
+static void wr_reg(u8 w_chip_id,u8 reg, u8 dat)
+{
+	wr_start();
+	wr_dat(w_chip_id);
+	wr_Rack();
+	wr_dat(reg);
+	wr_Rack();
+	wr_dat(dat);
+	wr_Rack();
+	wr_stop();
+	puts("+++++++++iic++");
+}
+
+static unsigned char _icn6211_write_one_byte(unsigned char w_chip_id, unsigned char register_address, unsigned char buf)
+{
+    unsigned char ret = true;
+    if (!iic) {
+        ret = false;
+        puts("\n icn6211 iic wr err -1");
+        goto __gcend;
+    }
+    dev_ioctl(iic, IIC_IOCTL_START, 0);
+
+    if (dev_ioctl(iic, IIC_IOCTL_TX_WITH_START_BIT, w_chip_id)) {
+        puts("\n icn6211 iic wr err 0\n");
+        ret = false;
+        goto __gcend;
+    }
+
+    delay(10);
+
+    if (dev_ioctl(iic, IIC_IOCTL_TX, register_address)) {
+        puts("\n icn6211 iic wr err 1\n");
+        goto __gcend;
+    }
+
+    delay(10);
+
+    if (dev_ioctl(iic, IIC_IOCTL_TX_WITH_STOP_BIT, buf)) {
+        puts("\n icn6211 iic wr err 3\n");
+        ret = false;
+        goto __gcend;
+    }
+
+__gcend:
+
+    dev_ioctl(iic, IIC_IOCTL_STOP, 0);
+
+    return ret;
+}
+
+//u8 buf[10];
+static unsigned char _icn6211_read_byte(unsigned char w_chip_id, unsigned char register_address)
+{
+    unsigned char ret = true;
+	unsigned char regDat;
+	int i=0;
+    if (!iic) {
+        ret = false;
+        puts("\n icn6211 iic r err -1");
+        goto __gcend;
+    }
+    dev_ioctl(iic, IIC_IOCTL_START, 0);
+
+    if (dev_ioctl(iic, IIC_IOCTL_TX_WITH_START_BIT, w_chip_id)) {
+        puts("\n icn6211 iic r err 0\n");
+        ret = false;
+        goto __gcend;
+    }
+
+    delay(10);
+
+    if (dev_ioctl(iic, IIC_IOCTL_TX, register_address)) {
+        puts("\n icn6211 iic r err 1\n");
+		ret = false;
+        goto __gcend;
+    }
+
+    delay(10);
+
+//	dev_ioctl(iic, IIC_IOCTL_START, 0);
+	
+	if (dev_ioctl(iic, IIC_IOCTL_TX_WITH_START_BIT, w_chip_id+1)) {
+        puts("\n icn6211 iic r err 2\n");
+        ret = false;
+        goto __gcend;
+    }
+
+	delay(10);
+#if 0
+	for(i=0;i<9;i++){
+	    if (dev_ioctl(iic, IIC_IOCTL_RX_WITH_ACK, buf[i])) {
+	        puts("\n icn6211 iic wr err 3\n");
+	        goto __gcend;
+	    }
+	}
+    delay(10);
 #endif
-u8 icn6211_reg_config_dat[25][2] = {
-	{0x20, 0xF0},
-	{0x21, 0x40},
-	{0x22, 0x10},
-	{0x23, 0x0A},
-	{0x24, 0x0A},
-	{0x25, 0x14},
-	{0x26, 0x00},
-	{0x27, 0x04},
-	{0x28, 0x02},
-	{0x29, 0x02},
-	{0x34, 0x80},
-	{0x36, 0x0A},
-	{0x86, 0x2A},
-	{0xB5, 0xA0},
-	{0x5C, 0xFF},
-	{0x87, 0x10},
-	{0x2A, 0x01},
-	{0x56, 0x92},
-	{0x6B, 0x61},
-	{0x69, 0x10},
-	{0x10, 0x10},
-	{0x11, 0x98},
-	{0xB6, 0x20},
-	{0x51, 0x20},
-	{0x09, 0x10},
-};
-static u32 reset_gpios[2] = {-1, -1};
-static u32 pwdn_gpios[2] = {-1, -1};
+#if 0
+    if (dev_ioctl(iic, IIC_IOCTL_RX, ret)) {
+        puts("\n icn6211 iic r err 4\n");
+        ret = false;
+        goto __gcend;
+    }
+#endif
+	if (dev_ioctl(iic, IIC_IOCTL_RX_WITH_STOP_BIT, (u32)&regDat)) {
+        regDat = 0;
+        puts("\n gsen iic rd err 3\n");
+        goto __gcend;
+    }
 
-static int ICN_2611_init(void* _data);
-static data_type ICN_2611_read_data(data_type icn_addr);
-static void ICN_2611_write_cmd(data_type icn_cmd);
-static void ICN_2611_write_reg(data_type icn_data);
-void test_backlight_pwm_int(void);
-static void mipi_backlight_ctrl(void *_data, u8 on);
-static void icn2611_init(u8 cmd_list);
+__gcend:
 
-static void *iic = NULL;
+    dev_ioctl(iic, IIC_IOCTL_STOP, 0);
+	
+//	return buf;
+    return regDat;
+}
 
-unsigned char wrICN6211_Reg(unsigned char regID, unsigned char regDat)
+
+static unsigned char wrICN6211_Reg(unsigned char regID, unsigned char regDat)
 {
     u8 ret = 1;
     u8 icn6211_ID = 0x58;
-
-//    high = regID >> 8;
-//    low = regID & 0xff;
-
-    dev_ioctl(iic, IIC_IOCTL_START, 0);
-//    if (dev_ioctl(iic, IIC_IOCTL_TX_WITH_START_BIT, 0x64)) {
-//        ret = 0;
-//        goto __wend;
-//    }
-	if (dev_ioctl(iic, IIC_IOCTL_TX, icn6211_ID)) {
-        ret = 0;
-        goto __wend;
-    }
-    if (dev_ioctl(iic, IIC_IOCTL_TX, regID)) {
-        ret = 0;
-        goto __wend;
-    }
-    if (dev_ioctl(iic, IIC_IOCTL_TX_WITH_STOP_BIT, regDat)) {
-        ret = 0;
-        goto __wend;
-    }
-
-__wend:
-
-    dev_ioctl(iic, IIC_IOCTL_STOP, 0);
+	u8	*recieve = NULL;
+	//while(1){
+	//	wr_reg(icn6211_ID,regID,regDat);
+		_icn6211_write_one_byte(icn6211_ID,regID,regDat);
+	//	printf("\n regID = %d,regDat =%d\n",regID,regDat);
+		delay_2ms(10);
+	//	}
+//	recieve = _icn6211_read_one_byte(icn6211_ID,regID);
+//	printf("\n recieve = %d,regDat =%d\n",recieve,regDat);
     return ret;
 }
-/*
-void ICN6211_reset(u8 isp_dev)
+static unsigned char rICN6211_Reg(unsigned char regID, unsigned char regDat)
 {
-    puts("ICN6211 reset \n");
-
-    u32 reset_gpio;
-    u32 pwdn_gpio;
-
-    if (isp_dev == ISP_DEV_0) {
-        reset_gpio = reset_gpios[0];
-        pwdn_gpio = pwdn_gpios[0];
-    } else {
-        reset_gpio = reset_gpios[1];
-        pwdn_gpio = pwdn_gpios[1];
-    }
-    //printf("gpio=%d\n", reset_gpio);
-    gpio_direction_output(pwdn_gpio, 0);
-	gpio_direction_output(reset_gpio, 1);//SET_RESET_PIN(1);
-	delay_2ms(5);//MDELAY(20);
-	gpio_direction_output(reset_gpio, 0);//SET_RESET_PIN(0);
-	delay_2ms(25);//MDELAY(50);
-	gpio_direction_output(reset_gpio, 1);//SET_RESET_PIN(1);
-	delay_2ms(50);//MDELAY(100);
+    u8 ret = 1;
+    u8 icn6211_ID = 0x58;
+	u8	*recieve = NULL;
+	regDat = _icn6211_read_byte(icn6211_ID,regID);
+	//for(int i=0;i<10;i++){
+		printf("\n recieve = %x,regID =%x\n",regDat,regID);
+	//}
+    return ret;
 }
-*/
 
-static void icn2611_reg_config(void)
+
+static struct sw_iic_platform_data *_IIC = NULL;
+
+static unsigned char icn2611_reg_config(void)
 {
-	dev_open("iic2",NULL);
-	
-	wrICN6211_Reg(0x20, 0xF0);
-	wrICN6211_Reg(0x21, 0x40);
-	wrICN6211_Reg(0x22, 0x10);
-	wrICN6211_Reg(0x23, 0x0A);
-	wrICN6211_Reg(0x24, 0x0A);
-	wrICN6211_Reg(0x25, 0x14);
+#if 1
+	if (!iic) {
+		iic = dev_open("iic2",0);//("iic2", 0);
+        if (!iic) {
+            puts("\n  open iic dev for icn6211 err\n");
+            return -EINVAL;
+        }
+    }	
+#endif
+#if 1
+	gpio_set_pull_up(IO_PORTG_05,1);
+	gpio_set_pull_up(IO_PORTG_03,1);
+	delay_2ms(100);
+	wrICN6211_Reg(0x20, 0x20);
+	wrICN6211_Reg(0x21, 0xE0);
+	wrICN6211_Reg(0x22, 0x13);
+	wrICN6211_Reg(0x23, 0x28);
+	wrICN6211_Reg(0x24, 0x30);
+	wrICN6211_Reg(0x25, 0x58);
 	wrICN6211_Reg(0x26, 0x00);
-	wrICN6211_Reg(0x27, 0x04);
-	wrICN6211_Reg(0x28, 0x02);
-	wrICN6211_Reg(0x29, 0x02);
+	wrICN6211_Reg(0x27, 0x0D);
+	wrICN6211_Reg(0x28, 0x03);
+	wrICN6211_Reg(0x29, 0x20);
 	wrICN6211_Reg(0x34, 0x80);
-	wrICN6211_Reg(0x36, 0x0A);
-	wrICN6211_Reg(0x86, 0x2A);
-	wrICN6211_Reg(0xB5, 0xA0);
-	wrICN6211_Reg(0x5C, 0xFF);
-	wrICN6211_Reg(0x87, 0x10);
-	wrICN6211_Reg(0x2A, 0x01);
-	wrICN6211_Reg(0x56, 0x92);
-	wrICN6211_Reg(0x6B, 0x61);
-	wrICN6211_Reg(0x69, 0x10);
-	wrICN6211_Reg(0x10, 0x10);
-	wrICN6211_Reg(0x11, 0x98);
-	wrICN6211_Reg(0xB6, 0x20);
+	wrICN6211_Reg(0x36, 0x28);
+//	wrICN6211_Reg(0x86, 0xA0);
+	wrICN6211_Reg(0xB5, 0xA0);//0xFF);
+	wrICN6211_Reg(0x5C, 0xFF);//0x01);
+//	wrICN6211_Reg(0x87, 0x92);
+	wrICN6211_Reg(0x2A, 0x01);//0x71);
+	wrICN6211_Reg(0x56, 0x93);//0x90);//0x19);
+	wrICN6211_Reg(0x6B, 0x71);//0x40);
+	wrICN6211_Reg(0x69, 0x25);//0x88);
+	wrICN6211_Reg(0x10, 0x40);//0x20);
+	wrICN6211_Reg(0x11, 0x88);//0x20);
+	wrICN6211_Reg(0xB6, 0x20);//0x10);
 	wrICN6211_Reg(0x51, 0x20);
+	wrICN6211_Reg(0x14, 0x43);
+	wrICN6211_Reg(0x2A, 0x49);
 	wrICN6211_Reg(0x09, 0x10);
+
+
+	delay_2ms(10);
+	rICN6211_Reg(0x20, 0xFF);
+	rICN6211_Reg(0x21, 0xFF);
+	rICN6211_Reg(0x22, 0xFF);
+	rICN6211_Reg(0x23, 0xFF);
+	rICN6211_Reg(0x24, 0xFF);
+	rICN6211_Reg(0x25, 0xFF);
+	rICN6211_Reg(0x26, 0xFF);
+	rICN6211_Reg(0x27, 0xFF);
+	rICN6211_Reg(0x28, 0xFF);
+	rICN6211_Reg(0x29, 0xFF);
+	rICN6211_Reg(0x34, 0xFF);
+	rICN6211_Reg(0x36, 0xFF);
+	rICN6211_Reg(0xB5, 0xFF);//0xFF);
+	rICN6211_Reg(0x5C, 0xFF);//0x01);
+	rICN6211_Reg(0x2A, 0xFF);//0x71);
+	rICN6211_Reg(0x56, 0xFF);//0x90);//0x19);
+	rICN6211_Reg(0x6B, 0xFF);//0x40);
+	rICN6211_Reg(0x69, 0xFF);//0x88);
+	rICN6211_Reg(0x10, 0xFF);//0x20);
+	rICN6211_Reg(0x11, 0xFF);//0x20);
+	rICN6211_Reg(0xB6, 0xFF);//0x10);
+	rICN6211_Reg(0x51, 0xFF);
+	rICN6211_Reg(0x14, 0xFF);
+	rICN6211_Reg(0x2A, 0xFF);
+	rICN6211_Reg(0x09, 0xFF);
+
+
+	#endif
+	#if 0
+	rICN6211_Reg(0x21, 0x40);
+	rICN6211_Reg(0x22, 0x10);
+	rICN6211_Reg(0x23, 0x0A);
+	rICN6211_Reg(0x24, 0x0A);
+	rICN6211_Reg(0x25, 0x14);
+	rICN6211_Reg(0x26, 0x00);
+	rICN6211_Reg(0x27, 0x04);
+	rICN6211_Reg(0x28, 0x02);
+	rICN6211_Reg(0x29, 0x02);
+	rICN6211_Reg(0x34, 0x80);
+	rICN6211_Reg(0x36, 0x0A);
+	rICN6211_Reg(0x86, 0x2A);
+	rICN6211_Reg(0xB5, 0xA0);
+	rICN6211_Reg(0x5C, 0xFF);
+	rICN6211_Reg(0x87, 0x10);
+	rICN6211_Reg(0x2A, 0x01);
+	rICN6211_Reg(0x56, 0x92);
+	rICN6211_Reg(0x6B, 0x61);
+	rICN6211_Reg(0x69, 0x10);
+	rICN6211_Reg(0x10, 0x10);
+	rICN6211_Reg(0x11, 0x98);
+	rICN6211_Reg(0xB6, 0x20);
+	rICN6211_Reg(0x51, 0x20);
+	rICN6211_Reg(0x09, 0x10);
+	#endif
+	return 0;
 	
 }
 
-static int ICN_2611_init(void* _data)
+static unsigned char ICN_2611_init(void* _data)
 {
 	struct lcd_platform_data *data = (struct lcd_platform_data *)_data;
 	u8 lcd_reset = data->lcd_io.lcd_reset;
@@ -306,36 +476,20 @@ static int ICN_2611_init(void* _data)
 //	MDELAY(2);
 	
 	gpio_direction_output(lcd_reset, 1);//SET_RESET_PIN(1);
-	delay_2ms(5);//MDELAY(20);
-	gpio_direction_output(lcd_reset, 0);//SET_RESET_PIN(0);
-	delay_2ms(25);//MDELAY(50);
-	gpio_direction_output(lcd_reset, 1);//SET_RESET_PIN(1);
-	delay_2ms(50);//MDELAY(100);
+	delay_us(5);//MDELAY(20);
+//	gpio_direction_output(lcd_reset, 0);//SET_RESET_PIN(0);
+//	delay_us(25);//MDELAY(50);
+//	gpio_direction_output(lcd_reset, 1);//SET_RESET_PIN(1);
+	delay_us(50);//MDELAY(100);
 	icn2611_reg_config();
 	dsi_dev_init(&mipi_dev_t);//init_icn6211_registers();
-	delay_2ms(1);//MDELAY(2);
+	delay_us(1);//MDELAY(2);
 	return 0;
-#if 0
-    struct lcd_platform_data *data = (struct lcd_platform_data *)_data;
-    u8 lcd_reset = data->lcd_io.lcd_reset;
 
-    //pmsg("LX686 reset\n");
-    /*
-     * lcd reset
-     */
-    if (-1 != lcd_reset) {
-        gpio_direction_output(lcd_reset, 0);
-        delay_2ms(5);
-        gpio_direction_output(lcd_reset, 1);
-        delay_2ms(5);
-    }
-    dsi_dev_init(&mipi_dev_t);
-	return 0;
-#endif
 }
 
 
-#if 0
+#if 1
 void test_backlight_pwm_int(void)
 {
     
@@ -378,14 +532,14 @@ static void mipi_backlight_ctrl(void *_data, u8 on)
 }
 #endif
 
-#if 0
+#if 1
 REGISTER_LCD_DEVICE_DRIVE(dev)  = {
     .enable  = IF_ENABLE(LCD_ICN6211_800x480),
     .logo 	 = LCD_NAME,
     .type 	 = LCD_MIPI,
     .dev  	 = &mipi_dev_t,
     .init 	 = ICN_2611_init,
-//    .bl_ctrl = mipi_backlight_ctrl,
+    .bl_ctrl = mipi_backlight_ctrl,
     .esd = {
         //.interval = 500,
         //.esd_check_isr = rm68200gai_esd_check,
@@ -402,5 +556,4 @@ REGISTER_LCD_DEVICE_DRIVE(dev) = {//LCM_DRIVER r61526_qvga_lcm_drv =
 };
 #endif
 #endif
-
 

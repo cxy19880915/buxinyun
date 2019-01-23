@@ -1,0 +1,746 @@
+<?xml version='2.0' encoding='UTF-8'?>
+<Resbuilder>
+        <Items>
+                <LanguageList>
+                        <language_name LANG="Chinese_Simplified">简体中文</language_name>
+                        <language_name LANG="Chinese_Traditional">繁体中文</language_name>
+                        <language_name LANG="Japanese">日语</language_name>
+                        <language_name LANG="Korean">韩语</language_name>
+                        <language_name LANG="English">英语</language_name>
+                        <language_name LANG="French">法语</language_name>
+                        <language_name LANG="German">德语</language_name>
+                        <language_name LANG="Italian">意大利语</language_name>
+                        <language_name LANG="Dutch">荷兰语</language_name>
+                        <language_name LANG="Portuguese">葡萄牙语</language_name>
+                        <language_name LANG="Spanish">西班牙语</language_name>
+                        <language_name LANG="Swedish">瑞典语</language_name>
+                        <language_name LANG="Czech">捷克语</language_name>
+                        <language_name LANG="Danish">丹麦语</language_name>
+                        <language_name LANG="Polish">波兰语</language_name>
+                        <language_name LANG="Russian">俄国语</language_name>
+                        <language_name LANG="Turkey">土耳其语</language_name>
+                        <language_name LANG="Hebrew">希伯来语</language_name>
+                        <language_name LANG="Thai">泰语</language_name>
+                        <language_name LANG="Hungarian">匈牙利语</language_name>
+                        <language_name LANG="Romanian">罗马尼亚语</language_name>
+                        <language_name LANG="Arabic">阿拉伯语</language_name>
+                </LanguageList>
+                <Fonts>
+                        <font00 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="Cambria" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-32" lfOutPrecision="0" lfItalic="0"/>
+                        <font01 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-32" lfOutPrecision="0" lfItalic="0"/>
+                        <font02 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-32" lfOutPrecision="0" lfItalic="0"/>
+                        <font03 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-32" lfOutPrecision="0" lfItalic="0"/>
+                        <font04 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-32" lfOutPrecision="0" lfItalic="0"/>
+                        <font05 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-32" lfOutPrecision="0" lfItalic="0"/>
+                        <font06 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-16" lfOutPrecision="0" lfItalic="0"/>
+                        <font07 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-16" lfOutPrecision="0" lfItalic="0"/>
+                        <font08 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-16" lfOutPrecision="0" lfItalic="0"/>
+                        <font09 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-16" lfOutPrecision="0" lfItalic="0"/>
+                        <font10 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-16" lfOutPrecision="0" lfItalic="0"/>
+                        <font11 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-16" lfOutPrecision="0" lfItalic="0"/>
+                        <font12 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-16" lfOutPrecision="0" lfItalic="0"/>
+                        <font13 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-16" lfOutPrecision="0" lfItalic="0"/>
+                        <font14 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-16" lfOutPrecision="0" lfItalic="0"/>
+                        <font15 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-16" lfOutPrecision="0" lfItalic="0"/>
+                        <font16 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-16" lfOutPrecision="0" lfItalic="0"/>
+                        <font17 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-16" lfOutPrecision="0" lfItalic="0"/>
+                        <font18 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-16" lfOutPrecision="0" lfItalic="0"/>
+                        <font19 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-16" lfOutPrecision="0" lfItalic="0"/>
+                        <font20 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-16" lfOutPrecision="0" lfItalic="0"/>
+                        <font21 lfClipPrecision="0" lfWidth="0" lfWeight="400" lfPitchAndFamily="2" lfCharSet="134" lfFaceName="宋体" lfQuality="0" lfEscapement="0" lfStrikeOut="0" lfUnderline="0" lfOrientation="0" lfHeight="-16" lfOutPrecision="0" lfItalic="0"/>
+                </Fonts>
+                <endian>LITTLEENDIAN</endian>
+                <paneltype>TFTPANEL</paneltype>
+                <picture_path>NULL</picture_path>
+                <excel_path>../../../UITools/多国语言.xls</excel_path>
+                <PageList>
+                        <Page id="0">
+                                <ColorList>
+                                        <Color>5500FF</Color>
+                                        <Color>55AAFF</Color>
+                                        <Color>0000FF</Color>
+                                        <Color>FFFFFF</Color>
+                                        <Color>55FF7F</Color>
+                                        <Color>FF0000</Color>
+                                        <Color>6B6B6B</Color>
+                                        <Color>000000</Color>
+                                        <Color>55AAA5</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM0.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\i_rec.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr5.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_wifi.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr4.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM4.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_aud_o.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_card.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_cyc_10.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_cyc_5.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr9.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_bat_ful.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM9.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\回放界面\key.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_bat_half.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_exp_a1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_bat_h.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\rec_menu\m_dat.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_card_o.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\menu_sel_b.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_bat_l.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_d.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_ll.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\rec_menu\m_hdr.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\direc\i_up.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_aud.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\rec_menu\m_mot.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr8.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\menu_bg_s.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_park.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM8.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_bat_0.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_exp_a0.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_l.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_exp_d3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\flig.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\direc\i_left.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\flig_on.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_rec.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\direc\i_down.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_cyc_3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\rec_menu\m_park.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_gra_m.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr7.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM7.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\rec_menu\m_exp.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\rec_menu\m_cyc.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\i_set.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_tear.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\direc\i_right.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_exp_d2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\menu_sel.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_exp_a3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_gra_h.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr_d2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\rec_menu\m_aud.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_dd.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\blue_bg.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\menu_sta.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_gra_l.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr6.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_hdr.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM6.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM5.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\rec_menu\m_nu.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr_d.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\red_circle.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_exp_d1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_mot.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\rec_menu\m_solu.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_char.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\rec_menu\m_two_rec.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_exp_a2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\rec_menu\m_gra.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr0.png</Picture>
+                                </PictureList>
+                                <CellList>
+                                        <Cell>m232</Cell>
+                                        <Cell>m233</Cell>
+                                        <Cell>m234</Cell>
+                                        <Cell>m235</Cell>
+                                        <Cell>m236</Cell>
+                                        <Cell>m237</Cell>
+                                        <Cell>m238</Cell>
+                                        <Cell>m239</Cell>
+                                        <Cell>m111</Cell>
+                                        <Cell>m113</Cell>
+                                        <Cell>m240</Cell>
+                                        <Cell>m241</Cell>
+                                        <Cell>m242</Cell>
+                                        <Cell>m243</Cell>
+                                        <Cell>m244</Cell>
+                                        <Cell>m245</Cell>
+                                        <Cell>m246</Cell>
+                                        <Cell>m247</Cell>
+                                        <Cell>m248</Cell>
+                                        <Cell>m249</Cell>
+                                        <Cell>m128</Cell>
+                                        <Cell>m250</Cell>
+                                        <Cell>m251</Cell>
+                                        <Cell>m252</Cell>
+                                        <Cell>m253</Cell>
+                                        <Cell>m254</Cell>
+                                        <Cell>m255</Cell>
+                                        <Cell>m256</Cell>
+                                        <Cell>m257</Cell>
+                                        <Cell>m258</Cell>
+                                        <Cell>m130</Cell>
+                                        <Cell>m259</Cell>
+                                        <Cell>m131</Cell>
+                                        <Cell>m132</Cell>
+                                        <Cell>m133</Cell>
+                                        <Cell>m134</Cell>
+                                        <Cell>m260</Cell>
+                                        <Cell>m261</Cell>
+                                        <Cell>m262</Cell>
+                                        <Cell>m263</Cell>
+                                        <Cell>m264</Cell>
+                                        <Cell>m265</Cell>
+                                        <Cell>m266</Cell>
+                                        <Cell>m267</Cell>
+                                        <Cell>m268</Cell>
+                                        <Cell>m269</Cell>
+                                        <Cell>m270</Cell>
+                                        <Cell>m271</Cell>
+                                        <Cell>m272</Cell>
+                                        <Cell>m273</Cell>
+                                        <Cell>m274</Cell>
+                                        <Cell>m275</Cell>
+                                        <Cell>m276</Cell>
+                                        <Cell>m277</Cell>
+                                        <Cell>m278</Cell>
+                                        <Cell>m279</Cell>
+                                        <Cell>m151</Cell>
+                                        <Cell>m153</Cell>
+                                        <Cell>m157</Cell>
+                                        <Cell>m158</Cell>
+                                        <Cell>m159</Cell>
+                                        <Cell>m280</Cell>
+                                        <Cell>m281</Cell>
+                                        <Cell>m282</Cell>
+                                        <Cell>m283</Cell>
+                                        <Cell>m284</Cell>
+                                        <Cell>m285</Cell>
+                                        <Cell>m286</Cell>
+                                        <Cell>m287</Cell>
+                                        <Cell>m288</Cell>
+                                        <Cell>m289</Cell>
+                                        <Cell>m167</Cell>
+                                        <Cell>m168</Cell>
+                                        <Cell>m290</Cell>
+                                        <Cell>m291</Cell>
+                                        <Cell>m292</Cell>
+                                        <Cell>m293</Cell>
+                                        <Cell>m294</Cell>
+                                        <Cell>m295</Cell>
+                                        <Cell>m296</Cell>
+                                        <Cell>m297</Cell>
+                                        <Cell>m298</Cell>
+                                        <Cell>m174</Cell>
+                                        <Cell>m175</Cell>
+                                        <Cell>m186</Cell>
+                                        <Cell>m187</Cell>
+                                        <Cell>m198</Cell>
+                                        <Cell>m11</Cell>
+                                        <Cell>m13</Cell>
+                                        <Cell>m15</Cell>
+                                        <Cell>m17</Cell>
+                                        <Cell>m21</Cell>
+                                        <Cell>m25</Cell>
+                                        <Cell>m26</Cell>
+                                        <Cell>m34</Cell>
+                                        <Cell>m35</Cell>
+                                        <Cell>m38</Cell>
+                                        <Cell>m45</Cell>
+                                        <Cell>m48</Cell>
+                                        <Cell>m49</Cell>
+                                        <Cell>m301</Cell>
+                                        <Cell>m305</Cell>
+                                        <Cell>m5</Cell>
+                                        <Cell>m7</Cell>
+                                        <Cell>m200</Cell>
+                                        <Cell>m202</Cell>
+                                        <Cell>m205</Cell>
+                                        <Cell>m208</Cell>
+                                        <Cell>m211</Cell>
+                                        <Cell>m214</Cell>
+                                        <Cell>m215</Cell>
+                                        <Cell>m216</Cell>
+                                        <Cell>m217</Cell>
+                                        <Cell>m106</Cell>
+                                </CellList>
+                        </Page>
+                        <Page id="1">
+                                <ColorList>
+                                        <Color>5500FF</Color>
+                                        <Color>AA55FF</Color>
+                                        <Color>0000FF</Color>
+                                        <Color>FFFFFF</Color>
+                                        <Color>6B6B6B</Color>
+                                        <Color>000000</Color>
+                                        <Color>55AAA5</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM0.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\photo_menu\i_iso.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\i_q1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\delaynum\dl2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM4.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\i_photo.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_card.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\photo_menu\i_img_q.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\i_tp_3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_bat_ful.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM9.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\delaynum\dl6.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\photo_menu\i_shake.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_bat_half.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_exp_a1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_bat_h.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\rec_menu\m_dat.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_card_o.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\menu_sel_b.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_bat_l.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_d.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_ll.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\i_p_shake.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\direc\i_up.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\delaynum\dl1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\menu_bg_s.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\photo_menu\i_scan.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM8.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\delaynum\dl5.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\i_wb.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\dl10.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\photo_menu\i_color.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\iso_2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_bat_0.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_exp_a0.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_l.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_exp_d3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\photo_menu\i_ruidu.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\delaynum\dl9.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\flig.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\direc\i_left.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\flig_on.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\i_wb_yintian.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\direc\i_down.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\iso_auto.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\i_q3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM7.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\delaynum\dl4.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\rec_menu\m_exp.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\iso_1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\delaynum\dl10.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\dl2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\i_set.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\direc\i_right.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_exp_d2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\menu_sel.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\i_wb_yingguang.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\i_tp.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\i_wb_wusi.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\delaynum\dl8.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_exp_a3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_dd.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\blue_bg.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\menu_sta.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\photo_menu\i_paiz.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\i_q2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM6.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\delaynum\dl3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM5.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\photo_menu\i_lianp.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_exp_d1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\i_wb_riguang.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\rec_menu\m_solu.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_char.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\delaynum\dl7.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\iso_4.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\dl5.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_exp_a2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\拍照界面\i_p_shake_o.png</Picture>
+                                </PictureList>
+                                <CellList>
+                                        <Cell>m153</Cell>
+                                        <Cell>m158</Cell>
+                                        <Cell>m159</Cell>
+                                        <Cell>m61</Cell>
+                                        <Cell>m62</Cell>
+                                        <Cell>m63</Cell>
+                                        <Cell>m64</Cell>
+                                        <Cell>m66</Cell>
+                                        <Cell>m68</Cell>
+                                        <Cell>m69</Cell>
+                                        <Cell>m202</Cell>
+                                        <Cell>m167</Cell>
+                                        <Cell>m168</Cell>
+                                        <Cell>m205</Cell>
+                                        <Cell>m208</Cell>
+                                        <Cell>m70</Cell>
+                                        <Cell>m71</Cell>
+                                        <Cell>m72</Cell>
+                                        <Cell>m73</Cell>
+                                        <Cell>m74</Cell>
+                                        <Cell>m77</Cell>
+                                        <Cell>m174</Cell>
+                                        <Cell>m78</Cell>
+                                        <Cell>m211</Cell>
+                                        <Cell>m79</Cell>
+                                        <Cell>m214</Cell>
+                                        <Cell>m218</Cell>
+                                        <Cell>m219</Cell>
+                                        <Cell>m80</Cell>
+                                        <Cell>m220</Cell>
+                                        <Cell>m185</Cell>
+                                        <Cell>m221</Cell>
+                                        <Cell>m222</Cell>
+                                        <Cell>m224</Cell>
+                                        <Cell>m225</Cell>
+                                        <Cell>m226</Cell>
+                                        <Cell>m227</Cell>
+                                        <Cell>m228</Cell>
+                                        <Cell>m229</Cell>
+                                        <Cell>m230</Cell>
+                                        <Cell>m231</Cell>
+                                        <Cell>m111</Cell>
+                                        <Cell>m21</Cell>
+                                        <Cell>m128</Cell>
+                                        <Cell>m34</Cell>
+                                        <Cell>m37</Cell>
+                                        <Cell>m38</Cell>
+                                        <Cell>m40</Cell>
+                                        <Cell>m41</Cell>
+                                        <Cell>m42</Cell>
+                                        <Cell>m43</Cell>
+                                        <Cell>m44</Cell>
+                                        <Cell>m301</Cell>
+                                        <Cell>m45</Cell>
+                                        <Cell>m46</Cell>
+                                        <Cell>m47</Cell>
+                                        <Cell>m48</Cell>
+                                        <Cell>m151</Cell>
+                                </CellList>
+                        </Page>
+                        <Page id="2">
+                                <ColorList>
+                                        <Color>5500FF</Color>
+                                        <Color>FF0000</Color>
+                                        <Color>0000FF</Color>
+                                        <Color>6B6B6B</Color>
+                                        <Color>FFFFFF</Color>
+                                        <Color>55AAA5</Color>
+                                        <Color>000000</Color>
+                                        <Color>FFE9D7</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\回放界面\key.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\回放界面\i_p_rec.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\direc\i_left.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\direc\i_up.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\play_menu\i_protect.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_bat_half.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\play_menu\i_delet.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\回放界面\8X.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_bat_h.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\play_menu\i_huand.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_bat_l.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_d.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_char.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\回放界面\i_p_photo.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\menu_sta.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_card.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr_d.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_bat_0.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\回放界面\i_q_n.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\回放界面\i_q_p.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\回放界面\i_pause.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr0.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\回放界面\i_q_p2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr4.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\i_play.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr5.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr6.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\回放界面\4X.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr7.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\direc\i_down.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr8.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr9.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\menu_bg_s.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\i_set.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr_d2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_card_o.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\direc\i_right.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\回放界面\i_q_n2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\blue_bg.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM0.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_dd.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\回放界面\i_play.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\回放界面\i_pau.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\回放界面\2X.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM4.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\menu_sel.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM5.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\menu_sel_b.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM6.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM7.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM8.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM9.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\电量\i_bat_ful.png</Picture>
+                                </PictureList>
+                                <CellList>
+                                        <Cell>m300</Cell>
+                                        <Cell>m230</Cell>
+                                        <Cell>m231</Cell>
+                                        <Cell>m90</Cell>
+                                        <Cell>m91</Cell>
+                                        <Cell>m92</Cell>
+                                        <Cell>m162</Cell>
+                                        <Cell>m95</Cell>
+                                        <Cell>m142</Cell>
+                                        <Cell>m167</Cell>
+                                        <Cell>m143</Cell>
+                                        <Cell>m168</Cell>
+                                        <Cell>m169</Cell>
+                                        <Cell>m147</Cell>
+                                        <Cell>m148</Cell>
+                                        <Cell>m79</Cell>
+                                        <Cell>m12</Cell>
+                                        <Cell>m13</Cell>
+                                        <Cell>m15</Cell>
+                                        <Cell>m80</Cell>
+                                        <Cell>m224</Cell>
+                                        <Cell>m151</Cell>
+                                        <Cell>m225</Cell>
+                                        <Cell>m152</Cell>
+                                        <Cell>m177</Cell>
+                                        <Cell>m226</Cell>
+                                        <Cell>m153</Cell>
+                                        <Cell>m227</Cell>
+                                        <Cell>m84</Cell>
+                                        <Cell>m228</Cell>
+                                        <Cell>m85</Cell>
+                                        <Cell>m229</Cell>
+                                        <Cell>m86</Cell>
+                                        <Cell>m87</Cell>
+                                        <Cell>m88</Cell>
+                                        <Cell>m89</Cell>
+                                        <Cell>m159</Cell>
+                                </CellList>
+                        </Page>
+                        <Page id="3">
+                                <ColorList>
+                                        <Color>000000</Color>
+                                        <Color>FFFFFF</Color>
+                                        <Color>09080B</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\bar.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\c_bar.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\pc_cam.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\usb_mod.png</Picture>
+                                </PictureList>
+                                <CellList>
+                                        <Cell>m176</Cell>
+                                        <Cell>m140</Cell>
+                                        <Cell>m139</Cell>
+                                </CellList>
+                        </Page>
+                        <Page id="4">
+                                <ColorList>
+                                        <Color>0000FF</Color>
+                                        <Color>FFFFFF</Color>
+                                        <Color>6B6B6B</Color>
+                                        <Color>55AAFF</Color>
+                                        <Color>000000</Color>
+                                        <Color>FFE9D7</Color>
+                                        <Color>5500FF</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\direc\i_left.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\direc\i_up.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\set_menu\m_auto_off.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\i_rec.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\set_menu\m_language.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\set_menu\m_key_v.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_d.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\i_photo.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\set_menu\m_mdk.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_l.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\menu_sta.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\set_menu\m_lcd_au.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\rec_menu\m_nu.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\set_menu\m_hz.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\i_play.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\set_menu\m_def_set.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\direc\i_down.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\menu_bg_s.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\i_set.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\direc\i_right.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\set_menu\m_version.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\blue_bg.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM0.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_dd.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_ll.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM4.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\menu_sel.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM5.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\bianjie\menu_sel_b.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM6.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM7.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM8.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\set_menu\m_time.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM9.png</Picture>
+                                </PictureList>
+                                <CellList>
+                                        <Cell>m34</Cell>
+                                        <Cell>m162</Cell>
+                                        <Cell>m167</Cell>
+                                        <Cell>m121</Cell>
+                                        <Cell>m168</Cell>
+                                        <Cell>m122</Cell>
+                                        <Cell>m169</Cell>
+                                        <Cell>m123</Cell>
+                                        <Cell>m124</Cell>
+                                        <Cell>m125</Cell>
+                                        <Cell>m126</Cell>
+                                        <Cell>m82</Cell>
+                                        <Cell>m299</Cell>
+                                        <Cell>m128</Cell>
+                                        <Cell>m49</Cell>
+                                        <Cell>m172</Cell>
+                                        <Cell>m130</Cell>
+                                        <Cell>m131</Cell>
+                                        <Cell>m98</Cell>
+                                        <Cell>m99</Cell>
+                                        <Cell>m17</Cell>
+                                        <Cell>m19</Cell>
+                                        <Cell>m142</Cell>
+                                        <Cell>m143</Cell>
+                                        <Cell>m144</Cell>
+                                        <Cell>m145</Cell>
+                                        <Cell>m146</Cell>
+                                        <Cell>m100</Cell>
+                                        <Cell>m102</Cell>
+                                        <Cell>m105</Cell>
+                                        <Cell>m108</Cell>
+                                        <Cell>m109</Cell>
+                                        <Cell>m110</Cell>
+                                        <Cell>m111</Cell>
+                                        <Cell>m112</Cell>
+                                        <Cell>m159</Cell>
+                                        <Cell>m113</Cell>
+                                        <Cell>m114</Cell>
+                                        <Cell>m116</Cell>
+                                        <Cell>m117</Cell>
+                                </CellList>
+                        </Page>
+                        <Page id="5">
+                                <ColorList>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\return_line.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                        <Page id="6">
+                                <ColorList>
+                                        <Color>000000</Color>
+                                        <Color>00C4FF</Color>
+                                        <Color>55AAA5</Color>
+                                        <Color>FFF795</Color>
+                                </ColorList>
+                                <PictureList/>
+                                <CellList>
+                                        <Cell>m306</Cell>
+                                        <Cell>m307</Cell>
+                                </CellList>
+                        </Page>
+                        <Page id="7">
+                                <ColorList>
+                                        <Color>AA55FF</Color>
+                                        <Color>FFFFFF</Color>
+                                        <Color>55AAA5</Color>
+                                        <Color>000000</Color>
+                                </ColorList>
+                                <PictureList>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM0.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\s6.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\gps_6.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr5.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\vvvv.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr4.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM4.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr9.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM9.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\s1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\gps_1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\s5.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\gps_5.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_d.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_ll.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\s9.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\gps_9.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr8.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM8.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\s0.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\gps_0.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_l.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\gps_12.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\s4.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\gps_4.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\paisejiemian\录像界面\i_rec.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\s8.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\gps_8.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr7.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM7.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\gps_11.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\s3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\gps_3.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr_d2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM1.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM_dd.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\s7.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\gps_7.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr6.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM6.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUM5.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr_d.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\gps_10.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\s2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\icon\gps_2.png</Picture>
+                                        <Picture fmt="OSD8">E:\cxy job\git_work\jieli\UI_工程\ui_800x480_key\模式界面\project\config\pic_color_LY\480P\num\NUMr0.png</Picture>
+                                </PictureList>
+                                <CellList/>
+                        </Page>
+                </PageList>
+                <language>0x0000803F</language>
+                <bmp_transparent_color>0x00FFFFFF</bmp_transparent_color>
+                <png_background_color>0x12345678</png_background_color>
+                <spec_color_list>NULL</spec_color_list>
+                <png2jpg_list>NULL</png2jpg_list>
+                <res>result</res>
+                <resfilename>result.bin</resfilename>
+                <headerfilename>result.h</headerfilename>
+                <image_compress_method>quicklz</image_compress_method>
+                <string_compress_method>rle</string_compress_method>
+                <palette_type>rgb</palette_type>
+                <percent>100%</percent>
+                <excel_crc/>
+                <excel_row/>
+        </Items>
+</Resbuilder>

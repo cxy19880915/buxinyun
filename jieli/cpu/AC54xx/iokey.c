@@ -14,6 +14,7 @@ static u16 io_get_key_value(struct key_driver *_key)
 
     for (i = 0; i < __this->num; i++) {
         if (gpio_read(__this->port[i].port) == __this->port[i].press_value) {
+			//printf("===+++====key_value:%X\n",__this->port[i].key_value);
             return __this->port[i].key_value;
         }
     }

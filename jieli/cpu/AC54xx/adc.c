@@ -17,7 +17,8 @@ static void adc_scan_process(void *p)
     channel->value = GPADC_RES;
 
     channel = NEXT_CHANNEL(channel);
-    /* printf("ch: %d val:0x%x\n",channel->channel,channel->value); */
+    // printf("ch: %d val:0x%x\n",channel->channel,channel->value); 
+	// puts("=======");
     ADCSEL(channel->channel);
     KITSTART();
 }

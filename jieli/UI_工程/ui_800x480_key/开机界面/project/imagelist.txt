@@ -1,0 +1,2 @@
+1280x72011.jpg|C:/Users/Administrator/Desktop/5601_J605_4寸_超/AC54XX_SDK_4寸屏ling----------1/UI_工程/ui_1280x720_key3/开机界面/project/config/开机图片/1280x72011.jpgbaskslash equal zero else
+config/开机图片/1280x72011.jpg

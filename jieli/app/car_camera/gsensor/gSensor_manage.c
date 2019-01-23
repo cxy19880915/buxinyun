@@ -97,6 +97,7 @@ int  _gravity_sensor_open(const struct dev_node *node,  struct device **device, 
 
     if (!iic) {
         iic = dev_open("iic1", 0);
+		puts("\niic1_______________________\n");
         if (!iic) {
             puts("\n  open iic1 for gsensor err\n");
             return -EINVAL;

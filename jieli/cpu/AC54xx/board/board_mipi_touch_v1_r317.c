@@ -42,10 +42,10 @@ SD0_PLATFORM_DATA_BEGIN(sd0_data)
 	.detect_mode 			= SD_CMD_DECT,
 	.detect_func 			= sdmmc_0_clk_detect,
 SD0_PLATFORM_DATA_END()
-//	.irq 					= SD0_INT, 
-//    .sfr                    = &SD0_CON0, 
-//	.port_init 				= sdmmc_0_port_init, 
-//	.detect_time_interval 	= 30, 
+//	.irq 					= SD0_INT,
+//    .sfr                    = &SD0_CON0,
+//	.port_init 				= sdmmc_0_port_init,
+//	.detect_time_interval 	= 30,
 //};
 
 #endif //CONFIG_SD0_ENABLE
@@ -95,27 +95,12 @@ SD2_PLATFORM_DATA_BEGIN(sd2_data)
 SD2_PLATFORM_DATA_END()
 
 #endif //CONFIG_SD2_ENABLE
-//static const struct hw_iic_platform_data data0 = { 
-//		.head = { 
-//			.type = IIC_TYPE_HW, 
-//		}, 
-//		.iic = {
+
 HW_IIC0_PLATFORM_DATA_BEGIN(hw_iic0_data)
 		.clk_pin = IO_PORTB_04,//IO_PORTD_14,
 		.dat_pin = IO_PORTB_03,//IO_PORTD_15,
 		.baudrate = 0x42,//300k  0x50 250k
 HW_IIC0_PLATFORM_DATA_END()
-//		.occupy_reg = (u32)&IOMC1, 
-//		.occupy_io_mask = ~(BIT(6)|BIT(7)), 
-//		.reg = (struct iic_reg *)&IIC0_CON, 
-//		.outport_map = { 
-//				{IO_PORTG_06, IO_PORTG_07, 0}, 
-//				{IO_PORTH_12, IO_PORTH_14, BIT(6)}, 
-//				{IO_PORTB_04, IO_PORTB_03, BIT(7)}, 
-//				{IO_PORTD_14, IO_PORTD_15, (BIT(6) | BIT(7))}, 
-//			}, 
-//		}, 
-//};
 
 HW_IIC1_PLATFORM_DATA_BEGIN(hw_iic1_data)
 	.clk_pin = IO_PORTB_00,//IO_PORTD_14,
@@ -257,8 +242,8 @@ static const struct video_platform_data video1_data = {
 
 
 UVC_PLATFORM_DATA_BEGIN(uvc_data)
-    .width = 1280,//1280,
-    .height = 720,//480,
+    .width = 800,//1280,
+    .height = 480,//480,
     .fps = 25,
     .mem_size = 1 * 1024 * 1024,
     .timeout = 3000,//ms
@@ -513,18 +498,18 @@ extern const struct device_operations gsensor_dev_ops;
 extern const struct device_operations _spi_dev_ops;
 //以下io为临时配置，还需根据原理图来调整
 SW_SPI_PLATFORM_DATA_BEGIN(sw_spi_data)
-	.pin_cs = IO_PORTG_00,
-	.pin_clk = IO_PORTE_04,
-	.pin_in  = IO_PORTE_05,
-	.pin_out = IO_PORTE_05,
+	.pin_cs = IO_PORTA_00,
+	.pin_clk = IO_PORTA_04,
+	.pin_in  = IO_PORTA_03,
+	.pin_out = IO_PORTA_01,
 SW_SPI_PLATFORM_DATA_END()
 #endif // CONFIG_AV10_SPI_ENABLE
 
-#ifdef CONFIG_TOUCH_PANEL_ENABLE
+#if 0 //#ifdef CONFIG_TOUCH_PANEL_ENABLE
 extern const struct device_operations touch_panel_dev_ops;
 SW_TOUCH_PANEL_PLATFORM_DATA_BEGIN(touch_panel_data)
     .enable         = 1,
-    .iic_dev        = "iic2",
+    .iic_dev        = "iic3",
     .rst_pin        = IO_PORTG_07,
     .int_pin        = IO_PORTG_06,
     ._MAX_POINT     = 1,
@@ -565,17 +550,17 @@ unsigned char get_accin_det_status()
 unsigned char PWR_CTL(unsigned char on_off)
 {
     #ifdef FLASE_POWER_OFF
-	
+
     if(on_off)
     {
         gpio_direction_output(IO_PORTH_13, 1);
     }
     else
     {
-        gpio_direction_output(IO_PORTH_13, 0);     
+        gpio_direction_output(IO_PORTH_13, 0);
     }
     return 0;
-	
+
     #endif
     return 0;
 }
@@ -625,23 +610,24 @@ unsigned int get_usb_wkup_gpio()
 REGISTER_DEVICES(device_table) = {
 
 #ifdef CONFIG_PAP_ENABLE
-    { "pap",   &pap_dev_ops, NULL},
+//    { "pap",   &pap_dev_ops, NULL},
 #endif
+	{ "iic2",  &iic_dev_ops, (void *)&sw_iic1_data },
 	{ "lcd",   &lcd_dev_ops, (void*)&lcd_data},
 
     { "iic1",  &iic_dev_ops, (void *)&hw_iic0_data },
     { "iic0",  &iic_dev_ops, (void *)&hw_iic1_data },
 //lcd icn6211
-    { "iic2",  &iic_dev_ops, (void *)&sw_iic1_data },
+    
 #ifdef CONFIG_TOUCH_PANEL_ENABLE
     { "iic3",  &iic_dev_ops, (void *)&sw_iic2_data },
-    {"touch_panel", &touch_panel_dev_ops, (void *)&touch_panel_data},
+//    {"touch_panel", &touch_panel_dev_ops, (void *)&touch_panel_data},
 #endif //CONFIG_TOUCH_PANEL_ENABLE
 
-    { "audio", &audio_dev_ops, (void *)&audio_data },
+//    { "audio", &audio_dev_ops, (void *)&audio_data },
 
 #ifdef CONFIG_AV10_SPI_ENABLE
-    { "avin_spi",  &_spi_dev_ops, (void *)&sw_spi_data },
+ //   { "avin_spi",  &_spi_dev_ops, (void *)&sw_spi_data },
 #endif
 
 #ifdef CONFIG_SD0_ENABLE
@@ -657,23 +643,23 @@ REGISTER_DEVICES(device_table) = {
 #endif
 
 #ifdef CONFIG_ADKEY_ENABLE
-    { "adkey", &key_dev_ops, (void *)&adkey_data },
+//    { "adkey", &key_dev_ops, (void *)&adkey_data },
 #endif
 	{ "powerdet", &powerdet_dev_ops, (void *)&pwrdet_data },
 #ifdef CONFIG_IOKEY_ENABLE
-    { "iokey", &key_dev_ops, (void *)&iokey_data },
+ //   { "iokey", &key_dev_ops, (void *)&iokey_data },
 #endif
 
 #ifdef CONFIG_VIDEO0_ENABLE
-    { "video0",  &video_dev_ops, (void *)&video0_data},
+//    { "video0",  &video_dev_ops, (void *)&video0_data},
 #endif
 
 #ifdef CONFIG_VIDEO1_ENABLE
-    { "video1",  &video_dev_ops, (void *)&video1_data },
+//    { "video1",  &video_dev_ops, (void *)&video1_data },
 #endif
 
 #ifdef CONFIG_VIDEO_DEC_ENABLE
-    { "video2",  &video_dev_ops, NULL },
+//    { "video2",  &video_dev_ops, NULL },
 #endif
 
 

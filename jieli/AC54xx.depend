@@ -6015,7 +6015,7 @@
 
 1498821127 e:\cxy job\git_work\jieli\app\car_camera\include\app_database.h
 
-1521250513 source:e:\cxy job\git_work\jieli\app\car_camera\app_main.c
+1548152165 source:e:\cxy job\git_work\jieli\app\car_camera\app_main.c
 	"system/includes.h"
 	"server/ui_server.h"
 	"action.h"
@@ -6126,7 +6126,7 @@
 1520669381 e:\cxy job\git_work\jieli\app\car_camera\include\action.h
 	"app_config.h"
 
-1547277626 e:\cxy job\git_work\jieli\app\car_camera\include\app_config.h
+1547714322 e:\cxy job\git_work\jieli\app\car_camera\include\app_config.h
 
 1499906816 e:\cxy job\git_work\jieli\app\car_camera\include\ani_style.h
 
@@ -6137,7 +6137,7 @@
 
 1529650630 e:\cxy job\git_work\jieli\app\car_camera\include\style_jl02.h
 
-1500887405 e:\cxy job\git_work\jieli\app\car_camera\include\style_ly.h
+1548062649 e:\cxy job\git_work\jieli\app\car_camera\include\style_ly.h
 
 1498821127 e:\cxy job\git_work\jieli\app\car_camera\include\res_ver.h
 
@@ -6219,7 +6219,7 @@
 1498821127 e:\cxy job\git_work\jieli\app\car_camera\include\gma301.h
 	"gSensor_manage.h"
 
-1520596756 source:e:\cxy job\git_work\jieli\app\car_camera\gsensor\gsensor_manage.c
+1547604375 source:e:\cxy job\git_work\jieli\app\car_camera\gsensor\gsensor_manage.c
 	"gSensor_manage.h"
 
 1513217997 source:e:\cxy job\git_work\jieli\app\car_camera\gsensor\msa300.c
@@ -6333,7 +6333,7 @@
 	"asm/dsi.h"
 	"storage_device.h"
 
-1513220519 e:\cxy job\git_work\jieli\include_lib\system\cpu\ac54xx\asm\dsi.h
+1547705047 e:\cxy job\git_work\jieli\include_lib\system\cpu\ac54xx\asm\dsi.h
 	"generic/typedef.h"
 	"asm/imd.h"
 
@@ -6375,7 +6375,7 @@
 	"system/includes.h"
 	"server/video_server.h"
 
-1505965264 source:e:\cxy job\git_work\jieli\app\car_camera\ui\style_jl02\ui_action_usb.c
+1548148455 source:e:\cxy job\git_work\jieli\app\car_camera\ui\style_jl02\ui_action_usb.c
 	"ui/includes.h"
 	"ui/ui_battery.h"
 	"system/includes.h"
@@ -6463,7 +6463,7 @@
 
 1498821127 e:\cxy job\git_work\jieli\app\car_camera\include\upgrade_style.h
 
-1513218959 source:e:\cxy job\git_work\jieli\app\car_camera\usb_app.c
+1547721755 source:e:\cxy job\git_work\jieli\app\car_camera\usb_app.c
 	"system/includes.h"
 	"server/usb_server.h"
 	"app_config.h"
@@ -7098,13 +7098,13 @@
 
 1499906816 e:\cxy job\git_work\jieli\camera\xc7011_dvp\xc7011.h
 
-1513219792 source:e:\cxy job\git_work\jieli\cpu\ac54xx\adc.c
+1547785277 source:e:\cxy job\git_work\jieli\cpu\ac54xx\adc.c
 	"asm/cpu.h"
 	"asm/adc.h"
 	"system/init.h"
 	"system/timer.h"
 
-1499739236 source:e:\cxy job\git_work\jieli\cpu\ac54xx\adkey.c
+1548035928 source:e:\cxy job\git_work\jieli\cpu\ac54xx\adkey.c
 	"asm/adkey.h"
 	"asm/adc.h"
 	"generic/gpio.h"
@@ -7116,7 +7116,7 @@
 	"asm/debug.h"
 	"os/os_cpu.h"
 
-1498821127 source:e:\cxy job\git_work\jieli\cpu\ac54xx\iokey.c
+1547893114 source:e:\cxy job\git_work\jieli\cpu\ac54xx\iokey.c
 	"key_driver.h"
 	"iokey.h"
 	"gpio.h"
@@ -7276,7 +7276,7 @@
 	"asm/imb_driver.h"
 	"asm/lcd_config.h"
 
-1547445030 source:e:\cxy job\git_work\jieli\cpu\ac54xx\board\board_mipi_touch_v1_r317.c
+1547605179 source:e:\cxy job\git_work\jieli\cpu\ac54xx\board\board_mipi_touch_v1_r317.c
 	"system/includes.h"
 	"app_config.h"
 	"gSensor_manage.h"
@@ -7284,7 +7284,7 @@
 	"power_ctrl.h"
 	"touch_panel_manager.h"
 
-1547465177 source:e:\cxy job\git_work\jieli\cpu\ac54xx\mipi_lcd_driver\icn6211.c
+1548147293 source:e:\cxy job\git_work\jieli\cpu\ac54xx\mipi_lcd_driver\icn6211.c
 	"generic/typedef.h"
 	"asm/dsi.h"
 	"asm/imb_driver.h"
@@ -7403,4 +7403,11 @@
 	"asm/lcd_config.h"
 	"device/lcd_driver.h"
 	"gpio.h"
+
+1548152794 source:e:\cxy job\git_work\jieli\cpu\ac54xx\board\board_mipi_v1_r317.c
+	"system/includes.h"
+	"app_config.h"
+	"gSensor_manage.h"
+	"device/av10_spi.h"
+	"power_ctrl.h"
 

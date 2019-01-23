@@ -7,21 +7,12 @@
 
 #define CONFIG_board_mipi_touch_v1_r317
 
-
-//???????????????????????????
 #define SERIES4   1 
 #define SERIES2   2 
 #define SERIES1   3 
 #define SERIES4_1 4 
 
 #define LCD_BACKLIGHT    SERIES4   
-
-/************************************************/
-/* 1.DVP????MIPI
-/* 2.5601????5401
-/* 3.GT911????ICN8502
-/* 4.?????Ч??
-/************************************************/
 
 #define JL5401    1
 #define JL5601    2
@@ -34,18 +25,6 @@
 
 #if(LCD_TYPE == LCD_DSI_VDO_4LANE_1280x480_EK79030)
 #define LCD_NAME      "mipi_4lane_480_EK79030"
-#elif(LCD_TYPE == LCD_DSI_VDO_4LANE_1280x480_LX68HD)
-#define LCD_NAME      "mipi_4lane_480_LX68HD"
-#elif(LCD_TYPE == LCD_DSI_VDO_4LANE_MIPI)
-#define LCD_NAME      "mipi_4lane_mipi"
-#elif(LCD_TYPE == LCD_DSI_VDO_4LANE_1280x800)
-#define LCD_NAME      "mipi_4lane_mipi_800"
-#elif(LCD_TYPE == LCD_DSI_VDO_4LANE_HX839D_BOE686)
-#define LCD_NAME      "mipi_4lane_mipi_hx839D"
-#elif(LCD_TYPE == LCD_DSI_VDO_4LANE_1280x720_SSD2201)
-#define LCD_NAME      "mipi_4lane_mipi_ssd2201"
-#elif(LCD_TYPE == LCD_DSI_VDO_4LANE_1280x480_WT686)
-#define LCD_NAME      "mipi_4lane_mipi_wt68"
 #elif(LCD_TYPE ==  CONFIG_board_mipi_touch_v1_r317)
 #define	LCD_NAME	"mipi_4lane_ICN6211"
 #endif
@@ -113,29 +92,8 @@
 /*------------触摸屏开关----------*/
 #define CONFIG_TOUCH_PANEL_ENABLE
 /*-----------TOUCH UI开关-----------*/
-#define CONFIG_TOUCH_UI_ENABLE
+//#define CONFIG_TOUCH_UI_ENABLE
 #define CONFIG_UI_STYLE_JL02_ENABLE
-#endif
-
-#ifdef CONFIG_BOARD_MIPI_TOUCH_V1_DVP
-/*------------触摸屏开关----------*/
-#define CONFIG_TOUCH_PANEL_ENABLE
-/*-----------TOUCH UI开关-----------*/
-#define CONFIG_TOUCH_UI_ENABLE
-#define CONFIG_UI_STYLE_JL02_ENABLE
-#endif
-
-
-#ifdef CONFIG_BOARD_MIPI_TOUCH_20170419
-/*------------触摸屏开关----------*/
-#define CONFIG_TOUCH_PANEL_ENABLE
-/*-----------TOUCH UI开关-----------*/
-#define CONFIG_TOUCH_UI_ENABLE
-#define CONFIG_UI_STYLE_JL02_ENABLE
-#endif
-
-#ifdef CONFIG_TOUCH_UI_ENABLE
-#define CONFIG_FILE_PREVIEW_ENABLE
 #endif
 
 /*------------UI菜单MODE键退出-----------*/

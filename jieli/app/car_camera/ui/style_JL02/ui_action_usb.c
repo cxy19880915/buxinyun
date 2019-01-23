@@ -198,8 +198,10 @@ static int usb_onkey(void *ctr, struct element_key_event *e)
     if (e->event != KEY_EVENT_CLICK) {
         return false;
     }
+	printf("e->value :%x\n",e->value);
     switch (e->value) {
     case KEY_UP:
+		puts("KEY_UP\n");
         if (onkey_sel) {
             ui_no_highlight_element_by_id(onkey_sel_item[onkey_sel - 1]);
             ui_no_highlight_element_by_id(onkey_sel_item1[onkey_sel - 1]);
@@ -212,6 +214,7 @@ static int usb_onkey(void *ctr, struct element_key_event *e)
         ui_highlight_element_by_id(onkey_sel_item1[onkey_sel - 1]);
         break;
     case KEY_DOWN:
+		puts("KEY_DOWN\n");
         if (onkey_sel) {
             ui_no_highlight_element_by_id(onkey_sel_item[onkey_sel - 1]);
             ui_no_highlight_element_by_id(onkey_sel_item1[onkey_sel - 1]);
@@ -224,6 +227,7 @@ static int usb_onkey(void *ctr, struct element_key_event *e)
         ui_highlight_element_by_id(onkey_sel_item1[onkey_sel - 1]);
         break;
     case KEY_OK:
+		printf("KEY_OK===onkey_sel:%x\n",onkey_sel);
         if (onkey_sel) {
             struct intent it;
             switch (onkey_sel) {
@@ -268,6 +272,7 @@ static int usb_onkey(void *ctr, struct element_key_event *e)
         }
         break;
     case KEY_MODE:
+		puts("KEY_MODE\n");
         return true;
         break;
     default:

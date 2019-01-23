@@ -21,7 +21,7 @@ static int adkey_init(struct key_driver *key, void *arg)
     if (!__this) {
         return -EINVAL;
     }
-
+	puts("\n adkey_init \n");
     adkey_scan.channel = __this->ad_channel;
 
     gpio_direction_input(__this->io);
@@ -44,12 +44,14 @@ static u16 adkey_get_value(struct key_driver *key)
     int i;
     struct adkey_value_table *table = &__this->table;
 
-    /* printf("adkey: %x\n", adkey_scan.value); */
-    if(adkey_scan.value > 0x300)
-        return NO_KEY;
+//	printf("%x\n",adkey_scan.value);
+    //if(adkey_scan.value > 0x300)
+    //    return NO_KEY;
 
     for (i = 0; i < ADKEY_MAX_NUM; i++) {
         if (adkey_scan.value >= table->ad_value[i]) {
+//			printf("scan_value:%x,ad-value: %x,key-value:%x\n", adkey_scan.value,table->ad_value[i], table->key_value[i]);
+//			printf("==========i=:%x===========\n",i); 
             return table->key_value[i];
         }
         if (table->ad_value[i] == 0) {

@@ -183,10 +183,10 @@ static int usb_app_key_event_handler(struct key_event *key)
             //usb_app_select();
             break;
         case KEY_UP:
-
+			
             break;
         case KEY_DOWN:
-
+			
             break;
         default:
             break;

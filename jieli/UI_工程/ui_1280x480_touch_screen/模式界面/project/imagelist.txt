@@ -1,2 +1,0 @@
-car_num_on.png|E:/SDK/5401/0.9/AC54XX_SDK_V0.5Beta_6.86_USB_0.9patch-贝思特_出货/UI_工程/ui_1280x480_touch_screen/模式界面/project/config/UI_1280_480/系统设置/icon_on/car_num_on.pngbaskslash equal zero else
-config/UI_1280_480/系统设置/icon_on/car_num_on.png
